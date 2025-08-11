@@ -1,0 +1,7 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/LoopCont/LoopCont.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/brsystem/brsystem.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/standard/standard.fun
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/Doctoring/HS_Inp_Doct/Variables.var
+$(AS_PROJECT_PATH)/Physical/Doctoring/4PPC70_0702_20B/Cpu.per
+$(AS_PROJECT_PATH)/Logical/Global.typ

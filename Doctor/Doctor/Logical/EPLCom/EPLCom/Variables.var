@@ -1,0 +1,18 @@
+VAR
+	DataReceived : UINT;
+	cnt_enable : BOOL;
+	SDO_rd : USINT;
+	SDORead1 : EplSDORead;
+	DataReceived_INT : INT;
+	NMT_Stat : UDINT;
+	SDORead2 : EplSDORead;
+	Obj_Ident : UDINT;
+	tempstat : UINT;
+	tempstat_2 : UINT;
+END_VAR
+VAR CONSTANT
+	PLC_INTF : STRING[20] := 'IF1';
+END_VAR
+VAR
+	SDO_rd2 : USINT;
+END_VAR

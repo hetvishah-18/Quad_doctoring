@@ -1,0 +1,13 @@
+<BuildOptions>
+  <BuildOption>
+    <SourceFile Value="D:/Projects/AS4/Tension Control/Doctor/Physical/Doctoring/4PPC70_0702_20B/Cpu.sw" />
+    <Query Value="/ns:SwConfiguration/ns:TaskClass/*$$Name,Source" />
+    <Xml>
+      <Task Name="HS_Inp_Doc" Source="Doctoring.HS_Inp_Doct.prg" />
+      <Task Name="UnWindTC" Source="UnWindTC.prg" />
+      <Task Name="HMI" Source="HMI.prg" />
+      <Task Name="Alarms" Source="Alarms.prg" />
+      <Task Name="EPLCom" Source="EPLCom.EPLCom.prg" />
+    </Xml>
+  </BuildOption>
+</BuildOptions>

@@ -1,0 +1,4 @@
+Doctor | Doctoring | Build
+BR.VC.AnalyseObject.exe, Error = False. Call = BR.VC.AnalyseObject.exe "Vis" -o "D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\Vis.br" -T SG4 -B J4.93 -c "Doctoring" -S "4PPC70_0702_20B" -P "D:\Projects\AS4\Tension Control\Doctor" -t "D:\Projects\AS4\Tension Control\Doctor\Temp" -H "D:\Projects\AS4\Tension Control\Doctor\Physical\Doctoring\Hardware.hw" -V "V4.73.3" -apj "Doctor" -v V1.00.0 -m "D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\ConfigInfo.cfi" -g "D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Declarations.lst" -L "vclib: V*, visapi: V*" -w2 -sfas
+mingw32-make.exe, Error = False. Call = mingw32-make.exe  -r -f "D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\#cpu_vc.mak" -k
+mingw32-make.exe, Error = False. Call = mingw32-make.exe  -r -f "D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\#cpu_tp.mak" -k

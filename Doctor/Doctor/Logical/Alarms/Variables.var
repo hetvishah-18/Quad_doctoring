@@ -1,0 +1,7 @@
+VAR
+	i : INT;
+	Blink_Trig : TON_10ms;
+	count : BOOL;
+	Blink_ON : TON_10ms;
+	Blink_OFF : TON_10ms;
+END_VAR

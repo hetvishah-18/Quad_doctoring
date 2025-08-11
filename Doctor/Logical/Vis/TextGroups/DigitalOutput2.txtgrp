@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.12.6.106"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="DigitalOutput2">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="11"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="110528" Value="Production"/>
+    <Text ID="110529" Value="Spare"/>
+    <Text ID="110530" Value="Spare"/>
+    <Text ID="110531" Value="Spare"/>
+    <Text ID="110532" Value="Spare"/>
+    <Text ID="110533" Value="Spare"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="110528" Value=""/>
+    <Text ID="110529" Value=""/>
+    <Text ID="110530" Value=""/>
+    <Text ID="110531" Value=""/>
+    <Text ID="110532" Value=""/>
+    <Text ID="110533" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="110528" Value="6"/>
+    <Index ID="110529" Value="7"/>
+    <Index ID="110530" Value="8"/>
+    <Index ID="110531" Value="9"/>
+    <Index ID="110532" Value="10"/>
+    <Index ID="110533" Value="11"/>
+  </IndexMap>
+</TextGroup>

@@ -1,0 +1,26 @@
+VAR
+	CheckCredentials : BOOL;
+	ErrorMessage : STRING[80];
+	i : INT;
+	Init : BOOL;
+	InputPassword : STRING[80]; (*Input taken from HMI*)
+	InputUsername : STRING[80]; (*Input taken from HMI*)
+	CurrentYear : UINT;
+	CurrentSecond : USINT;
+	CurrentMonth : USINT;
+	CurrentMinute : USINT;
+	CurrentHour : USINT;
+	CurrentDay : USINT;
+	NewYear : UINT;
+	NewSecond : USINT;
+	NewMonth : USINT;
+	NewMinute : USINT;
+	NewHour : USINT;
+	NewDay : USINT;
+	DateTimeSet : UINT; (*Confirms if new date/time was set successfully*)
+	SetNewDateTime : BOOL; (*Trigger to apply new date/time*)
+	RTC_Get : RTCtime_typ; (*Structure to read current date and time*)
+	RTC_Set : RTCtime_typ; (*Structure to set current date and time*)
+	Status_RTC : UINT;
+	temp_var : BOOL;
+END_VAR

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExternalHardware>
+  <Modules>
+    <Module ModuleID="FBE.0x000000F9_Commander C200 OpenLoop" Version="V01.01.12.04" OrderNumber="Commander C200 OpenLoop">
+      <SourceFile OriginalFile="0x000000F9_Commander C200 OpenLoop.xdd" TranslationFile="QCRWTZKL.ext" />
+      <SourceFile OriginalFile="Mxxx.bmp" TranslationFile="OHX0R1XH.ext" />
+      <SourceFile OriginalFile="Commander_front.jpg" TranslationFile="UMM23DWY.ext" />
+    </Module>
+  </Modules>
+</ExternalHardware>

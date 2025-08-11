@@ -1,0 +1,20 @@
+(*Simulation model input parameters*)
+VAR_CONFIG
+	Cyclic#3.::gControl.Winder.Power AT %Q.::SimModel:SimulationModel.Enable; (*Enable simulation modell if machine is ready*)
+	Cyclic#3.::gControl.Line.SetVelocity AT %Q.::SimModel:SetLineVelocity; (*Connect control structure with simulation model*)
+	Cyclic#3.::gControl.Winder.SetVelocity AT %Q.::SimModel:SetWinderVelocity; (*Connect control structure with simulation model*)
+	Cyclic#3.::gControl.Winder.VelocityCorrection AT %Q.::SimModel:WinderVelocityCorrection; (*Connect control structure with simulation model*)
+	Cyclic#3.::gControl.Winder.SetMotorTorque AT %Q.::SimModel:SetMotorTorque; (*Connect control structure with simulation model*)
+	Cyclic#3.::gControl.Winder.InitSpeedController AT %Q.::SimModel:InitSpeedController; (*Connect control structure with simulation model*)
+	Cyclic#3.::gControl.Winder.ActProportionalGain AT %Q.::SimModel:ActProportionalGain; (*Connect control structure with simulation model*)
+	Cyclic#3.::gControl.Winder.ActIntegrationTime AT %Q.::SimModel:ActIntegrationTime; (*Connect control structure with simulation model*)
+END_VAR
+(*Simulation model output parameters*)
+VAR_CONFIG
+	::SimModel:SimulationModel.ActLinePosition AT %Q.Cyclic#2.::gControl.Line.ActPosition; (*Connect simulation model with control structure*)
+	::SimModel:SimulationModel.ActWinderPosition AT %Q.Cyclic#2.::gControl.Winder.ActPosition; (*Connect simulation model with control structure*)
+	::SimModel:SimulationModel.ActDancerPosition AT %Q.Cyclic#2.::gControl.ActDancerPosition; (*Connect simulation model with control structure*)
+	::SimModel:SimulationModel.ActLineVelocity AT %Q.Cyclic#2.::gControl.Line.ActVelocity; (*Connect simulation model with control structure*)
+	::SimModel:SimulationModel.ActWinderVelocity AT %Q.Cyclic#2.::gControl.Winder.ActVelocity; (*Connect simulation model with control structure*)
+	::SimModel:SimulationModel.ActMotorTorque AT %Q.Cyclic#2.::gControl.Winder.ActMotorTorque; (*Connect simulation model with control structure*)
+END_VAR

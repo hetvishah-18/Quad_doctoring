@@ -1,0 +1,25 @@
+VAR
+	Encoder_counts : INT;
+	ActUnWindKN : LCScINT;
+	ActUnWindRPM : LCLiScINT;
+	i : USINT;
+	Axis_RpmInpFilt : ARRAY[0..4] OF LCPT1;
+	HSCounter : LCCounter;
+	initialize : BOOL;
+	MainRoleDia : INT;
+	Axis_KNInpFilt : ARRAY[0..4] OF LCPT1;
+	UnwindFilt : LCPT1;
+	WindFilt : LCPT1;
+	Time_1sec : TON_10ms;
+	Old_EncValue : INT;
+	Diff_EncValue : INT;
+	PulsesPerMin : UDINT;
+	UnWindRPM_Scal : LCScINT;
+	WindRPM_Scal : LCScINT;
+	Numerator : UDINT;
+	Denominator : UDINT;
+	DriveCurrent_Scal : LCScINT;
+	DriveRPM_Scal : LCScINT;
+	DriveTorq_Scal : LCScINT;
+	DriveFreq_Scal : LCScINT;
+END_VAR

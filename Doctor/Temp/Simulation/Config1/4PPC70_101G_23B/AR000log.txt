@@ -1,0 +1,21 @@
+Sat Mar 22 11:07:02 2025
+COPYRIGHT (C) B&R Industrial Automation GmbH
+
+Sat Mar 22 11:07:02 2025
+No ARsim registration found!
+
+Sat Mar 22 11:07:02 2025
+InstanceName: 0000061fcaf1a73c
+
+Sat Mar 22 11:07:02 2025
+WorkingDirectory: C:\Personal\Projects\TensionCtl\Temp\Simulation\Config1\4PPC70_101G_23B\
+
+Sat Mar 22 11:07:02 2025
+COMMAND_COLDSTART
+
+Sat Mar 22 11:07:05 2025
+Version: J4.93
+
+Sat Mar 22 13:07:36 2025
+COMMAND_TERMINATE
+

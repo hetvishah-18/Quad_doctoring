@@ -1,0 +1,14 @@
+VAR
+	ActInfeedKN : LCScINT;
+	ActOutfeedKN : LCScINT;
+	ActUnWindKN : LCScINT;
+	ActUnWindRPM : LCLiScINT;
+	i : USINT;
+	Axis_RpmInpFilt : ARRAY[0..4] OF LCPT1;
+	HSCounter : LCCounter;
+	initialize : BOOL;
+	MainRoleDia : INT;
+	InfeedRoleDia : INT;
+	OutfeedRoleDia : INT;
+	Axis_KNInpFilt : ARRAY[0..4] OF LCPT1;
+END_VAR

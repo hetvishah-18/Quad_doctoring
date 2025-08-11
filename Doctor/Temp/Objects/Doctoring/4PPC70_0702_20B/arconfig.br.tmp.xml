@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<?AutomationRuntimeIOSystem Version = 1.0?>
+<IOCFG xmlns="http://www.br-automation.com/AR/IO" Version="2.0">
+  <Module ID="$root" Hardware="4PPC70.0702-20B">
+    <Parameter ID="HardwareModuleName" Value="4PPC70_0702_20B" />
+    <Parameter ID="SimulationIPAddress" Value="127.0.0.1" />
+    <Parameter ID="SimulationInaPort" Value="11160" Type="UDINT" />
+    <Parameter ID="SimulationInaNodeNumber" Value="3" Type="UDINT" />
+    <Parameter ID="SimulationModeOpcUa" Value="on" />
+    <Parameter ID="ActivateDtmServer" Value="0" Type="UDINT" />
+  </Module>
+  <Module ID="IF1" Hardware="4PPC70.0702-20B">
+    <Parameter ID="Operation" Value="EPL-V2" />
+    <Parameter ID="MtuSize" Value="300" Type="UDINT" />
+  </Module>
+  <Module ID="IF1.PLK" Hardware="EPL-V2">
+    <Parameter ID="CycleTime" Value="500" Type="UDINT" />
+    <Parameter ID="Synchron" Value="on" />
+    <Parameter ID="MuxPrescaler" Value="2" Type="UDINT" />
+    <Parameter ID="Mode" Value="MN" />
+    <Parameter ID="NodeID" Value="240" Type="DINT" />
+    <Parameter ID="AsyncTimeout" Value="25" Type="UDINT" />
+    <Parameter ID="TransferOnlyActive" Value="off" />
+    <Parameter ID="OutputJustInTime" Value="off" />
+    <Parameter ID="BasicEthernetInServiceMode" Value="off" />
+    <Parameter ID="EplNatSubnet" Value="192.168.101.0" />
+    <Parameter ID="EPL_LossFrameTolerance" Value="-1" Type="DINT" />
+    <Parameter ID="ApplSwDate" Value="0" Type="UDINT" />
+    <Parameter ID="ApplSwTime" Value="0" Type="UDINT" />
+    <Parameter ID="BusCycleTrigger" Value="auto" />
+    <Parameter ID="OutputCycleTrigger" Value="auto" />
+  </Module>
+  <Module ID="IF1.ST3" Hardware="epl_any">
+    <Parameter ID="HardwareModuleName" Value="Commander_C200_RFC_A" />
+    <Parameter ID="OrderNumber" Value="Commander C200 RFC_A" />
+    <Parameter ID="Supervision" Value="on" />
+    <Parameter ID="Mode" Value="CN" />
+    <Parameter ID="ResponseTimeout" Value="20" Type="UDINT" />
+    <Parameter ID="DummyDeviceType" Value="off" />
+    <Parameter ID="DummyVendorId" Value="off" />
+    <Parameter ID="DummyRevisionNo" Value="off" />
+    <Parameter ID="DummyModno" Value="off" />
+    <Parameter ID="EPL_BootTimeNotActive" Value="9000000" Type="UDINT" />
+    <Parameter ID="EPL_MinCycleTime" Value="250" Type="UDINT" />
+    <Parameter ID="EPL_MinRedCycleTime" Value="0" Type="UDINT" />
+    <Parameter ID="ASndMaxLatency" Value="0" Type="UDINT" />
+    <Parameter ID="EPL_CnSoc2Preq" Value="0" Type="UDINT" />
+    <Parameter ID="EPL_ResetToDefault" Value="off" />
+    <Parameter ID="EPL_TellMuxSlot" Value="on" />
+    <Parameter ID="MuxNetworkSlot" Value="0" Type="UDINT" />
+    <Parameter ID="EPL_Chained" Value="off" />
+    <Parameter ID="EPL_PReqDataInPResMN" Value="off" />
+    <Parameter ID="MinimalInputLatency" Value="off" />
+    <Parameter ID="EPL_ResetPostLoad" Value="42" Type="UINT" />
+    <Parameter ID="EPL_ParamStrategy" Value="Load" />
+    <Channel ID="ModuleOk">
+      <Parameter ID="Ext" Value="/OK" />
+      <Parameter ID="Address" Value="0" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+  </Module>
+  <Module ID="IF1.ST3.OD" Hardware="epl_any">
+    <Parameter ID="p2001s05" Value="UINT#5" />
+    <Parameter ID="p6042" Value="INT#0" />
+    <Parameter ID="p6046s01" Value="UDINT#0" />
+    <Parameter ID="p6046s02" Value="UDINT#40000" />
+    <Parameter ID="p6048s01" Value="UDINT#10000" />
+    <Parameter ID="p6048s02" Value="UINT#2" />
+    <Parameter ID="p6049s01" Value="UDINT#10000" />
+    <Parameter ID="p6049s02" Value="UINT#2" />
+    <Parameter ID="p604As01" Value="UDINT#10000" />
+    <Parameter ID="p604As02" Value="UINT#2" />
+    <Parameter ID="p6060" Value="SINT#2" />
+    <Parameter ID="p6081" Value="UDINT#0" />
+    <Parameter ID="p6083" Value="UDINT#65536" />
+    <Parameter ID="p6084" Value="UDINT#65536" />
+    <Parameter ID="p6085" Value="UDINT#65536" />
+    <Parameter ID="p60B1" Value="DINT#0" />
+    <Parameter ID="p60B2" Value="INT#0" />
+    <Parameter ID="p60C5" Value="UDINT#32768000" />
+    <Parameter ID="p60C6" Value="UDINT#32768000" />
+    <Parameter ID="p60FF" Value="DINT#0" />
+    <Parameter ID="p3005s01" Value="USINT#0" />
+    <Parameter ID="p3005s02" Value="USINT#0" />
+    <Parameter ID="p6007" Value="INT#1" />
+    <Parameter ID="p605A" Value="INT#2" />
+    <Parameter ID="p605B" Value="INT#0" />
+    <Parameter ID="p605C" Value="INT#1" />
+    <Parameter ID="p605D" Value="INT#1" />
+    <Parameter ID="p605E" Value="INT#2" />
+  </Module>
+  <Module ID="IF2" Hardware="4PPC70.0702-20B">
+    <Parameter ID="ActivateOSAFT" Value="0" />
+  </Module>
+  <Module ID="IF2.OPCUA" Hardware="OPCUA">
+    <Parameter ID="ActivateOpcUa" Value="1" Type="INT" />
+  </Module>
+  <Module ID="IF2.SITEMAN" Hardware="SITEMAN">
+    <Parameter ID="ActivateSiteMan" Value="1" Type="INT" />
+  </Module>
+  <Module ID="IF5.X2X" Hardware="X2X">
+    <Parameter ID="CycleTime" Value="1000" Type="UDINT" />
+    <Parameter ID="Synchron" Value="on" />
+    <Parameter ID="BusLength" Value="500" Type="UDINT" />
+    <Parameter ID="Stations" Value="64" Type="UDINT" />
+    <Parameter ID="AsyncPayload" Value="80" Type="UDINT" />
+    <Parameter ID="Asymmetric" Value="off" />
+    <Parameter ID="OutputJustInTime" Value="on" />
+    <Parameter ID="BusCycleTrigger" Value="auto" />
+    <Parameter ID="OutputCycleTrigger" Value="auto" />
+  </Module>
+  <Module ID="IF5.ST1" Hardware="X20BR9300">
+    <Parameter ID="HardwareModuleName" Value="X20BR9300" />
+  </Module>
+  <Module ID="IF5.ST1.IO" Hardware="X20BR9300">
+    <Parameter ID="FunctionModel" Value="Standard" />
+    <Parameter ID="FunctionModelNumber" Value="0" Type="USINT" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="StatusInfo" Value="on" />
+    <Parameter ID="PowerInfo" Value="off" />
+  </Module>
+  <Module ID="IF5.ST2" Hardware="X20DI9371">
+    <Parameter ID="HardwareModuleName" Value="X20DI9371" />
+  </Module>
+  <Module ID="IF5.ST2.IO" Hardware="X20DI9371">
+    <Parameter ID="FunctionModel" Value="Standard" />
+    <Parameter ID="FunctionModelNumber" Value="0" Type="USINT" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="InputFilter" Value="10" Type="USINT" />
+    <Parameter ID="DigitalInputsPacked" Value="off" />
+  </Module>
+  <Module ID="IF5.ST3" Hardware="X20DO9322">
+    <Parameter ID="HardwareModuleName" Value="X20DO9322" />
+  </Module>
+  <Module ID="IF5.ST3.IO" Hardware="X20DO9322">
+    <Parameter ID="FunctionModel" Value="Standard" />
+    <Parameter ID="FunctionModelNumber" Value="0" Type="USINT" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="StatusInfo" Value="off" />
+    <Parameter ID="DigitalOutputsPacked" Value="off" />
+  </Module>
+  <Module ID="IF5.ST4" Hardware="X20AI4622">
+    <Parameter ID="HardwareModuleName" Value="X20AI4622" />
+  </Module>
+  <Module ID="IF5.ST4.IO" Hardware="X20AI4622">
+    <Parameter ID="FunctionModel" Value="Standard" />
+    <Parameter ID="FunctionModelNumber" Value="0" Type="USINT" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="InputFilter" Value="off" />
+    <Parameter ID="UpperLimit" Value="32767" Type="INT" />
+    <Parameter ID="LowerLimit" Value="-32767" Type="INT" />
+    <Parameter ID="ChannelType01" Value="-10V to +10V" />
+    <Parameter ID="ChannelType02" Value="-10V to +10V" />
+    <Parameter ID="ChannelType03" Value="-10V to +10V" />
+    <Parameter ID="ChannelType04" Value="-10V to +10V" />
+  </Module>
+  <Module ID="IF5.ST5" Hardware="X20DC1396">
+    <Parameter ID="HardwareModuleName" Value="X20DC1396" />
+  </Module>
+  <Module ID="IF5.ST5.IO" Hardware="X20DC1396">
+    <Parameter ID="FunctionModel" Value="Standard" />
+    <Parameter ID="FunctionModelNumber" Value="0" Type="USINT" />
+    <Parameter ID="Supervision" Value="off" />
+    <Parameter ID="RefpulsEdge01" Value="RnegEdge" />
+    <Parameter ID="HomingInput01" Value="off" />
+    <Parameter ID="PresetABR01" Value="0" Type="INT" />
+  </Module>
+</IOCFG>

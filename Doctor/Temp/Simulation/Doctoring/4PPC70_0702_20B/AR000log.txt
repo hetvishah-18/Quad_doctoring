@@ -1,0 +1,39 @@
+Fri Jul 25 18:04:08 2025
+COPYRIGHT (C) B&R Industrial Automation GmbH
+
+Fri Jul 25 18:04:08 2025
+No ARsim registration found!
+
+Fri Jul 25 18:04:08 2025
+InstanceName: 00000186e6813ff0
+
+Fri Jul 25 18:04:08 2025
+WorkingDirectory: C:\Projects\Tension Control\Doctor\Temp\Simulation\Doctoring\4PPC70_0702_20B\
+
+Fri Jul 25 18:04:08 2025
+COMMAND_COLDSTART
+
+Fri Jul 25 18:04:10 2025
+Version: J4.93
+
+Fri Jul 25 18:04:12 2025
+COMMAND_TERMINATE
+
+Fri Jul 25 18:04:12 2025
+COMMAND_COLDSTART
+
+Fri Jul 25 18:04:14 2025
+Version: J4.93
+
+Fri Jul 25 18:04:21 2025
+COMMAND_TERMINATE
+
+Fri Jul 25 18:04:21 2025
+COMMAND_COLDSTART
+
+Fri Jul 25 18:04:23 2025
+Version: J4.93
+
+Fri Jul 25 18:04:47 2025
+COMMAND_TERMINATE
+

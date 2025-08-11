@@ -1,0 +1,48 @@
+VAR
+	cnt_enable : BOOL;
+	Control_Enable : SINT;
+	Control_Enb : USINT;
+	Control_WORD : INT;
+	DataReceived : UINT;
+	DataReceived_INT : INT;
+	Derv_Gain : INT;
+	dlycnt : USINT := 0;
+	dlycnt1 : USINT;
+	dlycnt_pid : USINT;
+	Drv_Status : INT;
+	Ingr_Gain : INT;
+	NMT_Stat : UDINT;
+	Obj_Ident : UDINT;
+	PID_RefSrc : UINT;
+	PID_WORD : INT;
+END_VAR
+VAR CONSTANT
+	PLC_INTF : STRING[20] := 'IF1';
+END_VAR
+VAR
+	Porp_Gain : INT;
+	rdpid_step : USINT;
+	rd_step : USINT;
+	RefSrc_WORD : UINT;
+	SDORead1 : EplSDORead;
+	SDOWrite : EplSDOWrite;
+	SDO_pid : BOOL;
+	SDO_rd : USINT;
+	SDO_rd2 : USINT;
+	SDO_wr : USINT;
+	Status_WORD : INT;
+	step : USINT;
+	tempstat : UINT;
+	tempstat_2 : UINT;
+	wr_step : USINT;
+	SDORead_PID : EplSDORead;
+	wrpid_step : USINT;
+	SDO_pidwr : BOOL;
+	dlycnt_wrpid : USINT;
+	SDO_PIDWR : EplSDOWrite;
+	Prop_Gain : INT;
+	DerGain_Set : INT;
+	RefSrc_Set : UINT;
+	PropGain_Set : INT;
+	IntGain_Set : INT;
+END_VAR

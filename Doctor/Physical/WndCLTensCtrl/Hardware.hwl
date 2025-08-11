@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<BR.AS.HardwareTopology Version="0.0.0.1">
+  <Modules>
+    <Module Name="8V1022.001-2" Type="8V1022.001-2" X="493" Y="235" />
+    <Module Name="8AC120.60-1a" Type="8AC120.60-1" X="518.2" Y="441.5" />
+    <Module Name="8AC120.60-1" Type="8AC120.60-1" X="507" Y="441.5" />
+    <Module Name="8AC114.60-2" Type="8AC114.60-2" X="495.8" Y="441.5" />
+    <Module Name="X20CP1586" Type="X20CP1586" X="100" Y="100" />
+  </Modules>
+  <Links>
+    <Link From="8AC114.60-2" To="X20CP1586" FromPort="PLK1" ToPort="IF3">
+      <Point X="501.9" Y="469.3" />
+      <Point X="501.9" Y="469.3" />
+      <Point X="492.9" Y="469.3" />
+      <Point X="156" Y="469.3" />
+      <Point X="156" Y="200" />
+      <Point X="156" Y="187" />
+      <Point X="156" Y="187" />
+    </Link>
+  </Links>
+  <RedundancyLinks />
+</BR.AS.HardwareTopology>

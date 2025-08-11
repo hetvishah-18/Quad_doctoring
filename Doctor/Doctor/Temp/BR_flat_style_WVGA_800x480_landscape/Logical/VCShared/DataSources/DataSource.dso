@@ -1,0 +1,1894 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.0.14.207"?>
+<DataSource xmlns="http://br-automation.co.at/AS/VC/Project" Name="DataSource">
+  <Property Name="AutoRefresh" Value="True" />
+  <Property Name="DefaultUpdateTime" Value="200" />
+  <Property Name="Description" Value="" />
+  <Property Name="IsIntern" Value="False" />
+  <Property Name="TextGroup" Value="None" />
+  <DataPoints>
+    <DataPoint Name="Cur1Pos">
+      <Property Name="ConnectedBySharedResource" Value="False" />
+      <Property Name="ConnectingVisus" Value="Vis" />
+      <Property Name="DPLimit" Value="Default" />
+      <Property Name="Description" Value="" />
+      <Property Name="PLCType" Value="INT" />
+      <Property Name="PLCUnit" Value="Default" />
+      <Property Name="UnitGroup" Value="Source[global].UnitGroup[LineVelocity]" />
+      <Property Name="UpdateTime" Value="Default" />
+      <Property Name="UserID" Value="None" />
+      <Property Name="VCType" Value="SCALED" />
+    </DataPoint>
+    <Folder Name="HMI">
+      <Property Name="Description" Value="" />
+      <Property Name="FolderType" Value="Program" />
+      <DataPoint Name="InputPassword">
+        <Property Name="ConnectedBySharedResource" Value="False" />
+        <Property Name="ConnectingVisus" Value="Vis" />
+        <Property Name="Description" Value="" />
+        <Property Name="PLCType" Value="STRING" />
+        <Property Name="StringLength" Value="80" />
+        <Property Name="UpdateTime" Value="Default" />
+        <Property Name="UserID" Value="None" />
+        <Property Name="VCType" Value="STRING" />
+      </DataPoint>
+      <DataPoint Name="Login">
+        <Property Name="ConnectedBySharedResource" Value="False" />
+        <Property Name="ConnectingVisus" Value="Vis" />
+        <Property Name="Description" Value="" />
+        <Property Name="PLCType" Value="BOOL" />
+        <Property Name="UpdateTime" Value="Default" />
+        <Property Name="UserID" Value="None" />
+        <Property Name="VCType" Value="BOOL" />
+      </DataPoint>
+      <DataPoint Name="InputUsername">
+        <Property Name="ConnectedBySharedResource" Value="False" />
+        <Property Name="ConnectingVisus" Value="Vis" />
+        <Property Name="Description" Value="" />
+        <Property Name="PLCType" Value="STRING" />
+        <Property Name="StringLength" Value="80" />
+        <Property Name="UpdateTime" Value="Default" />
+        <Property Name="UserID" Value="None" />
+        <Property Name="VCType" Value="STRING" />
+      </DataPoint>
+    </Folder>
+    <Folder Name="WinderDancerControl">
+      <Property Name="Description" Value="" />
+      <Property Name="FolderType" Value="Package" />
+      <Folder Name="Visu">
+        <Property Name="Description" Value="" />
+        <Property Name="FolderType" Value="Package" />
+        <Folder Name="VisuTask">
+          <Property Name="Description" Value="" />
+          <Property Name="FolderType" Value="Program" />
+          <DataPoint Name="RelativWinderVelocityPos">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="None" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="None" />
+            <Property Name="UnitGroup" Value="None" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+          <DataPoint Name="MinWinderVelocity">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="Default" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[PLCUnit]" />
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[WinderVelocity]" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+          <DataPoint Name="HideControlError">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="USINT" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="INTEGER" />
+          </DataPoint>
+          <DataPoint Name="WinderTypeConfiguration">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="USINT" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="INTEGER" />
+          </DataPoint>
+          <DataPoint Name="Update">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="BOOL" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="BOOL" />
+          </DataPoint>
+          <DataPoint Name="RelativWinderVelocityNeg">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="None" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="None" />
+            <Property Name="UnitGroup" Value="None" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+          <DataPoint Name="MaxLineVelocity">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="Default" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[PLCUnit]" />
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[LineVelocity]" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+          <DataPoint Name="MaxDancerPosition">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="Default" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[Millimeter]" />
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[Length]" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+          <DataPoint Name="MinLineVelocity">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="Default" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[PLCUnit]" />
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[LineVelocity]" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+          <DataPoint Name="VisuDancerPosition">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="USINT" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="INTEGER" />
+          </DataPoint>
+          <DataPoint Name="VisuLineDirection">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="USINT" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="INTEGER" />
+          </DataPoint>
+          <DataPoint Name="MaxDiameter">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="Default" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[Millimeter]" />
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[Length]" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+          <DataPoint Name="MinDiameter">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="Default" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[Millimeter]" />
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[Length]" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+          <DataPoint Name="VisuWinderDiameter">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="USINT" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="INTEGER" />
+          </DataPoint>
+          <DataPoint Name="MinDancerPosition">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="Default" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[Millimeter]" />
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[Length]" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+          <DataPoint Name="MaxWinderVelocity">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="Default" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[PLCUnit]" />
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[WinderVelocity]" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+          <DataPoint Name="HideAxisError">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="USINT" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="INTEGER" />
+          </DataPoint>
+        </Folder>
+      </Folder>
+      <Folder Name="Tasks">
+        <Property Name="Description" Value="" />
+        <Property Name="FolderType" Value="Package" />
+        <Folder Name="WinderAxis">
+          <Property Name="Description" Value="" />
+          <Property Name="FolderType" Value="Program" />
+          <Folder Name="BasicControl">
+            <Property Name="Description" Value="" />
+            <Property Name="FolderType" Value="Struct" />
+            <Folder Name="Status">
+              <Property Name="Description" Value="" />
+              <Property Name="FolderType" Value="Struct" />
+              <DataPoint Name="ErrorText">
+                <Property Name="ConnectedBySharedResource" Value="False" />
+                <Property Name="ConnectingVisus" Value="" />
+                <Property Name="Description" Value="" />
+                <Property Name="PLCType" Value="STRING[0..3]" />
+                <Property Name="StringLength" Value="79" />
+                <Property Name="UpdateTime" Value="Default" />
+                <Property Name="UserID" Value="None" />
+                <Property Name="VCType" Value="STRING[]" />
+                <DataPoint Name="ErrorText[1]">
+                  <Property Name="ConnectedBySharedResource" Value="False" />
+                  <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+                  <Property Name="Description" Value="" />
+                  <Property Name="PLCType" Value="STRING" />
+                  <Property Name="StringLength" Value="79" />
+                  <Property Name="UpdateTime" Value="Default" />
+                  <Property Name="UserID" Value="None" />
+                  <Property Name="VCType" Value="STRING" />
+                </DataPoint>
+                <DataPoint Name="ErrorText[3]">
+                  <Property Name="ConnectedBySharedResource" Value="False" />
+                  <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+                  <Property Name="Description" Value="" />
+                  <Property Name="PLCType" Value="STRING" />
+                  <Property Name="StringLength" Value="79" />
+                  <Property Name="UpdateTime" Value="Default" />
+                  <Property Name="UserID" Value="None" />
+                  <Property Name="VCType" Value="STRING" />
+                </DataPoint>
+                <DataPoint Name="ErrorText[0]">
+                  <Property Name="ConnectedBySharedResource" Value="False" />
+                  <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+                  <Property Name="Description" Value="" />
+                  <Property Name="PLCType" Value="STRING" />
+                  <Property Name="StringLength" Value="79" />
+                  <Property Name="UpdateTime" Value="Default" />
+                  <Property Name="UserID" Value="None" />
+                  <Property Name="VCType" Value="STRING" />
+                </DataPoint>
+                <DataPoint Name="ErrorText[2]">
+                  <Property Name="ConnectedBySharedResource" Value="False" />
+                  <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+                  <Property Name="Description" Value="" />
+                  <Property Name="PLCType" Value="STRING" />
+                  <Property Name="StringLength" Value="79" />
+                  <Property Name="UpdateTime" Value="Default" />
+                  <Property Name="UserID" Value="None" />
+                  <Property Name="VCType" Value="STRING" />
+                </DataPoint>
+              </DataPoint>
+              <Folder Name="DriveStatus">
+                <Property Name="Description" Value="" />
+                <Property Name="FolderType" Value="Struct" />
+                <DataPoint Name="AxisError">
+                  <Property Name="ConnectedBySharedResource" Value="False" />
+                  <Property Name="ConnectingVisus" Value="" />
+                  <Property Name="Description" Value="" />
+                  <Property Name="PLCType" Value="BOOL" />
+                  <Property Name="UpdateTime" Value="Default" />
+                  <Property Name="UserID" Value="None" />
+                  <Property Name="VCType" Value="INTEGER" />
+                </DataPoint>
+              </Folder>
+            </Folder>
+            <Folder Name="Command">
+              <Property Name="Description" Value="" />
+              <Property Name="FolderType" Value="Struct" />
+              <DataPoint Name="ErrorAcknowledge">
+                <Property Name="ConnectedBySharedResource" Value="False" />
+                <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+                <Property Name="Description" Value="" />
+                <Property Name="PLCType" Value="BOOL" />
+                <Property Name="UpdateTime" Value="Default" />
+                <Property Name="UserID" Value="None" />
+                <Property Name="VCType" Value="BOOL" />
+              </DataPoint>
+            </Folder>
+          </Folder>
+        </Folder>
+        <Folder Name="DancerCtrl">
+          <Property Name="Description" Value="" />
+          <Property Name="FolderType" Value="Program" />
+          <Folder Name="DiameterEstimator">
+            <Property Name="Description" Value="" />
+            <Property Name="FolderType" Value="FunctionBlock" />
+            <DataPoint Name="Active">
+              <Property Name="ConnectedBySharedResource" Value="False" />
+              <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+              <Property Name="Description" Value="" />
+              <Property Name="PLCType" Value="BOOL" />
+              <Property Name="UpdateTime" Value="Default" />
+              <Property Name="UserID" Value="None" />
+              <Property Name="VCType" Value="BOOL" />
+            </DataPoint>
+            <DataPoint Name="ProcessedMaterial">
+              <Property Name="ConnectedBySharedResource" Value="False" />
+              <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+              <Property Name="DPLimit" Value="Default" />
+              <Property Name="Description" Value="" />
+              <Property Name="PLCType" Value="REAL" />
+              <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[Meter]" />
+              <Property Name="UnitGroup" Value="Source[global].UnitGroup[Length]" />
+              <Property Name="UpdateTime" Value="Default" />
+              <Property Name="UserID" Value="None" />
+              <Property Name="VCType" Value="SCALED" />
+            </DataPoint>
+            <DataPoint Name="Update">
+              <Property Name="ConnectedBySharedResource" Value="False" />
+              <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+              <Property Name="Description" Value="" />
+              <Property Name="PLCType" Value="BOOL" />
+              <Property Name="UpdateTime" Value="Default" />
+              <Property Name="UserID" Value="None" />
+              <Property Name="VCType" Value="BOOL" />
+            </DataPoint>
+            <DataPoint Name="RemainingRunTime">
+              <Property Name="ConnectedBySharedResource" Value="False" />
+              <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+              <Property Name="DPLimit" Value="Default" />
+              <Property Name="Description" Value="" />
+              <Property Name="PLCType" Value="REAL" />
+              <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[s]" />
+              <Property Name="UnitGroup" Value="Source[global].UnitGroup[Time]" />
+              <Property Name="UpdateTime" Value="Default" />
+              <Property Name="UserID" Value="None" />
+              <Property Name="VCType" Value="SCALED" />
+            </DataPoint>
+          </Folder>
+          <Folder Name="AxisController">
+            <Property Name="Description" Value="" />
+            <Property Name="FolderType" Value="FunctionBlock" />
+            <DataPoint Name="Update">
+              <Property Name="ConnectedBySharedResource" Value="False" />
+              <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+              <Property Name="Description" Value="" />
+              <Property Name="PLCType" Value="BOOL" />
+              <Property Name="UpdateTime" Value="Default" />
+              <Property Name="UserID" Value="None" />
+              <Property Name="VCType" Value="BOOL" />
+            </DataPoint>
+            <DataPoint Name="Active">
+              <Property Name="ConnectedBySharedResource" Value="False" />
+              <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+              <Property Name="Description" Value="" />
+              <Property Name="PLCType" Value="BOOL" />
+              <Property Name="UpdateTime" Value="Default" />
+              <Property Name="UserID" Value="None" />
+              <Property Name="VCType" Value="BOOL" />
+            </DataPoint>
+            <Folder Name="Parameters">
+              <Property Name="Description" Value="" />
+              <Property Name="FolderType" Value="Struct" />
+              <Folder Name="Interpolation">
+                <Property Name="Description" Value="" />
+                <Property Name="FolderType" Value="Struct" />
+                <DataPoint Name="MinIntegrationTime">
+                  <Property Name="ConnectedBySharedResource" Value="False" />
+                  <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+                  <Property Name="DPLimit" Value="Default" />
+                  <Property Name="Description" Value="" />
+                  <Property Name="PLCType" Value="REAL" />
+                  <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[s]" />
+                  <Property Name="UnitGroup" Value="Source[global].UnitGroup[Time]" />
+                  <Property Name="UpdateTime" Value="Default" />
+                  <Property Name="UserID" Value="None" />
+                  <Property Name="VCType" Value="SCALED" />
+                </DataPoint>
+                <DataPoint Name="TestProportionalGain">
+                  <Property Name="ConnectedBySharedResource" Value="False" />
+                  <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+                  <Property Name="DPLimit" Value="Default" />
+                  <Property Name="Description" Value="" />
+                  <Property Name="PLCType" Value="REAL" />
+                  <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[As]" />
+                  <Property Name="UnitGroup" Value="Source[global].UnitGroup[As]" />
+                  <Property Name="UpdateTime" Value="Default" />
+                  <Property Name="UserID" Value="None" />
+                  <Property Name="VCType" Value="SCALED" />
+                </DataPoint>
+                <DataPoint Name="MinProportionalGain">
+                  <Property Name="ConnectedBySharedResource" Value="False" />
+                  <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+                  <Property Name="DPLimit" Value="Default" />
+                  <Property Name="Description" Value="" />
+                  <Property Name="PLCType" Value="REAL" />
+                  <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[As]" />
+                  <Property Name="UnitGroup" Value="Source[global].UnitGroup[As]" />
+                  <Property Name="UpdateTime" Value="Default" />
+                  <Property Name="UserID" Value="None" />
+                  <Property Name="VCType" Value="SCALED" />
+                </DataPoint>
+                <DataPoint Name="TestIntegrationTime">
+                  <Property Name="ConnectedBySharedResource" Value="False" />
+                  <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+                  <Property Name="DPLimit" Value="Default" />
+                  <Property Name="Description" Value="" />
+                  <Property Name="PLCType" Value="REAL" />
+                  <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[s]" />
+                  <Property Name="UnitGroup" Value="Source[global].UnitGroup[Time]" />
+                  <Property Name="UpdateTime" Value="Default" />
+                  <Property Name="UserID" Value="None" />
+                  <Property Name="VCType" Value="SCALED" />
+                </DataPoint>
+              </Folder>
+            </Folder>
+          </Folder>
+          <Folder Name="DancerController">
+            <Property Name="Description" Value="" />
+            <Property Name="FolderType" Value="FunctionBlock" />
+            <Folder Name="Parameters">
+              <Property Name="Description" Value="" />
+              <Property Name="FolderType" Value="Struct" />
+              <DataPoint Name="MaxLineVelocityCorrection">
+                <Property Name="ConnectedBySharedResource" Value="False" />
+                <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+                <Property Name="DPLimit" Value="Default" />
+                <Property Name="Description" Value="" />
+                <Property Name="PLCType" Value="REAL" />
+                <Property Name="PLCUnit" Value="None" />
+                <Property Name="UnitGroup" Value="Source[global].UnitGroup[LineVelocity]" />
+                <Property Name="UpdateTime" Value="Default" />
+                <Property Name="UserID" Value="None" />
+                <Property Name="VCType" Value="SCALED" />
+              </DataPoint>
+              <Folder Name="PIDParameters">
+                <Property Name="Description" Value="" />
+                <Property Name="FolderType" Value="Struct" />
+                <DataPoint Name="IntegrationTime">
+                  <Property Name="ConnectedBySharedResource" Value="False" />
+                  <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+                  <Property Name="DPLimit" Value="Default" />
+                  <Property Name="Description" Value="" />
+                  <Property Name="PLCType" Value="REAL" />
+                  <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[s]" />
+                  <Property Name="UnitGroup" Value="Source[global].UnitGroup[Time]" />
+                  <Property Name="UpdateTime" Value="Default" />
+                  <Property Name="UserID" Value="None" />
+                  <Property Name="VCType" Value="SCALED" />
+                </DataPoint>
+                <DataPoint Name="Gain">
+                  <Property Name="ConnectedBySharedResource" Value="False" />
+                  <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+                  <Property Name="DPLimit" Value="Default" />
+                  <Property Name="Description" Value="" />
+                  <Property Name="PLCType" Value="REAL" />
+                  <Property Name="PLCUnit" Value="Default" />
+                  <Property Name="UnitGroup" Value="Source[global].UnitGroup[As]" />
+                  <Property Name="UpdateTime" Value="Default" />
+                  <Property Name="UserID" Value="None" />
+                  <Property Name="VCType" Value="SCALED" />
+                </DataPoint>
+              </Folder>
+            </Folder>
+            <DataPoint Name="Active">
+              <Property Name="ConnectedBySharedResource" Value="False" />
+              <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+              <Property Name="Description" Value="" />
+              <Property Name="PLCType" Value="BOOL" />
+              <Property Name="UpdateTime" Value="Default" />
+              <Property Name="UserID" Value="None" />
+              <Property Name="VCType" Value="BOOL" />
+            </DataPoint>
+            <DataPoint Name="Update">
+              <Property Name="ConnectedBySharedResource" Value="False" />
+              <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+              <Property Name="Description" Value="" />
+              <Property Name="PLCType" Value="BOOL" />
+              <Property Name="UpdateTime" Value="Default" />
+              <Property Name="UserID" Value="None" />
+              <Property Name="VCType" Value="BOOL" />
+            </DataPoint>
+          </Folder>
+          <DataPoint Name="Step">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="StepEnum" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="INTEGER" />
+          </DataPoint>
+        </Folder>
+      </Folder>
+      <Folder Name="gControl">
+        <Property Name="Description" Value="" />
+        <Property Name="FolderType" Value="Struct" />
+        <DataPoint Name="StartDiameter">
+          <Property Name="ConnectedBySharedResource" Value="False" />
+          <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+          <Property Name="DPLimit" Value="Default" />
+          <Property Name="Description" Value="" />
+          <Property Name="PLCType" Value="REAL" />
+          <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[Millimeter]" />
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[Length]" />
+          <Property Name="UpdateTime" Value="Default" />
+          <Property Name="UserID" Value="None" />
+          <Property Name="VCType" Value="SCALED" />
+        </DataPoint>
+        <Folder Name="Line">
+          <Property Name="Description" Value="" />
+          <Property Name="FolderType" Value="Struct" />
+          <DataPoint Name="SetVelocity">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="Default" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[PLCUnit]" />
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[LineVelocity]" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+          <DataPoint Name="ActVelocity">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="Default" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[PLCUnit]" />
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[LineVelocity]" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+          <DataPoint Name="RefVelocity">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="Default" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[PLCUnit]" />
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[LineVelocity]" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+          <DataPoint Name="Stop">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="BOOL" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="BOOL" />
+          </DataPoint>
+          <DataPoint Name="Start">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="BOOL" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="BOOL" />
+          </DataPoint>
+        </Folder>
+        <Folder Name="Winder">
+          <Property Name="Description" Value="" />
+          <Property Name="FolderType" Value="Struct" />
+          <DataPoint Name="ActIntegrationTime">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="Default" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[s]" />
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[Time]" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+          <DataPoint Name="SetVelocity">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="Default" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[PLCUnit]" />
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[WinderVelocity]" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+          <DataPoint Name="ActProportionalGain">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="Default" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[As]" />
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[As]" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+          <DataPoint Name="ActVelocity">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="Default" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[PLCUnit]" />
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[WinderVelocity]" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+          <DataPoint Name="VelocityCorrection">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="Default" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[PLCUnit]" />
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[WinderVelocity]" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+          <DataPoint Name="Power">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="BOOL" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="BOOL" />
+          </DataPoint>
+          <DataPoint Name="ActMotorTorque">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="Default" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[Nm]" />
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[Torque]" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+          <DataPoint Name="SetMotorTorque">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="Default" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[Nm]" />
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[Torque]" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+          <DataPoint Name="Ready">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="BOOL" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="BOOL" />
+          </DataPoint>
+        </Folder>
+        <Folder Name="Configuration">
+          <Property Name="Description" Value="" />
+          <Property Name="FolderType" Value="Struct" />
+          <Folder Name="Geometry">
+            <Property Name="Description" Value="" />
+            <Property Name="FolderType" Value="Struct" />
+            <DataPoint Name="MaterialThickness">
+              <Property Name="ConnectedBySharedResource" Value="False" />
+              <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+              <Property Name="DPLimit" Value="Default" />
+              <Property Name="Description" Value="" />
+              <Property Name="PLCType" Value="REAL" />
+              <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[Micrometer]" />
+              <Property Name="UnitGroup" Value="Source[global].UnitGroup[Length]" />
+              <Property Name="UpdateTime" Value="Default" />
+              <Property Name="UserID" Value="None" />
+              <Property Name="VCType" Value="SCALED" />
+            </DataPoint>
+            <DataPoint Name="TestDiameter">
+              <Property Name="ConnectedBySharedResource" Value="False" />
+              <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+              <Property Name="DPLimit" Value="Default" />
+              <Property Name="Description" Value="" />
+              <Property Name="PLCType" Value="REAL" />
+              <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[Millimeter]" />
+              <Property Name="UnitGroup" Value="Source[global].UnitGroup[Length]" />
+              <Property Name="UpdateTime" Value="Default" />
+              <Property Name="UserID" Value="None" />
+              <Property Name="VCType" Value="SCALED" />
+            </DataPoint>
+            <DataPoint Name="MinInertia">
+              <Property Name="ConnectedBySharedResource" Value="False" />
+              <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+              <Property Name="DPLimit" Value="Default" />
+              <Property Name="Description" Value="" />
+              <Property Name="PLCType" Value="REAL" />
+              <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[Inertia]" />
+              <Property Name="UnitGroup" Value="Source[global].UnitGroup[Inertia]" />
+              <Property Name="UpdateTime" Value="Default" />
+              <Property Name="UserID" Value="None" />
+              <Property Name="VCType" Value="SCALED" />
+            </DataPoint>
+            <DataPoint Name="MaxDiameter">
+              <Property Name="ConnectedBySharedResource" Value="False" />
+              <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+              <Property Name="DPLimit" Value="Default" />
+              <Property Name="Description" Value="" />
+              <Property Name="PLCType" Value="REAL" />
+              <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[Millimeter]" />
+              <Property Name="UnitGroup" Value="Source[global].UnitGroup[Length]" />
+              <Property Name="UpdateTime" Value="Default" />
+              <Property Name="UserID" Value="None" />
+              <Property Name="VCType" Value="SCALED" />
+            </DataPoint>
+            <DataPoint Name="WinderWidth">
+              <Property Name="ConnectedBySharedResource" Value="False" />
+              <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+              <Property Name="DPLimit" Value="Default" />
+              <Property Name="Description" Value="" />
+              <Property Name="PLCType" Value="REAL" />
+              <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[Millimeter]" />
+              <Property Name="UnitGroup" Value="Source[global].UnitGroup[Length]" />
+              <Property Name="UpdateTime" Value="Default" />
+              <Property Name="UserID" Value="None" />
+              <Property Name="VCType" Value="SCALED" />
+            </DataPoint>
+            <DataPoint Name="TestInertia">
+              <Property Name="ConnectedBySharedResource" Value="False" />
+              <Property Name="ConnectingVisus" Value="" />
+              <Property Name="DPLimit" Value="Default" />
+              <Property Name="Description" Value="" />
+              <Property Name="PLCType" Value="REAL" />
+              <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[Inertia]" />
+              <Property Name="UnitGroup" Value="Source[global].UnitGroup[Inertia]" />
+              <Property Name="UpdateTime" Value="Default" />
+              <Property Name="UserID" Value="None" />
+              <Property Name="VCType" Value="SCALED" />
+            </DataPoint>
+            <DataPoint Name="MinDiameter">
+              <Property Name="ConnectedBySharedResource" Value="False" />
+              <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+              <Property Name="DPLimit" Value="Default" />
+              <Property Name="Description" Value="" />
+              <Property Name="PLCType" Value="REAL" />
+              <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[Millimeter]" />
+              <Property Name="UnitGroup" Value="Source[global].UnitGroup[Length]" />
+              <Property Name="UpdateTime" Value="Default" />
+              <Property Name="UserID" Value="None" />
+              <Property Name="VCType" Value="SCALED" />
+            </DataPoint>
+          </Folder>
+        </Folder>
+        <DataPoint Name="SetDancerPosition">
+          <Property Name="ConnectedBySharedResource" Value="False" />
+          <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+          <Property Name="DPLimit" Value="Default" />
+          <Property Name="Description" Value="" />
+          <Property Name="PLCType" Value="REAL" />
+          <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[Millimeter]" />
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[Length]" />
+          <Property Name="UpdateTime" Value="Default" />
+          <Property Name="UserID" Value="None" />
+          <Property Name="VCType" Value="SCALED" />
+        </DataPoint>
+        <DataPoint Name="ActDiameter">
+          <Property Name="ConnectedBySharedResource" Value="False" />
+          <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+          <Property Name="DPLimit" Value="Default" />
+          <Property Name="Description" Value="" />
+          <Property Name="PLCType" Value="REAL" />
+          <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[Millimeter]" />
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[Length]" />
+          <Property Name="UpdateTime" Value="Default" />
+          <Property Name="UserID" Value="None" />
+          <Property Name="VCType" Value="SCALED" />
+        </DataPoint>
+        <DataPoint Name="ActDancerPosition">
+          <Property Name="ConnectedBySharedResource" Value="False" />
+          <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+          <Property Name="DPLimit" Value="Default" />
+          <Property Name="Description" Value="" />
+          <Property Name="PLCType" Value="REAL" />
+          <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[Millimeter]" />
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[Length]" />
+          <Property Name="UpdateTime" Value="Default" />
+          <Property Name="UserID" Value="None" />
+          <Property Name="VCType" Value="SCALED" />
+        </DataPoint>
+        <Folder Name="Command">
+          <Property Name="Description" Value="" />
+          <Property Name="FolderType" Value="Struct" />
+          <DataPoint Name="ErrorAcknowledge">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="BOOL" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="BOOL" />
+          </DataPoint>
+          <DataPoint Name="ChangeMaterial">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="BOOL" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="BOOL" />
+          </DataPoint>
+          <DataPoint Name="StartControl">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="BOOL" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="BOOL" />
+          </DataPoint>
+        </Folder>
+        <Folder Name="Status">
+          <Property Name="Description" Value="" />
+          <Property Name="FolderType" Value="Struct" />
+          <DataPoint Name="MachineReady">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="BOOL" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="BOOL" />
+          </DataPoint>
+          <DataPoint Name="ErrorDetail">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="ErrorEnum" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="INTEGER" />
+          </DataPoint>
+          <DataPoint Name="ControlReady">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderDancerControl\Visu\Visu" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="BOOL" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="BOOL" />
+          </DataPoint>
+        </Folder>
+      </Folder>
+    </Folder>
+    <DataPoint Name="Cur2Pos">
+      <Property Name="ConnectedBySharedResource" Value="False" />
+      <Property Name="ConnectingVisus" Value="Vis" />
+      <Property Name="DPLimit" Value="Default" />
+      <Property Name="Description" Value="" />
+      <Property Name="PLCType" Value="INT" />
+      <Property Name="PLCUnit" Value="Default" />
+      <Property Name="UnitGroup" Value="Source[global].UnitGroup[LineVelocity]" />
+      <Property Name="UpdateTime" Value="Default" />
+      <Property Name="UserID" Value="None" />
+      <Property Name="VCType" Value="SCALED" />
+    </DataPoint>
+    <DataPoint Name="CurrPage">
+      <Property Name="ConnectedBySharedResource" Value="False" />
+      <Property Name="ConnectingVisus" Value="Vis" />
+      <Property Name="Description" Value="" />
+      <Property Name="PLCType" Value="USINT" />
+      <Property Name="UpdateTime" Value="Default" />
+      <Property Name="UserID" Value="None" />
+      <Property Name="VCType" Value="INTEGER" />
+    </DataPoint>
+    <DataPoint Name="ParamChange">
+      <Property Name="ConnectedBySharedResource" Value="False" />
+      <Property Name="ConnectingVisus" Value="Vis" />
+      <Property Name="Description" Value="" />
+      <Property Name="PLCType" Value="BOOL" />
+      <Property Name="UpdateTime" Value="Default" />
+      <Property Name="UserID" Value="None" />
+      <Property Name="VCType" Value="BOOL" />
+    </DataPoint>
+    <Folder Name="Wind">
+      <Property Name="Description" Value="" />
+      <Property Name="FolderType" Value="Struct" />
+      <Folder Name="MPM">
+        <Property Name="Description" Value="" />
+        <Property Name="FolderType" Value="Struct" />
+        <Folder Name="Actual">
+          <Property Name="Description" Value="" />
+          <Property Name="FolderType" Value="Struct" />
+          <DataPoint Name="Output_Val">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="DPLimit" Value="Default" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="INT" />
+            <Property Name="PLCUnit" Value="Default" />
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[LineVelocity]" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+        </Folder>
+        <DataPoint Name="ActualMPM">
+          <Property Name="ConnectedBySharedResource" Value="False" />
+          <Property Name="ConnectingVisus" Value="Vis" />
+          <Property Name="DPLimit" Value="Default" />
+          <Property Name="Description" Value="" />
+          <Property Name="PLCType" Value="INT" />
+          <Property Name="PLCUnit" Value="Default" />
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[LineVelocity]" />
+          <Property Name="UpdateTime" Value="Default" />
+          <Property Name="UserID" Value="None" />
+          <Property Name="VCType" Value="SCALED" />
+        </DataPoint>
+        <DataPoint Name="SetMPM">
+          <Property Name="ConnectedBySharedResource" Value="False" />
+          <Property Name="ConnectingVisus" Value="Vis" />
+          <Property Name="DPLimit" Value="Default" />
+          <Property Name="Description" Value="" />
+          <Property Name="PLCType" Value="INT" />
+          <Property Name="PLCUnit" Value="Default" />
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[LineVelocity]" />
+          <Property Name="UpdateTime" Value="Default" />
+          <Property Name="UserID" Value="None" />
+          <Property Name="VCType" Value="SCALED" />
+        </DataPoint>
+      </Folder>
+    </Folder>
+    <Folder Name="UnWind">
+      <Property Name="Description" Value="" />
+      <Property Name="FolderType" Value="Struct" />
+      <Folder Name="MPM">
+        <Property Name="Description" Value="" />
+        <Property Name="FolderType" Value="Struct" />
+        <DataPoint Name="ActualMPM">
+          <Property Name="ConnectedBySharedResource" Value="False" />
+          <Property Name="ConnectingVisus" Value="Vis" />
+          <Property Name="DPLimit" Value="None" />
+          <Property Name="Description" Value="" />
+          <Property Name="PLCType" Value="INT" />
+          <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[mpm]" />
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[LineVelocity]" />
+          <Property Name="UpdateTime" Value="Default" />
+          <Property Name="UserID" Value="None" />
+          <Property Name="VCType" Value="SCALED" />
+        </DataPoint>
+        <DataPoint Name="SetMPM">
+          <Property Name="ConnectedBySharedResource" Value="False" />
+          <Property Name="ConnectingVisus" Value="Vis" />
+          <Property Name="Description" Value="" />
+          <Property Name="PLCType" Value="INT" />
+          <Property Name="UpdateTime" Value="Default" />
+          <Property Name="UserID" Value="None" />
+          <Property Name="VCType" Value="INTEGER" />
+        </DataPoint>
+      </Folder>
+    </Folder>
+    <DataPoint Name="NewPage">
+      <Property Name="ConnectedBySharedResource" Value="False" />
+      <Property Name="ConnectingVisus" Value="Vis" />
+      <Property Name="Description" Value="" />
+      <Property Name="PLCType" Value="USINT" />
+      <Property Name="UpdateTime" Value="Default" />
+      <Property Name="UserID" Value="None" />
+      <Property Name="VCType" Value="INTEGER" />
+    </DataPoint>
+    <Folder Name="WinderClosedLoopTensionControl">
+      <Property Name="Description" Value="" />
+      <Property Name="FolderType" Value="Package" />
+      <Folder Name="Tasks">
+        <Property Name="Description" Value="" />
+        <Property Name="FolderType" Value="Package" />
+        <Folder Name="TensionCtrl">
+          <Property Name="Description" Value="" />
+          <Property Name="FolderType" Value="Program" />
+          <DataPoint Name="Step">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="StepEnum" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="INTEGER" />
+          </DataPoint>
+          <Folder Name="AxisController">
+            <Property Name="Description" Value="" />
+            <Property Name="FolderType" Value="FunctionBlock" />
+            <Folder Name="Parameters">
+              <Property Name="Description" Value="" />
+              <Property Name="FolderType" Value="Struct" />
+              <Folder Name="Interpolation">
+                <Property Name="Description" Value="" />
+                <Property Name="FolderType" Value="Struct" />
+                <DataPoint Name="MinProportionalGain">
+                  <Property Name="ConnectedBySharedResource" Value="False" />
+                  <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+                  <Property Name="DPLimit" Value="Default" />
+                  <Property Name="Description" Value="" />
+                  <Property Name="PLCType" Value="REAL" />
+                  <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[As]" />
+                  <Property Name="UnitGroup" Value="Source[global].UnitGroup[As]" />
+                  <Property Name="UpdateTime" Value="Default" />
+                  <Property Name="UserID" Value="None" />
+                  <Property Name="VCType" Value="SCALED" />
+                </DataPoint>
+                <DataPoint Name="TestIntegrationTime">
+                  <Property Name="ConnectedBySharedResource" Value="False" />
+                  <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+                  <Property Name="DPLimit" Value="Default" />
+                  <Property Name="Description" Value="" />
+                  <Property Name="PLCType" Value="REAL" />
+                  <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[s]" />
+                  <Property Name="UnitGroup" Value="Source[global].UnitGroup[Time]" />
+                  <Property Name="UpdateTime" Value="Default" />
+                  <Property Name="UserID" Value="None" />
+                  <Property Name="VCType" Value="SCALED" />
+                </DataPoint>
+                <DataPoint Name="MinIntegrationTime">
+                  <Property Name="ConnectedBySharedResource" Value="False" />
+                  <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+                  <Property Name="DPLimit" Value="Default" />
+                  <Property Name="Description" Value="" />
+                  <Property Name="PLCType" Value="REAL" />
+                  <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[s]" />
+                  <Property Name="UnitGroup" Value="Source[global].UnitGroup[Time]" />
+                  <Property Name="UpdateTime" Value="Default" />
+                  <Property Name="UserID" Value="None" />
+                  <Property Name="VCType" Value="SCALED" />
+                </DataPoint>
+                <DataPoint Name="TestProportionalGain">
+                  <Property Name="ConnectedBySharedResource" Value="False" />
+                  <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+                  <Property Name="DPLimit" Value="Default" />
+                  <Property Name="Description" Value="" />
+                  <Property Name="PLCType" Value="REAL" />
+                  <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[As]" />
+                  <Property Name="UnitGroup" Value="Source[global].UnitGroup[As]" />
+                  <Property Name="UpdateTime" Value="Default" />
+                  <Property Name="UserID" Value="None" />
+                  <Property Name="VCType" Value="SCALED" />
+                </DataPoint>
+              </Folder>
+            </Folder>
+            <DataPoint Name="Update">
+              <Property Name="ConnectedBySharedResource" Value="False" />
+              <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+              <Property Name="Description" Value="" />
+              <Property Name="PLCType" Value="BOOL" />
+              <Property Name="UpdateTime" Value="Default" />
+              <Property Name="UserID" Value="None" />
+              <Property Name="VCType" Value="BOOL" />
+            </DataPoint>
+            <DataPoint Name="Active">
+              <Property Name="ConnectedBySharedResource" Value="False" />
+              <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+              <Property Name="Description" Value="" />
+              <Property Name="PLCType" Value="BOOL" />
+              <Property Name="UpdateTime" Value="Default" />
+              <Property Name="UserID" Value="None" />
+              <Property Name="VCType" Value="BOOL" />
+            </DataPoint>
+          </Folder>
+          <Folder Name="DiameterEstimator">
+            <Property Name="Description" Value="" />
+            <Property Name="FolderType" Value="FunctionBlock" />
+            <DataPoint Name="ProcessedMaterial">
+              <Property Name="ConnectedBySharedResource" Value="False" />
+              <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+              <Property Name="DPLimit" Value="Default" />
+              <Property Name="Description" Value="" />
+              <Property Name="PLCType" Value="REAL" />
+              <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[Meter]" />
+              <Property Name="UnitGroup" Value="Source[global].UnitGroup[Length]" />
+              <Property Name="UpdateTime" Value="Default" />
+              <Property Name="UserID" Value="None" />
+              <Property Name="VCType" Value="SCALED" />
+            </DataPoint>
+            <DataPoint Name="RemainingRunTime">
+              <Property Name="ConnectedBySharedResource" Value="False" />
+              <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+              <Property Name="DPLimit" Value="Default" />
+              <Property Name="Description" Value="" />
+              <Property Name="PLCType" Value="REAL" />
+              <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[s]" />
+              <Property Name="UnitGroup" Value="Source[global].UnitGroup[Time]" />
+              <Property Name="UpdateTime" Value="Default" />
+              <Property Name="UserID" Value="None" />
+              <Property Name="VCType" Value="SCALED" />
+            </DataPoint>
+            <DataPoint Name="Update">
+              <Property Name="ConnectedBySharedResource" Value="False" />
+              <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+              <Property Name="Description" Value="" />
+              <Property Name="PLCType" Value="BOOL" />
+              <Property Name="UpdateTime" Value="Default" />
+              <Property Name="UserID" Value="None" />
+              <Property Name="VCType" Value="BOOL" />
+            </DataPoint>
+            <DataPoint Name="Active">
+              <Property Name="ConnectedBySharedResource" Value="False" />
+              <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+              <Property Name="Description" Value="" />
+              <Property Name="PLCType" Value="BOOL" />
+              <Property Name="UpdateTime" Value="Default" />
+              <Property Name="UserID" Value="None" />
+              <Property Name="VCType" Value="BOOL" />
+            </DataPoint>
+          </Folder>
+          <Folder Name="TensionController">
+            <Property Name="Description" Value="" />
+            <Property Name="FolderType" Value="FunctionBlock" />
+            <Folder Name="Parameters">
+              <Property Name="Description" Value="" />
+              <Property Name="FolderType" Value="Struct" />
+              <DataPoint Name="MaxLineVelocityCorrection">
+                <Property Name="ConnectedBySharedResource" Value="False" />
+                <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+                <Property Name="DPLimit" Value="Default" />
+                <Property Name="Description" Value="" />
+                <Property Name="PLCType" Value="REAL" />
+                <Property Name="PLCUnit" Value="None" />
+                <Property Name="UnitGroup" Value="Source[global].UnitGroup[LineVelocity]" />
+                <Property Name="UpdateTime" Value="Default" />
+                <Property Name="UserID" Value="None" />
+                <Property Name="VCType" Value="SCALED" />
+              </DataPoint>
+              <Folder Name="PIDParameters">
+                <Property Name="Description" Value="" />
+                <Property Name="FolderType" Value="Struct" />
+                <DataPoint Name="Gain">
+                  <Property Name="ConnectedBySharedResource" Value="False" />
+                  <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+                  <Property Name="DPLimit" Value="Default" />
+                  <Property Name="Description" Value="" />
+                  <Property Name="PLCType" Value="REAL" />
+                  <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[As]" />
+                  <Property Name="UnitGroup" Value="Source[global].UnitGroup[As]" />
+                  <Property Name="UpdateTime" Value="Default" />
+                  <Property Name="UserID" Value="None" />
+                  <Property Name="VCType" Value="SCALED" />
+                </DataPoint>
+                <DataPoint Name="IntegrationTime">
+                  <Property Name="ConnectedBySharedResource" Value="False" />
+                  <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+                  <Property Name="DPLimit" Value="Default" />
+                  <Property Name="Description" Value="" />
+                  <Property Name="PLCType" Value="REAL" />
+                  <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[s]" />
+                  <Property Name="UnitGroup" Value="Source[global].UnitGroup[Time]" />
+                  <Property Name="UpdateTime" Value="Default" />
+                  <Property Name="UserID" Value="None" />
+                  <Property Name="VCType" Value="SCALED" />
+                </DataPoint>
+              </Folder>
+            </Folder>
+            <DataPoint Name="Update">
+              <Property Name="ConnectedBySharedResource" Value="False" />
+              <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+              <Property Name="Description" Value="" />
+              <Property Name="PLCType" Value="BOOL" />
+              <Property Name="UpdateTime" Value="Default" />
+              <Property Name="UserID" Value="None" />
+              <Property Name="VCType" Value="BOOL" />
+            </DataPoint>
+            <DataPoint Name="Active">
+              <Property Name="ConnectedBySharedResource" Value="False" />
+              <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+              <Property Name="Description" Value="" />
+              <Property Name="PLCType" Value="BOOL" />
+              <Property Name="UpdateTime" Value="Default" />
+              <Property Name="UserID" Value="None" />
+              <Property Name="VCType" Value="BOOL" />
+            </DataPoint>
+          </Folder>
+        </Folder>
+        <Folder Name="WinderAxis">
+          <Property Name="Description" Value="" />
+          <Property Name="FolderType" Value="Program" />
+          <Folder Name="BasicControl">
+            <Property Name="Description" Value="" />
+            <Property Name="FolderType" Value="Struct" />
+            <Folder Name="Command">
+              <Property Name="Description" Value="" />
+              <Property Name="FolderType" Value="Struct" />
+              <DataPoint Name="ErrorAcknowledge">
+                <Property Name="ConnectedBySharedResource" Value="False" />
+                <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+                <Property Name="Description" Value="" />
+                <Property Name="PLCType" Value="BOOL" />
+                <Property Name="UpdateTime" Value="Default" />
+                <Property Name="UserID" Value="None" />
+                <Property Name="VCType" Value="BOOL" />
+              </DataPoint>
+            </Folder>
+            <Folder Name="Status">
+              <Property Name="Description" Value="" />
+              <Property Name="FolderType" Value="Struct" />
+              <DataPoint Name="ErrorText">
+                <Property Name="ConnectedBySharedResource" Value="False" />
+                <Property Name="ConnectingVisus" Value="" />
+                <Property Name="Description" Value="" />
+                <Property Name="PLCType" Value="STRING[0..3]" />
+                <Property Name="StringLength" Value="79" />
+                <Property Name="UpdateTime" Value="Default" />
+                <Property Name="UserID" Value="None" />
+                <Property Name="VCType" Value="STRING[]" />
+                <DataPoint Name="ErrorText[2]">
+                  <Property Name="ConnectedBySharedResource" Value="False" />
+                  <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+                  <Property Name="Description" Value="" />
+                  <Property Name="PLCType" Value="STRING" />
+                  <Property Name="StringLength" Value="79" />
+                  <Property Name="UpdateTime" Value="Default" />
+                  <Property Name="UserID" Value="None" />
+                  <Property Name="VCType" Value="STRING" />
+                </DataPoint>
+                <DataPoint Name="ErrorText[1]">
+                  <Property Name="ConnectedBySharedResource" Value="False" />
+                  <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+                  <Property Name="Description" Value="" />
+                  <Property Name="PLCType" Value="STRING" />
+                  <Property Name="StringLength" Value="79" />
+                  <Property Name="UpdateTime" Value="Default" />
+                  <Property Name="UserID" Value="None" />
+                  <Property Name="VCType" Value="STRING" />
+                </DataPoint>
+                <DataPoint Name="ErrorText[0]">
+                  <Property Name="ConnectedBySharedResource" Value="False" />
+                  <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+                  <Property Name="Description" Value="" />
+                  <Property Name="PLCType" Value="STRING" />
+                  <Property Name="StringLength" Value="79" />
+                  <Property Name="UpdateTime" Value="Default" />
+                  <Property Name="UserID" Value="None" />
+                  <Property Name="VCType" Value="STRING" />
+                </DataPoint>
+                <DataPoint Name="ErrorText[3]">
+                  <Property Name="ConnectedBySharedResource" Value="False" />
+                  <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+                  <Property Name="Description" Value="" />
+                  <Property Name="PLCType" Value="STRING" />
+                  <Property Name="StringLength" Value="79" />
+                  <Property Name="UpdateTime" Value="Default" />
+                  <Property Name="UserID" Value="None" />
+                  <Property Name="VCType" Value="STRING" />
+                </DataPoint>
+              </DataPoint>
+              <Folder Name="DriveStatus">
+                <Property Name="Description" Value="" />
+                <Property Name="FolderType" Value="Struct" />
+                <DataPoint Name="AxisError">
+                  <Property Name="ConnectedBySharedResource" Value="False" />
+                  <Property Name="ConnectingVisus" Value="" />
+                  <Property Name="Description" Value="" />
+                  <Property Name="PLCType" Value="BOOL" />
+                  <Property Name="UpdateTime" Value="Default" />
+                  <Property Name="UserID" Value="None" />
+                  <Property Name="VCType" Value="INTEGER" />
+                </DataPoint>
+              </Folder>
+            </Folder>
+          </Folder>
+        </Folder>
+      </Folder>
+      <Folder Name="Visu">
+        <Property Name="Description" Value="" />
+        <Property Name="FolderType" Value="Package" />
+        <Folder Name="VisuTask">
+          <Property Name="Description" Value="" />
+          <Property Name="FolderType" Value="Program" />
+          <DataPoint Name="MinMaterialTension">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="Default" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[Newton]" />
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[Force]" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+          <DataPoint Name="MinDiameter">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="Default" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[Millimeter]" />
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[Length]" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+          <DataPoint Name="RelativWinderVelocityPos">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="None" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="None" />
+            <Property Name="UnitGroup" Value="None" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+          <DataPoint Name="VisuWinderDiameter">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="USINT" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="INTEGER" />
+          </DataPoint>
+          <DataPoint Name="RelativWinderVelocityNeg">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="None" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="None" />
+            <Property Name="UnitGroup" Value="None" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+          <DataPoint Name="Update">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="BOOL" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="BOOL" />
+          </DataPoint>
+          <DataPoint Name="MAX_MATERIAL_TENSION">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="Default" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[Newton]" />
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[Force]" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+          <DataPoint Name="MaxDiameter">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="Default" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[Millimeter]" />
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[Length]" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+          <DataPoint Name="MaxWinderVelocity">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="Default" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[PLCUnit]" />
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[WinderVelocity]" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+          <DataPoint Name="MaxLineVelocity">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="Default" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[PLCUnit]" />
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[LineVelocity]" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+          <DataPoint Name="HideAxisError">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="USINT" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="INTEGER" />
+          </DataPoint>
+          <DataPoint Name="MaxMaterialTension">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="Default" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[Newton]" />
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[Force]" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+          <DataPoint Name="MinLineVelocity">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="Default" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[PLCUnit]" />
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[LineVelocity]" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+          <DataPoint Name="WinderTypeConfiguration">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="USINT" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="INTEGER" />
+          </DataPoint>
+          <DataPoint Name="MinWinderVelocity">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="Default" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[PLCUnit]" />
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[WinderVelocity]" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+          <DataPoint Name="VisuLineDirection">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="USINT" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="INTEGER" />
+          </DataPoint>
+          <DataPoint Name="HideControlError">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="USINT" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="INTEGER" />
+          </DataPoint>
+        </Folder>
+      </Folder>
+      <Folder Name="gControl">
+        <Property Name="Description" Value="" />
+        <Property Name="FolderType" Value="Struct" />
+        <DataPoint Name="ActDiameter">
+          <Property Name="ConnectedBySharedResource" Value="False" />
+          <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+          <Property Name="DPLimit" Value="Default" />
+          <Property Name="Description" Value="" />
+          <Property Name="PLCType" Value="REAL" />
+          <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[Millimeter]" />
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[Length]" />
+          <Property Name="UpdateTime" Value="Default" />
+          <Property Name="UserID" Value="None" />
+          <Property Name="VCType" Value="SCALED" />
+        </DataPoint>
+        <Folder Name="Command">
+          <Property Name="Description" Value="" />
+          <Property Name="FolderType" Value="Struct" />
+          <DataPoint Name="ErrorAcknowledge">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="BOOL" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="BOOL" />
+          </DataPoint>
+          <DataPoint Name="ChangeMaterial">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="BOOL" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="BOOL" />
+          </DataPoint>
+          <DataPoint Name="StartControl">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="BOOL" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="BOOL" />
+          </DataPoint>
+        </Folder>
+        <DataPoint Name="ActMaterialTension">
+          <Property Name="ConnectedBySharedResource" Value="False" />
+          <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+          <Property Name="DPLimit" Value="Default" />
+          <Property Name="Description" Value="" />
+          <Property Name="PLCType" Value="REAL" />
+          <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[Newton]" />
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[Force]" />
+          <Property Name="UpdateTime" Value="Default" />
+          <Property Name="UserID" Value="None" />
+          <Property Name="VCType" Value="SCALED" />
+        </DataPoint>
+        <DataPoint Name="StartDiameter">
+          <Property Name="ConnectedBySharedResource" Value="False" />
+          <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+          <Property Name="DPLimit" Value="Default" />
+          <Property Name="Description" Value="" />
+          <Property Name="PLCType" Value="REAL" />
+          <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[Millimeter]" />
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[Length]" />
+          <Property Name="UpdateTime" Value="Default" />
+          <Property Name="UserID" Value="None" />
+          <Property Name="VCType" Value="SCALED" />
+        </DataPoint>
+        <Folder Name="Winder">
+          <Property Name="Description" Value="" />
+          <Property Name="FolderType" Value="Struct" />
+          <DataPoint Name="ActMotorTorque">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="Default" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[Nm]" />
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[Torque]" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+          <DataPoint Name="SetVelocity">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="Default" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[PLCUnit]" />
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[WinderVelocity]" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+          <DataPoint Name="ActVelocity">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="Default" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[PLCUnit]" />
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[WinderVelocity]" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+          <DataPoint Name="Ready">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="BOOL" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="BOOL" />
+          </DataPoint>
+          <DataPoint Name="ActIntegrationTime">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="Default" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[s]" />
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[Time]" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+          <DataPoint Name="Power">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="BOOL" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="BOOL" />
+          </DataPoint>
+          <DataPoint Name="VelocityCorrection">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="Default" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[PLCUnit]" />
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[WinderVelocity]" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+          <DataPoint Name="SetMotorTorque">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="Default" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[Nm]" />
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[Torque]" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+          <DataPoint Name="ActProportionalGain">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="Default" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[As]" />
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[As]" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+        </Folder>
+        <Folder Name="Configuration">
+          <Property Name="Description" Value="" />
+          <Property Name="FolderType" Value="Struct" />
+          <Folder Name="Geometry">
+            <Property Name="Description" Value="" />
+            <Property Name="FolderType" Value="Struct" />
+            <DataPoint Name="MinDiameter">
+              <Property Name="ConnectedBySharedResource" Value="False" />
+              <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+              <Property Name="DPLimit" Value="Default" />
+              <Property Name="Description" Value="" />
+              <Property Name="PLCType" Value="REAL" />
+              <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[Millimeter]" />
+              <Property Name="UnitGroup" Value="Source[global].UnitGroup[Length]" />
+              <Property Name="UpdateTime" Value="Default" />
+              <Property Name="UserID" Value="None" />
+              <Property Name="VCType" Value="SCALED" />
+            </DataPoint>
+            <DataPoint Name="MinInertia">
+              <Property Name="ConnectedBySharedResource" Value="False" />
+              <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+              <Property Name="DPLimit" Value="Default" />
+              <Property Name="Description" Value="" />
+              <Property Name="PLCType" Value="REAL" />
+              <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[Inertia]" />
+              <Property Name="UnitGroup" Value="Source[global].UnitGroup[Inertia]" />
+              <Property Name="UpdateTime" Value="Default" />
+              <Property Name="UserID" Value="None" />
+              <Property Name="VCType" Value="SCALED" />
+            </DataPoint>
+            <DataPoint Name="MaxDiameter">
+              <Property Name="ConnectedBySharedResource" Value="False" />
+              <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+              <Property Name="DPLimit" Value="Default" />
+              <Property Name="Description" Value="" />
+              <Property Name="PLCType" Value="REAL" />
+              <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[Millimeter]" />
+              <Property Name="UnitGroup" Value="Source[global].UnitGroup[Length]" />
+              <Property Name="UpdateTime" Value="Default" />
+              <Property Name="UserID" Value="None" />
+              <Property Name="VCType" Value="SCALED" />
+            </DataPoint>
+            <DataPoint Name="TestDiameter">
+              <Property Name="ConnectedBySharedResource" Value="False" />
+              <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+              <Property Name="DPLimit" Value="Default" />
+              <Property Name="Description" Value="" />
+              <Property Name="PLCType" Value="REAL" />
+              <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[Millimeter]" />
+              <Property Name="UnitGroup" Value="Source[global].UnitGroup[Length]" />
+              <Property Name="UpdateTime" Value="Default" />
+              <Property Name="UserID" Value="None" />
+              <Property Name="VCType" Value="SCALED" />
+            </DataPoint>
+            <DataPoint Name="WinderWidth">
+              <Property Name="ConnectedBySharedResource" Value="False" />
+              <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+              <Property Name="DPLimit" Value="Default" />
+              <Property Name="Description" Value="" />
+              <Property Name="PLCType" Value="REAL" />
+              <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[Millimeter]" />
+              <Property Name="UnitGroup" Value="Source[global].UnitGroup[Length]" />
+              <Property Name="UpdateTime" Value="Default" />
+              <Property Name="UserID" Value="None" />
+              <Property Name="VCType" Value="SCALED" />
+            </DataPoint>
+            <DataPoint Name="MaterialThickness">
+              <Property Name="ConnectedBySharedResource" Value="False" />
+              <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+              <Property Name="DPLimit" Value="Default" />
+              <Property Name="Description" Value="" />
+              <Property Name="PLCType" Value="REAL" />
+              <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[Micrometer]" />
+              <Property Name="UnitGroup" Value="Source[global].UnitGroup[Length]" />
+              <Property Name="UpdateTime" Value="Default" />
+              <Property Name="UserID" Value="None" />
+              <Property Name="VCType" Value="SCALED" />
+            </DataPoint>
+            <DataPoint Name="TestInertia">
+              <Property Name="ConnectedBySharedResource" Value="False" />
+              <Property Name="ConnectingVisus" Value="" />
+              <Property Name="DPLimit" Value="Default" />
+              <Property Name="Description" Value="" />
+              <Property Name="PLCType" Value="REAL" />
+              <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[Inertia]" />
+              <Property Name="UnitGroup" Value="Source[global].UnitGroup[Inertia]" />
+              <Property Name="UpdateTime" Value="Default" />
+              <Property Name="UserID" Value="None" />
+              <Property Name="VCType" Value="SCALED" />
+            </DataPoint>
+          </Folder>
+        </Folder>
+        <Folder Name="Line">
+          <Property Name="Description" Value="" />
+          <Property Name="FolderType" Value="Struct" />
+          <DataPoint Name="SetVelocity">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="Default" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[PLCUnit]" />
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[LineVelocity]" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+          <DataPoint Name="Stop">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="BOOL" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="BOOL" />
+          </DataPoint>
+          <DataPoint Name="RefVelocity">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="Default" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[PLCUnit]" />
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[LineVelocity]" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+          <DataPoint Name="Start">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="BOOL" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="BOOL" />
+          </DataPoint>
+          <DataPoint Name="ActVelocity">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+            <Property Name="DPLimit" Value="Default" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="REAL" />
+            <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[PLCUnit]" />
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[LineVelocity]" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="SCALED" />
+          </DataPoint>
+        </Folder>
+        <DataPoint Name="SetMaterialTension">
+          <Property Name="ConnectedBySharedResource" Value="False" />
+          <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+          <Property Name="DPLimit" Value="Default" />
+          <Property Name="Description" Value="" />
+          <Property Name="PLCType" Value="REAL" />
+          <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[Newton]" />
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[Force]" />
+          <Property Name="UpdateTime" Value="Default" />
+          <Property Name="UserID" Value="None" />
+          <Property Name="VCType" Value="SCALED" />
+        </DataPoint>
+        <Folder Name="Status">
+          <Property Name="Description" Value="" />
+          <Property Name="FolderType" Value="Struct" />
+          <DataPoint Name="ControlReady">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="BOOL" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="BOOL" />
+          </DataPoint>
+          <DataPoint Name="ErrorDetail">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="ErrorEnum" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="INTEGER" />
+          </DataPoint>
+          <DataPoint Name="MachineReady">
+            <Property Name="ConnectedBySharedResource" Value="False" />
+            <Property Name="ConnectingVisus" Value="WinderClosedLoopTensionControl\Visu\Visu" />
+            <Property Name="Description" Value="" />
+            <Property Name="PLCType" Value="BOOL" />
+            <Property Name="UpdateTime" Value="Default" />
+            <Property Name="UserID" Value="None" />
+            <Property Name="VCType" Value="BOOL" />
+          </DataPoint>
+        </Folder>
+      </Folder>
+    </Folder>
+  </DataPoints>
+</DataSource>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.12.6.106"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="AnalogInput1">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="5"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="110506" Value="Load Cell"/>
+    <Text ID="110507" Value="Spare"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="110506" Value=""/>
+    <Text ID="110507" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="110506" Value="0"/>
+    <Index ID="110507" Value="1"/>
+  </IndexMap>
+</TextGroup>

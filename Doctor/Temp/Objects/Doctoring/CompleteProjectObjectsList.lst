@@ -1,0 +1,933 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.12.6.106"?>
+<Objects>
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Package.pkg"
+    LogicalPath=""
+    Type="Package.ParentUnknown"
+    LastWriteTime="133974678580000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Global.typ"
+    LogicalPath="Global.typ"
+    Type="File"
+    LastWriteTime="133988831267640735"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Global.var"
+    LogicalPath="Global.var"
+    Type="File"
+    LastWriteTime="133989549136574422"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\Package.pkg"
+    LogicalPath="Libraries"
+    Type="Package"
+    LastWriteTime="133984319710000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\operator\Binary.lby"
+    LogicalPath="Libraries.operator"
+    Type="Library"
+    LastWriteTime="133573205480000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\operator\operator.fun"
+    LogicalPath="Libraries.operator.operator.fun"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\operator\operator.typ"
+    LogicalPath="Libraries.operator.operator.typ"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\operator\operator.var"
+    LogicalPath="Libraries.operator.operator.var"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\runtime\Binary.lby"
+    LogicalPath="Libraries.runtime"
+    Type="Library"
+    LastWriteTime="133573205480000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\runtime\runtime.fun"
+    LogicalPath="Libraries.runtime.runtime.fun"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\runtime\runtime.typ"
+    LogicalPath="Libraries.runtime.runtime.typ"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\runtime\runtime.var"
+    LogicalPath="Libraries.runtime.runtime.var"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\astime\Binary.lby"
+    LogicalPath="Libraries.astime"
+    Type="Library"
+    LastWriteTime="133573205480000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\astime\astime.fun"
+    LogicalPath="Libraries.astime.astime.fun"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\astime\astime.typ"
+    LogicalPath="Libraries.astime.astime.typ"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\astime\astime.var"
+    LogicalPath="Libraries.astime.astime.var"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\AsIecCon\Binary.lby"
+    LogicalPath="Libraries.AsIecCon"
+    Type="Library"
+    LastWriteTime="133573205480000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\AsIecCon\AsIecCon.fun"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.fun"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\AsIecCon\AsIecCon.typ"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.typ"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\AsIecCon\AsIecCon.var"
+    LogicalPath="Libraries.AsIecCon.AsIecCon.var"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\brsystem\Binary.lby"
+    LogicalPath="Libraries.brsystem"
+    Type="Library"
+    LastWriteTime="133573205480000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\brsystem\brsystem.fun"
+    LogicalPath="Libraries.brsystem.brsystem.fun"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\brsystem\brsystem.typ"
+    LogicalPath="Libraries.brsystem.brsystem.typ"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\brsystem\brsystem.var"
+    LogicalPath="Libraries.brsystem.brsystem.var"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\sys_lib\Binary.lby"
+    LogicalPath="Libraries.sys_lib"
+    Type="Library"
+    LastWriteTime="133573205480000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\sys_lib\sys_lib.fun"
+    LogicalPath="Libraries.sys_lib.sys_lib.fun"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\sys_lib\sys_lib.typ"
+    LogicalPath="Libraries.sys_lib.sys_lib.typ"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\sys_lib\sys_lib.var"
+    LogicalPath="Libraries.sys_lib.sys_lib.var"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\AsBrMath\Binary.lby"
+    LogicalPath="Libraries.AsBrMath"
+    Type="Library"
+    LastWriteTime="133573205480000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\AsBrMath\AsBrMath.fun"
+    LogicalPath="Libraries.AsBrMath.AsBrMath.fun"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\AsBrMath\AsBrMath.typ"
+    LogicalPath="Libraries.AsBrMath.AsBrMath.typ"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\AsBrMath\AsBrMath.var"
+    LogicalPath="Libraries.AsBrMath.AsBrMath.var"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\LoopConR\Binary.lby"
+    LogicalPath="Libraries.LoopConR"
+    Type="Library"
+    LastWriteTime="133871034880000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\LoopConR\LoopConR.var"
+    LogicalPath="Libraries.LoopConR.LoopConR.var"
+    Type="File"
+    LastWriteTime="133871034880000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\LoopConR\LoopConR.typ"
+    LogicalPath="Libraries.LoopConR.LoopConR.typ"
+    Type="File"
+    LastWriteTime="133871034880000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\LoopConR\LoopConR.fun"
+    LogicalPath="Libraries.LoopConR.LoopConR.fun"
+    Type="File"
+    LastWriteTime="133871034880000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\LoopCont\Binary.lby"
+    LogicalPath="Libraries.LoopCont"
+    Type="Library"
+    LastWriteTime="133871034880000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\LoopCont\LoopCont.var"
+    LogicalPath="Libraries.LoopCont.LoopCont.var"
+    Type="File"
+    LastWriteTime="133871034880000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\LoopCont\LoopCont.typ"
+    LogicalPath="Libraries.LoopCont.LoopCont.typ"
+    Type="File"
+    LastWriteTime="133871034880000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\LoopCont\LoopCont.fun"
+    LogicalPath="Libraries.LoopCont.LoopCont.fun"
+    Type="File"
+    LastWriteTime="133871034880000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\Acp10_MC\binary.lby"
+    LogicalPath="Libraries.Acp10_MC"
+    Type="Library"
+    LastWriteTime="133897143120000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\Acp10_MC\acp10_mc.fun"
+    LogicalPath="Libraries.Acp10_MC.acp10_mc.fun"
+    Type="File"
+    LastWriteTime="133897143120000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\Acp10_MC\acp10_mc.typ"
+    LogicalPath="Libraries.Acp10_MC.acp10_mc.typ"
+    Type="File"
+    LastWriteTime="133897143120000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\Acp10_MC\acp10_mc.var"
+    LogicalPath="Libraries.Acp10_MC.acp10_mc.var"
+    Type="File"
+    LastWriteTime="133897143120000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\Acp10man\Binary.lby"
+    LogicalPath="Libraries.Acp10man"
+    Type="Library"
+    LastWriteTime="133897143120000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\Acp10man\Acp10man.typ"
+    LogicalPath="Libraries.Acp10man.Acp10man.typ"
+    Type="File"
+    LastWriteTime="133897143120000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\Acp10par\Binary.lby"
+    LogicalPath="Libraries.Acp10par"
+    Type="Library"
+    LastWriteTime="133897143120000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\Acp10par\Acp10par.var"
+    LogicalPath="Libraries.Acp10par.Acp10par.var"
+    Type="File"
+    LastWriteTime="133897143120000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\NcGlobal\Binary.lby"
+    LogicalPath="Libraries.NcGlobal"
+    Type="Library"
+    LastWriteTime="133897143120000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\NcGlobal\NcGlobal.fun"
+    LogicalPath="Libraries.NcGlobal.NcGlobal.fun"
+    Type="File"
+    LastWriteTime="133897143120000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\NcGlobal\NcGlobal.typ"
+    LogicalPath="Libraries.NcGlobal.NcGlobal.typ"
+    Type="File"
+    LastWriteTime="133897143120000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\NcGlobal\NcGlobal.var"
+    LogicalPath="Libraries.NcGlobal.NcGlobal.var"
+    Type="File"
+    LastWriteTime="133897143120000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\Acp10sim\binary.lby"
+    LogicalPath="Libraries.Acp10sim"
+    Type="Library"
+    LastWriteTime="133897143160000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\Acp10sim\acp10sim.var"
+    LogicalPath="Libraries.Acp10sim.acp10sim.var"
+    Type="File"
+    LastWriteTime="133897143160000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\Acp10sim\acp10sim.typ"
+    LogicalPath="Libraries.Acp10sim.acp10sim.typ"
+    Type="File"
+    LastWriteTime="133897143160000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\asstring\binary.lby"
+    LogicalPath="Libraries.asstring"
+    Type="Library"
+    LastWriteTime="133573205480000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\asstring\asstring.fun"
+    LogicalPath="Libraries.asstring.asstring.fun"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\asstring\asstring.typ"
+    LogicalPath="Libraries.asstring.asstring.typ"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\asstring\asstring.var"
+    LogicalPath="Libraries.asstring.asstring.var"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\standard\binary.lby"
+    LogicalPath="Libraries.standard"
+    Type="Library"
+    LastWriteTime="133573205480000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\standard\standard.fun"
+    LogicalPath="Libraries.standard.standard.fun"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\standard\standard.typ"
+    LogicalPath="Libraries.standard.standard.typ"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\standard\standard.var"
+    LogicalPath="Libraries.standard.standard.var"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\vclib\Binary.lby"
+    LogicalPath="Libraries.vclib"
+    Type="Library"
+    LastWriteTime="133579190840000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\vclib\VCLIB.typ"
+    LogicalPath="Libraries.vclib.VCLIB.typ"
+    Type="File"
+    LastWriteTime="133579190820000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\vclib\VCLIB.fun"
+    LogicalPath="Libraries.vclib.VCLIB.fun"
+    Type="File"
+    LastWriteTime="133579180580000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\vclib\VCLIB.var"
+    LogicalPath="Libraries.vclib.VCLIB.var"
+    Type="File"
+    LastWriteTime="133579190820000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\visapi\Binary.lby"
+    LogicalPath="Libraries.visapi"
+    Type="Library"
+    LastWriteTime="133579187460000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\visapi\Visapi.typ"
+    LogicalPath="Libraries.visapi.Visapi.typ"
+    Type="File"
+    LastWriteTime="133579187460000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\visapi\Visapi.fun"
+    LogicalPath="Libraries.visapi.Visapi.fun"
+    Type="File"
+    LastWriteTime="133579180580000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\visapi\Visapi.var"
+    LogicalPath="Libraries.visapi.Visapi.var"
+    Type="File"
+    LastWriteTime="133579187460000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\AsEPL\binary.lby"
+    LogicalPath="Libraries.AsEPL"
+    Type="Library"
+    LastWriteTime="133573205480000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\AsEPL\AsEPL.fun"
+    LogicalPath="Libraries.AsEPL.AsEPL.fun"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\AsEPL\AsEPL.typ"
+    LogicalPath="Libraries.AsEPL.AsEPL.typ"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\AsEPL\AsEPL.var"
+    LogicalPath="Libraries.AsEPL.AsEPL.var"
+    Type="File"
+    LastWriteTime="133573205480000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Libraries\Library\ANSIC.lby"
+    LogicalPath="Libraries.Library"
+    Type="Library"
+    LastWriteTime="133984319710000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\UnWindTC\IEC.prg"
+    LogicalPath="UnWindTC"
+    Type="Program"
+    LastWriteTime="133873897540000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\UnWindTC\Cyclic.st"
+    LogicalPath="UnWindTC.Cyclic.st"
+    Type="File"
+    LastWriteTime="133988670129288235"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\UnWindTC\Init.st"
+    LogicalPath="UnWindTC.Init.st"
+    Type="File"
+    LastWriteTime="133988669904513300"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\UnWindTC\Exit.st"
+    LogicalPath="UnWindTC.Exit.st"
+    Type="File"
+    LastWriteTime="133873897540000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\UnWindTC\Types.typ"
+    LogicalPath="UnWindTC.Types.typ"
+    Type="File"
+    LastWriteTime="133873897540000000"
+    Private="true" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\UnWindTC\Variables.var"
+    LogicalPath="UnWindTC.Variables.var"
+    Type="File"
+    LastWriteTime="133891102160000000"
+    Private="true" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\HMI\IEC.prg"
+    LogicalPath="HMI"
+    Type="Program"
+    LastWriteTime="133984321220000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\HMI\Cyclic.st"
+    LogicalPath="HMI.Cyclic.st"
+    Type="File"
+    LastWriteTime="133989677762708430"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\HMI\Init.st"
+    LogicalPath="HMI.Init.st"
+    Type="File"
+    LastWriteTime="133989666728517103"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\HMI\Exit.st"
+    LogicalPath="HMI.Exit.st"
+    Type="File"
+    LastWriteTime="133953091240000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\HMI\Types.typ"
+    LogicalPath="HMI.Types.typ"
+    Type="File"
+    LastWriteTime="133953091240000000"
+    Private="true" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\HMI\Variables.var"
+    LogicalPath="HMI.Variables.var"
+    Type="File"
+    LastWriteTime="133989675495788474"
+    Private="true" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\5Drive\Package.pkg"
+    LogicalPath="5Drive"
+    Type="Package"
+    LastWriteTime="133984321810000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\5Drive\HS_Inp\IEC.prg"
+    LogicalPath="5Drive.HS_Inp"
+    Type="Program"
+    LastWriteTime="133953401410000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\5Drive\HS_Inp\HS_Inp_Cyclic.st"
+    LogicalPath="5Drive.HS_Inp.HS_Inp_Cyclic.st"
+    Type="File"
+    LastWriteTime="133977226890000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\5Drive\HS_Inp\HS_Inp_Init.st"
+    LogicalPath="5Drive.HS_Inp.HS_Inp_Init.st"
+    Type="File"
+    LastWriteTime="133953401410000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\5Drive\HS_Inp\HS_Inp_Exit.st"
+    LogicalPath="5Drive.HS_Inp.HS_Inp_Exit.st"
+    Type="File"
+    LastWriteTime="133953401410000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\5Drive\HS_Inp\Types.typ"
+    LogicalPath="5Drive.HS_Inp.Types.typ"
+    Type="File"
+    LastWriteTime="133953401410000000"
+    Private="true" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\5Drive\HS_Inp\Variables.var"
+    LogicalPath="5Drive.HS_Inp.Variables.var"
+    Type="File"
+    LastWriteTime="133953401410000000"
+    Private="true" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Doctoring\Package.pkg"
+    LogicalPath="Doctoring"
+    Type="Package"
+    LastWriteTime="133988675871761318" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Doctoring\HS_Inp_Doct\IEC.prg"
+    LogicalPath="Doctoring.HS_Inp_Doct"
+    Type="Program"
+    LastWriteTime="133953402040000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Doctoring\HS_Inp_Doct\HS_Inp_Cyclic.st"
+    LogicalPath="Doctoring.HS_Inp_Doct.HS_Inp_Cyclic.st"
+    Type="File"
+    LastWriteTime="133988877715493775"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Doctoring\HS_Inp_Doct\HS_Inp_Init.st"
+    LogicalPath="Doctoring.HS_Inp_Doct.HS_Inp_Init.st"
+    Type="File"
+    LastWriteTime="133983539210000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Doctoring\HS_Inp_Doct\HS_Inp_Exit.st"
+    LogicalPath="Doctoring.HS_Inp_Doct.HS_Inp_Exit.st"
+    Type="File"
+    LastWriteTime="133953401520000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Doctoring\HS_Inp_Doct\Types.typ"
+    LogicalPath="Doctoring.HS_Inp_Doct.Types.typ"
+    Type="File"
+    LastWriteTime="133978998650000000"
+    Private="true" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Doctoring\HS_Inp_Doct\Variables.var"
+    LogicalPath="Doctoring.HS_Inp_Doct.Variables.var"
+    Type="File"
+    LastWriteTime="133988884557091584"
+    Private="true" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Doctoring\LS_Inp_OP\IEC.prg"
+    LogicalPath="Doctoring.LS_Inp_OP"
+    Type="Program"
+    LastWriteTime="133988675560456054" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Doctoring\LS_Inp_OP\Cyclic.st"
+    LogicalPath="Doctoring.LS_Inp_OP.Cyclic.st"
+    Type="File"
+    LastWriteTime="133988919013674940"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Doctoring\LS_Inp_OP\Init.st"
+    LogicalPath="Doctoring.LS_Inp_OP.Init.st"
+    Type="File"
+    LastWriteTime="133988676166919634"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Doctoring\LS_Inp_OP\Exit.st"
+    LogicalPath="Doctoring.LS_Inp_OP.Exit.st"
+    Type="File"
+    LastWriteTime="133988675560405951"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Doctoring\LS_Inp_OP\Types.typ"
+    LogicalPath="Doctoring.LS_Inp_OP.Types.typ"
+    Type="File"
+    LastWriteTime="133988675560426047"
+    Private="true" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Doctoring\LS_Inp_OP\Variables.var"
+    LogicalPath="Doctoring.LS_Inp_OP.Variables.var"
+    Type="File"
+    LastWriteTime="133988678528721229"
+    Private="true" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Vis\Vc.dob"
+    LogicalPath="Vis"
+    Type="DataObject"
+    LastWriteTime="133964651520000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Vis\VCObject.vc"
+    LogicalPath="Vis.VCObject.vc"
+    Type="File"
+    LastWriteTime="133964653310000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Alarms\IEC.prg"
+    LogicalPath="Alarms"
+    Type="Program"
+    LastWriteTime="133968777560000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Alarms\Cyclic.st"
+    LogicalPath="Alarms.Cyclic.st"
+    Type="File"
+    LastWriteTime="133988919391791326"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Alarms\Init.st"
+    LogicalPath="Alarms.Init.st"
+    Type="File"
+    LastWriteTime="133988919370511525"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Alarms\Exit.st"
+    LogicalPath="Alarms.Exit.st"
+    Type="File"
+    LastWriteTime="133968777560000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Alarms\Types.typ"
+    LogicalPath="Alarms.Types.typ"
+    Type="File"
+    LastWriteTime="133968777560000000"
+    Private="true" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\Alarms\Variables.var"
+    LogicalPath="Alarms.Variables.var"
+    Type="File"
+    LastWriteTime="133968791970000000"
+    Private="true" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\EPLCom\Package.pkg"
+    LogicalPath="EPLCom"
+    Type="Package"
+    LastWriteTime="133974678950000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\EPLCom\EPLCom\IEC.prg"
+    LogicalPath="EPLCom.EPLCom"
+    Type="Program"
+    LastWriteTime="133974678820000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\EPLCom\EPLCom\Cyclic.st"
+    LogicalPath="EPLCom.EPLCom.Cyclic.st"
+    Type="File"
+    LastWriteTime="133992763320731566"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\EPLCom\EPLCom\Init.st"
+    LogicalPath="EPLCom.EPLCom.Init.st"
+    Type="File"
+    LastWriteTime="133992753330579997"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\EPLCom\EPLCom\Exit.st"
+    LogicalPath="EPLCom.EPLCom.Exit.st"
+    Type="File"
+    LastWriteTime="133974678820000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\EPLCom\EPLCom\Types.typ"
+    LogicalPath="EPLCom.EPLCom.Types.typ"
+    Type="File"
+    LastWriteTime="133974678820000000"
+    Private="true" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Logical\EPLCom\EPLCom\Variables.var"
+    LogicalPath="EPLCom.EPLCom.Variables.var"
+    Type="File"
+    LastWriteTime="133992758902430950"
+    Private="true" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\Config.pkg"
+    LogicalPath="Doctoring"
+    Type="Configuration.ParentUnknown"
+    LastWriteTime="133964377230000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\Hardware.hw"
+    LogicalPath="Doctoring.Hardware.hw"
+    Type="File"
+    LastWriteTime="133992251871799112"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\Hardware.hwl"
+    LogicalPath="Doctoring.Hardware.hwl"
+    Type="File"
+    LastWriteTime="133988693335189159"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\4PPC70_0702_20B\Cpu.pkg"
+    LogicalPath="Doctoring.4PPC70_0702_20B"
+    Type="Cpu"
+    LastWriteTime="133992759103008240" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\4PPC70_0702_20B\Cpu.sw"
+    LogicalPath="Doctoring.4PPC70_0702_20B.Cpu.sw"
+    Type="File"
+    LastWriteTime="133988919886006298"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\4PPC70_0702_20B\Cpu.per"
+    LogicalPath="Doctoring.4PPC70_0702_20B.Cpu.per"
+    Type="File"
+    LastWriteTime="133988831447270919"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\4PPC70_0702_20B\IoMap.iom"
+    LogicalPath="Doctoring.4PPC70_0702_20B.IoMap.iom"
+    Type="File"
+    LastWriteTime="133992250231543366"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\4PPC70_0702_20B\PvMap.vvm"
+    LogicalPath="Doctoring.4PPC70_0702_20B.PvMap.vvm"
+    Type="File"
+    LastWriteTime="133861854450000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\4PPC70_0702_20B\Connectivity\Package.pkg"
+    LogicalPath="Doctoring.4PPC70_0702_20B.Connectivity"
+    Type="Package"
+    LastWriteTime="133861854450000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\4PPC70_0702_20B\Connectivity\OpcUA\Package.pkg"
+    LogicalPath="Doctoring.4PPC70_0702_20B.Connectivity.OpcUA"
+    Type="Package"
+    LastWriteTime="133861854450000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\4PPC70_0702_20B\Connectivity\OpcUaFx\Package.pkg"
+    LogicalPath="Doctoring.4PPC70_0702_20B.Connectivity.OpcUaFx"
+    Type="Package"
+    LastWriteTime="133861854450000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\4PPC70_0702_20B\TextSystem\Package.pkg"
+    LogicalPath="Doctoring.4PPC70_0702_20B.TextSystem"
+    Type="Package"
+    LastWriteTime="133861854450000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\4PPC70_0702_20B\UnitSystem\Package.pkg"
+    LogicalPath="Doctoring.4PPC70_0702_20B.UnitSystem"
+    Type="Package"
+    LastWriteTime="133861854450000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\4PPC70_0702_20B\AccessAndSecurity\Package.pkg"
+    LogicalPath="Doctoring.4PPC70_0702_20B.AccessAndSecurity"
+    Type="Package"
+    LastWriteTime="133861854460000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\4PPC70_0702_20B\AccessAndSecurity\UserRoleSystem\Package.pkg"
+    LogicalPath="Doctoring.4PPC70_0702_20B.AccessAndSecurity.UserRoleSystem"
+    Type="Package"
+    LastWriteTime="133861854460000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\4PPC70_0702_20B\AccessAndSecurity\UserRoleSystem\Role.role"
+    LogicalPath="Doctoring.4PPC70_0702_20B.AccessAndSecurity.UserRoleSystem.Role.role"
+    Type="File"
+    LastWriteTime="133861854460000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\4PPC70_0702_20B\AccessAndSecurity\UserRoleSystem\User.user"
+    LogicalPath="Doctoring.4PPC70_0702_20B.AccessAndSecurity.UserRoleSystem.User.user"
+    Type="File"
+    LastWriteTime="133861854460000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\4PPC70_0702_20B\AccessAndSecurity\CertificateStore\Package.pkg"
+    LogicalPath="Doctoring.4PPC70_0702_20B.AccessAndSecurity.CertificateStore"
+    Type="Package"
+    LastWriteTime="133861854460000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\4PPC70_0702_20B\AccessAndSecurity\CertificateStore\OwnCertificates\Package.pkg"
+    LogicalPath="Doctoring.4PPC70_0702_20B.AccessAndSecurity.CertificateStore.OwnCertificates"
+    Type="Package"
+    LastWriteTime="133861854460000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\4PPC70_0702_20B\AccessAndSecurity\CertificateStore\OwnCertificates\Certificates\Package.pkg"
+    LogicalPath="Doctoring.4PPC70_0702_20B.AccessAndSecurity.CertificateStore.OwnCertificates.Certificates"
+    Type="Package"
+    LastWriteTime="133861854460000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\4PPC70_0702_20B\AccessAndSecurity\CertificateStore\OwnCertificates\PrivateKeys\Package.pkg"
+    LogicalPath="Doctoring.4PPC70_0702_20B.AccessAndSecurity.CertificateStore.OwnCertificates.PrivateKeys"
+    Type="Package"
+    LastWriteTime="133861854460000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\4PPC70_0702_20B\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\Package.pkg"
+    LogicalPath="Doctoring.4PPC70_0702_20B.AccessAndSecurity.CertificateStore.ThirdPartyCertificates"
+    Type="Package"
+    LastWriteTime="133861854460000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\4PPC70_0702_20B\AccessAndSecurity\CertificateStore\ThirdPartyCertificates\SoftwareCertificates\Package.pkg"
+    LogicalPath="Doctoring.4PPC70_0702_20B.AccessAndSecurity.CertificateStore.ThirdPartyCertificates.SoftwareCertificates"
+    Type="Package"
+    LastWriteTime="133861854460000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\4PPC70_0702_20B\AccessAndSecurity\CertificateStore\CertificateRevocationLists\Package.pkg"
+    LogicalPath="Doctoring.4PPC70_0702_20B.AccessAndSecurity.CertificateStore.CertificateRevocationLists"
+    Type="Package"
+    LastWriteTime="133861854460000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\4PPC70_0702_20B\AccessAndSecurity\CertificateStore\CertificateSigningRequests\Package.pkg"
+    LogicalPath="Doctoring.4PPC70_0702_20B.AccessAndSecurity.CertificateStore.CertificateSigningRequests"
+    Type="Package"
+    LastWriteTime="133861854460000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\4PPC70_0702_20B\AccessAndSecurity\TransportLayerSecurity\Package.pkg"
+    LogicalPath="Doctoring.4PPC70_0702_20B.AccessAndSecurity.TransportLayerSecurity"
+    Type="Package"
+    LastWriteTime="133861854460000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\4PPC70_0702_20B\AccessAndSecurity\Firewall\Package.pkg"
+    LogicalPath="Doctoring.4PPC70_0702_20B.AccessAndSecurity.Firewall"
+    Type="Package"
+    LastWriteTime="133861854460000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\4PPC70_0702_20B\AccessAndSecurity\Firewall\Rules.firewallRules"
+    LogicalPath="Doctoring.4PPC70_0702_20B.AccessAndSecurity.Firewall.Rules.firewallRules"
+    Type="File"
+    LastWriteTime="133861854460000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\4PPC70_0702_20B\VC\Package.pkg"
+    LogicalPath="Doctoring.4PPC70_0702_20B.VC"
+    Type="Package"
+    LastWriteTime="133966414070000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\4PPC70_0702_20B\VC\4PPC70_0702_20B.dis"
+    LogicalPath="Doctoring.4PPC70_0702_20B.VC.4PPC70_0702_20B.dis"
+    Type="File"
+    LastWriteTime="133952244660000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\4PPC70_0702_20B\VC\PS2-Keyboard.dis"
+    LogicalPath="Doctoring.4PPC70_0702_20B.VC.PS2-Keyboard.dis"
+    Type="File"
+    LastWriteTime="133966414080000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\4PPC70_0702_20B\Motion\Package.pkg"
+    LogicalPath="Doctoring.4PPC70_0702_20B.Motion"
+    Type="Package"
+    LastWriteTime="133897143120000000" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\4PPC70_0702_20B\Motion\Acp10cfg.ncc"
+    LogicalPath="Doctoring.4PPC70_0702_20B.Motion.Acp10cfg.ncc"
+    Type="File"
+    LastWriteTime="133861871540000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\4PPC70_0702_20B\Motion\Acp10map.ncm"
+    LogicalPath="Doctoring.4PPC70_0702_20B.Motion.Acp10map.ncm"
+    Type="File"
+    LastWriteTime="133861871540000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\4PPC70_0702_20B\Motion\Acp10sys.br"
+    LogicalPath="Doctoring.4PPC70_0702_20B.Motion.Acp10sys.br"
+    Type="File"
+    LastWriteTime="133897143120000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\4PPC70_0702_20B\ExternalHardware\Package.pkg"
+    LogicalPath="Doctoring.4PPC70_0702_20B.ExternalHardware"
+    Type="Package"
+    LastWriteTime="133992250232328542" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\4PPC70_0702_20B\ExternalHardware\ExternalHardwareDevices.xml"
+    LogicalPath="Doctoring.4PPC70_0702_20B.ExternalHardware.ExternalHardwareDevices.xml"
+    Type="File"
+    LastWriteTime="133992250232337535"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\4PPC70_0702_20B\ExternalHardware\H61HVF74.ext"
+    LogicalPath="Doctoring.4PPC70_0702_20B.ExternalHardware.H61HVF74.ext"
+    Type="File"
+    LastWriteTime="133958180763460837"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\4PPC70_0702_20B\ExternalHardware\MPA5GJ0S.ext"
+    LogicalPath="Doctoring.4PPC70_0702_20B.ExternalHardware.MPA5GJ0S.ext"
+    Type="File"
+    LastWriteTime="133402681460000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\4PPC70_0702_20B\ExternalHardware\GRR06OCN.ext"
+    LogicalPath="Doctoring.4PPC70_0702_20B.ExternalHardware.GRR06OCN.ext"
+    Type="File"
+    LastWriteTime="133402681460000000"
+    Private="false" />
+  <Object
+    Path="C:\Projects\Tension Control\Doctor\Physical\Doctoring\Hardware.jpg"
+    LogicalPath="Doctoring.Hardware.jpg"
+    Type="File"
+    LastWriteTime="133988693335501612"
+    Private="false" />
+</Objects>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.12.4.107 SP"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="DigitalOutput1">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="5"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="102316" Value="Drive1 ON"/>
+    <Text ID="102317" Value="Drive2 ON"/>
+    <Text ID="102318" Value="Drive3 ON"/>
+    <Text ID="102319" Value="Drive4 ON"/>
+    <Text ID="102320" Value="Drive5 ON"/>
+    <Text ID="102321" Value="Alarm"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="102316" Value=""/>
+    <Text ID="102317" Value=""/>
+    <Text ID="102318" Value=""/>
+    <Text ID="102319" Value=""/>
+    <Text ID="102320" Value=""/>
+    <Text ID="102321" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="102316" Value="0"/>
+    <Index ID="102317" Value="1"/>
+    <Index ID="102318" Value="2"/>
+    <Index ID="102319" Value="3"/>
+    <Index ID="102320" Value="4"/>
+    <Index ID="102321" Value="5"/>
+  </IndexMap>
+</TextGroup>

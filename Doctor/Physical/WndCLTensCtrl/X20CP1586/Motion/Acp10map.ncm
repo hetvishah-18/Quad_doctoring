@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version=4.2.5.183?>
+<NcMapping NcSwId="Acp10" DisabledNodesAreHidden="False">
+  <NcObject Name="gWinderAx" ModuleId="8V1022.001-2" Type="ncAXIS" Channel="1" AcoposSimulation="Complete" InitParameter="gWinderAxi" AcoposParameter="gWinderAxa" Disabled="FALSE" ModuleDisabled="FALSE" Description="simulated winder axis" />
+  <NcObject Name="gLineAx" ModuleId="8V1022.001-2" Type="ncV_AXIS" Channel="1" InitParameter="gLineAxi" AcoposParameter="gLineAxa" Disabled="FALSE" ModuleDisabled="FALSE" Description="virtual master axis" />
+</NcMapping>

@@ -1,0 +1,88 @@
+VAR
+	AI1 : ARRAY[0..4] OF INT;
+	AI2 : ARRAY[0..3] OF INT;
+	AI3 : ARRAY[0..4] OF INT;
+	Alarm : ARRAY[0..99] OF BOOL;
+	Alarm_cnt : USINT;
+	Alarm_mc : ARRAY[0..99] OF BOOL;
+	Alarm_new : BOOL;
+	AO1 : ARRAY[0..3] OF INT;
+	CurrPage : USINT;
+	DataRead_INT : INT;
+	DataRead_UINT : UINT;
+	DataTobeRead_INT : INT;
+	DataTobeSent_UINT : UINT;
+	DI1 : ARRAY[0..11] OF BOOL;
+	DI2 : ARRAY[0..11] OF BOOL;
+	DigInp : DigInp_typ;
+	DigOp : DigOp_typ;
+	DO1 : ARRAY[0..11] OF BOOL;
+	DO2 : ARRAY[0..11] OF BOOL;
+	DrvComm : BOOL;
+	Enc_Value : INT;
+	error : UINT;
+END_VAR
+VAR RETAIN
+	Idler : Ax_GeneralRef;
+END_VAR
+VAR
+	InFeed : Ax_TensionCtl;
+END_VAR
+VAR CONSTANT
+	INFEED : USINT := 1;
+END_VAR
+VAR
+	LastPage : USINT;
+	LoginSuccessful : BOOL;
+END_VAR
+VAR CONSTANT
+	MAIN : USINT := 4;
+END_VAR
+VAR
+	MainDrive : Ax_NonTensionCtl;
+END_VAR
+VAR CONSTANT
+	MAX_AXES : USINT := 5;
+END_VAR
+VAR
+	NewPage : USINT;
+	NewPageReq : USINT;
+END_VAR
+VAR CONSTANT
+	OUTFEED : USINT := 2;
+END_VAR
+VAR
+	OutFeed : Ax_TensionCtl;
+	PageCall : BOOL;
+	ParamChange : BOOL;
+	PrevPage : USINT;
+END_VAR
+VAR CONSTANT
+	PulsesPerRev : INT := 0;
+END_VAR
+VAR
+	PulsesPerSec : INT;
+	Statusdp_alarm : UINT;
+	Statusdp_blink : UINT;
+	status_gettime : UINT;
+END_VAR
+VAR RETAIN
+	UnWind : Ax_TensionCtl;
+END_VAR
+VAR CONSTANT
+	UNWINDER : USINT := 0;
+END_VAR
+VAR
+	UnWindpara : LCPIDpara;
+	UserAccessLevel : USINT;
+END_VAR
+VAR RETAIN
+	Wind : Ax_NonTensionCtl;
+END_VAR
+VAR CONSTANT
+	WINDER : USINT := 3;
+END_VAR
+VAR
+	Backbtn : INT;
+	PrevPageTemp : USINT;
+END_VAR

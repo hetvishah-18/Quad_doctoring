@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.12.6.106"?>
+<ProjectOptions
+  IecNamingConventions="true"
+  IecKeywordsAsStructureMembers="false"
+  IecExtendedConstants="true"
+  LogicalDirectory="C:\Projects\Tension Control\Doctor\Logical\"
+  TempDirectory="C:\Projects\Tension Control\Doctor\Temp\"
+  AutomationStudioVersion="4.12.6.106"
+  AutomationStudioEdition="Standard"
+  BuildCrossReference="false"
+  ActiveConfiguration="Doctoring"
+  CreateAnsiCDeclarations="false" />
