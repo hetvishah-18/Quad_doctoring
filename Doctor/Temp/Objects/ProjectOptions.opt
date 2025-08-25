@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version="4.12.6.106"?>
+<?AutomationStudio Version="4.12.4.107 SP"?>
 <ProjectOptions
   IecNamingConventions="true"
   IecKeywordsAsStructureMembers="false"
   IecExtendedConstants="true"
-  LogicalDirectory="C:\Projects\Doctor\Doctor\Logical\"
-  TempDirectory="C:\Projects\Doctor\Doctor\Temp\"
-  AutomationStudioVersion="4.12.6.106"
+  LogicalDirectory="D:\Projects\AS4\Tension Control\Doctor\Logical\"
+  TempDirectory="D:\Projects\AS4\Tension Control\Doctor\Temp\"
+  AutomationStudioVersion="4.12.4.107 SP"
   AutomationStudioEdition="Standard"
   BuildCrossReference="false"
   ActiveConfiguration="Doctoring"

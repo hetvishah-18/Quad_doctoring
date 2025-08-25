@@ -1,54 +1,54 @@
-C:\Projects\Doctor\Doctor\Logical\Global.typ
-C:\Projects\Doctor\Doctor\Logical\Global.var
-C:\Projects\Doctor\Doctor\Logical\Libraries\operator\operator.fun
-C:\Projects\Doctor\Doctor\Logical\Libraries\operator\operator.typ
-C:\Projects\Doctor\Doctor\Logical\Libraries\operator\operator.var
-C:\Projects\Doctor\Doctor\Logical\Libraries\runtime\runtime.fun
-C:\Projects\Doctor\Doctor\Logical\Libraries\runtime\runtime.typ
-C:\Projects\Doctor\Doctor\Logical\Libraries\runtime\runtime.var
-C:\Projects\Doctor\Doctor\Logical\Libraries\astime\astime.fun
-C:\Projects\Doctor\Doctor\Logical\Libraries\astime\astime.typ
-C:\Projects\Doctor\Doctor\Logical\Libraries\astime\astime.var
-C:\Projects\Doctor\Doctor\Logical\Libraries\AsIecCon\AsIecCon.fun
-C:\Projects\Doctor\Doctor\Logical\Libraries\AsIecCon\AsIecCon.typ
-C:\Projects\Doctor\Doctor\Logical\Libraries\AsIecCon\AsIecCon.var
-C:\Projects\Doctor\Doctor\Logical\Libraries\brsystem\brsystem.fun
-C:\Projects\Doctor\Doctor\Logical\Libraries\brsystem\brsystem.typ
-C:\Projects\Doctor\Doctor\Logical\Libraries\brsystem\brsystem.var
-C:\Projects\Doctor\Doctor\Logical\Libraries\sys_lib\sys_lib.fun
-C:\Projects\Doctor\Doctor\Logical\Libraries\sys_lib\sys_lib.typ
-C:\Projects\Doctor\Doctor\Logical\Libraries\sys_lib\sys_lib.var
-C:\Projects\Doctor\Doctor\Logical\Libraries\AsBrMath\AsBrMath.fun
-C:\Projects\Doctor\Doctor\Logical\Libraries\AsBrMath\AsBrMath.typ
-C:\Projects\Doctor\Doctor\Logical\Libraries\AsBrMath\AsBrMath.var
-C:\Projects\Doctor\Doctor\Logical\Libraries\LoopConR\LoopConR.var
-C:\Projects\Doctor\Doctor\Logical\Libraries\LoopConR\LoopConR.typ
-C:\Projects\Doctor\Doctor\Logical\Libraries\LoopConR\LoopConR.fun
-C:\Projects\Doctor\Doctor\Logical\Libraries\LoopCont\LoopCont.var
-C:\Projects\Doctor\Doctor\Logical\Libraries\LoopCont\LoopCont.typ
-C:\Projects\Doctor\Doctor\Logical\Libraries\LoopCont\LoopCont.fun
-C:\Projects\Doctor\Doctor\Logical\Libraries\Acp10_MC\acp10_mc.fun
-C:\Projects\Doctor\Doctor\Logical\Libraries\Acp10_MC\acp10_mc.typ
-C:\Projects\Doctor\Doctor\Logical\Libraries\Acp10_MC\acp10_mc.var
-C:\Projects\Doctor\Doctor\Logical\Libraries\Acp10man\Acp10man.typ
-C:\Projects\Doctor\Doctor\Logical\Libraries\Acp10par\Acp10par.var
-C:\Projects\Doctor\Doctor\Logical\Libraries\NcGlobal\NcGlobal.fun
-C:\Projects\Doctor\Doctor\Logical\Libraries\NcGlobal\NcGlobal.typ
-C:\Projects\Doctor\Doctor\Logical\Libraries\NcGlobal\NcGlobal.var
-C:\Projects\Doctor\Doctor\Logical\Libraries\Acp10sim\acp10sim.var
-C:\Projects\Doctor\Doctor\Logical\Libraries\Acp10sim\acp10sim.typ
-C:\Projects\Doctor\Doctor\Logical\Libraries\asstring\asstring.fun
-C:\Projects\Doctor\Doctor\Logical\Libraries\asstring\asstring.typ
-C:\Projects\Doctor\Doctor\Logical\Libraries\asstring\asstring.var
-C:\Projects\Doctor\Doctor\Logical\Libraries\standard\standard.fun
-C:\Projects\Doctor\Doctor\Logical\Libraries\standard\standard.typ
-C:\Projects\Doctor\Doctor\Logical\Libraries\standard\standard.var
-C:\Projects\Doctor\Doctor\Logical\Libraries\vclib\VCLIB.typ
-C:\Projects\Doctor\Doctor\Logical\Libraries\vclib\VCLIB.fun
-C:\Projects\Doctor\Doctor\Logical\Libraries\vclib\VCLIB.var
-C:\Projects\Doctor\Doctor\Logical\Libraries\visapi\Visapi.typ
-C:\Projects\Doctor\Doctor\Logical\Libraries\visapi\Visapi.fun
-C:\Projects\Doctor\Doctor\Logical\Libraries\visapi\Visapi.var
-C:\Projects\Doctor\Doctor\Logical\Libraries\AsEPL\AsEPL.fun
-C:\Projects\Doctor\Doctor\Logical\Libraries\AsEPL\AsEPL.typ
-C:\Projects\Doctor\Doctor\Logical\Libraries\AsEPL\AsEPL.var
+D:\Projects\AS4\Tension Control\Doctor\Logical\Global.typ
+D:\Projects\AS4\Tension Control\Doctor\Logical\Global.var
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\operator\operator.fun
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\operator\operator.typ
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\operator\operator.var
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\runtime\runtime.fun
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\runtime\runtime.typ
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\runtime\runtime.var
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\astime\astime.fun
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\astime\astime.typ
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\astime\astime.var
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\AsIecCon\AsIecCon.fun
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\AsIecCon\AsIecCon.typ
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\AsIecCon\AsIecCon.var
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\brsystem\brsystem.fun
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\brsystem\brsystem.typ
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\brsystem\brsystem.var
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\sys_lib\sys_lib.fun
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\sys_lib\sys_lib.typ
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\sys_lib\sys_lib.var
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\AsBrMath\AsBrMath.fun
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\AsBrMath\AsBrMath.typ
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\AsBrMath\AsBrMath.var
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\LoopConR\LoopConR.var
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\LoopConR\LoopConR.typ
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\LoopConR\LoopConR.fun
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\LoopCont\LoopCont.var
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\LoopCont\LoopCont.typ
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\LoopCont\LoopCont.fun
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\Acp10_MC\acp10_mc.fun
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\Acp10_MC\acp10_mc.typ
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\Acp10_MC\acp10_mc.var
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\Acp10man\Acp10man.typ
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\Acp10par\Acp10par.var
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\NcGlobal\NcGlobal.fun
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\NcGlobal\NcGlobal.typ
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\NcGlobal\NcGlobal.var
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\Acp10sim\acp10sim.var
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\Acp10sim\acp10sim.typ
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\asstring\asstring.fun
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\asstring\asstring.typ
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\asstring\asstring.var
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\standard\standard.fun
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\standard\standard.typ
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\standard\standard.var
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\vclib\VCLIB.typ
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\vclib\VCLIB.fun
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\vclib\VCLIB.var
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\visapi\Visapi.typ
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\visapi\Visapi.fun
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\visapi\Visapi.var
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\AsEPL\AsEPL.fun
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\AsEPL\AsEPL.typ
+D:\Projects\AS4\Tension Control\Doctor\Logical\Libraries\AsEPL\AsEPL.var

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version="4.12.6.106"?>
+<?AutomationStudio Version="4.12.4.107 SP"?>
 <ConfigInfo xmlns="http://br-automation.co.at/AS/BuildInfo">
   <TaskClass
     Name="Cyclic#1">
@@ -9,15 +9,15 @@
       Source="Doctoring.Simulate"
       Language="IEC">
       <InternalFile
-        Path="C:\Projects\Doctor\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\Simulate\Cyclic.st.var" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\Simulate\Cyclic.st.var" />
       <InternalFile
-        Path="C:\Projects\Doctor\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\Simulate\Init.st.var" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\Simulate\Init.st.var" />
       <InternalFile
-        Path="C:\Projects\Doctor\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\Simulate\Exit.st.var" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\Simulate\Exit.st.var" />
       <File
-        Path="C:\Projects\Doctor\Doctor\Logical\Doctoring\Simulate\Types.typ" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Logical\Doctoring\Simulate\Types.typ" />
       <File
-        Path="C:\Projects\Doctor\Doctor\Logical\Doctoring\Simulate\Variables.var" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Logical\Doctoring\Simulate\Variables.var" />
     </Task>
     <Task
       Name="HS_Inp_Doc"
@@ -25,15 +25,15 @@
       Source="Doctoring.HS_Inp_Doct"
       Language="IEC">
       <InternalFile
-        Path="C:\Projects\Doctor\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\HS_Inp_Doc\HS_Inp_Cyclic.st.var" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\HS_Inp_Doc\HS_Inp_Cyclic.st.var" />
       <InternalFile
-        Path="C:\Projects\Doctor\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\HS_Inp_Doc\HS_Inp_Init.st.var" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\HS_Inp_Doc\HS_Inp_Init.st.var" />
       <InternalFile
-        Path="C:\Projects\Doctor\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\HS_Inp_Doc\HS_Inp_Exit.st.var" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\HS_Inp_Doc\HS_Inp_Exit.st.var" />
       <File
-        Path="C:\Projects\Doctor\Doctor\Logical\Doctoring\HS_Inp_Doct\Types.typ" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Logical\Doctoring\HS_Inp_Doct\Types.typ" />
       <File
-        Path="C:\Projects\Doctor\Doctor\Logical\Doctoring\HS_Inp_Doct\Variables.var" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Logical\Doctoring\HS_Inp_Doct\Variables.var" />
     </Task>
   </TaskClass>
   <TaskClass
@@ -44,15 +44,15 @@
       Source="Doctoring.LS_Inp_OP"
       Language="IEC">
       <InternalFile
-        Path="C:\Projects\Doctor\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\LS_Inp_OP\Cyclic.st.var" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\LS_Inp_OP\Cyclic.st.var" />
       <InternalFile
-        Path="C:\Projects\Doctor\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\LS_Inp_OP\Init.st.var" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\LS_Inp_OP\Init.st.var" />
       <InternalFile
-        Path="C:\Projects\Doctor\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\LS_Inp_OP\Exit.st.var" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\LS_Inp_OP\Exit.st.var" />
       <File
-        Path="C:\Projects\Doctor\Doctor\Logical\Doctoring\LS_Inp_OP\Types.typ" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Logical\Doctoring\LS_Inp_OP\Types.typ" />
       <File
-        Path="C:\Projects\Doctor\Doctor\Logical\Doctoring\LS_Inp_OP\Variables.var" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Logical\Doctoring\LS_Inp_OP\Variables.var" />
     </Task>
   </TaskClass>
   <TaskClass
@@ -65,15 +65,15 @@
       Source="EPLCom.UnWind_Com"
       Language="IEC">
       <InternalFile
-        Path="C:\Projects\Doctor\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\UnWind_Com\Cyclic.st.var" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\UnWind_Com\Cyclic.st.var" />
       <InternalFile
-        Path="C:\Projects\Doctor\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\UnWind_Com\Init.st.var" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\UnWind_Com\Init.st.var" />
       <InternalFile
-        Path="C:\Projects\Doctor\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\UnWind_Com\Exit.st.var" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\UnWind_Com\Exit.st.var" />
       <File
-        Path="C:\Projects\Doctor\Doctor\Logical\EPLCom\UnWind_Com\Types.typ" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Logical\EPLCom\UnWind_Com\Types.typ" />
       <File
-        Path="C:\Projects\Doctor\Doctor\Logical\EPLCom\UnWind_Com\Variables.var" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Logical\EPLCom\UnWind_Com\Variables.var" />
     </Task>
     <Task
       Name="Wind_Com"
@@ -81,15 +81,15 @@
       Source="EPLCom.Wind_Com"
       Language="IEC">
       <InternalFile
-        Path="C:\Projects\Doctor\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\Wind_Com\Cyclic.st.var" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\Wind_Com\Cyclic.st.var" />
       <InternalFile
-        Path="C:\Projects\Doctor\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\Wind_Com\Init.st.var" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\Wind_Com\Init.st.var" />
       <InternalFile
-        Path="C:\Projects\Doctor\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\Wind_Com\Exit.st.var" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\Wind_Com\Exit.st.var" />
       <File
-        Path="C:\Projects\Doctor\Doctor\Logical\EPLCom\Wind_Com\Types.typ" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Logical\EPLCom\Wind_Com\Types.typ" />
       <File
-        Path="C:\Projects\Doctor\Doctor\Logical\EPLCom\Wind_Com\Variables.var" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Logical\EPLCom\Wind_Com\Variables.var" />
     </Task>
     <Task
       Name="HMI"
@@ -97,15 +97,15 @@
       Source="HMI"
       Language="IEC">
       <InternalFile
-        Path="C:\Projects\Doctor\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\HMI\Cyclic.st.var" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\HMI\Cyclic.st.var" />
       <InternalFile
-        Path="C:\Projects\Doctor\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\HMI\Init.st.var" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\HMI\Init.st.var" />
       <InternalFile
-        Path="C:\Projects\Doctor\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\HMI\Exit.st.var" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\HMI\Exit.st.var" />
       <File
-        Path="C:\Projects\Doctor\Doctor\Logical\HMI\Types.typ" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Logical\HMI\Types.typ" />
       <File
-        Path="C:\Projects\Doctor\Doctor\Logical\HMI\Variables.var" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Logical\HMI\Variables.var" />
     </Task>
     <Task
       Name="Alarms"
@@ -113,15 +113,15 @@
       Source="Alarms"
       Language="IEC">
       <InternalFile
-        Path="C:\Projects\Doctor\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\Alarms\Cyclic.st.var" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\Alarms\Cyclic.st.var" />
       <InternalFile
-        Path="C:\Projects\Doctor\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\Alarms\Init.st.var" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\Alarms\Init.st.var" />
       <InternalFile
-        Path="C:\Projects\Doctor\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\Alarms\Exit.st.var" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\Alarms\Exit.st.var" />
       <File
-        Path="C:\Projects\Doctor\Doctor\Logical\Alarms\Types.typ" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Logical\Alarms\Types.typ" />
       <File
-        Path="C:\Projects\Doctor\Doctor\Logical\Alarms\Variables.var" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Logical\Alarms\Variables.var" />
     </Task>
     <Task
       Name="Mot_Tun"
@@ -129,15 +129,15 @@
       Source="EPLCom.Mot_Tun"
       Language="IEC">
       <InternalFile
-        Path="C:\Projects\Doctor\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\Mot_Tun\Cyclic.st.var" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\Mot_Tun\Cyclic.st.var" />
       <InternalFile
-        Path="C:\Projects\Doctor\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\Mot_Tun\Init.st.var" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\Mot_Tun\Init.st.var" />
       <InternalFile
-        Path="C:\Projects\Doctor\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\Mot_Tun\Exit.st.var" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\Mot_Tun\Exit.st.var" />
       <File
-        Path="C:\Projects\Doctor\Doctor\Logical\EPLCom\Mot_Tun\Types.typ" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Logical\EPLCom\Mot_Tun\Types.typ" />
       <File
-        Path="C:\Projects\Doctor\Doctor\Logical\EPLCom\Mot_Tun\Variables.var" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Logical\EPLCom\Mot_Tun\Variables.var" />
     </Task>
     <Task
       Name="TunePID"
@@ -145,15 +145,15 @@
       Source="EPLCom.TunePID"
       Language="IEC">
       <InternalFile
-        Path="C:\Projects\Doctor\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\TunePID\Cyclic.st.var" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\TunePID\Cyclic.st.var" />
       <InternalFile
-        Path="C:\Projects\Doctor\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\TunePID\Init.st.var" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\TunePID\Init.st.var" />
       <InternalFile
-        Path="C:\Projects\Doctor\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\TunePID\Exit.st.var" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\TunePID\Exit.st.var" />
       <File
-        Path="C:\Projects\Doctor\Doctor\Logical\EPLCom\TunePID\Types.typ" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Logical\EPLCom\TunePID\Types.typ" />
       <File
-        Path="C:\Projects\Doctor\Doctor\Logical\EPLCom\TunePID\Variables.var" />
+        Path="D:\Projects\AS4\Tension Control\Doctor\Logical\EPLCom\TunePID\Variables.var" />
     </Task>
   </TaskClass>
   <TaskClass

@@ -192,6 +192,10 @@
 <Prod Device="IF1.ST3" DPName="Parameter1_AnalogueInput1_I2007_S01" Kind="io"/>
 <Cons Device="TC#1-CPYDEV" DPName="::Drive_RW[0].Read_INT[0]" Kind="pv"/>
 </LN>
+<LN ID="%QW.IF1.ST3.Parameter25_Pid1DigitalRef_I200E_S19Out" Type="INT">
+<Prod Device="TC#1-CPYDEV" DPName="::Drive_RW[0].Write_INT[0]" Kind="pv"/>
+<Cons Device="IF1.ST3" DPName="Parameter25_Pid1DigitalRef_I200E_S19Out" Kind="io"/>
+</LN>
 <LN ID="%IX.IF1.ST4.ModuleOk" Type="BOOL">
 <Prod Device="IF1.ST4" DPName="ModuleOk" Kind="io"/>
 </LN>

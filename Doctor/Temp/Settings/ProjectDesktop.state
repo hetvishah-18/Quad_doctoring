@@ -1,3 +1,3 @@
 <?xml version="1.0"?>
 <?AutomationStudio FileVersion="4.9"?>
-<Project xmlns="http://br-automation.co.at/AS/Project"><Active ID="0"/><Configuration Name="Doctoring"/><ConfigurationFiles xmlns="" ConfigurationName="Doctoring" ActiveConfigurationFile="\Logical\EPLCom\UnWind_Com\Cyclic.st"><ConfigurationFile Placement="\Logical\EPLCom\UnWind_Com\Cyclic.st,EPLCom.UnWind_Com,2,44,0,1,-1,-1,-1,-1,2,24,1318,595"/><ConfigurationFile Placement="\Diagnosis\Doctoring\4PPC70_0702_20B\UnWind_Com.pvm,,4,44,0,1,-1,-1,-1,-1,2,24,1318,595"/></ConfigurationFiles></Project>
+<Project xmlns="http://br-automation.co.at/AS/Project"><Active ID="6156"/><Configuration Name="Doctoring"/></Project>

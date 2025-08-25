@@ -89,21 +89,6 @@ PROGRAM _CYCLIC
 		inc_cnt			:= 0;		
 	END_IF
 	
-	IF(DigInp.Production_mode = 1)THEN
-		Drive_RW[0].Write_DINT[0]	:= INT_TO_DINT(UnWind.MPM.SetMPM);
-		Drive_RW[1].Write_DINT[0]	:= INT_TO_DINT(UnWind.RPM.Actual.Input_Val);
-	ELSIF(DigInp.Jog_mode = 1)THEN
-		Drive_RW[0].Write_DINT[0]	:= INT_TO_DINT(UnWind.MPM.SetMPM);
-		Drive_RW[1].Write_DINT[0]	:= INT_TO_DINT(Wind.MPM.SetMPM);
-//		Drive_RW[0].Write_UINT[0]	:= UnWind.MPM.SetMPM;
-//		Drive_RW[1].Write_UINT[0]	:= Wind.MPM.SetMPM;
-	ELSE
-		Drive_RW[0].Write_UINT[0]	:= 0;
-		Drive_RW[1].Write_UINT[0]	:= 0;
-		UnWind.MPM.SetMPM			:= 0;
-		Wind.MPM.SetMPM				:= 0;
-	END_IF	
-	
 		
 	MPMIncTime();
 	MPMDecTime();

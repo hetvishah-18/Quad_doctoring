@@ -81,6 +81,44 @@ PROGRAM _CYCLIC
 			Wind.Dia.ActDia		:= UDINT_TO_INT(Numerator/Denominator) + Wind.Dia.MinDia; // Winder DIA UNIT 0.01
 		END_IF
 	
+		UnWind.Tension.Actual.Input_Val	:= Drive_RW[0].Read_INT[0];
+		LoadKN.x	:= UnWind.Tension.Actual.Input_Val;
+		LoadKN.x1	:= UnWind.Tension.Actual.Scale.OutMin;
+		LoadKN.x2	:= UnWind.Tension.Actual.Scale.OutMax;
+		LoadKN.y1	:= UnWind.Tension.Actual.Scale.InMin;
+		LoadKN.y2	:= UnWind.Tension.Actual.Scale.InMax;
+		
+		UnWind.Tension.ActualTension := LoadKN.y;
+		
+		
+		SetKN.x		:= UnWind.Tension.SetTension;
+		SetKN.x1	:= UnWind.Tension.Actual.Scale.InMin;
+		SetKN.x2	:= UnWind.Tension.Actual.Scale.InMax;
+		SetKN.y1	:= UnWind.Tension.Actual.Scale.OutMin;
+		SetKN.y2	:= UnWind.Tension.Actual.Scale.OutMax;
+		
+		Drive_RW[0].Write_INT[0]	:= SetKN.y;
+		
+		
+		SetMPM.x	:= UnWind.MPM.SetMPM;
+		SetMPM.x1	:= UnWind.MPM.Set.Scale.InMin;
+		SetMPM.x2	:= UnWind.MPM.Set.Scale.InMax;
+		SetMPM.y1	:= UnWind.MPM.Set.Scale.OutMin;
+		SetMPM.y2	:= UnWind.MPM.Set.Scale.OutMax;
+		
+		
+		IF(DigInp.Production_mode = 1)THEN
+			Drive_RW[0].Write_DINT[0]	:= INT_TO_DINT(SetMPM.y);
+			Drive_RW[1].Write_DINT[0]	:= INT_TO_DINT((SetMPM.y)*(temp_scal));
+		ELSIF(DigInp.Jog_mode = 1)THEN
+			Drive_RW[0].Write_DINT[0]	:= INT_TO_DINT(SetMPM.y);
+			Drive_RW[1].Write_DINT[0]	:= INT_TO_DINT((SetMPM.y)*(temp_scal));
+		ELSE
+			Drive_RW[0].Write_DINT[0]	:= 0;
+			Drive_RW[1].Write_DINT[0]	:= 0;
+		END_IF
+
+		
 		//Just assign
 		UnWind.Drive.ActFreq	:= DINT_TO_INT(Drive_RW[0].Read_UDINT[0]);
 		UnWind.Drive.ActRPM		:= UnWind.Drive.ActRPM;
@@ -90,6 +128,8 @@ PROGRAM _CYCLIC
 	END_IF
 
 	Time_1sec();
-
+	LoadKN();
+	SetMPM();
+	SetKN();
 	
 END_PROGRAM

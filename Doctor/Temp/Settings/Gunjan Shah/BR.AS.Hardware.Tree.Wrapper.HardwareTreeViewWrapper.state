@@ -20,7 +20,9 @@
       <ExpandedNode Row="1" />
       <ExpandedNode Row="7" />
     </ExpandedNodes>
-    <SelectedNodes />
+    <SelectedNodes>
+      <SelectedNode Row="3" />
+    </SelectedNodes>
     <ZoomIndices />
   </TreeView>
 </State>

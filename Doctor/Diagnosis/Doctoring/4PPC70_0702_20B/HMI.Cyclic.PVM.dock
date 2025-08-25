@@ -1,0 +1,8 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=HMI 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=142 Type=0 Scope=0 Force=0 Index=4 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                                PrevPage                                    USINT    0 "                                                               2"    0    5    1   10    0    0         
+                            PrevPageTemp                                    USINT    0 "                                                               2"    0    5    1   10    0    0         
+                                CurrPage                                    USINT    0 "                                                               3"    0    5    1   10    0    0         
+                                 NewPage                                    USINT    0 "                                                             255"    0    5    1   10    0    0         
+                              NewPageReq                                    USINT    0 "                                                               3"    0    5    1   10    0    0         

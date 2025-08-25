@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?AutomationStudio Version="4.12.6.106"?>
+<?AutomationStudio Version="4.12.4.107 SP"?>
 <Page xmlns="http://br-automation.co.at/AS/VC/Project" Name="HomePage">
   <Property Name="Description" Value="Template main page - basic machine interface"/>
   <Property Name="Height" Value="480"/>
@@ -58,6 +58,8 @@
           <Text ID="110095" Value="Winder"/>
           <Text ID="110096" Value="Starting Dia"/>
           <Text ID="110098" Value="Unwinder"/>
+          <Text ID="116059" Value="N"/>
+          <Text ID="116060" Value="N"/>
         </TextLayer>
         <TextLayer LanguageId="de">
           <Text ID="101052" Value="Text_1"/>
@@ -67,6 +69,8 @@
           <Text ID="110095" Value="Text_1"/>
           <Text ID="110096" Value="Text_1"/>
           <Text ID="110098" Value="Text_1"/>
+          <Text ID="116059" Value="Text_1"/>
+          <Text ID="116060" Value="Text_1"/>
         </TextLayer>
         <IndexMap>
           <Index ID="101052" Value="0"/>
@@ -76,6 +80,8 @@
           <Index ID="110095" Value="7"/>
           <Index ID="110096" Value="8"/>
           <Index ID="110098" Value="10"/>
+          <Index ID="116059" Value="2"/>
+          <Index ID="116060" Value="5"/>
         </IndexMap>
       </TextGroup>
       <Controls>
@@ -298,6 +304,36 @@
           <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.UnWind.StartingDia]"/>
           <Property Name="ValueMode" Value="Standard"/>
           <Property Name="Width" Value="58"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_2">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Input_Bold]"/>
+          <Property Name="Height" Value="20"/>
+          <Property Name="Left" Value="710"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="2"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="189"/>
+          <Property Name="Width" Value="16"/>
+        </Control>
+        <Control ClassId="0x00001004" Name="Text_6">
+          <Property Name="ControlID" Value="0"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="Font" Value="Source[local].Font[Input_Bold]"/>
+          <Property Name="Height" Value="20"/>
+          <Property Name="Left" Value="617"/>
+          <Property Name="SimulationIndex" Value="0"/>
+          <Property Name="SimulationValue" Value=""/>
+          <Property Name="StyleClass" Value="Source[relative:StyleGroup].StyleClass[Default]"/>
+          <Property Name="TextGroup" Value="Source[embedded].TextGroup"/>
+          <Property Name="TextIndexOffset" Value="5"/>
+          <Property Name="TextSource" Value="SingleText"/>
+          <Property Name="Top" Value="190"/>
+          <Property Name="Width" Value="16"/>
         </Control>
       </Controls>
       <KeyMapping/>

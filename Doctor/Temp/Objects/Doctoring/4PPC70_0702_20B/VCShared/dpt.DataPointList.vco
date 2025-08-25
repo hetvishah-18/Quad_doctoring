@@ -253,8 +253,8 @@
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">3</UInt16>
-          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Force]</Reference>
-          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Force].Unit[$default]</Reference>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
@@ -264,8 +264,8 @@
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">4</UInt16>
-          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Force]</Reference>
-          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Force].Unit[$default]</Reference>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>

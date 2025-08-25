@@ -1,3 +1,20 @@
 WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=LS_Inp_OP 
-Position X=0 Y=0 Width=0 Height=0 TabWidth Name=250 Type=0 Scope=0 Force=0 Index=0 ASCIIString=0
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=250 Type=0 Scope=0 Force=0 Index=14 ASCIIString=0
                                     name                                     type force                                                            value level type len format place expand specs
+                                  UnWind                            Ax_TensionCtl    0 "                                                               *"    0   24    1    0    0    1         
+                                     MPM                                  MPM_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                  SetMPM                                      INT    0 "                                                               0"    2    3    1   10    0    0         
+                                   Drive                                Drive_typ    0 "                                                               *"    1   24    1    0    0    1         
+                           Drive_Healthy                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                                    Wind                            Ax_TensionCtl    0 "                                                               *"    0   24    1    0    0    1         
+                                     MPM                                  MPM_typ    0 "                                                               *"    1   24    1    0    0    1         
+                                  SetMPM                                      INT    0 "                                                               0"    2    3    1   10    0    0         
+                                   Drive                                Drive_typ    0 "                                                               *"    1   24    1    0    0    1         
+                           Drive_Healthy                                     BOOL    0 "                                                           FALSE"    2    1    1    2    0    0         
+                                Drive_RW                        DriveRW_typ[0..4]    0 "                                                               *"    0   24    5    0    0    1         
+                             Drive_RW[0]                              DriveRW_typ    0 "                                                               *"    1   24    1    0    0    1         
+                              Write_DINT                               DINT[0..9]    0 "                                                               *"    2    4   10    0    0    1         
+                           Write_DINT[0]                                     DINT    3 "                                                               0"    3    4    1   10    0    0         
+                           Write_DINT[1]                                     DINT    0 "                                                               0"    3    4    1   10    0    0         
+                                  DigInp                               DigInp_typ    0 "                                                               *"    0   24    1    0    0    1         
+                                Jog_mode                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         

@@ -18,7 +18,7 @@
           <UInt32 Name="Color">0</UInt32>
           <Reference Name="Datapoint" Type="DP">None</Reference>
         </Group>
-        <Binary Name="BitmapData" Encoding="Base64">iVBORw0KGgoAAAANSUhEUgAAAGYAAAAqCAYAAABBRS51AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACuSURBVHhe7dshDsJAFEXRrhMUOwCDqmLHXQFkSNqEFD9XnJccMyOv/sti3V3W+3u4rg8m2jv8hLH52+McYcaDzd/t9fzG+Rtm2zYmESZKmChhooSJEiZKmChhooSJEiZKmChhooSJEiZKmChhooSJEiZKmChhooSJEiZKmChhooSJEiZKmChhooSJEiZKmChhooSJEiZKmKhTmP1ieXwwz2hwulp2Tj7f6ZzcevsA7VBua5BieLQAAAAASUVORK5CYII=</Binary>
+        <Binary Name="BitmapData" Encoding="Base64">iVBORw0KGgoAAAANSUhEUgAAAGYAAAAqCAYAAABBRS51AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAACySURBVHhe7duhEYAwEAXRqxMUHYBBoeg4FcAEcoKhgFuxf2ZNIp++cOBNx3r15mOzwtJhsLwwrn6JM1gi+oOr33LuD85g+cK01qwoYaAJA00YaMJAEwaaMNCEgSYMNGGgCQNNGGjCQBMGmjDQhIEmDDRhoAkDTRhowkATBpow0ISBJgw0YaAJA00YaMJAEwaaMNCEgSYMNGGgCQPtB5MXy/3D6uoGv6vlxLG60mGwON4ibu1QbmtBEiLxAAAAAElFTkSuQmCC</Binary>
       </Object>
     </Folder>
   </Folder>

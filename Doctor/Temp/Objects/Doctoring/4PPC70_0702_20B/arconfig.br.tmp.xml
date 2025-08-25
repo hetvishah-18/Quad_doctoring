@@ -102,6 +102,12 @@
       <Parameter ID="Direction" Value="IN" />
       <Parameter ID="Type" Value="INT" />
     </Channel>
+    <Channel ID="Parameter25_Pid1DigitalRef_I200E_S19Out">
+      <Parameter ID="Ext" Value="/DYNAMIC" />
+      <Parameter ID="Address" Value="0x0019200E" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="INT" />
+    </Channel>
   </Module>
   <Module ID="IF1.ST3.OD" Hardware="epl_any">
     <Parameter ID="p2001s05" Value="UINT#5" />

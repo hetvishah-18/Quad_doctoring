@@ -65,6 +65,7 @@
     <Channel ID="Parameter3_OutputPower_I2005_S03" Description="" Ext="/DYNAMIC" Address="0x00032005" ArConfig="Copy" Direction="IN" Type="DINT" />
     <Channel ID="Parameter4_MotorRpm_I2005_S04" Description="" Ext="/DYNAMIC" Address="0x00042005" ArConfig="Copy" Direction="IN" Type="DINT" />
     <Channel ID="Parameter1_AnalogueInput1_I2007_S01" Description="" Ext="/DYNAMIC" Address="0x00012007" ArConfig="Copy" Direction="IN" Type="INT" />
+    <Channel ID="Parameter25_Pid1DigitalRef_I200E_S19Out" Description="" Ext="/DYNAMIC" Address="0x0019200E" ArConfig="Copy" Direction="OUT" Type="INT" />
   </Module>
   <Module ID="IF1.ST4" Hardware="epl_any" HardwareModuleName="Commander_C200_RFC_Wind" ModuleID="10" Simulatable="true">
     <Channel ID="ModuleOk" Description="Module status (1 = module present)" Ext="/OK" Address="0" ArConfig="copy" Direction="IN" Type="BOOL" />

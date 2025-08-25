@@ -47,4 +47,5 @@ VAR_CONFIG
 	::Drive_RW[0].Write_DINT[0] AT %QD."Commander_C200_RFC_UnWind".Parameter21_PresetReference1_I2001_S15Out;
 	::Drive_RW[0].Write_DINT[0] AT %QD."Commander_C200_RFC_UnWind".Parameter24_PresetReference4_I2001_S18Out;
 	::Drive_RW[1].Write_DINT[0] AT %QD."Commander_C200_RFC_Wind".Parameter24_PresetReference4_I2001_S18Out;
+	::Drive_RW[0].Write_INT[0] AT %QW."Commander_C200_RFC_UnWind".Parameter25_Pid1DigitalRef_I200E_S19Out;
 END_VAR

@@ -18,4 +18,8 @@ VAR
 	DriveFreq_Scal : LCScINT;
 	j : USINT;
 	Old_AxisMotor : INT;
+	LoadKN : LCScINT;
+	SetMPM : LCLiScINT;
+	SetKN : LCScINT;
+	temp_scal : INT;
 END_VAR

@@ -12,7 +12,7 @@
         <UInt16 Name="Reserved">0</UInt16>
         <Int32 Name="TransparentColor">0</Int32>
         <Int32 Name="FillAreas">0</Int32>
-        <Binary Name="BitmapData" Encoding="Base64">iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACUSURBVFhH7dm9CcAgEIbhS5+FnSBN5nIGN3AGK4M/hBgbj5NwxE94QYJwT5NGKR4US5uyiovyRuOqSMobjevcM7IBhhDUBKA0AKWtBzTGNHnvuzOcAASQG4AAMvsP0DnXDZ+VtbabByCnNYCjvYd/9pOMBiCAzAAEkJt64OwAlAagNAClPYD1hj990FQy3bf8ip8hLlg9TWcFUp+uAAAAAElFTkSuQmCC</Binary>
+        <Binary Name="BitmapData" Encoding="Base64">iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAAEnQAABJ0Ad5mH3gAAACqSURBVFhH7dhNCsMgEIZhu++FPUE2PZdn8AaewZX1q2nJzyxGJtCBfAMvhDDgs3FjaEtoo4ezhmsAPc6K7MD+4XFezw9yB6y1uolAawRaux8wxrirlCLuaSOQwNkIxEiL2gjESIva/gbMOZ8Ov6qUkngmIlDTPYDajofzFs9GIEZa1EYgRlrURiBGWtTmHnh1BFoj0BqB1jbA9YUfPzwF0++V/4t0FUyhvQFYPU1nKTDjvAAAAABJRU5ErkJggg==</Binary>
       </Object>
     </Folder>
   </Folder>

@@ -57,7 +57,7 @@ LIB_LOCAL_OBJ_Vis=$(TEMP_PATH_Vis)/localobj.vca
 # Hardware sources
 PANEL_HW_OBJECT_Vis=$(TEMP_PATH_ROOT_Vis)/Objects/$(AS_CONFIGURATION)/$(AS_TEMP_PLC)/Vis/dis.Hardware.vco
 PANEL_HW_VCI_Vis=$(TEMP_PATH_ROOT_Vis)/Objects/$(AS_CONFIGURATION)/$(AS_TEMP_PLC)/Vis/dis.Hardware.vci
-PANEL_HW_SOURCE_Vis=C:/Projects/Doctor/Doctor/Physical/Doctoring/Hardware.hw 
+PANEL_HW_SOURCE_Vis=D:/Projects/AS4/Tension\ Control/Doctor/Physical/Doctoring/Hardware.hw 
 DIS_OBJECTS_Vis=$(PANEL_HW_OBJECT_Vis) $(KEYMAP_OBJECTS_Vis)
 
 # KeyMapping flags
@@ -441,23 +441,23 @@ $(VCVK_OBJECTS_Vis): $(VC_LANGUAGES_Vis)
 TPR_OBJECTS_Vis = $(addprefix $(TEMP_PATH_Vis)/tpr., $(notdir $(TPR_SOURCES_Vis:.tpr=.vco)))
 
 $(TEMP_PATH_Vis)/tpr.NumPad.vco: $(AS_PROJECT_PATH)/Logical/Vis/TouchPads/NumPad.tpr
-	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Vis)' $(VCCFLAGS_Vis) -prj 'C:/Projects/Doctor/Doctor/Logical/Vis' -p Vis -so $(VC_STATIC_OPTIONS_Vis) -vcr 4733 -sfas
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Vis)' $(VCCFLAGS_Vis) -prj 'D:/Projects/AS4/Tension Control/Doctor/Logical/Vis' -p Vis -so $(VC_STATIC_OPTIONS_Vis) -vcr 4733 -sfas
 
 
 $(TEMP_PATH_Vis)/tpr.AlphaPad.vco: $(AS_PROJECT_PATH)/Logical/Vis/TouchPads/AlphaPad.tpr
-	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Vis)' $(VCCFLAGS_Vis) -prj 'C:/Projects/Doctor/Doctor/Logical/Vis' -p Vis -so $(VC_STATIC_OPTIONS_Vis) -vcr 4733 -sfas
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Vis)' $(VCCFLAGS_Vis) -prj 'D:/Projects/AS4/Tension Control/Doctor/Logical/Vis' -p Vis -so $(VC_STATIC_OPTIONS_Vis) -vcr 4733 -sfas
 
 
 $(TEMP_PATH_Vis)/tpr.NavigationPad_ver.vco: $(AS_PROJECT_PATH)/Logical/Vis/TouchPads/NavigationPad_ver.tpr
-	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Vis)' $(VCCFLAGS_Vis) -prj 'C:/Projects/Doctor/Doctor/Logical/Vis' -p Vis -so $(VC_STATIC_OPTIONS_Vis) -vcr 4733 -sfas
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Vis)' $(VCCFLAGS_Vis) -prj 'D:/Projects/AS4/Tension Control/Doctor/Logical/Vis' -p Vis -so $(VC_STATIC_OPTIONS_Vis) -vcr 4733 -sfas
 
 
 $(TEMP_PATH_Vis)/tpr.NavigationPad_hor.vco: $(AS_PROJECT_PATH)/Logical/Vis/TouchPads/NavigationPad_hor.tpr
-	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Vis)' $(VCCFLAGS_Vis) -prj 'C:/Projects/Doctor/Doctor/Logical/Vis' -p Vis -so $(VC_STATIC_OPTIONS_Vis) -vcr 4733 -sfas
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Vis)' $(VCCFLAGS_Vis) -prj 'D:/Projects/AS4/Tension Control/Doctor/Logical/Vis' -p Vis -so $(VC_STATIC_OPTIONS_Vis) -vcr 4733 -sfas
 
 
 $(TEMP_PATH_Vis)/tpr.EditPad.vco: $(AS_PROJECT_PATH)/Logical/Vis/TouchPads/EditPad.tpr
-	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Vis)' $(VCCFLAGS_Vis) -prj 'C:/Projects/Doctor/Doctor/Logical/Vis' -p Vis -so $(VC_STATIC_OPTIONS_Vis) -vcr 4733 -sfas
+	 $(VCC) -f '$<' -o '$@' -l '$(AS_PROJECT_PATH)/Logical/VCShared/Languages.vcr' -cv '$(AS_PROJECT_PATH)/Logical/VCShared/ControlVersion.cvinfo' -pal '$(PALFILE_Vis)' $(VCCFLAGS_Vis) -prj 'D:/Projects/AS4/Tension Control/Doctor/Logical/Vis' -p Vis -so $(VC_STATIC_OPTIONS_Vis) -vcr 4733 -sfas
 
 
 #Touch Pads END

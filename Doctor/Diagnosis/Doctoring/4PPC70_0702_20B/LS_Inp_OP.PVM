@@ -1,23 +1,27 @@
 WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=LS_Inp_OP 
-Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=62 Index=19 ASCIIString=0
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=62 Index=20 ASCIIString=0
                                     name                                     type force                                                            value level type len format place expand specs
                                   DigInp                               DigInp_typ    0 "                                                               *"    0   24    1    0    0    1         
-                                Jog_mode                                     BOOL    0 "                                                            TRUE"    1    1    1    2    0    0         
+                                Jog_mode                                     BOOL    0 "                                                           FALSE"    1    1    1    2    0    0         
                                      DI1                              BOOL[0..11]    0 "                                                               *"    0    1   12    0    0    1         
-                                  DI1[1]                                     BOOL    2 "                                                            TRUE"    1    1    1    2    0    0         
+                                  DI1[1]                                     BOOL    1 "                                                           FALSE"    1    1    1    2    0    0         
                                 Drive_RW                        DriveRW_typ[0..4]    0 "                                                               *"    0   24    5    0    0    1         
                              Drive_RW[0]                              DriveRW_typ    0 "                                                               *"    1   24    1    0    0    1         
-                              Write_DINT                               DINT[0..9]    0 "                                                               *"    2    4   10    0    0    1         
-                           Write_DINT[0]                                     DINT    3 "                                                            2900"    3    4    1   10    0    0         
-                           Write_DINT[1]                                     DINT    0 "                                                               0"    3    4    1   10    0    0         
-                           Write_DINT[2]                                     DINT    0 "                                                               0"    3    4    1   10    0    0         
-                           Write_DINT[3]                                     DINT    0 "                                                               0"    3    4    1   10    0    0         
-                           Write_DINT[4]                                     DINT    0 "                                                               0"    3    4    1   10    0    0         
-                           Write_DINT[5]                                     DINT    0 "                                                               0"    3    4    1   10    0    0         
-                           Write_DINT[6]                                     DINT    0 "                                                               0"    3    4    1   10    0    0         
-                           Write_DINT[7]                                     DINT    0 "                                                               0"    3    4    1   10    0    0         
-                           Write_DINT[8]                                     DINT    0 "                                                               0"    3    4    1   10    0    0         
-                           Write_DINT[9]                                     DINT    0 "                                                               0"    3    4    1   10    0    0         
+                              Write_DINT                               DINT[0..9]    0 "                                                               *"    2    4   10    0    0    0         
+                           Write_DINT[0]                                     DINT    0 "                                                               *"    3    4    1   10    0    0         
+                           Write_DINT[1]                                     DINT    0 "                                                               *"    3    4    1   10    0    0         
+                           Write_DINT[2]                                     DINT    0 "                                                               *"    3    4    1   10    0    0         
+                           Write_DINT[3]                                     DINT    0 "                                                               *"    3    4    1   10    0    0         
+                           Write_DINT[4]                                     DINT    0 "                                                               *"    3    4    1   10    0    0         
+                           Write_DINT[5]                                     DINT    0 "                                                               *"    3    4    1   10    0    0         
+                           Write_DINT[6]                                     DINT    0 "                                                               *"    3    4    1   10    0    0         
+                           Write_DINT[7]                                     DINT    0 "                                                               *"    3    4    1   10    0    0         
+                           Write_DINT[8]                                     DINT    0 "                                                               *"    3    4    1   10    0    0         
+                           Write_DINT[9]                                     DINT    0 "                                                               *"    3    4    1   10    0    0         
+                                Read_INT                                INT[0..9]    0 "                                                               *"    2    3   10    0    0    1         
+                             Read_INT[0]                                      INT    1 "                                                              17"    3    3    1   10    0    0         
+                               Write_INT                                INT[0..9]    0 "                                                               *"    2    3   10    0    0    1         
+                            Write_INT[0]                                      INT    3 "                                                            1000"    3    3    1   10    0    0         
                                   UnWind                            Ax_TensionCtl    0 "                                                               *"    0   24    1    0    0    1         
                                      MPM                                  MPM_typ    0 "                                                               *"    1   24    1    0    0    1         
-                                  SetMPM                                      INT    0 "                                                            2900"    2    3    1   10    0    0         
+                                  SetMPM                                      INT    0 "                                                               0"    2    3    1   10    0    0         

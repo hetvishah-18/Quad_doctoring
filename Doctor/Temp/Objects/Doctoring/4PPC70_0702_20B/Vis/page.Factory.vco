@@ -1629,7 +1629,7 @@
             <UInt32 Name="TeachDatapoint">4294967295</UInt32>
             <UInt32 Name="ControlID">0</UInt32>
             <Double Name="MinValue">-1.7976931348623157E+308</Double>
-            <Double Name="MaxValue">1000</Double>
+            <Double Name="MaxValue">10000</Double>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Input]</Reference>
             <UInt16 Name="StyleTableSize">32</UInt16>
             <UInt16 Name="Reserved">0</UInt16>
