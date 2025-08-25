@@ -197,6 +197,7 @@
           <Property Name="Width" Value="88"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_1">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="34"/>
@@ -218,6 +219,7 @@
           <Property Name="Width" Value="127"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_3">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="34"/>
@@ -239,6 +241,7 @@
           <Property Name="Width" Value="127"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_4">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="34"/>
@@ -260,6 +263,7 @@
           <Property Name="Width" Value="127"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_5">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="34"/>
@@ -349,6 +353,7 @@
           <Property Name="Width" Value="88"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_9">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="34"/>
@@ -370,6 +375,7 @@
           <Property Name="Width" Value="127"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_10">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="34"/>
@@ -391,6 +397,7 @@
           <Property Name="Width" Value="127"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_11">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="34"/>
@@ -412,6 +419,7 @@
           <Property Name="Width" Value="127"/>
         </Control>
         <Control ClassId="0x00001007" Name="Numeric_12">
+          <Property Name="AlignmentHorizontal" Value="Center"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
           <Property Name="Height" Value="34"/>
@@ -455,12 +463,6 @@
   </Layers>
   <MovementOrder>
     <MovementEntry Control="Source[local].Layer[globalArea].Control[Numeric_3]">
-      <Property Name="Down" Value="Source[local].Layer[globalArea].Control[Numeric_4]"/>
-      <Property Name="Left" Value="Source[local].Layer[globalArea].Control[Numeric_4]"/>
-      <Property Name="Right" Value="Source[local].Layer[globalArea].Control[Numeric_4]"/>
-      <Property Name="Up" Value="Source[local].Layer[globalArea].Control[Numeric_4]"/>
-    </MovementEntry>
-    <MovementEntry Control="Source[local].Layer[globalArea].Control[Numeric_4]">
       <Property Name="Down" Value="Source[local].Layer[globalArea].Control[Numeric_3]"/>
       <Property Name="Left" Value="Source[local].Layer[globalArea].Control[Numeric_3]"/>
       <Property Name="Right" Value="Source[local].Layer[globalArea].Control[Numeric_3]"/>

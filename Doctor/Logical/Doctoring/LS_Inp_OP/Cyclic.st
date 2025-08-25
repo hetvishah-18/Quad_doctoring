@@ -4,8 +4,8 @@ PROGRAM _CYCLIC
 	DigInp.Emergency_OK		:= DI1[0];
 	DigInp.Jog_mode			:= DI1[1];
 	Mode_Intermediate		:= DI1[2];
-	DigInp.MPM_Decrease		:= DI1[3];
-	DigInp.MPM_Increase		:= DI1[4];
+	DigInp.MPM_Increase		:= DI1[3];
+	DigInp.MPM_Decrease		:= DI1[4];
 	DigInp.Safety_Trip		:= DI1[5];
 	
 	IF(check_init = 1)THEN
@@ -89,8 +89,36 @@ PROGRAM _CYCLIC
 		inc_cnt			:= 0;		
 	END_IF
 	
+	IF(DigInp.Production_mode = 1)THEN
+		Drive_RW[0].Write_DINT[0]	:= INT_TO_DINT(UnWind.MPM.SetMPM);
+		Drive_RW[1].Write_DINT[0]	:= INT_TO_DINT(UnWind.RPM.Actual.Input_Val);
+	ELSIF(DigInp.Jog_mode = 1)THEN
+		Drive_RW[0].Write_DINT[0]	:= INT_TO_DINT(UnWind.MPM.SetMPM);
+		Drive_RW[1].Write_DINT[0]	:= INT_TO_DINT(Wind.MPM.SetMPM);
+//		Drive_RW[0].Write_UINT[0]	:= UnWind.MPM.SetMPM;
+//		Drive_RW[1].Write_UINT[0]	:= Wind.MPM.SetMPM;
+	ELSE
+		Drive_RW[0].Write_UINT[0]	:= 0;
+		Drive_RW[1].Write_UINT[0]	:= 0;
+		UnWind.MPM.SetMPM			:= 0;
+		Wind.MPM.SetMPM				:= 0;
+	END_IF	
+	
+		
 	MPMIncTime();
 	MPMDecTime();
 					
+	
+	
+	(* Configure the Outputs from here *)
+	
+	IF ((UnWind.Drive.Drive_Healthy	= 1)AND(Wind.Drive.Drive_Healthy = 1))THEN
+		DO1[0]	:= 1;
+		DO1[1]	:= 1;
+	ELSE
+		DO1[0]	:= 0;
+		DO1[1]	:= 0;
+	END_IF
+	
 	
 END_PROGRAM

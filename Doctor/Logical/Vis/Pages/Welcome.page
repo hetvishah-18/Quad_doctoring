@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?AutomationStudio Version="4.12.6.106"?>
 <Page xmlns="http://br-automation.co.at/AS/VC/Project" Name="Welcome">
+  <Property Name="BackColor" Value="15"/>
   <Property Name="Description" Value=""/>
   <Property Name="ForeColor" Value="7"/>
   <Property Name="Height" Value="480"/>
@@ -22,19 +23,6 @@
       <Property Name="VisibilityMode" Value="Normal"/>
       <Property Name="Z-Order" Value="0"/>
     </LayerRef>
-    <LayerRef Source="Source[local].Layer[globalArea]">
-      <Property Name="Description" Value=""/>
-      <Property Name="EditingMode" Value="Frozen"/>
-      <Property Name="Left" Value="0"/>
-      <Property Name="Name" Value="globalArea"/>
-      <Property Name="OutlineColor" Value="0"/>
-      <Property Name="OutlineDisplayControl" Value="False"/>
-      <Property Name="OutlineDisplayName" Value="True"/>
-      <Property Name="OutlineHatched" Value="False"/>
-      <Property Name="Top" Value="0"/>
-      <Property Name="VisibilityMode" Value="Normal"/>
-      <Property Name="Z-Order" Value="1"/>
-    </LayerRef>
     <Layer Name="Default">
       <Property Name="BackColor" Value="9"/>
       <Property Name="Description" Value=""/>
@@ -49,7 +37,7 @@
       <Property Name="Top" Value="0"/>
       <Property Name="VisibilityMode" Value="Normal"/>
       <Property Name="Width" Value="800"/>
-      <Property Name="Z-Order" Value="2"/>
+      <Property Name="Z-Order" Value="1"/>
       <TextGroup>
         <TextLayer LanguageId="en">
           <Text ID="99086" Value="Plot No. 24/1/B, Near Vinzol Railway Crossing, \nOpposite Vatva Railway Station, Vatva, Ahmedabad - 382445"/>
@@ -66,11 +54,11 @@
       </TextGroup>
       <Controls>
         <Control ClassId="0x00001005" Name="Bitmap_1">
-          <Property Name="Bitmap" Value="Source[local].Bitmap[logo2]"/>
+          <Property Name="Bitmap" Value="Source[local].Bitmap[logo]"/>
           <Property Name="BitmapSource" Value="SingleBitmap"/>
           <Property Name="ControlID" Value="0"/>
           <Property Name="Description" Value=""/>
-          <Property Name="Height" Value="217"/>
+          <Property Name="Height" Value="218"/>
           <Property Name="IndexDatapoint" Value="None"/>
           <Property Name="Left" Value="304"/>
           <Property Name="SimulationValue" Value="0"/>
@@ -117,23 +105,6 @@
       <KeyMapping/>
     </Layer>
   </Layers>
-  <MovementOrder>
-    <MovementEntry Control="Source[local].Layer[globalArea].Control[Numeric_3]">
-      <Property Name="Down" Value="Source[local].Layer[globalArea].Control[Numeric_4]"/>
-      <Property Name="Left" Value="Source[local].Layer[globalArea].Control[Numeric_4]"/>
-      <Property Name="Right" Value="Source[local].Layer[globalArea].Control[Numeric_4]"/>
-      <Property Name="Up" Value="Source[local].Layer[globalArea].Control[Numeric_4]"/>
-    </MovementEntry>
-    <MovementEntry Control="Source[local].Layer[globalArea].Control[Numeric_4]">
-      <Property Name="Down" Value="Source[local].Layer[globalArea].Control[Numeric_3]"/>
-      <Property Name="Left" Value="Source[local].Layer[globalArea].Control[Numeric_3]"/>
-      <Property Name="Right" Value="Source[local].Layer[globalArea].Control[Numeric_3]"/>
-      <Property Name="Up" Value="Source[local].Layer[globalArea].Control[Numeric_3]"/>
-    </MovementEntry>
-  </MovementOrder>
-  <TabSequence>
-    <TabSeqItem Index="0" Value="Source[local].Layer[globalArea].Control[Alarm_1]"/>
-    <TabSeqItem Index="1" Value="Source[local].Layer[globalArea].Control[Numeric_3]"/>
-    <TabSeqItem Index="2" Value="Source[local].Layer[globalArea].Control[Numeric_4]"/>
-  </TabSequence>
+  <MovementOrder/>
+  <TabSequence/>
 </Page>

@@ -680,15 +680,9 @@
   <MovementOrder>
     <MovementEntry Control="Source[local].Layer[globalArea].Control[Numeric_3]">
       <Property Name="Down" Value="Source[embedded].Layer[Default].Control[sldBrightness]"/>
-      <Property Name="Left" Value="Source[local].Layer[globalArea].Control[Numeric_4]"/>
-      <Property Name="Right" Value="Source[local].Layer[globalArea].Control[Numeric_4]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[setDay1]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[FrameLayer].Control[Numeric_1]"/>
       <Property Name="Up" Value="Source[embedded].Layer[Default].Control[setYear1]"/>
-    </MovementEntry>
-    <MovementEntry Control="Source[local].Layer[globalArea].Control[Numeric_4]">
-      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[setDay1]"/>
-      <Property Name="Left" Value="Source[local].Layer[globalArea].Control[Numeric_3]"/>
-      <Property Name="Right" Value="Source[local].Layer[globalArea].Control[Numeric_3]"/>
-      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[setDay1]"/>
     </MovementEntry>
     <MovementEntry Control="Source[embedded].Layer[FrameLayer].Control[Numeric_1]">
       <Property Name="Down" Value="Source[embedded].Layer[FrameLayer].Control[Numeric_4]"/>
@@ -733,10 +727,10 @@
       <Property Name="Up" Value="Source[embedded].Layer[Default].Control[sldBrightness]"/>
     </MovementEntry>
     <MovementEntry Control="Source[embedded].Layer[Default].Control[setDay1]">
-      <Property Name="Down" Value="Source[local].Layer[globalArea].Control[Numeric_4]"/>
+      <Property Name="Down" Value="Source[local].Layer[globalArea].Control[Numeric_3]"/>
       <Property Name="Left" Value="Source[embedded].Layer[Default].Control[SetMonth1]"/>
-      <Property Name="Right" Value="Source[local].Layer[globalArea].Control[Numeric_4]"/>
-      <Property Name="Up" Value="Source[local].Layer[globalArea].Control[Numeric_4]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[setYear1]"/>
+      <Property Name="Up" Value="Source[embedded].Layer[FrameLayer].Control[Numeric_5]"/>
     </MovementEntry>
     <MovementEntry Control="Source[embedded].Layer[Default].Control[sldBrightness]">
       <Property Name="Down" Value="Source[embedded].Layer[FrameLayer].Control[Numeric_3]"/>

@@ -841,15 +841,9 @@
   <MovementOrder>
     <MovementEntry Control="Source[local].Layer[globalArea].Control[Numeric_3]">
       <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_12]"/>
-      <Property Name="Left" Value="Source[local].Layer[globalArea].Control[Numeric_4]"/>
-      <Property Name="Right" Value="Source[local].Layer[globalArea].Control[Numeric_4]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_19]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_11]"/>
       <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_10]"/>
-    </MovementEntry>
-    <MovementEntry Control="Source[local].Layer[globalArea].Control[Numeric_4]">
-      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_16]"/>
-      <Property Name="Left" Value="Source[local].Layer[globalArea].Control[Numeric_3]"/>
-      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_19]"/>
-      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_19]"/>
     </MovementEntry>
     <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_10]">
       <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_12]"/>
@@ -891,7 +885,7 @@
       <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_18]"/>
       <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_15]"/>
       <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_11]"/>
-      <Property Name="Up" Value="Source[local].Layer[globalArea].Control[Numeric_4]"/>
+      <Property Name="Up" Value="Source[local].Layer[globalArea].Control[Numeric_3]"/>
     </MovementEntry>
     <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_17]">
       <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_19]"/>

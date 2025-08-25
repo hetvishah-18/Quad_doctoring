@@ -432,15 +432,6 @@
       <Property Name="ControlID" Value="0"/>
       <Property Name="Description" Value=""/>
       <Property Name="Height" Value="29"/>
-      <Property Name="Input" Value="True"/>
-      <Property Name="InputCancel" Value="Lost Focus"/>
-      <Property Name="InputComma" Value="Explicit"/>
-      <Property Name="InputConfirm" Value="Enter"/>
-      <Property Name="InputMinus" Value="Normal"/>
-      <Property Name="InputNext" Value="Enter"/>
-      <Property Name="InputStart" Value="Any Key"/>
-      <Property Name="InputTouchpad" Value="Source[local].TouchPad[NumPad]"/>
-      <Property Name="InputUpDown" Value="Disabled"/>
       <Property Name="Left" Value="615"/>
       <Property Name="MaxDatapoint" Value="None"/>
       <Property Name="MaxValue" Value="None"/>

@@ -4,8 +4,8 @@ VAR_CONFIG
 	Cyclic#1.::AI1[2] AT %IW."X20AI4622".AnalogInput03;
 	Cyclic#1.::AI1[3] AT %IW."X20AI4622".AnalogInput04;
 	::Enc_Value AT %IW."X20DC1396".Encoder01;
-	::DataRead_INT AT %IW."Commander_C200_RFC_A".Parameter40_StatusWord_I200A_S28;
-	::DataTobeSent_UINT AT %QW."Commander_C200_RFC_A".Parameter5_JogReference_I2001_S05Out;
+	::Drive_RW[0].Read_INT[0] AT %IW."Commander_C200_RFC_UnWind".Parameter40_StatusWord_I200A_S28;
+	::Drive_RW[0].Write_UINT[0] AT %QW."Commander_C200_RFC_UnWind".Parameter5_JogReference_I2001_S05Out;
 	Cyclic#2.::DI1[0] AT %IX."X20DI9371".DigitalInput01;
 	Cyclic#2.::DI1[1] AT %IX."X20DI9371".DigitalInput02;
 	Cyclic#2.::DI1[2] AT %IX."X20DI9371".DigitalInput03;
@@ -30,4 +30,21 @@ VAR_CONFIG
 	Cyclic#2.::DO1[9] AT %QX."X20DO9322".DigitalOutput10;
 	Cyclic#2.::DO1[10] AT %QX."X20DO9322".DigitalOutput11;
 	Cyclic#2.::DO1[11] AT %QX."X20DO9322".DigitalOutput12;
+	::Drive_RW[0].Read_DINT[1] AT %ID."Commander_C200_RFC_UnWind".Parameter69_ReferenceInRpm_I2001_S45;
+	::Drive_RW[0].Read_DINT[2] AT %ID."Commander_C200_RFC_UnWind".Parameter1_OutputFrequency_I2005_S01;
+	::Drive_RW[0].Write_UINT[1] AT %QW."Commander_C200_RFC_UnWind".ControlWord_U16_I6040;
+	::Drive_RW[0].Read_DINT[0] AT %ID."Commander_C200_RFC_UnWind".Parameter1_CurrentMagnitude_I2004_S01;
+	::Drive_RW[0].Read_DINT[1] AT %ID."Commander_C200_RFC_UnWind".Parameter4_MotorRpm_I2005_S04;
+	::Drive_RW[0].Read_DINT[3] AT %ID."Commander_C200_RFC_UnWind".Parameter3_OutputPower_I2005_S03;
+	::Drive_RW[0].Write_DINT[0] AT %QD."Commander_C200_RFC_UnWind".Parameter22_PresetReference2_I2001_S16Out;
+	::Drive_RW[1].Write_UINT[0] AT %QW."Commander_C200_RFC_Wind".Parameter5_JogReference_I2001_S05Out;
+	::Drive_RW[1].Write_DINT[0] AT %QD."Commander_C200_RFC_Wind".Parameter22_PresetReference2_I2001_S16Out;
+	::Drive_RW[1].Read_DINT[0] AT %ID."Commander_C200_RFC_Wind".Parameter1_CurrentMagnitude_I2004_S01;
+	::Drive_RW[1].Read_DINT[2] AT %ID."Commander_C200_RFC_Wind".Parameter1_OutputFrequency_I2005_S01;
+	::Drive_RW[1].Read_DINT[3] AT %ID."Commander_C200_RFC_Wind".Parameter3_OutputPower_I2005_S03;
+	::Drive_RW[1].Read_DINT[1] AT %ID."Commander_C200_RFC_Wind".Parameter4_MotorRpm_I2005_S04;
+	::Drive_RW[0].Read_INT[0] AT %IW."Commander_C200_RFC_UnWind".Parameter1_AnalogueInput1_I2007_S01;
+	::Drive_RW[0].Write_DINT[0] AT %QD."Commander_C200_RFC_UnWind".Parameter21_PresetReference1_I2001_S15Out;
+	::Drive_RW[0].Write_DINT[0] AT %QD."Commander_C200_RFC_UnWind".Parameter24_PresetReference4_I2001_S18Out;
+	::Drive_RW[1].Write_DINT[0] AT %QD."Commander_C200_RFC_Wind".Parameter24_PresetReference4_I2001_S18Out;
 END_VAR

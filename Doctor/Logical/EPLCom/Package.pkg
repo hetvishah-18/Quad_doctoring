@@ -2,7 +2,9 @@
 <?AutomationStudio FileVersion="4.9"?>
 <Package xmlns="http://br-automation.co.at/AS/Package">
   <Objects>
-    <Object Type="Program" Language="IEC">EPLCom_Drv1</Object>
-    <Object Type="Program" Language="IEC">EPLCom_Drv2</Object>
+    <Object Type="Program" Language="IEC">UnWind_Com</Object>
+    <Object Type="Program" Language="IEC">Wind_Com</Object>
+    <Object Type="Program" Language="IEC">Mot_Tun</Object>
+    <Object Type="Program" Language="IEC">TunePID</Object>
   </Objects>
 </Package>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.12.6.106"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="PIDControl">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="18"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="113728" Value="Reference Source"/>
+    <Text ID="113729" Value="Integral Gain"/>
+    <Text ID="113730" Value="Derivative Gain"/>
+    <Text ID="113733" Value="Proportional Gain"/>
+    <Text ID="114655" Value="PID O/P High Limit"/>
+    <Text ID="114656" Value="PID O/P Low Limit"/>
+    <Text ID="114657" Value="PID Enable"/>
+    <Text ID="115123" Value="Feedback Source"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="113728" Value=""/>
+    <Text ID="113729" Value=""/>
+    <Text ID="113730" Value=""/>
+    <Text ID="113733" Value=""/>
+    <Text ID="114655" Value=""/>
+    <Text ID="114656" Value=""/>
+    <Text ID="114657" Value=""/>
+    <Text ID="115123" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="113728" Value="3"/>
+    <Index ID="113729" Value="1"/>
+    <Index ID="113730" Value="2"/>
+    <Index ID="113733" Value="0"/>
+    <Index ID="114655" Value="5"/>
+    <Index ID="114656" Value="6"/>
+    <Index ID="114657" Value="7"/>
+    <Index ID="115123" Value="4"/>
+  </IndexMap>
+</TextGroup>

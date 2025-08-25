@@ -1098,7 +1098,7 @@
               <Property Name="Description" Value=""/>
               <Property Name="Locking" Value="Never"/>
               <Property Name="Name" Value="Action_0"/>
-              <Property Name="SetValue" Value="7"/>
+              <Property Name="SetValue" Value="12"/>
               <Property Name="ValueDatapoint" Value="Source[global].Variable[DataSource.NewPageReq]"/>
             </KeyAction>
           </KeyActions>
@@ -1109,15 +1109,9 @@
   <MovementOrder>
     <MovementEntry Control="Source[local].Layer[globalArea].Control[Numeric_3]">
       <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_8]"/>
-      <Property Name="Left" Value="Source[local].Layer[globalArea].Control[Numeric_4]"/>
-      <Property Name="Right" Value="Source[local].Layer[globalArea].Control[Numeric_4]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_14]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_8]"/>
       <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_11]"/>
-    </MovementEntry>
-    <MovementEntry Control="Source[local].Layer[globalArea].Control[Numeric_4]">
-      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_10]"/>
-      <Property Name="Left" Value="Source[local].Layer[globalArea].Control[Numeric_3]"/>
-      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_4]"/>
-      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_15]"/>
     </MovementEntry>
     <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_5]">
       <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_11]"/>
@@ -1144,13 +1138,13 @@
       <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_18]"/>
     </MovementEntry>
     <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_15]">
-      <Property Name="Down" Value="Source[local].Layer[globalArea].Control[Numeric_4]"/>
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_10]"/>
       <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_12]"/>
       <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_16]"/>
       <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_13]"/>
     </MovementEntry>
     <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_16]">
-      <Property Name="Down" Value="Source[local].Layer[globalArea].Control[Numeric_4]"/>
+      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_4]"/>
       <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_15]"/>
       <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_11]"/>
       <Property Name="Up" Value="Source[embedded].Layer[Default].Control[Numeric_14]"/>
@@ -1183,7 +1177,7 @@
       <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_18]"/>
       <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_10]"/>
       <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_8]"/>
-      <Property Name="Up" Value="Source[local].Layer[globalArea].Control[Numeric_4]"/>
+      <Property Name="Up" Value="Source[local].Layer[globalArea].Control[Numeric_3]"/>
     </MovementEntry>
     <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_9]">
       <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_13]"/>
@@ -1195,7 +1189,7 @@
       <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_9]"/>
       <Property Name="Left" Value="Source[embedded].Layer[Default].Control[Numeric_2]"/>
       <Property Name="Right" Value="Source[embedded].Layer[Default].Control[Numeric_4]"/>
-      <Property Name="Up" Value="Source[local].Layer[globalArea].Control[Numeric_4]"/>
+      <Property Name="Up" Value="Source[local].Layer[globalArea].Control[Numeric_3]"/>
     </MovementEntry>
     <MovementEntry Control="Source[embedded].Layer[Default].Control[Numeric_18]">
       <Property Name="Down" Value="Source[embedded].Layer[Default].Control[Numeric_14]"/>

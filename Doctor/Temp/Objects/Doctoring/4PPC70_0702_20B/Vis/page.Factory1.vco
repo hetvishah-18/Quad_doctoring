@@ -3093,29 +3093,20 @@
         <Reference Name="FormLayer1" Type="LAY">Source[local].Layer[Background]</Reference>
         <Reference Name="FormLayer2" Type="LAY">Source[local].Page[Factory1].Layer[Default]</Reference>
         <Group Name="MovementOrder">
-          <UInt32 Name="Count">18</UInt32>
+          <UInt32 Name="Count">17</UInt32>
           <Group Name="Source[local].Layer[globalArea].Control[Numeric_3]">
             <Reference Name="Control" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_3]</Reference>
-            <Reference Name="CtrlNext" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_4]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[Factory1].Layer[Default].Control[Numeric_5]</Reference>
             <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[Factory1].Layer[Default].Control[Numeric_12]</Reference>
-            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_4]</Reference>
-            <Reference Name="CtrlRight" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_4]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[Factory1].Layer[Default].Control[Numeric_4]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[Factory1].Layer[Default].Control[Numeric_8]</Reference>
             <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[Factory1].Layer[Default].Control[Numeric_11]</Reference>
             <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[Factory1].Layer[Default].Control[Numeric_8]</Reference>
-          </Group>
-          <Group Name="Source[local].Layer[globalArea].Control[Numeric_4]">
-            <Reference Name="Control" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_4]</Reference>
-            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[Factory1].Layer[Default].Control[Numeric_5]</Reference>
-            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_3]</Reference>
-            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_3]</Reference>
-            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[Factory1].Layer[Default].Control[Numeric_14]</Reference>
-            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[Factory1].Layer[Default].Control[Numeric_15]</Reference>
-            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[Factory1].Layer[Default].Control[Numeric_10]</Reference>
           </Group>
           <Group Name="Source[local].Page[Factory1].Layer[Default].Control[Numeric_5]">
             <Reference Name="Control" Type="CTRL">Source[local].Page[Factory1].Layer[Default].Control[Numeric_5]</Reference>
             <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[Factory1].Layer[Default].Control[Numeric_6]</Reference>
-            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_4]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_3]</Reference>
             <Reference Name="CtrlLeft" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_3]</Reference>
             <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[Factory1].Layer[Default].Control[Numeric_6]</Reference>
             <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[Factory1].Layer[Default].Control[Numeric_7]</Reference>
@@ -3155,7 +3146,7 @@
             <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[Factory1].Layer[Default].Control[Numeric_12]</Reference>
             <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[Factory1].Layer[Default].Control[Numeric_16]</Reference>
             <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[Factory1].Layer[Default].Control[Numeric_13]</Reference>
-            <Reference Name="CtrlDown" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_4]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[Factory1].Layer[Default].Control[Numeric_10]</Reference>
           </Group>
           <Group Name="Source[local].Page[Factory1].Layer[Default].Control[Numeric_16]">
             <Reference Name="Control" Type="CTRL">Source[local].Page[Factory1].Layer[Default].Control[Numeric_16]</Reference>
@@ -3164,7 +3155,7 @@
             <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[Factory1].Layer[Default].Control[Numeric_15]</Reference>
             <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[Factory1].Layer[Default].Control[Numeric_11]</Reference>
             <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[Factory1].Layer[Default].Control[Numeric_14]</Reference>
-            <Reference Name="CtrlDown" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_4]</Reference>
+            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[Factory1].Layer[Default].Control[Numeric_4]</Reference>
           </Group>
           <Group Name="Source[local].Page[Factory1].Layer[Default].Control[Numeric_2]">
             <Reference Name="Control" Type="CTRL">Source[local].Page[Factory1].Layer[Default].Control[Numeric_2]</Reference>
@@ -3208,7 +3199,7 @@
             <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[Factory1].Layer[Default].Control[Numeric_17]</Reference>
             <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[Factory1].Layer[Default].Control[Numeric_10]</Reference>
             <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[Factory1].Layer[Default].Control[Numeric_8]</Reference>
-            <Reference Name="CtrlUp" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_4]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_3]</Reference>
             <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[Factory1].Layer[Default].Control[Numeric_18]</Reference>
           </Group>
           <Group Name="Source[local].Page[Factory1].Layer[Default].Control[Numeric_9]">
@@ -3226,7 +3217,7 @@
             <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[Factory1].Layer[Default].Control[Numeric_9]</Reference>
             <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[Factory1].Layer[Default].Control[Numeric_2]</Reference>
             <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[Factory1].Layer[Default].Control[Numeric_4]</Reference>
-            <Reference Name="CtrlUp" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_4]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_3]</Reference>
             <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[Factory1].Layer[Default].Control[Numeric_9]</Reference>
           </Group>
           <Group Name="Source[local].Page[Factory1].Layer[Default].Control[Numeric_18]">

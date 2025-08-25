@@ -4,5 +4,6 @@
   <Objects>
     <Object Type="Program" Language="IEC">HS_Inp_Doct</Object>
     <Object Type="Program" Language="IEC">LS_Inp_OP</Object>
+    <Object Type="Program" Language="IEC">Simulate</Object>
   </Objects>
 </Package>

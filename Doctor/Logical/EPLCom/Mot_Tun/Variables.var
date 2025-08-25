@@ -1,0 +1,22 @@
+VAR
+	Control_Enable : SINT;
+	dlycnt1 : USINT;
+	Old_AxisMotor : INT;
+	Old_AxisMotorTune : USINT;
+	plc_node : USINT := 3;
+	SDOMotor1_rd : EplSDORead;
+	SDOMotor1_wr : EplSDOWrite;
+	SDOMotor2_rd : EplSDORead;
+	SDOMotor2_wr : EplSDOWrite;
+	SDOTune_rd : EplSDORead;
+	SDOTune_wr : EplSDOWrite;
+	SDOWrite : EplSDOWrite;
+	wr_step : USINT;
+	Status_WORD : INT;
+	dlycnt : USINT;
+	Tune_Start : SINT;
+	chkdly : USINT;
+	firstchck : BOOL := FALSE;
+	CopytoDrv : BOOL;
+	motordata_step : USINT := 0;
+END_VAR

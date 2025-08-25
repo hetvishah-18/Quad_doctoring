@@ -25,4 +25,5 @@ VAR
 	temp_var : BOOL;
 	startdly : BOOL;
 	dlycnt : USINT;
+	WelcomeTimer : TON_10ms;
 END_VAR

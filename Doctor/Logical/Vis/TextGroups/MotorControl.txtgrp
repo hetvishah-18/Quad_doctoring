@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?AutomationStudio Version="4.12.6.106"?>
+<TextGroup xmlns="http://br-automation.co.at/AS/VC/Project" Name="MotorControl">
+  <Property Name="Description" Value=""/>
+  <Property Name="Index" Value="16"/>
+  <TextSnippets/>
+  <TextLayer LanguageId="en">
+    <Text ID="111902" Value="Rated Frequency"/>
+    <Text ID="111903" Value="Rated Current"/>
+    <Text ID="111904" Value="Rated Speed"/>
+    <Text ID="111905" Value="Rated Voltage"/>
+    <Text ID="111906" Value="Rated PF"/>
+  </TextLayer>
+  <TextLayer LanguageId="de">
+    <Text ID="111902" Value=""/>
+    <Text ID="111903" Value=""/>
+    <Text ID="111904" Value=""/>
+    <Text ID="111905" Value=""/>
+    <Text ID="111906" Value=""/>
+  </TextLayer>
+  <IndexMap>
+    <Index ID="111902" Value="0"/>
+    <Index ID="111903" Value="1"/>
+    <Index ID="111904" Value="2"/>
+    <Index ID="111905" Value="3"/>
+    <Index ID="111906" Value="4"/>
+  </IndexMap>
+</TextGroup>

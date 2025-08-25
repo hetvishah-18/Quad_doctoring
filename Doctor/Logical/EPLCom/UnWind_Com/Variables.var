@@ -1,0 +1,34 @@
+VAR
+	cnt_enable : BOOL;
+	Control_Enable : SINT;
+	Control_Enb : USINT;
+	Control_WORD : INT;
+	DIO_Conf : INT;
+	dlycnt : USINT := 0;
+	dlycnt1 : USINT;
+	dlycnt_pid : USINT;
+	dlycnt_wrpid : USINT;
+	Drv_Status : INT;
+	Ingr_Gain : INT;
+	init : INT;
+	IntGain_Set : INT;
+	NMT_Stat : UDINT;
+	Obj_Ident : UDINT;
+	rd_step : USINT;
+	SDORead1 : EplSDORead;
+	SDOWrite : EplSDOWrite;
+	SDO_rd : USINT;
+	SDO_rd2 : USINT;
+	SDO_wr : USINT;
+	Status_WORD : INT;
+	step : USINT;
+	tempstat : UINT;
+	tempstat_2 : UINT;
+	wrpid_step : USINT;
+	wr_step : USINT;
+	execonce_rd : BOOL;
+	execonce_wr : BOOL;
+	SDO_rdinit : BOOL;
+	Statuschk_dly : USINT;
+	statechg : BOOL;
+END_VAR

@@ -1,0 +1,9 @@
+VAR
+	check_init : BOOL;
+	dec_cnt : USINT;
+	inc_cnt : USINT;
+	mode_allow : BOOL;
+	Mode_Intermediate : BOOL;
+	MPMDecTime : TON_10ms;
+	MPMIncTime : TON_10ms;
+END_VAR

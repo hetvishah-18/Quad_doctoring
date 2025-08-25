@@ -48,12 +48,38 @@
     <Parameter ID="VcObjectName" Value="Vis" />
     <Parameter ID="KeyMappingFile" Value="VC\4PPC70_0702_20B.dis" />
   </Module>
-  <Module Name="Commander_C200_RFC_A" Type="FBE.0x000000F9_Commander C200 RFC_A" Version="V01.01.12.04" OrderNumber="Commander C200 RFC_A">
+  <Module Name="Commander_C200_RFC_UnWind" Type="FBE.0x000000F9_Commander C200 RFC_A" Version="V01.01.12.04" OrderNumber="Commander C200 RFC_A">
     <Connection Connector="PLK1" TargetModule="4PPC70_0702_20B" TargetConnector="IF1" NodeNumber="3">
       <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
     </Connection>
+    <Connection Connector="PLK2" TargetModule="Commander_C200_RFC_Wind" TargetConnector="PLK1" NodeNumber="3">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="DummyDeviceType" Value="on" />
+    <Parameter ID="p2001s05_direction" Value="wo" />
     <Parameter ID="p2001s05_value" Value="5" />
+    <Parameter ID="p2001s15_value" Value="0" />
+    <Parameter ID="p2001s18_direction" Value="wo" />
+    <Parameter ID="p2004s01_direction" Value="ro" />
+    <Parameter ID="p2005s01_direction" Value="ro" />
+    <Parameter ID="p2005s03_direction" Value="ro" />
+    <Parameter ID="p2005s04_direction" Value="ro" />
+    <Parameter ID="p2007s01_direction" Value="ro" />
+    <Parameter ID="p200Es08_value" Value="0" />
+    <Parameter ID="p200Es19_value" Value="0" />
     <Parameter ID="p2014s15_value" Value="" />
+    <Parameter ID="p6040_value" Value="0" />
+  </Module>
+  <Module Name="Commander_C200_RFC_Wind" Type="FBE.0x000000F9_Commander C200 RFC_A" Version="V01.01.12.04" OrderNumber="Commander C200 RFC_A">
+    <Connection Connector="PLK1" TargetModule="Commander_C200_RFC_UnWind" TargetConnector="PLK2" NodeNumber="4">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.3" />
+    </Connection>
+    <Parameter ID="p2001s05_direction" Value="wo" />
+    <Parameter ID="p2001s18_direction" Value="wo" />
+    <Parameter ID="p2004s01_direction" Value="ro" />
+    <Parameter ID="p2005s01_direction" Value="ro" />
+    <Parameter ID="p2005s03_direction" Value="ro" />
+    <Parameter ID="p2005s04_direction" Value="ro" />
   </Module>
   <Module Name="X20AI4622" Type="X20AI4622" Version="1.5.0.0">
     <Connection Connector="SS1" TargetModule="X20TB12g" TargetConnector="SS" />

@@ -7,7 +7,8 @@ PROGRAM _CYCLIC
 		// Initialize all filters
 		
 		UnwindFilt.x	:= 0;
-		UnwindFilt();
+		UnwindFilt.t		:= UnWind.RPM.Actual.Scale.Filter_tim;
+		UnwindFilt.basetime	:= HSCounter.mscnt;
 
 		WindFilt.x		:= 0;
 		WindFilt();
@@ -45,11 +46,15 @@ PROGRAM _CYCLIC
 		
 
 		//Filter the Winder & UnWinder RPM values read from the Drive
-		UnwindFilt.x	:= DINT_TO_INT(UnWind.Drive.ActRPM/10);
+		UnwindFilt.x		:= DINT_TO_INT(Drive_RW[0].Read_DINT[2]);
+		UnwindFilt.t		:= UnWind.RPM.Actual.Scale.Filter_tim;
+		UnwindFilt.basetime	:= HSCounter.mscnt;
 		UnwindFilt();
 		UnWind.RPM.Actual.Input_Val	:= UnwindFilt.y;
 		
-		WindFilt.x		:= DINT_TO_INT(Wind.Drive.ActRPM/10);
+		WindFilt.x			:= DINT_TO_INT(Wind.Drive.ActRPM/10);
+		WindFilt.t			:= Wind.RPM.Actual.Scale.Filter_tim;
+		WindFilt.basetime	:= HSCounter.mscnt;
 		WindFilt();		
 		Wind.RPM.Actual.Input_Val	:= WindFilt.y;
 		
@@ -77,7 +82,7 @@ PROGRAM _CYCLIC
 		END_IF
 	
 		//Just assign
-		UnWind.Drive.ActFreq	:= UnWind.Drive.ActFreq;
+		UnWind.Drive.ActFreq	:= DINT_TO_INT(Drive_RW[0].Read_UDINT[0]);
 		UnWind.Drive.ActRPM		:= UnWind.Drive.ActRPM;
 		UnWind.Drive.ActualAmp	:= UnWind.Drive.ActualAmp;
 		UnWind.Drive.ActualTrq	:= UnWind.Drive.ActualTrq;
@@ -86,4 +91,5 @@ PROGRAM _CYCLIC
 
 	Time_1sec();
 
+	
 END_PROGRAM

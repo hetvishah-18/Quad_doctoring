@@ -7,10 +7,10 @@
     <Object Type="Package" Description="Global libraries">Libraries</Object>
     <Object Type="Program" Language="IEC">UnWindTC</Object>
     <Object Type="Program" Language="IEC">HMI</Object>
+    <Object Type="Package">EPLCom</Object>
     <Object Type="Package">5Drive</Object>
     <Object Type="Package">Doctoring</Object>
     <Object Type="DataObject" Language="Vc" Description="800x480">Vis</Object>
     <Object Type="Program" Language="IEC">Alarms</Object>
-    <Object Type="Package">EPLCom</Object>
   </Objects>
 </Package>

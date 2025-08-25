@@ -3,13 +3,18 @@
 <Transfer xmlns="http://br-automation.co.at/AS/Transfer">
   <OperatingSystem Version="J4.93"/>
   <Hardware Target="SG4"/>
+  <Operation Delete="TunePID.br"/>
+  <Operation Delete="Mot_Tun.br"/>
   <Operation Delete="Alarms.br"/>
   <Operation Delete="HMI.br"/>
+  <Operation Delete="Wind_Com.br"/>
+  <Operation Delete="UnWind_Com.br"/>
   <Operation Delete="LS_Inp_OP.br"/>
-  <Operation Delete="EPLCom.br"/>
   <Operation Delete="HS_Inp_Doc.br"/>
   <Operation Delete="Vis.br"/>
   <Operation Delete="LoopConR.br"/>
+  <Operation Delete="vcchspot.br"/>
+  <Operation Delete="vccddbox.br"/>
   <Operation Delete="vccshape.br"/>
   <Operation Delete="vcclbox.br"/>
   <Operation Delete="vclibvc.br"/>
@@ -47,6 +52,7 @@
   <Operation Delete="Vis03.br"/>
   <Operation Delete="Vis02.br"/>
   <Operation Delete="Vis01.br"/>
+  <Operation Delete="vccpopup.br"/>
   <Operation Delete="vclib.br"/>
   <Operation Delete="dataobj.br"/>
   <Operation Delete="vcgclass.br"/>
@@ -92,6 +98,7 @@
   <Operation Download="vcgclass.br" Memory="UserROM"/>
   <Operation Download="dataobj.br" Memory="UserROM"/>
   <Operation Download="vclib.br" Memory="UserROM"/>
+  <Operation Download="vccpopup.br" Memory="UserROM"/>
   <Operation Download="Vis01.br" Memory="UserROM"/>
   <Operation Download="Vis02.br" Memory="UserROM"/>
   <Operation Download="Vis03.br" Memory="UserROM"/>
@@ -133,17 +140,22 @@
   <Operation Download="vclibvc.br" Memory="UserROM"/>
   <Operation Download="vcclbox.br" Memory="UserROM"/>
   <Operation Download="vccshape.br" Memory="UserROM"/>
+  <Operation Download="vccddbox.br" Memory="UserROM"/>
   <Operation Download="User.br" Memory="UserROM"/>
   <Operation Download="iomap.br" Memory="UserROM"/>
   <Operation Download="ashwac.br" Memory="UserROM"/>
   <Operation Download="Role.br" Memory="UserROM"/>
+  <Operation Download="vcchspot.br" Memory="UserROM"/>
   <Operation Download="LoopConR.br" Memory="UserROM"/>
   <Operation Download="AsBrMath.br" Memory="UserROM"/>
   <Operation Download="asstring.br" Memory="UserROM"/>
   <Operation Download="Vis.br" Memory="UserROM"/>
   <Operation Download="HS_Inp_Doc.br" Memory="UserROM"/>
-  <Operation Download="EPLCom.br" Memory="UserROM"/>
   <Operation Download="LS_Inp_OP.br" Memory="UserROM"/>
+  <Operation Download="UnWind_Com.br" Memory="UserROM"/>
+  <Operation Download="Wind_Com.br" Memory="UserROM"/>
   <Operation Download="HMI.br" Memory="UserROM"/>
   <Operation Download="Alarms.br" Memory="UserROM"/>
+  <Operation Download="Mot_Tun.br" Memory="UserROM"/>
+  <Operation Download="TunePID.br" Memory="UserROM"/>
 </Transfer>

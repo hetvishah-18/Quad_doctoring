@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?AutomationStudio FileVersion="4.9"?>
+<BR.AS.HardwareTopology>
+  <TimeStamps>
+    <TimeStamp LogicalPath="5Drive.Hardware.hw" LastWriteTime="06/27/2025 12:36:00" />
+  </TimeStamps>
+  <Modules>
+    <Module Name="4PPC70_0702_20B" Type="4PPC70.0702-20B" X="100" Y="100" />
+  </Modules>
+  <Links />
+  <InfoElements />
+</BR.AS.HardwareTopology>

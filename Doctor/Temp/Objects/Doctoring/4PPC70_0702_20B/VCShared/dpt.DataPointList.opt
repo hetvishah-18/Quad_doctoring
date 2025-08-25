@@ -3,11 +3,15 @@
     <SourceFile Value="C:/Projects/Tension Control/Doctor/Physical/Doctoring/4PPC70_0702_20B/Cpu.sw" />
     <Query Value="/ns:SwConfiguration/ns:TaskClass/*$$Name,Source" />
     <Xml>
+      <Task Name="Simulate" Source="Doctoring.Simulate.prg" />
       <Task Name="HS_Inp_Doc" Source="Doctoring.HS_Inp_Doct.prg" />
-      <Task Name="EPLCom" Source="EPLCom.EPLCom.prg" />
       <Task Name="LS_Inp_OP" Source="Doctoring.LS_Inp_OP.prg" />
+      <Task Name="UnWind_Com" Source="EPLCom.UnWind_Com.prg" />
+      <Task Name="Wind_Com" Source="EPLCom.Wind_Com.prg" />
       <Task Name="HMI" Source="HMI.prg" />
       <Task Name="Alarms" Source="Alarms.prg" />
+      <Task Name="Mot_Tun" Source="EPLCom.Mot_Tun.prg" />
+      <Task Name="TunePID" Source="EPLCom.TunePID.prg" />
     </Xml>
   </BuildOption>
 </BuildOptions>

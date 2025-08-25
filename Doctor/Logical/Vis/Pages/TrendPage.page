@@ -126,12 +126,6 @@
   </Layers>
   <MovementOrder>
     <MovementEntry Control="Source[local].Layer[globalArea].Control[Numeric_3]">
-      <Property Name="Down" Value="Source[local].Layer[globalArea].Control[Numeric_4]"/>
-      <Property Name="Left" Value="Source[local].Layer[globalArea].Control[Numeric_4]"/>
-      <Property Name="Right" Value="Source[local].Layer[globalArea].Control[Numeric_4]"/>
-      <Property Name="Up" Value="Source[local].Layer[globalArea].Control[Numeric_4]"/>
-    </MovementEntry>
-    <MovementEntry Control="Source[local].Layer[globalArea].Control[Numeric_4]">
       <Property Name="Down" Value="Source[local].Layer[globalArea].Control[Numeric_3]"/>
       <Property Name="Left" Value="Source[local].Layer[globalArea].Control[Numeric_3]"/>
       <Property Name="Right" Value="Source[local].Layer[globalArea].Control[Numeric_3]"/>

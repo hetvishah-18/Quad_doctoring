@@ -60,6 +60,9 @@
     <Source File="TextGroups\DigitalOutput1.txtgrp"/>
     <Source File="TextGroups\DigitalOutput2.txtgrp"/>
     <Source File="TextGroups\Encoder_Inp.txtgrp"/>
+    <Source File="TextGroups\MotorControl.txtgrp"/>
+    <Source File="TextGroups\MotorDropDown.txtgrp"/>
+    <Source File="TextGroups\PIDControl.txtgrp"/>
     <Source File="Fonts\Info.fninfo"/>
     <Source File="Fonts\Html_SDM.fninfo"/>
     <Source File="Fonts\Default.fninfo"/>
@@ -187,6 +190,8 @@
     <Source File="Bitmaps\Input.bminfo"/>
     <Source File="Bitmaps\logo2.bminfo"/>
     <Source File="Bitmaps\led_red.bminfo"/>
+    <Source File="Bitmaps\Off_Button.bminfo"/>
+    <Source File="Bitmaps\On_Button.bminfo"/>
     <Source File="BitmapGroups\AlarmAcknowledgeState.bmgrp"/>
     <Source File="BitmapGroups\AlarmBypassState.bmgrp"/>
     <Source File="BitmapGroups\AlarmEvent.bmgrp"/>
@@ -199,6 +204,7 @@
     <Source File="BitmapGroups\Input.bmgrp"/>
     <Source File="BitmapGroups\Output.bmgrp"/>
     <Source File="BitmapGroups\Winder_Simulation.bmgrp"/>
+    <Source File="BitmapGroups\ON_OFF.bmgrp"/>
     <Source File="Pages\HomePage.page"/>
     <Source File="Pages\Setup.page"/>
     <Source File="Pages\TrendPage.page"/>
@@ -211,6 +217,7 @@
     <Source File="Pages\Factory1.page"/>
     <Source File="Pages\Factory2.page"/>
     <Source File="Pages\IO_Page1.page"/>
+    <Source File="Pages\Factory3.page"/>
     <Source File="Layers\globalArea.layer"/>
     <Source File="Layers\msgBox.layer"/>
     <Source File="Layers\Background.layer"/>
@@ -272,7 +279,6 @@
     <Source File="Trends\SetMPM.trd"/>
     <Source File="Trends\ActualTension.trd"/>
     <Source File="Trends\SetTension.trd"/>
-    <Source File="Trends\Trend_1.tre"/>
     <Source File="VirtualKeys.vcvk"/>
     <Source File="Palette.vcr"/>
   </SourceFiles>

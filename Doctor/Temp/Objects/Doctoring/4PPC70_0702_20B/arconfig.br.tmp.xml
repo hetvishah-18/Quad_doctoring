@@ -31,7 +31,114 @@
     <Parameter ID="OutputCycleTrigger" Value="auto" />
   </Module>
   <Module ID="IF1.ST3" Hardware="epl_any">
-    <Parameter ID="HardwareModuleName" Value="Commander_C200_RFC_A" />
+    <Parameter ID="HardwareModuleName" Value="Commander_C200_RFC_UnWind" />
+    <Parameter ID="OrderNumber" Value="Commander C200 RFC_A" />
+    <Parameter ID="Supervision" Value="on" />
+    <Parameter ID="Mode" Value="CN" />
+    <Parameter ID="ResponseTimeout" Value="20" Type="UDINT" />
+    <Parameter ID="DummyDeviceType" Value="on" />
+    <Parameter ID="EPL_DeviceType" Value="65938" Type="UDINT" />
+    <Parameter ID="DummyVendorId" Value="off" />
+    <Parameter ID="DummyRevisionNo" Value="off" />
+    <Parameter ID="DummyModno" Value="off" />
+    <Parameter ID="EPL_BootTimeNotActive" Value="9000000" Type="UDINT" />
+    <Parameter ID="EPL_MinCycleTime" Value="250" Type="UDINT" />
+    <Parameter ID="EPL_MinRedCycleTime" Value="0" Type="UDINT" />
+    <Parameter ID="ASndMaxLatency" Value="0" Type="UDINT" />
+    <Parameter ID="EPL_CnSoc2Preq" Value="0" Type="UDINT" />
+    <Parameter ID="EPL_ResetToDefault" Value="off" />
+    <Parameter ID="EPL_TellMuxSlot" Value="on" />
+    <Parameter ID="MuxNetworkSlot" Value="0" Type="UDINT" />
+    <Parameter ID="EPL_Chained" Value="off" />
+    <Parameter ID="EPL_PReqDataInPResMN" Value="off" />
+    <Parameter ID="MinimalInputLatency" Value="off" />
+    <Parameter ID="EPL_ResetPostLoad" Value="42" Type="UINT" />
+    <Parameter ID="EPL_ParamStrategy" Value="Load" />
+    <Channel ID="ModuleOk">
+      <Parameter ID="Ext" Value="/OK" />
+      <Parameter ID="Address" Value="0" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="BOOL" />
+    </Channel>
+    <Channel ID="Parameter5_JogReference_I2001_S05Out">
+      <Parameter ID="Ext" Value="/DYNAMIC" />
+      <Parameter ID="Address" Value="0x00052001" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UINT" />
+    </Channel>
+    <Channel ID="Parameter24_PresetReference4_I2001_S18Out">
+      <Parameter ID="Ext" Value="/DYNAMIC" />
+      <Parameter ID="Address" Value="0x00182001" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="DINT" />
+    </Channel>
+    <Channel ID="Parameter1_CurrentMagnitude_I2004_S01">
+      <Parameter ID="Ext" Value="/DYNAMIC" />
+      <Parameter ID="Address" Value="0x00012004" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="DINT" />
+    </Channel>
+    <Channel ID="Parameter1_OutputFrequency_I2005_S01">
+      <Parameter ID="Ext" Value="/DYNAMIC" />
+      <Parameter ID="Address" Value="0x00012005" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="DINT" />
+    </Channel>
+    <Channel ID="Parameter3_OutputPower_I2005_S03">
+      <Parameter ID="Ext" Value="/DYNAMIC" />
+      <Parameter ID="Address" Value="0x00032005" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="DINT" />
+    </Channel>
+    <Channel ID="Parameter4_MotorRpm_I2005_S04">
+      <Parameter ID="Ext" Value="/DYNAMIC" />
+      <Parameter ID="Address" Value="0x00042005" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="DINT" />
+    </Channel>
+    <Channel ID="Parameter1_AnalogueInput1_I2007_S01">
+      <Parameter ID="Ext" Value="/DYNAMIC" />
+      <Parameter ID="Address" Value="0x00012007" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="INT" />
+    </Channel>
+  </Module>
+  <Module ID="IF1.ST3.OD" Hardware="epl_any">
+    <Parameter ID="p2001s05" Value="UINT#5" />
+    <Parameter ID="p2001s15" Value="DINT#0" />
+    <Parameter ID="p200Es08" Value="USINT#0" />
+    <Parameter ID="p200Es19" Value="INT#0" />
+    <Parameter ID="p6040" Value="UINT#0" />
+    <Parameter ID="p6042" Value="INT#0" />
+    <Parameter ID="p6046s01" Value="UDINT#0" />
+    <Parameter ID="p6046s02" Value="UDINT#40000" />
+    <Parameter ID="p6048s01" Value="UDINT#10000" />
+    <Parameter ID="p6048s02" Value="UINT#2" />
+    <Parameter ID="p6049s01" Value="UDINT#10000" />
+    <Parameter ID="p6049s02" Value="UINT#2" />
+    <Parameter ID="p604As01" Value="UDINT#10000" />
+    <Parameter ID="p604As02" Value="UINT#2" />
+    <Parameter ID="p6060" Value="SINT#2" />
+    <Parameter ID="p6081" Value="UDINT#0" />
+    <Parameter ID="p6083" Value="UDINT#65536" />
+    <Parameter ID="p6084" Value="UDINT#65536" />
+    <Parameter ID="p6085" Value="UDINT#65536" />
+    <Parameter ID="p60B1" Value="DINT#0" />
+    <Parameter ID="p60B2" Value="INT#0" />
+    <Parameter ID="p60C5" Value="UDINT#32768000" />
+    <Parameter ID="p60C6" Value="UDINT#32768000" />
+    <Parameter ID="p60FF" Value="DINT#0" />
+    <Parameter ID="p3005s01" Value="USINT#0" />
+    <Parameter ID="p3005s02" Value="USINT#0" />
+    <Parameter ID="p6007" Value="INT#1" />
+    <Parameter ID="p605A" Value="INT#2" />
+    <Parameter ID="p605B" Value="INT#0" />
+    <Parameter ID="p605C" Value="INT#1" />
+    <Parameter ID="p605D" Value="INT#1" />
+    <Parameter ID="p605E" Value="INT#2" />
+  </Module>
+  <Module ID="IF1.ST4" Hardware="epl_any">
+    <Parameter ID="HardwareModuleName" Value="Commander_C200_RFC_Wind" />
     <Parameter ID="OrderNumber" Value="Commander C200 RFC_A" />
     <Parameter ID="Supervision" Value="on" />
     <Parameter ID="Mode" Value="CN" />
@@ -59,9 +166,44 @@
       <Parameter ID="Direction" Value="IN" />
       <Parameter ID="Type" Value="BOOL" />
     </Channel>
+    <Channel ID="Parameter5_JogReference_I2001_S05Out">
+      <Parameter ID="Ext" Value="/DYNAMIC" />
+      <Parameter ID="Address" Value="0x00052001" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="UINT" />
+    </Channel>
+    <Channel ID="Parameter24_PresetReference4_I2001_S18Out">
+      <Parameter ID="Ext" Value="/DYNAMIC" />
+      <Parameter ID="Address" Value="0x00182001" Type="UDINT" />
+      <Parameter ID="Direction" Value="OUT" />
+      <Parameter ID="Type" Value="DINT" />
+    </Channel>
+    <Channel ID="Parameter1_CurrentMagnitude_I2004_S01">
+      <Parameter ID="Ext" Value="/DYNAMIC" />
+      <Parameter ID="Address" Value="0x00012004" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="DINT" />
+    </Channel>
+    <Channel ID="Parameter1_OutputFrequency_I2005_S01">
+      <Parameter ID="Ext" Value="/DYNAMIC" />
+      <Parameter ID="Address" Value="0x00012005" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="DINT" />
+    </Channel>
+    <Channel ID="Parameter3_OutputPower_I2005_S03">
+      <Parameter ID="Ext" Value="/DYNAMIC" />
+      <Parameter ID="Address" Value="0x00032005" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="DINT" />
+    </Channel>
+    <Channel ID="Parameter4_MotorRpm_I2005_S04">
+      <Parameter ID="Ext" Value="/DYNAMIC" />
+      <Parameter ID="Address" Value="0x00042005" Type="UDINT" />
+      <Parameter ID="Direction" Value="IN" />
+      <Parameter ID="Type" Value="DINT" />
+    </Channel>
   </Module>
-  <Module ID="IF1.ST3.OD" Hardware="epl_any">
-    <Parameter ID="p2001s05" Value="UINT#5" />
+  <Module ID="IF1.ST4.OD" Hardware="epl_any">
     <Parameter ID="p6042" Value="INT#0" />
     <Parameter ID="p6046s01" Value="UDINT#0" />
     <Parameter ID="p6046s02" Value="UDINT#40000" />

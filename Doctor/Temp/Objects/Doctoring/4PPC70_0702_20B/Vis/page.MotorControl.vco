@@ -304,8 +304,13 @@
             <Double Name="MinValue">-1.7976931348623157E+308</Double>
             <Double Name="MaxValue">1.7976931348623157E+308</Double>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Output]</Reference>
-            <UInt16 Name="StyleTableSize">27</UInt16>
+            <UInt16 Name="StyleTableSize">32</UInt16>
             <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">26</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
             <Group Name="UnitText">
               <UInt16 Name="Offset">57</UInt16>
               <UInt16 Name="Size">1</UInt16>
@@ -345,8 +350,13 @@
             <Double Name="MinValue">-1.7976931348623157E+308</Double>
             <Double Name="MaxValue">1.7976931348623157E+308</Double>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Output]</Reference>
-            <UInt16 Name="StyleTableSize">27</UInt16>
+            <UInt16 Name="StyleTableSize">32</UInt16>
             <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">26</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
             <Group Name="UnitText">
               <UInt16 Name="Offset">57</UInt16>
               <UInt16 Name="Size">1</UInt16>
@@ -386,8 +396,13 @@
             <Double Name="MinValue">-1.7976931348623157E+308</Double>
             <Double Name="MaxValue">1.7976931348623157E+308</Double>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Output]</Reference>
-            <UInt16 Name="StyleTableSize">27</UInt16>
+            <UInt16 Name="StyleTableSize">32</UInt16>
             <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">26</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
             <Group Name="UnitText">
               <UInt16 Name="Offset">57</UInt16>
               <UInt16 Name="Size">1</UInt16>
@@ -427,8 +442,13 @@
             <Double Name="MinValue">-1.7976931348623157E+308</Double>
             <Double Name="MaxValue">1.7976931348623157E+308</Double>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Output]</Reference>
-            <UInt16 Name="StyleTableSize">27</UInt16>
+            <UInt16 Name="StyleTableSize">32</UInt16>
             <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">26</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
             <Group Name="UnitText">
               <UInt16 Name="Offset">57</UInt16>
               <UInt16 Name="Size">1</UInt16>
@@ -648,8 +668,13 @@
             <Double Name="MinValue">-1.7976931348623157E+308</Double>
             <Double Name="MaxValue">1.7976931348623157E+308</Double>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Output]</Reference>
-            <UInt16 Name="StyleTableSize">27</UInt16>
+            <UInt16 Name="StyleTableSize">32</UInt16>
             <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">26</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
             <Group Name="UnitText">
               <UInt16 Name="Offset">57</UInt16>
               <UInt16 Name="Size">1</UInt16>
@@ -689,8 +714,13 @@
             <Double Name="MinValue">-1.7976931348623157E+308</Double>
             <Double Name="MaxValue">1.7976931348623157E+308</Double>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Output]</Reference>
-            <UInt16 Name="StyleTableSize">27</UInt16>
+            <UInt16 Name="StyleTableSize">32</UInt16>
             <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">26</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
             <Group Name="UnitText">
               <UInt16 Name="Offset">57</UInt16>
               <UInt16 Name="Size">1</UInt16>
@@ -730,8 +760,13 @@
             <Double Name="MinValue">-1.7976931348623157E+308</Double>
             <Double Name="MaxValue">1.7976931348623157E+308</Double>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Output]</Reference>
-            <UInt16 Name="StyleTableSize">27</UInt16>
+            <UInt16 Name="StyleTableSize">32</UInt16>
             <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">26</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
             <Group Name="UnitText">
               <UInt16 Name="Offset">57</UInt16>
               <UInt16 Name="Size">1</UInt16>
@@ -771,8 +806,13 @@
             <Double Name="MinValue">-1.7976931348623157E+308</Double>
             <Double Name="MaxValue">1.7976931348623157E+308</Double>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Output]</Reference>
-            <UInt16 Name="StyleTableSize">27</UInt16>
+            <UInt16 Name="StyleTableSize">32</UInt16>
             <UInt16 Name="Reserved">0</UInt16>
+            <Group Name="AlignmentHorizontal">
+              <UInt16 Name="Offset">26</UInt16>
+              <UInt16 Name="Size">1</UInt16>
+              <Byte Name="Data">1</Byte>
+            </Group>
             <Group Name="UnitText">
               <UInt16 Name="Offset">57</UInt16>
               <UInt16 Name="Size">1</UInt16>
@@ -1170,18 +1210,9 @@
         <Reference Name="FormLayer1" Type="LAY">Source[local].Layer[Background]</Reference>
         <Reference Name="FormLayer2" Type="LAY">Source[local].Page[MotorControl].Layer[Default]</Reference>
         <Group Name="MovementOrder">
-          <UInt32 Name="Count">2</UInt32>
+          <UInt32 Name="Count">1</UInt32>
           <Group Name="Source[local].Layer[globalArea].Control[Numeric_3]">
             <Reference Name="Control" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_3]</Reference>
-            <Reference Name="CtrlNext" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_4]</Reference>
-            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_4]</Reference>
-            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_4]</Reference>
-            <Reference Name="CtrlRight" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_4]</Reference>
-            <Reference Name="CtrlUp" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_4]</Reference>
-            <Reference Name="CtrlDown" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_4]</Reference>
-          </Group>
-          <Group Name="Source[local].Layer[globalArea].Control[Numeric_4]">
-            <Reference Name="Control" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_4]</Reference>
             <Reference Name="CtrlNext" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_3]</Reference>
             <Reference Name="CtrlPrev" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_3]</Reference>
             <Reference Name="CtrlLeft" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_3]</Reference>

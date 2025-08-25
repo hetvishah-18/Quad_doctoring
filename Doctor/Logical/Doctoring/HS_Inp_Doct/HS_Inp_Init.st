@@ -65,7 +65,29 @@ PROGRAM _INIT
 	DO2[9]	:= 0;
 	DO2[10]	:= 0;
 	DO2[11]	:= 0;
+		
+	FOR i := 0 TO 1 DO
+		FOR j := 0 TO 9 DO
+			Drive_RW[i].Write_UINT[j]	:= 0;
+			Drive_RW[i].Write_DINT[j]	:= 0;
+			Drive_RW[i].Read_DINT[j]	:= 0;
+		END_FOR
+	END_FOR	
 	
+	UnWind.Drive.ActFreq		:= 0;
+	UnWind.Drive.ActRPM			:= 0;
+	UnWind.Drive.ActualAmp		:= 0;
+	UnWind.Drive.ActualTrq		:= 0;
+	UnWind.Drive.Drive_Enable	:= 0;
+	UnWind.Drive.Drive_Healthy	:= 0;
+
+	Wind.Drive.ActFreq			:= 0;
+	Wind.Drive.ActRPM			:= 0;
+	Wind.Drive.ActualAmp		:= 0;
+	Wind.Drive.ActualTrq		:= 0;
+	Wind.Drive.Drive_Enable		:= 0;
+	Wind.Drive.Drive_Healthy	:= 0;
+
 	i	:= 0;
 	
 	IF(Idler.PulsesPerRev = 0)THEN
@@ -77,8 +99,6 @@ PROGRAM _INIT
 	END_IF
 	
 	UnwindFilt.enable	:= 1;
-	UnwindFilt.t		:= UnWind.RPM.Actual.Scale.Filter_tim;
-	UnwindFilt.basetime	:= HSCounter.mscnt;
 	UnwindFilt.set		:= FALSE;
 	UnwindFilt.yset		:= 0;
 	
@@ -88,8 +108,6 @@ PROGRAM _INIT
 	END_IF
 
 	WindFilt.enable	:= 1;
-	WindFilt.t			:= Wind.RPM.Actual.Scale.Filter_tim;
-	WindFilt.basetime	:= HSCounter.mscnt;
 	WindFilt.set		:= FALSE;
 	WindFilt.yset		:= 0;
 
@@ -214,96 +232,6 @@ PROGRAM _INIT
 	
 	Time_1sec.PT	:= 100;
 
-(*	
-	FOR i :=0 TO (MAX_AXES - 1)BY 1 DO
-		IF (AxisKN[i].Fact.FilterTime = 0)THEN
-			AxisKN[i].Fact.FilterTime	:= 15;
-		END_IF
-
-		Axis_KNInpFilt[i].enable		:= TRUE;
-		Axis_KNInpFilt[i].t				:= AxisKN[i].Fact.FilterTime;
-		Axis_KNInpFilt[i].yset   		:= 0;
-		Axis_KNInpFilt[i].basetime 		:= HSCounter.mscnt;
-		Axis_KNInpFilt[i].set    		:= FALSE;
-	END_FOR;
-
-
-	FOR i := 0 TO (MAX_AXES - 1) BY 1 DO
-		AxisRPM[i].InpBits		:= 0;
-		AxisRPM[i].ActRPM		:= 0;
-
-		Axis_RPM[i].x	:= AxisRPM[i].InpBits; 
-		Axis_RPM[i]();
-
-		AxisKN[i].InpBits		:=	0;
-		AxisKN[i].ActTension	:= 0;
-
-		Axis_KN[i].x	:= AxisKN[i].InpBits;
-		Axis_KN[i]();
-	END_FOR;
-*)	
-
-	(* UnWinder & Infeed calculation initialization *)
-
-	(*	UnWindFilt.enable	:= 1;
-	UnWindFilt.set   	:= 1;
-	UnWindFilt.t		:= 0.1;
-	UnWindFilt.y_set	:= 0.0;
-	UnWindFilt.x 		:= 0.0;
-	UnWindFilt();
-	UnWindFilt.set   	:= 0;
-
-	
-	ActUnWindKN.x1		:= UnWindKN.MinBits;
-	ActUnWindKN.x2		:= UnWindKN.MaxBits;	 
-	ActUnWindKN.y1		:= UnWindKN.MinTension;	 
-	ActUnWindKN.y2		:= UnWindKN.MaxTension;
-
-	InfeedFilt.enable	:= 1;
-	InfeedFilt.set   	:= 1;
-	InfeedFilt.t		:= 0.1;
-	InfeedFilt.y_set	:= 0.0;
-	InfeedFilt.x 		:= 0.0;
-	InfeedFilt();
-	InfeedFilt.set   	:= 0;
-	
-	ActInfeedKN.x1		:= InfeedKN.MinBits;
-	ActInfeedKN.x2		:= InfeedKN.MaxBits;	 
-	ActInfeedKN.y1		:= InfeedKN.MinTension;	 
-	ActInfeedKN.y2		:= InfeedKN.MaxTension;
-*)	
-	
-	(* Winder & Outfeed calculation initialization *)
-	
-
-
-(*	WindFilt.enable		:= 1;
-	WindFilt.set   		:= 1;
-	WindFilt.t			:= 0.1;
-	WindFilt.y_set		:= 0.0;
-	WindFilt.x 			:= 0.0;
-	WindFilt();
-	WindFilt.set   		:= 0;
-
-	
-	ActWindKN.x1		:= WinderKN.MinBits;
-	ActWindKN.x2		:= WinderKN.MaxBits;	 
-	ActWindKN.y1		:= WinderKN.MinTension;	 
-	ActWindKN.y2		:= WinderKN.MaxTension;
-
-	OutfeedFilt.enable	:= 1;
-	OutfeedFilt.set   	:= 1;
-	OutfeedFilt.t		:= 0.1;
-	OutfeedFilt.y_set	:= 0.0;
-	OutfeedFilt.x 		:= 0.0;
-	OutfeedFilt();
-	OutfeedFilt.set   	:= 0;
-	
-	ActOutfeedKN.x1		:= OutfeedKN.MinBits;
-	ActOutfeedKN.x2		:= OutfeedKN.MaxBits;	 
-	ActOutfeedKN.y1		:= OutfeedKN.MinTension;	 
-	ActOutfeedKN.y2		:= OutfeedKN.MaxTension;
-*)	
 
 	
 END_PROGRAM

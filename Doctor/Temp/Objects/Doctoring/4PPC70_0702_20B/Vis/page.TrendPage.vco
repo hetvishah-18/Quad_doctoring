@@ -234,18 +234,9 @@
         <Reference Name="FormLayer2" Type="LAY">Source[local].Page[TrendPage].Layer[FrameLayer]</Reference>
         <Reference Name="FormLayer3" Type="LAY">Source[local].Page[TrendPage].Layer[Default]</Reference>
         <Group Name="MovementOrder">
-          <UInt32 Name="Count">2</UInt32>
+          <UInt32 Name="Count">1</UInt32>
           <Group Name="Source[local].Layer[globalArea].Control[Numeric_3]">
             <Reference Name="Control" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_3]</Reference>
-            <Reference Name="CtrlNext" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_4]</Reference>
-            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_4]</Reference>
-            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_4]</Reference>
-            <Reference Name="CtrlRight" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_4]</Reference>
-            <Reference Name="CtrlUp" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_4]</Reference>
-            <Reference Name="CtrlDown" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_4]</Reference>
-          </Group>
-          <Group Name="Source[local].Layer[globalArea].Control[Numeric_4]">
-            <Reference Name="Control" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_4]</Reference>
             <Reference Name="CtrlNext" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_3]</Reference>
             <Reference Name="CtrlPrev" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_3]</Reference>
             <Reference Name="CtrlLeft" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_3]</Reference>

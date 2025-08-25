@@ -1,0 +1,40 @@
+		IF UnWind.Tension.PID.Enable THEN
+			Wind.RPM.ActualRPM := UnWind.RPM.ActualRPM
+   
+			IF Wind.RPM.SetRPM > UnWind.Tension.PID.UpperLimit THEN
+				Wind.RPM.SetRPM := UnWind.Tension.PID.UpperLimit;
+				Error := TRUE; 		// Indicate limit reached
+			ELSIF Wind.RPM.SetRPM < UnWind.Tension.PID.LowerLimit THEN
+				Wind.RPM.SetRPM := UnWind.Tension.PID.LowerLimit;
+				Error := TRUE; 		// Indicate limit reached
+			ELSE
+				Error := FALSE;
+			END_IF;
+   
+			PID_Timer(IN := NOT PID_Timer.Q, PT := SampleTime);
+			TimerElapsed := PID_Timer.Q;
+			
+			IF TimerElapsed THEN
+				// Calculate error
+				UnWind.Tension.PID.Error := Wind.RPM.SetRPM - Wind.RPM.ActualRPM;
+       
+				// PID Calculation
+				Integral 	:= Integral + (UnWind.Tension.PID.Error * UnWind.Tension.PID.Intg_Gain * SampleTimeMS)/1000.0;
+				Derivative 	:= (UnWind.Tension.PID.Error - LastError) / (SampleTimeMS/1000.0 ) * UnWind.Tension.PID.Derv_Gain;
+				PID_Output 	:= (UnWind.Tension.PID.Error * UnWind.Tension.PID.Prop_Gain) + Integral + Derivative;
+       
+				// Update last error for next cycle
+				LastError := UnWind.Tension.PID.Error;
+       
+				// Reset timer
+				PID_Timer(IN := FALSE);
+			END_IF;
+			
+		ELSE
+			// System disabled - reset PID and stop motors
+			Integral 		:= 0;
+			LastError 		:= 0;
+			PID_Output 		:= 0;
+			Wind.RPM.SetRPM := 0;
+			PID_Timer(IN := FALSE);
+		END_IF;

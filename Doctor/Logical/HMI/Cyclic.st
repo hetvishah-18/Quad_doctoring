@@ -76,6 +76,17 @@ PROGRAM _CYCLIC
 		Backbtn 		:= 0;
 	END_IF
 	
+	IF((CurrPage = 0)AND (NewPageReq = 0))THEN
+		WelcomeTimer.IN	:= 1;
+		WelcomeTimer.PT	:= 500;
+		IF(WelcomeTimer.Q = 1)THEN
+			NewPageReq		:= 1;
+			WelcomeTimer.IN	:= 0;
+		END_IF
+	END_IF
+	
+	WelcomeTimer();
+		
 	IF(startdly = 1)THEN
 		dlycnt 		:= dlycnt + 1;
 		NewPageReq 	:= CurrPage;

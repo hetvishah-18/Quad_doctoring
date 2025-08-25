@@ -9,7 +9,7 @@
             <UInt32 Name="Left">304</UInt32>
             <UInt32 Name="Top">106</UInt32>
             <UInt32 Name="Right">495</UInt32>
-            <UInt32 Name="Bottom">322</UInt32>
+            <UInt32 Name="Bottom">323</UInt32>
             <UInt32 Name="IndexDatapoint">4294967295</UInt32>
             <UInt32 Name="ControlID">0</UInt32>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001005].StyleClass[Default]</Reference>
@@ -23,7 +23,7 @@
             <Group Name="Bitmap">
               <UInt16 Name="Offset">36</UInt16>
               <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="GFX">Source[local].Bitmap[logo2]</Reference>
+              <Reference Name="Data" Type="GFX">Source[local].Bitmap[logo]</Reference>
             </Group>
             <Group Name="End Marker">
               <UInt16 Name="Offset">65535</UInt16>
@@ -242,17 +242,22 @@ Contact - +91-9898978677       Email - Quadtechinnovation@gmail.com"</String>
     <Folder Name="POBJ">
       <Object Name="Welcome" ClsId="0x400" Version="1" TargetIndex="0" Type="PAGE" RefString="Source[local].Page[Welcome]">
         <UInt32 Name="FormLanguage">0</UInt32>
-        <Reference Name="StartControl" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_3]</Reference>
-        <UInt32 Name="LayerCount">3</UInt32>
+        <Reference Name="StartControl" Type="CTRL">None</Reference>
+        <UInt32 Name="LayerCount">2</UInt32>
         <UInt32 Name="MoveFocus">1</UInt32>
         <Group Name="Styleable Properties">
           <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00000400].StyleClass[Default]</Reference>
-          <UInt16 Name="StyleTableSize">12</UInt16>
+          <UInt16 Name="StyleTableSize">20</UInt16>
           <UInt16 Name="Reserved">0</UInt16>
           <Group Name="ForeColor">
             <UInt16 Name="Offset">28</UInt16>
             <UInt16 Name="Size">4</UInt16>
             <UInt32 Name="Data">7</UInt32>
+          </Group>
+          <Group Name="BackColor">
+            <UInt16 Name="Offset">32</UInt16>
+            <UInt16 Name="Size">4</UInt16>
+            <UInt32 Name="Data">15</UInt32>
           </Group>
           <Group Name="End Marker">
             <UInt16 Name="Offset">65535</UInt16>
@@ -260,28 +265,9 @@ Contact - +91-9898978677       Email - Quadtechinnovation@gmail.com"</String>
           </Group>
         </Group>
         <Reference Name="FormLayer0" Type="LAY">Source[local].Layer[Background]</Reference>
-        <Reference Name="FormLayer1" Type="LAY">Source[local].Layer[globalArea]</Reference>
-        <Reference Name="FormLayer2" Type="LAY">Source[local].Page[Welcome].Layer[Default]</Reference>
+        <Reference Name="FormLayer1" Type="LAY">Source[local].Page[Welcome].Layer[Default]</Reference>
         <Group Name="MovementOrder">
-          <UInt32 Name="Count">2</UInt32>
-          <Group Name="Source[local].Layer[globalArea].Control[Numeric_3]">
-            <Reference Name="Control" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_3]</Reference>
-            <Reference Name="CtrlNext" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_4]</Reference>
-            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_4]</Reference>
-            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_4]</Reference>
-            <Reference Name="CtrlRight" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_4]</Reference>
-            <Reference Name="CtrlUp" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_4]</Reference>
-            <Reference Name="CtrlDown" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_4]</Reference>
-          </Group>
-          <Group Name="Source[local].Layer[globalArea].Control[Numeric_4]">
-            <Reference Name="Control" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_4]</Reference>
-            <Reference Name="CtrlNext" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_3]</Reference>
-            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_3]</Reference>
-            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_3]</Reference>
-            <Reference Name="CtrlRight" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_3]</Reference>
-            <Reference Name="CtrlUp" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_3]</Reference>
-            <Reference Name="CtrlDown" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_3]</Reference>
-          </Group>
+          <UInt32 Name="Count">0</UInt32>
         </Group>
       </Object>
     </Folder>

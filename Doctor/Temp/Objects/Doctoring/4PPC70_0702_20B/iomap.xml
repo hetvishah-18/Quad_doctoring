@@ -164,6 +164,61 @@
 <LN ID="%IX.IF1.ST3.ModuleOk" Type="BOOL">
 <Prod Device="IF1.ST3" DPName="ModuleOk" Kind="io"/>
 </LN>
+<LN ID="%QW.IF1.ST3.Parameter5_JogReference_I2001_S05Out" Type="UINT">
+<Prod Device="TC#1-CPYDEV" DPName="::Drive_RW[0].Write_UINT[0]" Kind="pv"/>
+<Cons Device="IF1.ST3" DPName="Parameter5_JogReference_I2001_S05Out" Kind="io"/>
+</LN>
+<LN ID="%QD.IF1.ST3.Parameter24_PresetReference4_I2001_S18Out" Type="DINT">
+<Prod Device="TC#1-CPYDEV" DPName="::Drive_RW[0].Write_DINT[0]" Kind="pv"/>
+<Cons Device="IF1.ST3" DPName="Parameter24_PresetReference4_I2001_S18Out" Kind="io"/>
+</LN>
+<LN ID="%ID.IF1.ST3.Parameter1_CurrentMagnitude_I2004_S01" Type="DINT">
+<Prod Device="IF1.ST3" DPName="Parameter1_CurrentMagnitude_I2004_S01" Kind="io"/>
+<Cons Device="TC#1-CPYDEV" DPName="::Drive_RW[0].Read_DINT[0]" Kind="pv"/>
+</LN>
+<LN ID="%ID.IF1.ST3.Parameter1_OutputFrequency_I2005_S01" Type="DINT">
+<Prod Device="IF1.ST3" DPName="Parameter1_OutputFrequency_I2005_S01" Kind="io"/>
+<Cons Device="TC#1-CPYDEV" DPName="::Drive_RW[0].Read_DINT[2]" Kind="pv"/>
+</LN>
+<LN ID="%ID.IF1.ST3.Parameter3_OutputPower_I2005_S03" Type="DINT">
+<Prod Device="IF1.ST3" DPName="Parameter3_OutputPower_I2005_S03" Kind="io"/>
+<Cons Device="TC#1-CPYDEV" DPName="::Drive_RW[0].Read_DINT[3]" Kind="pv"/>
+</LN>
+<LN ID="%ID.IF1.ST3.Parameter4_MotorRpm_I2005_S04" Type="DINT">
+<Prod Device="IF1.ST3" DPName="Parameter4_MotorRpm_I2005_S04" Kind="io"/>
+<Cons Device="TC#1-CPYDEV" DPName="::Drive_RW[0].Read_DINT[1]" Kind="pv"/>
+</LN>
+<LN ID="%IW.IF1.ST3.Parameter1_AnalogueInput1_I2007_S01" Type="INT">
+<Prod Device="IF1.ST3" DPName="Parameter1_AnalogueInput1_I2007_S01" Kind="io"/>
+<Cons Device="TC#1-CPYDEV" DPName="::Drive_RW[0].Read_INT[0]" Kind="pv"/>
+</LN>
+<LN ID="%IX.IF1.ST4.ModuleOk" Type="BOOL">
+<Prod Device="IF1.ST4" DPName="ModuleOk" Kind="io"/>
+</LN>
+<LN ID="%QW.IF1.ST4.Parameter5_JogReference_I2001_S05Out" Type="UINT">
+<Prod Device="TC#1-CPYDEV" DPName="::Drive_RW[1].Write_UINT[0]" Kind="pv"/>
+<Cons Device="IF1.ST4" DPName="Parameter5_JogReference_I2001_S05Out" Kind="io"/>
+</LN>
+<LN ID="%QD.IF1.ST4.Parameter24_PresetReference4_I2001_S18Out" Type="DINT">
+<Prod Device="TC#1-CPYDEV" DPName="::Drive_RW[1].Write_DINT[0]" Kind="pv"/>
+<Cons Device="IF1.ST4" DPName="Parameter24_PresetReference4_I2001_S18Out" Kind="io"/>
+</LN>
+<LN ID="%ID.IF1.ST4.Parameter1_CurrentMagnitude_I2004_S01" Type="DINT">
+<Prod Device="IF1.ST4" DPName="Parameter1_CurrentMagnitude_I2004_S01" Kind="io"/>
+<Cons Device="TC#1-CPYDEV" DPName="::Drive_RW[1].Read_DINT[0]" Kind="pv"/>
+</LN>
+<LN ID="%ID.IF1.ST4.Parameter1_OutputFrequency_I2005_S01" Type="DINT">
+<Prod Device="IF1.ST4" DPName="Parameter1_OutputFrequency_I2005_S01" Kind="io"/>
+<Cons Device="TC#1-CPYDEV" DPName="::Drive_RW[1].Read_DINT[2]" Kind="pv"/>
+</LN>
+<LN ID="%ID.IF1.ST4.Parameter3_OutputPower_I2005_S03" Type="DINT">
+<Prod Device="IF1.ST4" DPName="Parameter3_OutputPower_I2005_S03" Kind="io"/>
+<Cons Device="TC#1-CPYDEV" DPName="::Drive_RW[1].Read_DINT[3]" Kind="pv"/>
+</LN>
+<LN ID="%ID.IF1.ST4.Parameter4_MotorRpm_I2005_S04" Type="DINT">
+<Prod Device="IF1.ST4" DPName="Parameter4_MotorRpm_I2005_S04" Kind="io"/>
+<Cons Device="TC#1-CPYDEV" DPName="::Drive_RW[1].Read_DINT[1]" Kind="pv"/>
+</LN>
 <LN ID="%IX.IF5.ST1.ModuleOk" Type="BOOL">
 <Prod Device="IF5.ST1" DPName="ModuleOk" Kind="io"/>
 </LN>

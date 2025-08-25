@@ -1,0 +1,5 @@
+VAR
+	cnt : INT;
+	x : INT;
+	var : INT;
+END_VAR

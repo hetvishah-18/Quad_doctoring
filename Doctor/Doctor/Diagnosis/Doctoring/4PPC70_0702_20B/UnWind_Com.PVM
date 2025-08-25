@@ -1,0 +1,10 @@
+WATCH Ver=2.00 PLCName=PLC1 CPUName=CPU TaskName=UnWind_Com 
+Position X=0 Y=0 Width=0 Height=0 TabWidth Name=200 Type=100 Scope=60 Force=60 Index=6 ASCIIString=0
+                                    name                                     type force                                                            value level type len format place expand specs
+                          Control_Enable                                     SINT    0 "                                                               1"    0    2    1   10    1    0         
+                            Control_WORD                                      INT    0 "                                                             133"    0    3    1   10    1    0         
+                                  SDO_wr                                    USINT    0 "                                                               0"    0    5    1   10    1    0         
+                                 wr_step                                    USINT    0 "                                                               0"    0    5    1   10    1    0         
+                                  SDO_rd                                    USINT    0 "                                                               0"    0    5    1   10    1    0         
+                             Control_Enb                                    USINT    0 "                                                               1"    0    5    1   10    1    0         
+                              Drv_Status                                      INT    0 "                                                              47"    0    3    1   10    1    0         

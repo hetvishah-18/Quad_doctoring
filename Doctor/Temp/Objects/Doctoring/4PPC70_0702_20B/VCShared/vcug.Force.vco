@@ -121,7 +121,7 @@
             <Group Name="Texts">
               <String Name="Text" Encoding="Unicode">""</String>
               <String Name="Text" Encoding="Unicode">"Newton"</String>
-              <String Name="Text" Encoding="Unicode">"KN"</String>
+              <String Name="Text" Encoding="Unicode">""</String>
             </Group>
           </Object>
         </Folder>
@@ -167,7 +167,7 @@
             <Group Name="Texts">
               <String Name="Text" Encoding="Unicode">""</String>
               <String Name="Text" Encoding="Unicode">""</String>
-              <String Name="Text" Encoding="Unicode">"KN"</String>
+              <String Name="Text" Encoding="Unicode">" "</String>
             </Group>
           </Object>
         </Folder>

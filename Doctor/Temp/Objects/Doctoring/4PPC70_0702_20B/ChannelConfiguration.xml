@@ -56,10 +56,26 @@
     <Channel ID="IF5.AsyncFrameSpareSize" Description="Size reserve within asynchronous frame [Bytes]" FromVersion="A3.08" Ext="/INFO" Address="0x8000011B" Direction="IN" Type="DINT" Sig_St_Dint="1" />
     <Channel ID="IF5.BusLengthConfigured" Description="Configured bus length [m]" FromVersion="A3.08" Ext="/INFO" Address="0x8000011C" Direction="IN" Type="DINT" Sig_St_Dint="1" />
   </Module>
-  <Module ID="IF1.ST3" Hardware="epl_any" HardwareModuleName="Commander_C200_RFC_A" ModuleID="7" Simulatable="true">
+  <Module ID="IF1.ST3" Hardware="epl_any" HardwareModuleName="Commander_C200_RFC_UnWind" ModuleID="7" Simulatable="true">
     <Channel ID="ModuleOk" Description="Module status (1 = module present)" Ext="/OK" Address="0" ArConfig="copy" Direction="IN" Type="BOOL" />
+    <Channel ID="Parameter5_JogReference_I2001_S05Out" Description="" Ext="/DYNAMIC" Address="0x00052001" ArConfig="Copy" Direction="OUT" Type="UINT" />
+    <Channel ID="Parameter24_PresetReference4_I2001_S18Out" Description="" Ext="/DYNAMIC" Address="0x00182001" ArConfig="Copy" Direction="OUT" Type="DINT" />
+    <Channel ID="Parameter1_CurrentMagnitude_I2004_S01" Description="" Ext="/DYNAMIC" Address="0x00012004" ArConfig="Copy" Direction="IN" Type="DINT" />
+    <Channel ID="Parameter1_OutputFrequency_I2005_S01" Description="" Ext="/DYNAMIC" Address="0x00012005" ArConfig="Copy" Direction="IN" Type="DINT" />
+    <Channel ID="Parameter3_OutputPower_I2005_S03" Description="" Ext="/DYNAMIC" Address="0x00032005" ArConfig="Copy" Direction="IN" Type="DINT" />
+    <Channel ID="Parameter4_MotorRpm_I2005_S04" Description="" Ext="/DYNAMIC" Address="0x00042005" ArConfig="Copy" Direction="IN" Type="DINT" />
+    <Channel ID="Parameter1_AnalogueInput1_I2007_S01" Description="" Ext="/DYNAMIC" Address="0x00012007" ArConfig="Copy" Direction="IN" Type="INT" />
   </Module>
-  <Module ID="IF5.ST1" Hardware="X20BR9300" HardwareModuleName="X20BR9300" ModuleID="34" Simulatable="true">
+  <Module ID="IF1.ST4" Hardware="epl_any" HardwareModuleName="Commander_C200_RFC_Wind" ModuleID="10" Simulatable="true">
+    <Channel ID="ModuleOk" Description="Module status (1 = module present)" Ext="/OK" Address="0" ArConfig="copy" Direction="IN" Type="BOOL" />
+    <Channel ID="Parameter5_JogReference_I2001_S05Out" Description="" Ext="/DYNAMIC" Address="0x00052001" ArConfig="Copy" Direction="OUT" Type="UINT" />
+    <Channel ID="Parameter24_PresetReference4_I2001_S18Out" Description="" Ext="/DYNAMIC" Address="0x00182001" ArConfig="Copy" Direction="OUT" Type="DINT" />
+    <Channel ID="Parameter1_CurrentMagnitude_I2004_S01" Description="" Ext="/DYNAMIC" Address="0x00012004" ArConfig="Copy" Direction="IN" Type="DINT" />
+    <Channel ID="Parameter1_OutputFrequency_I2005_S01" Description="" Ext="/DYNAMIC" Address="0x00012005" ArConfig="Copy" Direction="IN" Type="DINT" />
+    <Channel ID="Parameter3_OutputPower_I2005_S03" Description="" Ext="/DYNAMIC" Address="0x00032005" ArConfig="Copy" Direction="IN" Type="DINT" />
+    <Channel ID="Parameter4_MotorRpm_I2005_S04" Description="" Ext="/DYNAMIC" Address="0x00042005" ArConfig="Copy" Direction="IN" Type="DINT" />
+  </Module>
+  <Module ID="IF5.ST1" Hardware="X20BR9300" HardwareModuleName="X20BR9300" ModuleID="37" Simulatable="true">
     <Channel ID="ModuleOk" Description="Module status (1 = module present)" Ext="/OK" Address="0" Direction="IN" Type="BOOL" Sig_St_Bool="1" />
     <Channel ID="SerialNumber" Description="Serial number" FromVersion="A3.08" Ext="/INFO" Address="4" Direction="IN" Type="UDINT" Sig_St_Udint="1" />
     <Channel ID="ModuleID" Description="Module ID" FromVersion="A3.08" Ext="/INFO" Address="10" Direction="IN" Type="UINT" Sig_St_Uint="1" />
@@ -81,7 +97,7 @@
     <Channel ID="ModuleCommError" Description="Number of communication errors to IO processor on IO module" FromVersion="A4.81" Ext="/INFO" Address="0x80000186" Direction="IN" Type="DINT" Sig_St_Dint="1" Diagnose="/DIAG" />
     <Channel ID="ModuleCommErrorChangeTime" Description="Time of last change of channel ModuleCommError" FromVersion="A4.81" Ext="/INFO" Address="0xC0000186" Direction="IN" Type="DATE_AND_TIME" Sig_St_Dt="1" Diagnose="/DIAG" />
   </Module>
-  <Module ID="IF5.ST2" Hardware="X20DI9371" HardwareModuleName="X20DI9371" ModuleID="41" Simulatable="true">
+  <Module ID="IF5.ST2" Hardware="X20DI9371" HardwareModuleName="X20DI9371" ModuleID="44" Simulatable="true">
     <Channel ID="ModuleOk" Description="Module status (1 = module present)" Ext="/OK" Address="0" Direction="IN" Type="BOOL" Sig_St_Bool="1" />
     <Channel ID="SerialNumber" Description="Serial number" FromVersion="A3.08" Ext="/INFO" Address="4" Direction="IN" Type="UDINT" Sig_St_Udint="1" />
     <Channel ID="ModuleID" Description="Module ID" FromVersion="A3.08" Ext="/INFO" Address="10" Direction="IN" Type="UINT" Sig_St_Uint="1" />
@@ -113,7 +129,7 @@
     <Channel ID="ModuleCommError" Description="Number of communication errors to IO processor on IO module" FromVersion="A4.81" Ext="/INFO" Address="0x80000186" Direction="IN" Type="DINT" Sig_St_Dint="1" Diagnose="/DIAG" />
     <Channel ID="ModuleCommErrorChangeTime" Description="Time of last change of channel ModuleCommError" FromVersion="A4.81" Ext="/INFO" Address="0xC0000186" Direction="IN" Type="DATE_AND_TIME" Sig_St_Dt="1" Diagnose="/DIAG" />
   </Module>
-  <Module ID="IF5.ST3" Hardware="X20DO9322" HardwareModuleName="X20DO9322" ModuleID="44" Simulatable="true">
+  <Module ID="IF5.ST3" Hardware="X20DO9322" HardwareModuleName="X20DO9322" ModuleID="47" Simulatable="true">
     <Channel ID="ModuleOk" Description="Module status (1 = module present)" Ext="/OK" Address="0" Direction="IN" Type="BOOL" Sig_St_Bool="1" />
     <Channel ID="SerialNumber" Description="Serial number" FromVersion="A3.08" Ext="/INFO" Address="4" Direction="IN" Type="UDINT" Sig_St_Udint="1" />
     <Channel ID="ModuleID" Description="Module ID" FromVersion="A3.08" Ext="/INFO" Address="10" Direction="IN" Type="UINT" Sig_St_Uint="1" />
@@ -145,7 +161,7 @@
     <Channel ID="ModuleCommError" Description="Number of communication errors to IO processor on IO module" FromVersion="A4.81" Ext="/INFO" Address="0x80000186" Direction="IN" Type="DINT" Sig_St_Dint="1" Diagnose="/DIAG" />
     <Channel ID="ModuleCommErrorChangeTime" Description="Time of last change of channel ModuleCommError" FromVersion="A4.81" Ext="/INFO" Address="0xC0000186" Direction="IN" Type="DATE_AND_TIME" Sig_St_Dt="1" Diagnose="/DIAG" />
   </Module>
-  <Module ID="IF5.ST4" Hardware="X20AI4622" HardwareModuleName="X20AI4622" ModuleID="10" Simulatable="true">
+  <Module ID="IF5.ST4" Hardware="X20AI4622" HardwareModuleName="X20AI4622" ModuleID="13" Simulatable="true">
     <Channel ID="ModuleOk" Description="Module status (1 = module present)" Ext="/OK" Address="0" Direction="IN" Type="BOOL" Sig_St_Bool="1" />
     <Channel ID="StaleData" Description="Data not from latest cycle" FromVersion="A3.08" Ext="/OK" Address="0" BitOffset="1" Direction="IN" Type="BOOL" Sig_St_Bool="1" />
     <Channel ID="SerialNumber" Description="Serial number" FromVersion="A3.08" Ext="/INFO" Address="4" Direction="IN" Type="UDINT" Sig_St_Udint="1" />
@@ -171,7 +187,7 @@
     <Channel ID="ModuleCommError" Description="Number of communication errors to IO processor on IO module" FromVersion="A4.81" Ext="/INFO" Address="0x80000186" Direction="IN" Type="DINT" Sig_St_Dint="1" Diagnose="/DIAG" />
     <Channel ID="ModuleCommErrorChangeTime" Description="Time of last change of channel ModuleCommError" FromVersion="A4.81" Ext="/INFO" Address="0xC0000186" Direction="IN" Type="DATE_AND_TIME" Sig_St_Dt="1" Diagnose="/DIAG" />
   </Module>
-  <Module ID="IF5.ST5" Hardware="X20DC1396" HardwareModuleName="X20DC1396" ModuleID="38" Simulatable="true">
+  <Module ID="IF5.ST5" Hardware="X20DC1396" HardwareModuleName="X20DC1396" ModuleID="41" Simulatable="true">
     <Channel ID="ModuleOk" Description="Module status (1 = module present)" Ext="/OK" Address="0" Direction="IN" Type="BOOL" Sig_St_Bool="1" />
     <Channel ID="StaleData" Description="Data not from latest cycle" Ext="/OK" Address="0" BitOffset="1" Direction="IN" Type="BOOL" Sig_St_Bool="1" />
     <Channel ID="SerialNumber" Description="Serial number" Ext="/INFO" Address="4" Direction="IN" Type="UDINT" Sig_St_Udint="1" />

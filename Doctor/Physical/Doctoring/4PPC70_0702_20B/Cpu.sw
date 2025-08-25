@@ -2,17 +2,20 @@
 <?AutomationStudio FileVersion="4.9"?>
 <SwConfiguration CpuAddress="SL1" xmlns="http://br-automation.co.at/AS/SwConfiguration">
   <TaskClass Name="Cyclic#1">
+    <Task Name="Simulate" Source="Doctoring.Simulate.prg" Memory="UserROM" Language="IEC" Debugging="true" Disabled="true" />
     <Task Name="HS_Inp_Doc" Source="Doctoring.HS_Inp_Doct.prg" Memory="UserROM" Language="IEC" Debugging="true" />
-    <Task Name="EPLCom_Drv" Source="EPLCom.EPLCom_Drv1.prg" Memory="UserROM" Language="IEC" Debugging="true" />
   </TaskClass>
   <TaskClass Name="Cyclic#2">
     <Task Name="LS_Inp_OP" Source="Doctoring.LS_Inp_OP.prg" Memory="UserROM" Language="IEC" Debugging="true" />
   </TaskClass>
   <TaskClass Name="Cyclic#3" />
   <TaskClass Name="Cyclic#4">
+    <Task Name="UnWind_Com" Source="EPLCom.UnWind_Com.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+    <Task Name="Wind_Com" Source="EPLCom.Wind_Com.prg" Memory="UserROM" Language="IEC" Debugging="true" />
     <Task Name="HMI" Source="HMI.prg" Memory="UserROM" Language="IEC" Debugging="true" />
     <Task Name="Alarms" Source="Alarms.prg" Memory="UserROM" Language="IEC" Debugging="true" />
-    <Task Name="EPLCom_Dr1" Source="EPLCom.EPLCom_Drv2.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+    <Task Name="Mot_Tun" Source="EPLCom.Mot_Tun.prg" Memory="UserROM" Language="IEC" Debugging="true" />
+    <Task Name="TunePID" Source="EPLCom.TunePID.prg" Memory="UserROM" Language="IEC" Debugging="true" />
   </TaskClass>
   <TaskClass Name="Cyclic#5" />
   <TaskClass Name="Cyclic#6" />
@@ -68,6 +71,8 @@
     <BinaryObject Name="vclibvc" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="vcclbox" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="vccshape" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="vccddbox" Source="" Memory="UserROM" Language="Binary" />
+    <BinaryObject Name="vccpopup" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="acp10cfg" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="Acp10map" Source="" Memory="UserROM" Language="Binary" />
     <BinaryObject Name="arconfig" Source="" Memory="SystemROM" Language="Binary" />

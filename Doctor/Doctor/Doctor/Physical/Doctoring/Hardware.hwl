@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?AutomationStudio FileVersion="4.9"?>
+<BR.AS.HardwareTopology>
+  <TimeStamps>
+    <TimeStamp LogicalPath="Doctoring.Hardware.hw" LastWriteTime="07/26/2025 10:19:15" />
+  </TimeStamps>
+  <Modules>
+    <Module Name="4PPC70_0702_20B" Type="4PPC70.0702-20B" X="94" Y="-90" />
+    <Module Name="X20BM01" Type="X20BM01" X="303.599976" Y="-17" />
+    <Module Name="X20BR9300" Type="X20BR9300" X="303.599976" Y="-17" />
+    <Module Name="X20TB12" Type="X20TB12" X="303.599976" Y="10" />
+    <Module Name="X20BM11h" Type="X20BM11" X="316.599976" Y="-17" />
+    <Module Name="X20DC1196" Type="X20DC1196" X="316.599976" Y="-17" />
+    <Module Name="X20TB12i" Type="X20TB12" X="316.599976" Y="10" />
+    <Module Name="X20BM11f" Type="X20BM11" X="329.599976" Y="-17" />
+    <Module Name="X20AI4622" Type="X20AI4622" X="329.599976" Y="-17" />
+    <Module Name="X20TB12g" Type="X20TB12" X="329.599976" Y="10" />
+    <Module Name="X20BM11b" Type="X20BM11" X="342.599976" Y="-17" />
+    <Module Name="X20DI9371" Type="X20DI9371" X="342.599976" Y="-17" />
+    <Module Name="X20TB12c" Type="X20TB12" X="342.599976" Y="10" />
+    <Module Name="X20BM11d" Type="X20BM11" X="355.599976" Y="-17" />
+    <Module Name="X20DO9322" Type="X20DO9322" X="355.599976" Y="-17" />
+    <Module Name="X20TB12e" Type="X20TB12" X="355.599976" Y="10" />
+    <Module Name="Commander_C200_OpenLoop" Type="FBE.0x000000F9_Commander C200 OpenLoop" X="430.599976" Y="-17" />
+  </Modules>
+  <Links>
+    <Link From="4PPC70_0702_20B" To="X20BR9300" FromPort="IF5" ToPort="X2X1" IsRoutedByUser="False">
+      <Point X="187.299988" Y="12" />
+      <Point X="187.299988" Y="12" />
+      <Point X="187.299988" Y="17" />
+      <Point X="187.299988" Y="27" />
+      <Point X="302.599976" Y="27" />
+      <Point X="309.599976" Y="27" />
+      <Point X="309.599976" Y="27" />
+    </Link>
+    <Link From="4PPC70_0702_20B" To="Commander_C200_OpenLoop" FromPort="IF1" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="139.299988" Y="12" />
+      <Point X="139.299988" Y="12" />
+      <Point X="139.299988" Y="17" />
+      <Point X="139.299988" Y="92" />
+      <Point X="429.599976" Y="92" />
+      <Point X="449.599976" Y="92" />
+      <Point X="449.599976" Y="92" />
+    </Link>
+  </Links>
+  <InfoElements />
+</BR.AS.HardwareTopology>

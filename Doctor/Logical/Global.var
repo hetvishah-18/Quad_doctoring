@@ -7,8 +7,10 @@ VAR
 	Alarm_mc : ARRAY[0..99] OF BOOL;
 	Alarm_new : BOOL;
 	AO1 : ARRAY[0..3] OF INT;
+	Axis_Motor : INT;
+	Backbtn : INT;
 	CurrPage : USINT;
-	DataRead_INT : INT;
+	DataRead_INT : {REDUND_UNREPLICABLE} INT := 0;
 	DataRead_UINT : UINT;
 	DataTobeRead_INT : INT;
 	DataTobeSent_UINT : UINT;
@@ -18,6 +20,7 @@ VAR
 	DigOp : DigOp_typ;
 	DO1 : ARRAY[0..11] OF BOOL;
 	DO2 : ARRAY[0..11] OF BOOL;
+	Drive_RW : ARRAY[0..4] OF DriveRW_typ;
 	DrvComm : BOOL;
 	Enc_Value : INT;
 	error : UINT;
@@ -47,24 +50,42 @@ END_VAR
 VAR
 	NewPage : USINT;
 	NewPageReq : USINT;
+	OutFeed : Ax_TensionCtl;
 END_VAR
 VAR CONSTANT
 	OUTFEED : USINT := 2;
 END_VAR
 VAR
-	OutFeed : Ax_TensionCtl;
 	PageCall : BOOL;
 	ParamChange : BOOL;
+END_VAR
+VAR CONSTANT
+	PLC_INTF : STRING[20] := 'IF1';
+END_VAR
+VAR
 	PrevPage : USINT;
+	PrevPageTemp : USINT;
 END_VAR
 VAR CONSTANT
 	PulsesPerRev : INT := 0;
 END_VAR
 VAR
 	PulsesPerSec : INT;
+	SavePID : BOOL;
+	Save : BOOL;
 	Statusdp_alarm : UINT;
 	Statusdp_blink : UINT;
 	status_gettime : UINT;
+	TempPropGain : INT;
+	TempIntgGain : INT;
+	TempDervGain : INT;
+	TempPIDFeedback : INT;
+	TempPIDRef : INT;
+	TempCurrent : DINT;
+	TempFreq : DINT;
+	TempPF : INT;
+	TempSpeed : DINT;
+	TempVoltage : INT;
 END_VAR
 VAR RETAIN
 	UnWind : Ax_TensionCtl;
@@ -77,12 +98,12 @@ VAR
 	UserAccessLevel : USINT;
 END_VAR
 VAR RETAIN
-	Wind : Ax_NonTensionCtl;
+	Wind : Ax_TensionCtl;
 END_VAR
 VAR CONSTANT
 	WINDER : USINT := 3;
 END_VAR
 VAR
-	Backbtn : INT;
-	PrevPageTemp : USINT;
+	Tune_Enable : BOOL;
+	Axis_MotorTune : USINT;
 END_VAR

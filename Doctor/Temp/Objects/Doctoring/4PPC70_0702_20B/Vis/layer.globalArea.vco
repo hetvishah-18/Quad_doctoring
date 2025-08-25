@@ -1262,57 +1262,12 @@
             <Double Name="MinValue">-1.7976931348623157E+308</Double>
             <Double Name="MaxValue">1.7976931348623157E+308</Double>
             <Reference Name="StyleClass" Type="SC">Source[local].StyleGroup[0x00001007].StyleClass[Output]</Reference>
-            <UInt16 Name="StyleTableSize">57</UInt16>
+            <UInt16 Name="StyleTableSize">9</UInt16>
             <UInt16 Name="Reserved">0</UInt16>
-            <Group Name="InputStart">
-              <UInt16 Name="Offset">20</UInt16>
-              <UInt16 Name="Size">1</UInt16>
-              <Byte Name="Data">1</Byte>
-            </Group>
-            <Group Name="InputComma">
-              <UInt16 Name="Offset">21</UInt16>
-              <UInt16 Name="Size">1</UInt16>
-              <Byte Name="Data">0</Byte>
-            </Group>
-            <Group Name="InputUpDown">
-              <UInt16 Name="Offset">22</UInt16>
-              <UInt16 Name="Size">1</UInt16>
-              <Byte Name="Data">0</Byte>
-            </Group>
-            <Group Name="InputMinus">
-              <UInt16 Name="Offset">23</UInt16>
-              <UInt16 Name="Size">1</UInt16>
-              <Byte Name="Data">0</Byte>
-            </Group>
-            <Group Name="InputConfirm">
-              <UInt16 Name="Offset">24</UInt16>
-              <UInt16 Name="Size">1</UInt16>
-              <Byte Name="Data">1</Byte>
-            </Group>
-            <Group Name="InputCancel">
-              <UInt16 Name="Offset">25</UInt16>
-              <UInt16 Name="Size">1</UInt16>
-              <Byte Name="Data">2</Byte>
-            </Group>
             <Group Name="AlignmentHorizontal">
               <UInt16 Name="Offset">26</UInt16>
               <UInt16 Name="Size">1</UInt16>
               <Byte Name="Data">1</Byte>
-            </Group>
-            <Group Name="Input">
-              <UInt16 Name="Offset">30</UInt16>
-              <UInt16 Name="Size">1</UInt16>
-              <Byte Name="Data">1</Byte>
-            </Group>
-            <Group Name="InputNext">
-              <UInt16 Name="Offset">31</UInt16>
-              <UInt16 Name="Size">1</UInt16>
-              <Byte Name="Data">1</Byte>
-            </Group>
-            <Group Name="InputTouchpad">
-              <UInt16 Name="Offset">52</UInt16>
-              <UInt16 Name="Size">4</UInt16>
-              <Reference Name="Data" Type="OVL">Source[local].TouchPad[NumPad]</Reference>
             </Group>
             <Group Name="End Marker">
               <UInt16 Name="Offset">65535</UInt16>

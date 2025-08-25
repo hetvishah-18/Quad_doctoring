@@ -115,5 +115,7 @@
     <Bitmap>Source[local].Bitmap[Input]</Bitmap>
     <Bitmap>Source[local].Bitmap[logo2]</Bitmap>
     <Bitmap>Source[local].Bitmap[led_red]</Bitmap>
+    <Bitmap>Source[local].Bitmap[Off_Button]</Bitmap>
+    <Bitmap>Source[local].Bitmap[On_Button]</Bitmap>
   </Bitmap32bit>
 </Options>

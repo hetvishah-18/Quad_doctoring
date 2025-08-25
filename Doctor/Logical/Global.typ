@@ -9,6 +9,7 @@ TYPE
 		MPM : MPM_Scale;
 		RPM : RPM_Scale;
 		PulsesPerRev : INT;
+		MotorRating : MotorRating_typ;
 	END_STRUCT;
 	Ax_NonTensionCtl : 	STRUCT 
 		MPM : MPM_typ;
@@ -17,6 +18,7 @@ TYPE
 		Drive : Drive_typ;
 		Dia : Diameter_Scale;
 		StartingDia : UINT;
+		MotorRating : MotorRating_typ;
 	END_STRUCT;
 	Ax_TensionCtl : 	STRUCT 
 		Tension : Tension_typ;
@@ -26,6 +28,7 @@ TYPE
 		Drive : Drive_typ;
 		Dia : Diameter_Scale;
 		StartingDia : UINT;
+		MotorRating : MotorRating_typ;
 	END_STRUCT;
 	Diameter_Scale : 	STRUCT 
 		InpMPM : INT;
@@ -79,6 +82,8 @@ TYPE
 		ActualAmp : INT;
 		ActRPM : INT;
 		Fault : USINT;
+		Drive_Healthy : BOOL;
+		Drive_Enable : BOOL;
 	END_STRUCT;
 	MPM_Scale : 	STRUCT 
 		InpDia : INT;
@@ -124,6 +129,7 @@ TYPE
 		Set : SetVal_typ;
 		Actual : ActVal_typ;
 		PulsesPerRev : INT;
+		GearRatio : USINT;
 	END_STRUCT;
 	Scale_typ : 	STRUCT 
 		InMin : INT;
@@ -143,5 +149,39 @@ TYPE
 		Enable : BOOL;
 		SetTension : INT;
 		ActualTension : INT;
+		PID : PID_typ;
+	END_STRUCT;
+	DriveRW_typ : 	STRUCT 
+		Read_BOOL : ARRAY[0..9]OF BOOL;
+		Read_UINT : ARRAY[0..9]OF UINT;
+		Read_INT : ARRAY[0..9]OF INT;
+		Read_USINT : ARRAY[0..9]OF USINT;
+		Read_DINT : ARRAY[0..9]OF DINT;
+		Read_UDINT : ARRAY[0..9]OF UDINT;
+		Write_BOOL : ARRAY[0..9]OF BOOL;
+		Write_INT : ARRAY[0..9]OF INT;
+		Write_UINT : ARRAY[0..9]OF UINT;
+		Write_USINT : ARRAY[0..9]OF USINT;
+		Write_DINT : ARRAY[0..9]OF DINT;
+		Write_UDINT : ARRAY[0..9]OF UDINT;
+	END_STRUCT;
+	MotorRating_typ : 	STRUCT 
+		RatedFreq : DINT;
+		RatedCurrent : DINT;
+		RatedSpeed : DINT;
+		RatedVoltage : INT;
+		RatedPF : INT;
+	END_STRUCT;
+	PID_typ : 	STRUCT 
+		Prop_Gain : INT;
+		Intg_Gain : INT;
+		Derv_Gain : INT;
+		UpperLimit : INT;
+		LowerLimit : INT;
+		Enable : USINT;
+		Reference_Add : INT;
+		Feedback_Add : INT;
+		Output : INT;
+		Error : INT;
 	END_STRUCT;
 END_TYPE

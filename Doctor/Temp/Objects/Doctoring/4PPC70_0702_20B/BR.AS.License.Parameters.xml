@@ -5,10 +5,10 @@
     <ConnectionParameters>/COMT=2500 /RT=1000 /AM=* /SDT=5 /DAIP=192.168.111.50 /REPO=11159 /ANSL=1 /PT=11169</ConnectionParameters>
   </Connection>
   <AsProject>
-    <ApjFullFileName>C:\Projects\Tension Control\Doctor\Doctor.apj</ApjFullFileName>
+    <ApjFullFileName>C:\Projects\Doctor\Doctor\Doctor.apj</ApjFullFileName>
     <ProjectName>Doctor</ProjectName>
     <ActiveConfigurationName>Doctoring</ActiveConfigurationName>
-    <LicenseDataFolder>C:\Projects\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B</LicenseDataFolder>
+    <LicenseDataFolder>C:\Projects\Doctor\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B</LicenseDataFolder>
   </AsProject>
   <General>
     <DeleteParameterFile>false</DeleteParameterFile>

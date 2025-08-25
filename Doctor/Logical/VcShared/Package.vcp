@@ -3,7 +3,7 @@
 <Project xmlns="http://br-automation.co.at/AS/VC/Project">
   <Property Name="EnableEvents" Value="False"/>
   <Property Name="SharedTargetResourceRoot" Value=""/>
-  <Property Name="TextIDMax" Value="111401"/>
+  <Property Name="TextIDMax" Value="115590"/>
   <SourceFiles>
     <Source File="Languages.vcr"/>
     <Source File="TextGroups\AlarmAcknowledgeState.txtgrp"/>
@@ -22,6 +22,8 @@
     <Source File="UnitGroups\Force.vcug"/>
     <Source File="UnitGroups\Volt_Bits.vcug"/>
     <Source File="UnitGroups\ConvBV.vcug"/>
+    <Source File="UnitGroups\TwoDecVars.vcug"/>
+    <Source File="UnitGroups\ThreeDecVar.vcug"/>
     <Source File="AlarmGroups\AlarmSystem.alcfg"/>
     <Source File="AlarmGroups\SystemAlarms.algrp"/>
     <Source File="AlarmGroups\Alarms_MC.algrp"/>

@@ -16,4 +16,6 @@ VAR
 	DriveRPM_Scal : LCScINT;
 	DriveTorq_Scal : LCScINT;
 	DriveFreq_Scal : LCScINT;
+	j : USINT;
+	Old_AxisMotor : INT;
 END_VAR

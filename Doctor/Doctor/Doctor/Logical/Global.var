@@ -1,0 +1,97 @@
+VAR
+	Actual : Act_para;
+	AI1 : ARRAY[0..4] OF INT;
+	AI2 : ARRAY[0..3] OF INT;
+	AI3 : ARRAY[0..4] OF INT;
+	Alarms : ARRAY[0..99] OF BOOL;
+	Alarm_cnt : USINT;
+	Alarm_new : BOOL;
+	AO1 : ARRAY[0..3] OF INT;
+	AxisDia : ARRAY[0..4] OF Diameter_Scale;
+END_VAR
+VAR RETAIN
+	AxisKN : ARRAY[0..4] OF Tension_Scale;
+END_VAR
+VAR
+	AxisMPM : ARRAY[0..4] OF MPM_Scale;
+END_VAR
+VAR RETAIN
+	AxisRPM : ARRAY[0..4] OF RPM_Scale;
+END_VAR
+VAR
+	Axis_KN : ARRAY[0..4] OF LCScINT;
+	Axis_RPM : ARRAY[0..4] OF LCScINT;
+	Axis_RpmInpFilt : ARRAY[0..4] OF LCPT1;
+	CurrPage : USINT;
+	DataRead_INT : INT;
+	DataRead_UINT : UINT;
+	DataTobeRead_INT : INT;
+	DataTobeSent_UINT : UINT;
+	DI1 : ARRAY[0..11] OF BOOL;
+	DI2 : ARRAY[0..11] OF BOOL;
+	DO1 : ARRAY[0..11] OF BOOL;
+	DO2 : ARRAY[0..11] OF BOOL;
+	DOUT1 : BOOL;
+	DrvComm : BOOL;
+	Enc_Value : INT;
+	error : UINT;
+END_VAR
+VAR RETAIN
+	Idler : Ax_GeneralRef;
+END_VAR
+VAR CONSTANT
+	INFEED : USINT := 1;
+END_VAR
+VAR
+	InFeed : Ax_TensionCtl;
+	LastPage : USINT;
+	LoginSuccessful : BOOL;
+END_VAR
+VAR CONSTANT
+	MAIN : USINT := 4;
+END_VAR
+VAR
+	MainDrive : Ax_NonTensionCtl1;
+END_VAR
+VAR CONSTANT
+	MAX_AXES : USINT := 5;
+END_VAR
+VAR
+	NewPage : USINT;
+	NewPageReq : BOOL;
+END_VAR
+VAR CONSTANT
+	OUTFEED : USINT := 2;
+END_VAR
+VAR
+	OutFeed : Ax_TensionCtl;
+	PageCall : BOOL;
+	ParamChange : BOOL;
+	PrevPage : USINT;
+END_VAR
+VAR CONSTANT
+	PulsesPerRev : INT := 0;
+END_VAR
+VAR
+	PulsesPerSec : INT;
+	Set : Set_para;
+	Statusdp_alarm : UINT;
+	Statusdp_blink : UINT;
+	status_gettime : UINT;
+END_VAR
+VAR RETAIN
+	UnWind : Ax_TensionCtl;
+END_VAR
+VAR CONSTANT
+	UNWINDER : USINT := 0;
+END_VAR
+VAR
+	UnWindpara : LCPIDpara;
+	UserAccessLevel : USINT;
+END_VAR
+VAR RETAIN
+	Wind : Ax_NonTensionCtl1;
+END_VAR
+VAR CONSTANT
+	WINDER : USINT := 3;
+END_VAR

@@ -1,0 +1,21 @@
+Tue Jul  8 14:03:32 2025
+COPYRIGHT (C) B&R Industrial Automation GmbH
+
+Tue Jul  8 14:03:32 2025
+No ARsim registration found!
+
+Tue Jul  8 14:03:32 2025
+InstanceName: 000008012f8aca67
+
+Tue Jul  8 14:03:32 2025
+WorkingDirectory: C:\Projects\Tension Control\Doctor\Temp\Simulation\Doctor\4PPC70_0702_23B\
+
+Tue Jul  8 14:03:32 2025
+COMMAND_COLDSTART
+
+Tue Jul  8 14:03:34 2025
+Version: J4.93
+
+Tue Jul  8 14:11:38 2025
+COMMAND_TERMINATE
+

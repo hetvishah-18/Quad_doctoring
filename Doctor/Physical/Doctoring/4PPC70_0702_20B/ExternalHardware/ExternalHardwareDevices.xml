@@ -2,9 +2,9 @@
 <ExternalHardware>
   <Modules>
     <Module ModuleID="FBE.0x000000F9_Commander C200 RFC_A" Version="V01.01.12.04" OrderNumber="Commander C200 RFC_A">
-      <SourceFile OriginalFile="0x000000F9_Commander C200 RFC_A.xdd" TranslationFile="H61HVF74.ext" />
-      <SourceFile OriginalFile="Mxxx.bmp" TranslationFile="MPA5GJ0S.ext" />
-      <SourceFile OriginalFile="Commander_front.jpg" TranslationFile="GRR06OCN.ext" />
+      <SourceFile OriginalFile="0x000000F9_Commander C200 RFC_A.xdd" TranslationFile="1CTVACDZ.ext" />
+      <SourceFile OriginalFile="Mxxx.bmp" TranslationFile="SZUV7ZSU.ext" />
+      <SourceFile OriginalFile="Commander_front.jpg" TranslationFile="IRB8CW1D.ext" />
     </Module>
   </Modules>
 </ExternalHardware>

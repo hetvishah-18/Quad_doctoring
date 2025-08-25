@@ -2364,29 +2364,20 @@
         <Reference Name="FormLayer1" Type="LAY">Source[local].Layer[Background]</Reference>
         <Reference Name="FormLayer2" Type="LAY">Source[local].Page[Factory].Layer[Default]</Reference>
         <Group Name="MovementOrder">
-          <UInt32 Name="Count">12</UInt32>
+          <UInt32 Name="Count">11</UInt32>
           <Group Name="Source[local].Layer[globalArea].Control[Numeric_3]">
             <Reference Name="Control" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_3]</Reference>
-            <Reference Name="CtrlNext" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_4]</Reference>
+            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[Factory].Layer[Default].Control[Numeric_10]</Reference>
             <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[Factory].Layer[Default].Control[Numeric_19]</Reference>
-            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_4]</Reference>
-            <Reference Name="CtrlRight" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_4]</Reference>
+            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[Factory].Layer[Default].Control[Numeric_19]</Reference>
+            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[Factory].Layer[Default].Control[Numeric_11]</Reference>
             <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[Factory].Layer[Default].Control[Numeric_10]</Reference>
             <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[Factory].Layer[Default].Control[Numeric_12]</Reference>
-          </Group>
-          <Group Name="Source[local].Layer[globalArea].Control[Numeric_4]">
-            <Reference Name="Control" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_4]</Reference>
-            <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[Factory].Layer[Default].Control[Numeric_10]</Reference>
-            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_3]</Reference>
-            <Reference Name="CtrlLeft" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_3]</Reference>
-            <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[Factory].Layer[Default].Control[Numeric_19]</Reference>
-            <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[Factory].Layer[Default].Control[Numeric_19]</Reference>
-            <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[Factory].Layer[Default].Control[Numeric_16]</Reference>
           </Group>
           <Group Name="Source[local].Page[Factory].Layer[Default].Control[Numeric_10]">
             <Reference Name="Control" Type="CTRL">Source[local].Page[Factory].Layer[Default].Control[Numeric_10]</Reference>
             <Reference Name="CtrlNext" Type="CTRL">Source[local].Page[Factory].Layer[Default].Control[Numeric_11]</Reference>
-            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_4]</Reference>
+            <Reference Name="CtrlPrev" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_3]</Reference>
             <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[Factory].Layer[Default].Control[Numeric_13]</Reference>
             <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[Factory].Layer[Default].Control[Numeric_19]</Reference>
             <Reference Name="CtrlUp" Type="CTRL">Source[local].Page[Factory].Layer[Default].Control[Numeric_14]</Reference>
@@ -2443,7 +2434,7 @@
             <Reference Name="CtrlPrev" Type="CTRL">Source[local].Page[Factory].Layer[Default].Control[Numeric_15]</Reference>
             <Reference Name="CtrlLeft" Type="CTRL">Source[local].Page[Factory].Layer[Default].Control[Numeric_15]</Reference>
             <Reference Name="CtrlRight" Type="CTRL">Source[local].Page[Factory].Layer[Default].Control[Numeric_11]</Reference>
-            <Reference Name="CtrlUp" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_4]</Reference>
+            <Reference Name="CtrlUp" Type="CTRL">Source[local].Layer[globalArea].Control[Numeric_3]</Reference>
             <Reference Name="CtrlDown" Type="CTRL">Source[local].Page[Factory].Layer[Default].Control[Numeric_18]</Reference>
           </Group>
           <Group Name="Source[local].Page[Factory].Layer[Default].Control[Numeric_17]">

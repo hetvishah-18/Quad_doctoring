@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9" WorkingVersion="4.12"?>
+<RuleSetOptions UsesUTCTime="True">
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\5drive\4ppc70_0702_20b\ashwac.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\5drive\hardware.hw" LastWriteTime="2025-06-27 07:06:00" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\5Drive\Hardware.hw&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\5Drive\4PPC70_0702_20B\ashwac.br&quot; -L &quot;Acp10_MC: V3.13.1, Acp10man: V3.13.1, Acp10par: V3.13.1, Acp10sim: V3.13.1, AsBrMath: V*, AsEPL: V*, AsIecCon: V*, asstring: V*, astime: V*, brsystem: V*, LoopConR: V4.10.2, LoopCont: V3.10.0, NcGlobal: V3.13.1, operator: V*, runtime: V*, standard: V*, sys_lib: V*, vclib: V*, visapi: V*&quot; -c &quot;5Drive&quot; -Z &quot;Acp10Arnc0: 1.0.0.0, UnitSystem: n.d, TextSystem: n.d, RemanentData: n.d, ProgrammingSystem: n.d, FMUExport: n.d, Connectivity: n.d, AAS: n.d&quot; -M IA32 -B J4.93 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;5Drive&quot; -T SG4 " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\5drive\4ppc70_0702_20b\sysconf.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\5drive\hardware.hw" LastWriteTime="2025-06-27 07:06:00" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\5Drive\Hardware.hw&quot;  -c &quot;5Drive&quot; -sysconf -S &quot;4PPC70_0702_20B&quot; -Z &quot;Acp10Arnc0: 1.0.0.0, UnitSystem: n.d, TextSystem: n.d, RemanentData: n.d, ProgrammingSystem: n.d, FMUExport: n.d, Connectivity: n.d, AAS: n.d&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\5Drive\4PPC70_0702_20B\sysconf.br&quot; -T SG4 -B J4.93 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;5Drive&quot; " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\5drive\4ppc70_0702_20b\asfw.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\5drive\hardware.hw" LastWriteTime="2025-06-27 07:06:00" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\5Drive\Hardware.hw&quot;  -v V1.00.0 -S &quot;4PPC70_0702_20B&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\5Drive\4PPC70_0702_20B\asfw.br&quot; -T SG4 -B J4.93 -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;5Drive&quot; -zip -s &quot;5Drive&quot; -firmware -Z &quot;Acp10Arnc0: 1.0.0.0, UnitSystem: n.d, TextSystem: n.d, RemanentData: n.d, ProgrammingSystem: n.d, FMUExport: n.d, Connectivity: n.d, AAS: n.d&quot; " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\5drive\4ppc70_0702_20b\ashwd.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\5drive\hardware.hw" LastWriteTime="2025-06-27 07:06:00" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\5Drive\Hardware.hw&quot;  -v V1.00.0 -S &quot;4PPC70_0702_20B&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\5Drive\4PPC70_0702_20B\ashwd.br&quot; -T SG4 -B J4.93 -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;5Drive&quot; -zip -s &quot;5Drive&quot; -hwd -Z &quot;Acp10Arnc0: 1.0.0.0, UnitSystem: n.d, TextSystem: n.d, RemanentData: n.d, ProgrammingSystem: n.d, FMUExport: n.d, Connectivity: n.d, AAS: n.d&quot; " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\5drive\4ppc70_0702_20b\arconfig.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\5drive\hardware.hw" LastWriteTime="2025-06-27 07:06:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\5drive\4ppc70_0702_20b\iomap.iom" LastWriteTime="2025-06-27 07:05:56" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\5Drive\Hardware.hw&quot; &quot;$(AS_PROJECT_PATH)\Physical\5Drive\4PPC70_0702_20B\IoMap.iom&quot;  -arconfig -L &quot;Acp10_MC: V3.13.1, Acp10man: V3.13.1, Acp10par: V3.13.1, NcGlobal: V3.13.1&quot; -C &quot;/COMT=2500 /RT=1000 /AM=* /SDT=5 /DAIP=192.168.111.50 /REPO=11159 /ANSL=1 /PT=11169&quot; -D &quot;/IF=tcpip /LOPO=11159 /SA=1&quot; -c &quot;5Drive&quot; -v V1.00.0 -S &quot;4PPC70_0702_20B&quot; -Z &quot;Acp10Arnc0: 1.0.0.0, UnitSystem: n.d, TextSystem: n.d, RemanentData: n.d, ProgrammingSystem: n.d, FMUExport: n.d, Connectivity: n.d, AAS: n.d&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\5Drive\4PPC70_0702_20B\arconfig.br&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\5Drive\4PPC70_0702_20B\ChannelConfiguration.xml&quot; &quot;$(AS_PROJECT_PATH)\Temp\Objects\5Drive\4PPC70_0702_20B\ReActionTechnologyConfiguration.xml&quot; -T SG4 -B J4.93 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;5Drive&quot; " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\5drive\4ppc70_0702_20b\udbdef.br">
+    <Prerequisite ID="c:\program files\brautomation4\as412\as\technologypackages\unitsystem\n.d\transfer\modules\sg4\udbdef.br" LastWriteTime="2024-05-07 13:22:28" />
+    <CommandLine Parameter="C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\UnitSystem\n.d\Transfer\Modules\SG4\udbdef.br, $(AS_PROJECT_PATH)\Temp\Objects\5Drive\4PPC70_0702_20B\udbdef.br" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\5drive\4ppc70_0702_20b\iomap.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\5drive\4ppc70_0702_20b\iomap.iom" LastWriteTime="2025-06-27 07:05:56" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\5drive\4ppc70_0702_20b\pvmap.vvm" LastWriteTime="2025-06-27 07:05:56" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\5drive\hardware.hw" LastWriteTime="2025-06-27 07:06:00" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\5drive\4ppc70_0702_20b\cpu.sw" LastWriteTime="2025-07-08 16:21:42" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\5drive\4ppc70_0702_20b\channelconfiguration.xml" LastWriteTime="2025-07-22 13:13:42" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\5Drive\4PPC70_0702_20B\IoMap.iom&quot; &quot;$(AS_PROJECT_PATH)\Physical\5Drive\4PPC70_0702_20B\PvMap.vvm&quot;  -m &quot;$(AS_PROJECT_PATH)\Temp\Objects\5Drive\4PPC70_0702_20B\ConfigInfo.cfi&quot; -g &quot;$(AS_PROJECT_PATH)\Temp\Objects\Declarations.lst&quot; -x &quot;$(AS_PROJECT_PATH)\Temp\Objects\5Drive\4PPC70_0702_20B\ChannelConfiguration.xml&quot; -v V1.00.0 -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\5Drive\4PPC70_0702_20B&quot; -iomap -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\5Drive\4PPC70_0702_20B\iomap.br&quot; -T SG4 -B J4.93 -P &quot;$(AS_PROJECT_PATH)&quot; -s &quot;5Drive.4PPC70_0702_20B&quot;" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\5drive\4ppc70_0702_20b\tcdata\tcdata.imx">
+    <Prerequisite ID="c:\program files\brautomation4\as412\as\technologypackages\textsystem\n.d\objectcatalog\elements\textconfig\template\tc.textconfig" LastWriteTime="2024-05-07 13:22:28" />
+    <CommandLine Parameter=" -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\5Drive\4PPC70_0702_20B\TCData\TCData.imx&quot; -c &quot;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\TextSystem\n.d\ObjectCatalog\Elements\TextConfig\Template\TC.textconfig&quot; -I &quot;C:\Program Files\BRAutomation4\AS\System\J0493&quot; &quot;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\Acp10Arnc0\1.0.0&quot; &quot;C:\Program Files\BRAutomation4\AS412\AS\TechnologyPackages\UnitSystem\n.d&quot; -P &quot;$(AS_PROJECT_PATH)&quot;" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\5drive\4ppc70_0702_20b\tcdata\tcdata.s18d">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\5drive\4ppc70_0702_20b\tcdata\tcdata.imx" LastWriteTime="2025-07-22 13:13:40" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\5Drive\4PPC70_0702_20B\TCData\TCData.imx&quot; -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\5Drive\4PPC70_0702_20B\TCData\TCData.s18d&quot;" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\5drive\4ppc70_0702_20b\tcdata.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\5drive\4ppc70_0702_20b\tcdata\tcdata.s18d" LastWriteTime="2025-07-22 13:13:44" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Temp\Objects\5Drive\4PPC70_0702_20B\TCData\TCData.s18d&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\5Drive\4PPC70_0702_20B\TCData.br&quot; -t TextModule" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\5drive\4ppc70_0702_20b\role.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\5drive\4ppc70_0702_20b\accessandsecurity\userrolesystem\role.role" LastWriteTime="2025-06-27 07:05:56" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\5Drive\4PPC70_0702_20B\AccessAndSecurity\UserRoleSystem\Role.role&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\5Drive\4PPC70_0702_20B\Role.br&quot; -zip -B J4.93 -z n.d -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;5Drive&quot; " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\5drive\4ppc70_0702_20b\user.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\5drive\4ppc70_0702_20b\accessandsecurity\userrolesystem\user.user" LastWriteTime="2025-06-27 07:05:56" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\5Drive\4PPC70_0702_20B\AccessAndSecurity\UserRoleSystem\User.user&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\5Drive\4PPC70_0702_20B\User.br&quot; -zip -B J4.93 -z n.d -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;5Drive&quot; " />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\5drive\4ppc70_0702_20b\fwrules.br">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\physical\5drive\4ppc70_0702_20b\accessandsecurity\firewall\rules.firewallrules" LastWriteTime="2025-06-27 07:05:56" />
+    <CommandLine Parameter="&quot;$(AS_PROJECT_PATH)\Physical\5Drive\4PPC70_0702_20B\AccessAndSecurity\Firewall\Rules.firewallRules&quot;  -o &quot;$(AS_PROJECT_PATH)\Temp\Objects\5Drive\4PPC70_0702_20B\FWRules.br&quot; -zip -B J4.93 -z n.d -P &quot;$(AS_PROJECT_PATH)&quot; -c &quot;5Drive&quot; " />
+  </Rule>
+  <Rule ID="#cpu_tp.mak">
+    <CommandLine Parameter=" -r -f &quot;$(AS_PROJECT_PATH)\Temp\Objects\5Drive\4PPC70_0702_20B\#cpu_tp.mak&quot; -k" />
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\binaries\5drive\4ppc70_0702_20b\transfer.lst">
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\5drive\4ppc70_0702_20b\ashwac.br" LastWriteTime="2025-07-22 13:13:42" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\5drive\4ppc70_0702_20b\sysconf.br" LastWriteTime="2025-07-22 13:13:42" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\5drive\4ppc70_0702_20b\asfw.br" LastWriteTime="2025-07-22 13:13:42" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\5drive\4ppc70_0702_20b\ashwd.br" LastWriteTime="2025-07-22 13:13:44" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\5drive\4ppc70_0702_20b\arconfig.br" LastWriteTime="2025-07-22 13:13:42" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\5drive\4ppc70_0702_20b\udbdef.br" LastWriteTime="2024-05-07 13:22:28" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\5drive\4ppc70_0702_20b\iomap.br" LastWriteTime="2025-07-22 13:13:42" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\5drive\4ppc70_0702_20b\tcdata.br" LastWriteTime="2025-07-22 13:13:44" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\5drive\4ppc70_0702_20b\role.br" LastWriteTime="2025-07-22 13:13:42" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\5drive\4ppc70_0702_20b\user.br" LastWriteTime="2025-07-22 13:13:42" />
+    <Prerequisite ID="$(AS_PROJECT_PATH)\temp\objects\5drive\4ppc70_0702_20b\fwrules.br" LastWriteTime="2025-07-22 13:13:42" />
+    <CommandLine Parameter=" &quot;$(AS_PROJECT_PATH)\Doctor.apj&quot; -t &quot;$(AS_PROJECT_PATH)\Temp&quot; -o &quot;$(AS_PROJECT_PATH)\Binaries&quot; -c &quot;5Drive&quot; -i &quot;C:\Program Files\BRAutomation4\AS412&quot; -S &quot;4PPC70_0702_20B&quot; -all -A &quot;PPC7x&quot; -pil -Z &quot;Acp10Arnc0: 1.0.0.0, UnitSystem: n.d, TextSystem: n.d, RemanentData: n.d, ProgrammingSystem: n.d, FMUExport: n.d, Connectivity: n.d, AAS: n.d&quot; -C &quot;/COMT=2500 /RT=1000 /AM=* /SDT=5 /DAIP=192.168.111.50 /REPO=11159 /ANSL=1 /PT=11169&quot; -D &quot;/IF=tcpip /LOPO=11159 /SA=1&quot; -M IA32 -T SG4" />
+  </Rule>
+</RuleSetOptions>

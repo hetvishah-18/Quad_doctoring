@@ -137,6 +137,46 @@
           <Property Name="UserID" Value="None"/>
           <Property Name="VCType" Value="SCALED"/>
         </DataPoint>
+        <Folder Name="PID">
+          <Property Name="Description" Value=""/>
+          <Property Name="FolderType" Value="Struct"/>
+          <DataPoint Name="Prop_Gain">
+            <Property Name="ConnectedBySharedResource" Value="False"/>
+            <Property Name="ConnectingVisus" Value=""/>
+            <Property Name="DPLimit" Value="Default"/>
+            <Property Name="Description" Value=""/>
+            <Property Name="PLCType" Value="INT"/>
+            <Property Name="PLCUnit" Value="Default"/>
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[TwoDecVars]"/>
+            <Property Name="UpdateTime" Value="Default"/>
+            <Property Name="UserID" Value="None"/>
+            <Property Name="VCType" Value="SCALED"/>
+          </DataPoint>
+          <DataPoint Name="Intg_Gain">
+            <Property Name="ConnectedBySharedResource" Value="False"/>
+            <Property Name="ConnectingVisus" Value=""/>
+            <Property Name="DPLimit" Value="Default"/>
+            <Property Name="Description" Value=""/>
+            <Property Name="PLCType" Value="INT"/>
+            <Property Name="PLCUnit" Value="Default"/>
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[TwoDecVars]"/>
+            <Property Name="UpdateTime" Value="Default"/>
+            <Property Name="UserID" Value="None"/>
+            <Property Name="VCType" Value="SCALED"/>
+          </DataPoint>
+          <DataPoint Name="Derv_Gain">
+            <Property Name="ConnectedBySharedResource" Value="False"/>
+            <Property Name="ConnectingVisus" Value=""/>
+            <Property Name="DPLimit" Value="Default"/>
+            <Property Name="Description" Value=""/>
+            <Property Name="PLCType" Value="INT"/>
+            <Property Name="PLCUnit" Value="Default"/>
+            <Property Name="UnitGroup" Value="Source[global].UnitGroup[TwoDecVars]"/>
+            <Property Name="UpdateTime" Value="Default"/>
+            <Property Name="UserID" Value="None"/>
+            <Property Name="VCType" Value="SCALED"/>
+          </DataPoint>
+        </Folder>
       </Folder>
       <Folder Name="Dia">
         <Property Name="Description" Value=""/>
@@ -369,6 +409,67 @@
         <Property Name="UserID" Value="None"/>
         <Property Name="VCType" Value="INTEGER"/>
       </DataPoint>
+      <Folder Name="MotorRating">
+        <Property Name="Description" Value=""/>
+        <Property Name="FolderType" Value="Struct"/>
+        <DataPoint Name="RatedFreq">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value=""/>
+          <Property Name="DPLimit" Value="Default"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="DINT"/>
+          <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[TwoDec]"/>
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[TwoDecVars]"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="SCALED"/>
+        </DataPoint>
+        <DataPoint Name="RatedCurrent">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value=""/>
+          <Property Name="DPLimit" Value="Default"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="DINT"/>
+          <Property Name="PLCUnit" Value="Source[relative:UnitGroup].Unit[TwoDec]"/>
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[TwoDecVars]"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="SCALED"/>
+        </DataPoint>
+        <DataPoint Name="RatedSpeed">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="DPLimit" Value="Default"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="DINT"/>
+          <Property Name="PLCUnit" Value="Default"/>
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[TwoDecVars]"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="SCALED"/>
+        </DataPoint>
+        <DataPoint Name="RatedVoltage">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="DPLimit" Value="Default"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="INT"/>
+          <Property Name="PLCUnit" Value="Default"/>
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[TwoDecVars]"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="SCALED"/>
+        </DataPoint>
+        <DataPoint Name="RatedPF">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="DPLimit" Value="Default"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="INT"/>
+          <Property Name="PLCUnit" Value="Default"/>
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[TwoDecVars]"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="SCALED"/>
+        </DataPoint>
+      </Folder>
     </Folder>
     <Folder Name="HMI">
       <Property Name="Description" Value=""/>
@@ -460,7 +561,7 @@
     </Folder>
     <DataPoint Name="Cur1Pos">
       <Property Name="ConnectedBySharedResource" Value="False"/>
-      <Property Name="ConnectingVisus" Value="Vis"/>
+      <Property Name="ConnectingVisus" Value=""/>
       <Property Name="DPLimit" Value="Default"/>
       <Property Name="Description" Value=""/>
       <Property Name="PLCType" Value="INT"/>
@@ -773,7 +874,7 @@
     </Folder>
     <DataPoint Name="Cur2Pos">
       <Property Name="ConnectedBySharedResource" Value="False"/>
-      <Property Name="ConnectingVisus" Value="Vis"/>
+      <Property Name="ConnectingVisus" Value=""/>
       <Property Name="DPLimit" Value="Default"/>
       <Property Name="Description" Value=""/>
       <Property Name="PLCType" Value="INT"/>
@@ -1079,6 +1180,65 @@
         <Property Name="UserID" Value="None"/>
         <Property Name="VCType" Value="INTEGER"/>
       </DataPoint>
+      <Folder Name="MotorRating">
+        <Property Name="Description" Value=""/>
+        <Property Name="FolderType" Value="Struct"/>
+        <DataPoint Name="RatedFreq">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="DPLimit" Value="Default"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="DINT"/>
+          <Property Name="PLCUnit" Value="Default"/>
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[TwoDecVars]"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="SCALED"/>
+        </DataPoint>
+        <DataPoint Name="RatedCurrent">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="DPLimit" Value="Default"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="DINT"/>
+          <Property Name="PLCUnit" Value="Default"/>
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[TwoDecVars]"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="SCALED"/>
+        </DataPoint>
+        <DataPoint Name="RatedSpeed">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="DPLimit" Value="Default"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="DINT"/>
+          <Property Name="PLCUnit" Value="Default"/>
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[TwoDecVars]"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="SCALED"/>
+        </DataPoint>
+        <DataPoint Name="RatedVoltage">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="DPLimit" Value="Default"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="INT"/>
+          <Property Name="PLCUnit" Value="Default"/>
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[TwoDecVars]"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="SCALED"/>
+        </DataPoint>
+        <DataPoint Name="RatedPF">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="DPLimit" Value="Default"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="INT"/>
+          <Property Name="PLCUnit" Value="Default"/>
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[TwoDecVars]"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="SCALED"/>
+        </DataPoint>
+      </Folder>
     </Folder>
     <DataPoint Name="NewPage">
       <Property Name="ConnectedBySharedResource" Value="False"/>
@@ -1892,6 +2052,7 @@
     </DataPoint>
     <DataPoint Name="Alarm_mc">
       <Property Name="ConnectedBySharedResource" Value="True"/>
+      <Property Name="ConnectingVisus" Value=""/>
       <Property Name="Description" Value=""/>
       <Property Name="PLCType" Value="BOOL[0..99]"/>
       <Property Name="UpdateTime" Value="Default"/>
@@ -1915,6 +2076,478 @@
       <Property Name="UpdateTime" Value="Default"/>
       <Property Name="UserID" Value="None"/>
       <Property Name="VCType" Value="INTEGER"/>
+    </DataPoint>
+    <Folder Name="MainDrive">
+      <Property Name="Description" Value=""/>
+      <Property Name="FolderType" Value="Struct"/>
+      <Folder Name="MotorRating">
+        <Property Name="Description" Value=""/>
+        <Property Name="FolderType" Value="Struct"/>
+        <DataPoint Name="RatedCurrent">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value=""/>
+          <Property Name="DPLimit" Value="Default"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="DINT"/>
+          <Property Name="PLCUnit" Value="Default"/>
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[TwoDecVars]"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="SCALED"/>
+        </DataPoint>
+        <DataPoint Name="RatedFreq">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="DPLimit" Value="Default"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="DINT"/>
+          <Property Name="PLCUnit" Value="Default"/>
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[TwoDecVars]"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="SCALED"/>
+        </DataPoint>
+        <DataPoint Name="RatedSpeed">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="DPLimit" Value="Default"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="DINT"/>
+          <Property Name="PLCUnit" Value="Default"/>
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[TwoDecVars]"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="SCALED"/>
+        </DataPoint>
+        <DataPoint Name="RatedVoltage">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="DPLimit" Value="Default"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="INT"/>
+          <Property Name="PLCUnit" Value="Default"/>
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[TwoDecVars]"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="SCALED"/>
+        </DataPoint>
+        <DataPoint Name="RatedPF">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="DPLimit" Value="Default"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="INT"/>
+          <Property Name="PLCUnit" Value="Default"/>
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[TwoDecVars]"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="SCALED"/>
+        </DataPoint>
+      </Folder>
+    </Folder>
+    <DataPoint Name="RatedVoltage_temp">
+      <Property Name="ConnectedBySharedResource" Value="False"/>
+      <Property Name="ConnectingVisus" Value=""/>
+      <Property Name="DPLimit" Value="Default"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="PLCType" Value="USINT"/>
+      <Property Name="PLCUnit" Value="Default"/>
+      <Property Name="UnitGroup" Value="Source[global].UnitGroup[TwoDecVars]"/>
+      <Property Name="UpdateTime" Value="Default"/>
+      <Property Name="UserID" Value="None"/>
+      <Property Name="VCType" Value="SCALED"/>
+    </DataPoint>
+    <DataPoint Name="RatedCurrent_temp">
+      <Property Name="ConnectedBySharedResource" Value="False"/>
+      <Property Name="ConnectingVisus" Value=""/>
+      <Property Name="DPLimit" Value="Default"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="PLCType" Value="DINT"/>
+      <Property Name="PLCUnit" Value="Default"/>
+      <Property Name="UnitGroup" Value="Source[global].UnitGroup[TwoDecVars]"/>
+      <Property Name="UpdateTime" Value="Default"/>
+      <Property Name="UserID" Value="None"/>
+      <Property Name="VCType" Value="SCALED"/>
+    </DataPoint>
+    <DataPoint Name="RatedFreq_temp">
+      <Property Name="ConnectedBySharedResource" Value="False"/>
+      <Property Name="ConnectingVisus" Value=""/>
+      <Property Name="DPLimit" Value="Default"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="PLCType" Value="DINT"/>
+      <Property Name="PLCUnit" Value="Default"/>
+      <Property Name="UnitGroup" Value="Source[global].UnitGroup[TwoDecVars]"/>
+      <Property Name="UpdateTime" Value="Default"/>
+      <Property Name="UserID" Value="None"/>
+      <Property Name="VCType" Value="SCALED"/>
+    </DataPoint>
+    <DataPoint Name="RatedSpeed_temp">
+      <Property Name="ConnectedBySharedResource" Value="False"/>
+      <Property Name="DPLimit" Value="Default"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="PLCType" Value="USINT"/>
+      <Property Name="PLCUnit" Value="Default"/>
+      <Property Name="UnitGroup" Value="Source[global].UnitGroup[TwoDecVars]"/>
+      <Property Name="UpdateTime" Value="Default"/>
+      <Property Name="UserID" Value="None"/>
+      <Property Name="VCType" Value="SCALED"/>
+    </DataPoint>
+    <DataPoint Name="RatedPF_temp">
+      <Property Name="ConnectedBySharedResource" Value="False"/>
+      <Property Name="DPLimit" Value="Default"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="PLCType" Value="DINT"/>
+      <Property Name="PLCUnit" Value="Default"/>
+      <Property Name="UnitGroup" Value="Source[global].UnitGroup[TwoDecVars]"/>
+      <Property Name="UpdateTime" Value="Default"/>
+      <Property Name="UserID" Value="None"/>
+      <Property Name="VCType" Value="SCALED"/>
+    </DataPoint>
+    <Folder Name="InFeed">
+      <Property Name="Description" Value=""/>
+      <Property Name="FolderType" Value="Struct"/>
+      <Folder Name="MotorRating">
+        <Property Name="Description" Value=""/>
+        <Property Name="FolderType" Value="Struct"/>
+        <DataPoint Name="RatedFreq">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="DPLimit" Value="Default"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="DINT"/>
+          <Property Name="PLCUnit" Value="Default"/>
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[TwoDecVars]"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="SCALED"/>
+        </DataPoint>
+        <DataPoint Name="RatedCurrent">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="DPLimit" Value="Default"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="DINT"/>
+          <Property Name="PLCUnit" Value="Default"/>
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[TwoDecVars]"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="SCALED"/>
+        </DataPoint>
+        <DataPoint Name="RatedSpeed">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="DPLimit" Value="Default"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="DINT"/>
+          <Property Name="PLCUnit" Value="Default"/>
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[TwoDecVars]"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="SCALED"/>
+        </DataPoint>
+        <DataPoint Name="RatedVoltage">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="DPLimit" Value="Default"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="INT"/>
+          <Property Name="PLCUnit" Value="Default"/>
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[TwoDecVars]"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="SCALED"/>
+        </DataPoint>
+        <DataPoint Name="RatedPF">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="DPLimit" Value="Default"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="INT"/>
+          <Property Name="PLCUnit" Value="Default"/>
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[TwoDecVars]"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="SCALED"/>
+        </DataPoint>
+      </Folder>
+    </Folder>
+    <Folder Name="OutFeed">
+      <Property Name="Description" Value=""/>
+      <Property Name="FolderType" Value="Struct"/>
+      <Folder Name="MotorRating">
+        <Property Name="Description" Value=""/>
+        <Property Name="FolderType" Value="Struct"/>
+        <DataPoint Name="RatedFreq">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="DPLimit" Value="Default"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="DINT"/>
+          <Property Name="PLCUnit" Value="Default"/>
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[TwoDecVars]"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="SCALED"/>
+        </DataPoint>
+        <DataPoint Name="RatedCurrent">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="DPLimit" Value="Default"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="DINT"/>
+          <Property Name="PLCUnit" Value="Default"/>
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[TwoDecVars]"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="SCALED"/>
+        </DataPoint>
+        <DataPoint Name="RatedSpeed">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="DPLimit" Value="Default"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="DINT"/>
+          <Property Name="PLCUnit" Value="Default"/>
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[TwoDecVars]"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="SCALED"/>
+        </DataPoint>
+        <DataPoint Name="RatedVoltage">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="DPLimit" Value="Default"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="INT"/>
+          <Property Name="PLCUnit" Value="Default"/>
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[TwoDecVars]"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="SCALED"/>
+        </DataPoint>
+        <DataPoint Name="RatedPF">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="DPLimit" Value="Default"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="INT"/>
+          <Property Name="PLCUnit" Value="Default"/>
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[TwoDecVars]"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="SCALED"/>
+        </DataPoint>
+      </Folder>
+    </Folder>
+    <DataPoint Name="Save">
+      <Property Name="ConnectedBySharedResource" Value="False"/>
+      <Property Name="ConnectingVisus" Value="Vis"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="PLCType" Value="BOOL"/>
+      <Property Name="UpdateTime" Value="Default"/>
+      <Property Name="UserID" Value="None"/>
+      <Property Name="VCType" Value="BOOL"/>
+    </DataPoint>
+    <DataPoint Name="Axis_Motor">
+      <Property Name="ConnectedBySharedResource" Value="False"/>
+      <Property Name="ConnectingVisus" Value="Vis"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="PLCType" Value="INT"/>
+      <Property Name="UpdateTime" Value="Default"/>
+      <Property Name="UserID" Value="None"/>
+      <Property Name="VCType" Value="INTEGER"/>
+    </DataPoint>
+    <DataPoint Name="TempCurrent">
+      <Property Name="ConnectedBySharedResource" Value="False"/>
+      <Property Name="ConnectingVisus" Value="Vis"/>
+      <Property Name="DPLimit" Value="Default"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="PLCType" Value="DINT"/>
+      <Property Name="PLCUnit" Value="Default"/>
+      <Property Name="UnitGroup" Value="Source[global].UnitGroup[TwoDecVars]"/>
+      <Property Name="UpdateTime" Value="Default"/>
+      <Property Name="UserID" Value="None"/>
+      <Property Name="VCType" Value="SCALED"/>
+    </DataPoint>
+    <DataPoint Name="TempFreq">
+      <Property Name="ConnectedBySharedResource" Value="False"/>
+      <Property Name="ConnectingVisus" Value="Vis"/>
+      <Property Name="DPLimit" Value="Default"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="PLCType" Value="DINT"/>
+      <Property Name="PLCUnit" Value="Default"/>
+      <Property Name="UnitGroup" Value="Source[global].UnitGroup[TwoDecVars]"/>
+      <Property Name="UpdateTime" Value="Default"/>
+      <Property Name="UserID" Value="None"/>
+      <Property Name="VCType" Value="SCALED"/>
+    </DataPoint>
+    <DataPoint Name="TempVoltage">
+      <Property Name="ConnectedBySharedResource" Value="False"/>
+      <Property Name="ConnectingVisus" Value="Vis"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="PLCType" Value="INT"/>
+      <Property Name="UpdateTime" Value="Default"/>
+      <Property Name="UserID" Value="None"/>
+      <Property Name="VCType" Value="INTEGER"/>
+    </DataPoint>
+    <DataPoint Name="TempSpeed">
+      <Property Name="ConnectedBySharedResource" Value="False"/>
+      <Property Name="ConnectingVisus" Value="Vis"/>
+      <Property Name="DPLimit" Value="Default"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="PLCType" Value="DINT"/>
+      <Property Name="PLCUnit" Value="Default"/>
+      <Property Name="UnitGroup" Value="Source[global].UnitGroup[Force]"/>
+      <Property Name="UpdateTime" Value="Default"/>
+      <Property Name="UserID" Value="None"/>
+      <Property Name="VCType" Value="SCALED"/>
+    </DataPoint>
+    <DataPoint Name="TempPF">
+      <Property Name="ConnectedBySharedResource" Value="False"/>
+      <Property Name="ConnectingVisus" Value="Vis"/>
+      <Property Name="DPLimit" Value="Default"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="PLCType" Value="INT"/>
+      <Property Name="PLCUnit" Value="Default"/>
+      <Property Name="UnitGroup" Value="Source[global].UnitGroup[TwoDecVars]"/>
+      <Property Name="UpdateTime" Value="Default"/>
+      <Property Name="UserID" Value="None"/>
+      <Property Name="VCType" Value="SCALED"/>
+    </DataPoint>
+    <DataPoint Name="Axis_MotorTune">
+      <Property Name="ConnectedBySharedResource" Value="False"/>
+      <Property Name="ConnectingVisus" Value="Vis"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="PLCType" Value="USINT"/>
+      <Property Name="UpdateTime" Value="Default"/>
+      <Property Name="UserID" Value="None"/>
+      <Property Name="VCType" Value="INTEGER"/>
+    </DataPoint>
+    <DataPoint Name="Tune_Enable">
+      <Property Name="ConnectedBySharedResource" Value="False"/>
+      <Property Name="ConnectingVisus" Value="Vis"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="PLCType" Value="BOOL"/>
+      <Property Name="UpdateTime" Value="Default"/>
+      <Property Name="UserID" Value="None"/>
+      <Property Name="VCType" Value="BOOL"/>
+    </DataPoint>
+    <DataPoint Name="TempPIDRef">
+      <Property Name="ConnectedBySharedResource" Value="False"/>
+      <Property Name="ConnectingVisus" Value="Vis"/>
+      <Property Name="DPLimit" Value="Default"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="PLCType" Value="INT"/>
+      <Property Name="PLCUnit" Value="Default"/>
+      <Property Name="UnitGroup" Value="Source[global].UnitGroup[ThreeDecVar]"/>
+      <Property Name="UpdateTime" Value="Default"/>
+      <Property Name="UserID" Value="None"/>
+      <Property Name="VCType" Value="SCALED"/>
+    </DataPoint>
+    <DataPoint Name="TempDervGain">
+      <Property Name="ConnectedBySharedResource" Value="False"/>
+      <Property Name="ConnectingVisus" Value="Vis"/>
+      <Property Name="DPLimit" Value="Default"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="PLCType" Value="INT"/>
+      <Property Name="PLCUnit" Value="Default"/>
+      <Property Name="UnitGroup" Value="Source[global].UnitGroup[ThreeDecVar]"/>
+      <Property Name="UpdateTime" Value="Default"/>
+      <Property Name="UserID" Value="None"/>
+      <Property Name="VCType" Value="SCALED"/>
+    </DataPoint>
+    <DataPoint Name="TempIntgGain">
+      <Property Name="ConnectedBySharedResource" Value="False"/>
+      <Property Name="ConnectingVisus" Value="Vis"/>
+      <Property Name="DPLimit" Value="Default"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="PLCType" Value="INT"/>
+      <Property Name="PLCUnit" Value="Default"/>
+      <Property Name="UnitGroup" Value="Source[global].UnitGroup[ThreeDecVar]"/>
+      <Property Name="UpdateTime" Value="Default"/>
+      <Property Name="UserID" Value="None"/>
+      <Property Name="VCType" Value="SCALED"/>
+    </DataPoint>
+    <DataPoint Name="TempPropGain">
+      <Property Name="ConnectedBySharedResource" Value="False"/>
+      <Property Name="ConnectingVisus" Value="Vis"/>
+      <Property Name="DPLimit" Value="Default"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="PLCType" Value="INT"/>
+      <Property Name="PLCUnit" Value="Default"/>
+      <Property Name="UnitGroup" Value="Source[global].UnitGroup[ThreeDecVar]"/>
+      <Property Name="UpdateTime" Value="Default"/>
+      <Property Name="UserID" Value="None"/>
+      <Property Name="VCType" Value="SCALED"/>
+    </DataPoint>
+    <DataPoint Name="SavePID">
+      <Property Name="ConnectedBySharedResource" Value="False"/>
+      <Property Name="ConnectingVisus" Value="Vis"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="PLCType" Value="BOOL"/>
+      <Property Name="UpdateTime" Value="Default"/>
+      <Property Name="UserID" Value="None"/>
+      <Property Name="VCType" Value="BOOL"/>
+    </DataPoint>
+    <Folder Name="EPLCom">
+      <Property Name="Description" Value=""/>
+      <Property Name="FolderType" Value="Package"/>
+      <Folder Name="TunePID">
+        <Property Name="Description" Value=""/>
+        <Property Name="FolderType" Value="Program"/>
+        <DataPoint Name="Axis_PID">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value="Vis"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="USINT"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="INTEGER"/>
+        </DataPoint>
+        <DataPoint Name="TempPIDEnable">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value="Vis"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="USINT"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="INTEGER"/>
+        </DataPoint>
+        <DataPoint Name="TempLowerLim">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value="Vis"/>
+          <Property Name="DPLimit" Value="Default"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="INT"/>
+          <Property Name="PLCUnit" Value="Default"/>
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[TwoDecVars]"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="SCALED"/>
+        </DataPoint>
+        <DataPoint Name="TempUpperLim">
+          <Property Name="ConnectedBySharedResource" Value="False"/>
+          <Property Name="ConnectingVisus" Value="Vis"/>
+          <Property Name="DPLimit" Value="Default"/>
+          <Property Name="Description" Value=""/>
+          <Property Name="PLCType" Value="INT"/>
+          <Property Name="PLCUnit" Value="Default"/>
+          <Property Name="UnitGroup" Value="Source[global].UnitGroup[TwoDecVars]"/>
+          <Property Name="UpdateTime" Value="Default"/>
+          <Property Name="UserID" Value="None"/>
+          <Property Name="VCType" Value="SCALED"/>
+        </DataPoint>
+      </Folder>
+    </Folder>
+    <DataPoint Name="TempPIDFeedback">
+      <Property Name="ConnectedBySharedResource" Value="False"/>
+      <Property Name="ConnectingVisus" Value="Vis"/>
+      <Property Name="DPLimit" Value="Default"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="PLCType" Value="INT"/>
+      <Property Name="PLCUnit" Value="Default"/>
+      <Property Name="UnitGroup" Value="Source[global].UnitGroup[ThreeDecVar]"/>
+      <Property Name="UpdateTime" Value="Default"/>
+      <Property Name="UserID" Value="None"/>
+      <Property Name="VCType" Value="SCALED"/>
+    </DataPoint>
+    <DataPoint Name="TempPresetRef4">
+      <Property Name="ConnectedBySharedResource" Value="False"/>
+      <Property Name="ConnectingVisus" Value=""/>
+      <Property Name="DPLimit" Value="Default"/>
+      <Property Name="Description" Value=""/>
+      <Property Name="PLCType" Value="DINT"/>
+      <Property Name="PLCUnit" Value="Default"/>
+      <Property Name="UnitGroup" Value="Source[global].UnitGroup[ThreeDecVar]"/>
+      <Property Name="UpdateTime" Value="Default"/>
+      <Property Name="UserID" Value="None"/>
+      <Property Name="VCType" Value="SCALED"/>
     </DataPoint>
   </DataPoints>
 </DataSource>

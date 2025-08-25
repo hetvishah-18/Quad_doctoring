@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio Version="4.12.4.107 SP"?>
+<ConfigInfo xmlns="http://br-automation.co.at/AS/BuildInfo">
+  <TaskClass
+    Name="Cyclic#1">
+    <Task
+      Name="HS_Inp_Doc"
+      Disable="false"
+      Source="Doctoring.HS_Inp_Doct"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\HS_Inp_Doc\HS_Inp_Cyclic.st.var" />
+      <InternalFile
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\HS_Inp_Doc\HS_Inp_Init.st.var" />
+      <InternalFile
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\HS_Inp_Doc\HS_Inp_Exit.st.var" />
+      <File
+        Path="D:\Projects\AS4\Tension Control\Doctor\Logical\Doctoring\HS_Inp_Doct\Types.typ" />
+      <File
+        Path="D:\Projects\AS4\Tension Control\Doctor\Logical\Doctoring\HS_Inp_Doct\Variables.var" />
+    </Task>
+    <Task
+      Name="UnWindTC"
+      Disable="true"
+      Source="UnWindTC"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\UnWindTC\Cyclic.st.var" />
+      <InternalFile
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\UnWindTC\Init.st.var" />
+      <InternalFile
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\UnWindTC\Exit.st.var" />
+      <File
+        Path="D:\Projects\AS4\Tension Control\Doctor\Logical\UnWindTC\Types.typ" />
+      <File
+        Path="D:\Projects\AS4\Tension Control\Doctor\Logical\UnWindTC\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#2" />
+  <TaskClass
+    Name="Cyclic#3" />
+  <TaskClass
+    Name="Cyclic#4">
+    <Task
+      Name="HMI"
+      Disable="false"
+      Source="HMI"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\HMI\Cyclic.st.var" />
+      <InternalFile
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\HMI\Init.st.var" />
+      <InternalFile
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\HMI\Exit.st.var" />
+      <File
+        Path="D:\Projects\AS4\Tension Control\Doctor\Logical\HMI\Types.typ" />
+      <File
+        Path="D:\Projects\AS4\Tension Control\Doctor\Logical\HMI\Variables.var" />
+    </Task>
+    <Task
+      Name="Alarms"
+      Disable="false"
+      Source="Alarms"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\Alarms\Cyclic.st.var" />
+      <InternalFile
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\Alarms\Init.st.var" />
+      <InternalFile
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\Alarms\Exit.st.var" />
+      <File
+        Path="D:\Projects\AS4\Tension Control\Doctor\Logical\Alarms\Types.typ" />
+      <File
+        Path="D:\Projects\AS4\Tension Control\Doctor\Logical\Alarms\Variables.var" />
+    </Task>
+    <Task
+      Name="EPLCom"
+      Disable="false"
+      Source="EPLCom.EPLCom"
+      Language="IEC">
+      <InternalFile
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\EPLCom\Cyclic.st.var" />
+      <InternalFile
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\EPLCom\Init.st.var" />
+      <InternalFile
+        Path="D:\Projects\AS4\Tension Control\Doctor\Temp\Objects\Doctoring\4PPC70_0702_20B\EPLCom\Exit.st.var" />
+      <File
+        Path="D:\Projects\AS4\Tension Control\Doctor\Logical\EPLCom\EPLCom\Types.typ" />
+      <File
+        Path="D:\Projects\AS4\Tension Control\Doctor\Logical\EPLCom\EPLCom\Variables.var" />
+    </Task>
+  </TaskClass>
+  <TaskClass
+    Name="Cyclic#5" />
+  <TaskClass
+    Name="Cyclic#6" />
+  <TaskClass
+    Name="Cyclic#7" />
+  <TaskClass
+    Name="Cyclic#8" />
+</ConfigInfo>

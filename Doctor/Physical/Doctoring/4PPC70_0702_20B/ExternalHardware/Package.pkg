@@ -3,8 +3,8 @@
 <Package xmlns="http://br-automation.co.at/AS/Package">
   <Objects>
     <Object Type="File">ExternalHardwareDevices.xml</Object>
-    <Object Type="File">H61HVF74.ext</Object>
-    <Object Type="File">MPA5GJ0S.ext</Object>
-    <Object Type="File">GRR06OCN.ext</Object>
+    <Object Type="File">1CTVACDZ.ext</Object>
+    <Object Type="File">SZUV7ZSU.ext</Object>
+    <Object Type="File">IRB8CW1D.ext</Object>
   </Objects>
 </Package>

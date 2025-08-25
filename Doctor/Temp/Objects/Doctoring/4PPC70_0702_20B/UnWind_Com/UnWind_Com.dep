@@ -1,0 +1,6 @@
+$(AS_PROJECT_PATH)/Logical/Libraries/AsEPL/AsEPL.fun
+$(AS_PROJECT_PATH)/Logical/Libraries/AsEPL/AsEPL.typ
+$(AS_PROJECT_PATH)/Logical/EPLCom/UnWind_Com/Variables.var
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/Global.typ
+$(AS_PROJECT_PATH)/Physical/Doctoring/4PPC70_0702_20B/Cpu.per

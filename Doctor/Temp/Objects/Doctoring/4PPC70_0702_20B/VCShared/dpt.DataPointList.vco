@@ -14,178 +14,207 @@
       <Object Name="DataSource.UnWind.Tension.Actual.Scale.InMax" ClsId="0x0" Version="0" TargetIndex="8" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Tension.Actual.Scale.InMax]" />
       <Object Name="DataSource.UnWind.Tension.Actual.Scale.OutMin" ClsId="0x0" Version="0" TargetIndex="9" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Tension.Actual.Scale.OutMin]" />
       <Object Name="DataSource.UnWind.Tension.Actual.Scale.OutMax" ClsId="0x0" Version="0" TargetIndex="10" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Tension.Actual.Scale.OutMax]" />
-      <Object Name="DataSource.UnWind.Dia.MinDia" ClsId="0x0" Version="0" TargetIndex="11" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Dia.MinDia]" />
-      <Object Name="DataSource.UnWind.Dia.MaxDia" ClsId="0x0" Version="0" TargetIndex="12" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Dia.MaxDia]" />
-      <Object Name="DataSource.UnWind.Drive.ActualAmp" ClsId="0x0" Version="0" TargetIndex="13" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.ActualAmp]" />
-      <Object Name="DataSource.UnWind.Drive.ActFreq" ClsId="0x0" Version="0" TargetIndex="14" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.ActFreq]" />
-      <Object Name="DataSource.UnWind.Drive.ActualTrq" ClsId="0x0" Version="0" TargetIndex="15" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.ActualTrq]" />
-      <Object Name="DataSource.UnWind.Drive.ActRPM" ClsId="0x0" Version="0" TargetIndex="16" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.ActRPM]" />
-      <Object Name="DataSource.UnWind.Drive.Freq_Scal.InMin" ClsId="0x0" Version="0" TargetIndex="17" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.Freq_Scal.InMin]" />
-      <Object Name="DataSource.UnWind.Drive.Freq_Scal.InMax" ClsId="0x0" Version="0" TargetIndex="18" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.Freq_Scal.InMax]" />
-      <Object Name="DataSource.UnWind.Drive.Freq_Scal.OutMin" ClsId="0x0" Version="0" TargetIndex="19" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.Freq_Scal.OutMin]" />
-      <Object Name="DataSource.UnWind.Drive.Freq_Scal.OutMax" ClsId="0x0" Version="0" TargetIndex="20" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.Freq_Scal.OutMax]" />
-      <Object Name="DataSource.UnWind.Drive.RPM_Scal.InMin" ClsId="0x0" Version="0" TargetIndex="21" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.RPM_Scal.InMin]" />
-      <Object Name="DataSource.UnWind.Drive.RPM_Scal.InMax" ClsId="0x0" Version="0" TargetIndex="22" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.RPM_Scal.InMax]" />
-      <Object Name="DataSource.UnWind.Drive.RPM_Scal.OutMin" ClsId="0x0" Version="0" TargetIndex="23" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.RPM_Scal.OutMin]" />
-      <Object Name="DataSource.UnWind.Drive.RPM_Scal.OutMax" ClsId="0x0" Version="0" TargetIndex="24" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.RPM_Scal.OutMax]" />
-      <Object Name="DataSource.UnWind.Drive.Trq_Scal.InMin" ClsId="0x0" Version="0" TargetIndex="25" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.Trq_Scal.InMin]" />
-      <Object Name="DataSource.UnWind.Drive.Trq_Scal.InMax" ClsId="0x0" Version="0" TargetIndex="26" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.Trq_Scal.InMax]" />
-      <Object Name="DataSource.UnWind.Drive.Trq_Scal.OutMin" ClsId="0x0" Version="0" TargetIndex="27" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.Trq_Scal.OutMin]" />
-      <Object Name="DataSource.UnWind.Drive.Trq_Scal.OutMax" ClsId="0x0" Version="0" TargetIndex="28" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.Trq_Scal.OutMax]" />
-      <Object Name="DataSource.UnWind.Drive.Current_Scal.InMin" ClsId="0x0" Version="0" TargetIndex="29" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.Current_Scal.InMin]" />
-      <Object Name="DataSource.UnWind.Drive.Current_Scal.InMax" ClsId="0x0" Version="0" TargetIndex="30" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.Current_Scal.InMax]" />
-      <Object Name="DataSource.UnWind.Drive.Current_Scal.OutMin" ClsId="0x0" Version="0" TargetIndex="31" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.Current_Scal.OutMin]" />
-      <Object Name="DataSource.UnWind.Drive.Current_Scal.OutMax" ClsId="0x0" Version="0" TargetIndex="32" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.Current_Scal.OutMax]" />
-      <Object Name="DataSource.HMI.InputPassword" ClsId="0x0" Version="0" TargetIndex="33" Type="DP" RefString="Source[global].Variable[DataSource.HMI.InputPassword]" />
-      <Object Name="DataSource.HMI.InputUsername" ClsId="0x0" Version="0" TargetIndex="34" Type="DP" RefString="Source[global].Variable[DataSource.HMI.InputUsername]" />
-      <Object Name="DataSource.HMI.ErrorMessage" ClsId="0x0" Version="0" TargetIndex="35" Type="DP" RefString="Source[global].Variable[DataSource.HMI.ErrorMessage]" />
-      <Object Name="DataSource.HMI.SetNewDateTime" ClsId="0x0" Version="0" TargetIndex="36" Type="DP" RefString="Source[global].Variable[DataSource.HMI.SetNewDateTime]" />
-      <Object Name="DataSource.HMI.NewDay" ClsId="0x0" Version="0" TargetIndex="37" Type="DP" RefString="Source[global].Variable[DataSource.HMI.NewDay]" />
-      <Object Name="DataSource.HMI.NewHour" ClsId="0x0" Version="0" TargetIndex="38" Type="DP" RefString="Source[global].Variable[DataSource.HMI.NewHour]" />
-      <Object Name="DataSource.HMI.NewMinute" ClsId="0x0" Version="0" TargetIndex="39" Type="DP" RefString="Source[global].Variable[DataSource.HMI.NewMinute]" />
-      <Object Name="DataSource.HMI.NewMonth" ClsId="0x0" Version="0" TargetIndex="40" Type="DP" RefString="Source[global].Variable[DataSource.HMI.NewMonth]" />
-      <Object Name="DataSource.HMI.NewYear" ClsId="0x0" Version="0" TargetIndex="41" Type="DP" RefString="Source[global].Variable[DataSource.HMI.NewYear]" />
-      <Object Name="DataSource.WinderDancerControl.Tasks.WinderAxis.BasicControl.Status.DriveStatus.AxisError" ClsId="0x0" Version="0" TargetIndex="42" Type="DP" RefString="Source[global].Variable[DataSource.WinderDancerControl.Tasks.WinderAxis.BasicControl.Status.DriveStatus.AxisError]" />
-      <Object Name="DataSource.WinderDancerControl.Tasks.DancerCtrl.DiameterEstimator.RemainingRunTime" ClsId="0x0" Version="0" TargetIndex="43" Type="DP" RefString="Source[global].Variable[DataSource.WinderDancerControl.Tasks.DancerCtrl.DiameterEstimator.RemainingRunTime]" />
-      <Object Name="DataSource.WinderDancerControl.Tasks.DancerCtrl.AxisController.Parameters.Interpolation.MinIntegrationTime" ClsId="0x0" Version="0" TargetIndex="44" Type="DP" RefString="Source[global].Variable[DataSource.WinderDancerControl.Tasks.DancerCtrl.AxisController.Parameters.Interpolation.MinIntegrationTime]" />
-      <Object Name="DataSource.WinderDancerControl.Tasks.DancerCtrl.AxisController.Parameters.Interpolation.TestIntegrationTime" ClsId="0x0" Version="0" TargetIndex="45" Type="DP" RefString="Source[global].Variable[DataSource.WinderDancerControl.Tasks.DancerCtrl.AxisController.Parameters.Interpolation.TestIntegrationTime]" />
-      <Object Name="DataSource.WinderDancerControl.Tasks.DancerCtrl.DancerController.Parameters.MaxLineVelocityCorrection" ClsId="0x0" Version="0" TargetIndex="46" Type="DP" RefString="Source[global].Variable[DataSource.WinderDancerControl.Tasks.DancerCtrl.DancerController.Parameters.MaxLineVelocityCorrection]" />
-      <Object Name="DataSource.WinderDancerControl.Tasks.DancerCtrl.DancerController.Parameters.PIDParameters.IntegrationTime" ClsId="0x0" Version="0" TargetIndex="47" Type="DP" RefString="Source[global].Variable[DataSource.WinderDancerControl.Tasks.DancerCtrl.DancerController.Parameters.PIDParameters.IntegrationTime]" />
-      <Object Name="DataSource.WinderDancerControl.Visu.VisuTask.MinWinderVelocity" ClsId="0x0" Version="0" TargetIndex="48" Type="DP" RefString="Source[global].Variable[DataSource.WinderDancerControl.Visu.VisuTask.MinWinderVelocity]" />
-      <Object Name="DataSource.WinderDancerControl.Visu.VisuTask.MaxLineVelocity" ClsId="0x0" Version="0" TargetIndex="49" Type="DP" RefString="Source[global].Variable[DataSource.WinderDancerControl.Visu.VisuTask.MaxLineVelocity]" />
-      <Object Name="DataSource.WinderDancerControl.Visu.VisuTask.MinLineVelocity" ClsId="0x0" Version="0" TargetIndex="50" Type="DP" RefString="Source[global].Variable[DataSource.WinderDancerControl.Visu.VisuTask.MinLineVelocity]" />
-      <Object Name="DataSource.WinderDancerControl.Visu.VisuTask.MaxWinderVelocity" ClsId="0x0" Version="0" TargetIndex="51" Type="DP" RefString="Source[global].Variable[DataSource.WinderDancerControl.Visu.VisuTask.MaxWinderVelocity]" />
-      <Object Name="DataSource.WinderDancerControl.gControl.Line.SetVelocity" ClsId="0x0" Version="0" TargetIndex="52" Type="DP" RefString="Source[global].Variable[DataSource.WinderDancerControl.gControl.Line.SetVelocity]" />
-      <Object Name="DataSource.WinderDancerControl.gControl.Line.ActVelocity" ClsId="0x0" Version="0" TargetIndex="53" Type="DP" RefString="Source[global].Variable[DataSource.WinderDancerControl.gControl.Line.ActVelocity]" />
-      <Object Name="DataSource.WinderDancerControl.gControl.Line.RefVelocity" ClsId="0x0" Version="0" TargetIndex="54" Type="DP" RefString="Source[global].Variable[DataSource.WinderDancerControl.gControl.Line.RefVelocity]" />
-      <Object Name="DataSource.WinderDancerControl.gControl.Winder.ActIntegrationTime" ClsId="0x0" Version="0" TargetIndex="55" Type="DP" RefString="Source[global].Variable[DataSource.WinderDancerControl.gControl.Winder.ActIntegrationTime]" />
-      <Object Name="DataSource.WinderDancerControl.gControl.Winder.SetVelocity" ClsId="0x0" Version="0" TargetIndex="56" Type="DP" RefString="Source[global].Variable[DataSource.WinderDancerControl.gControl.Winder.SetVelocity]" />
-      <Object Name="DataSource.WinderDancerControl.gControl.Winder.ActVelocity" ClsId="0x0" Version="0" TargetIndex="57" Type="DP" RefString="Source[global].Variable[DataSource.WinderDancerControl.gControl.Winder.ActVelocity]" />
-      <Object Name="DataSource.WinderDancerControl.gControl.Winder.VelocityCorrection" ClsId="0x0" Version="0" TargetIndex="58" Type="DP" RefString="Source[global].Variable[DataSource.WinderDancerControl.gControl.Winder.VelocityCorrection]" />
-      <Object Name="DataSource.WinderDancerControl.gControl.Winder.SetMotorTorque" ClsId="0x0" Version="0" TargetIndex="59" Type="DP" RefString="Source[global].Variable[DataSource.WinderDancerControl.gControl.Winder.SetMotorTorque]" />
-      <Object Name="DataSource.WinderDancerControl.gControl.Winder.ActMotorTorque" ClsId="0x0" Version="0" TargetIndex="60" Type="DP" RefString="Source[global].Variable[DataSource.WinderDancerControl.gControl.Winder.ActMotorTorque]" />
-      <Object Name="DataSource.Wind.StartingDia" ClsId="0x0" Version="0" TargetIndex="61" Type="DP" RefString="Source[global].Variable[DataSource.Wind.StartingDia]" />
-      <Object Name="DataSource.Wind.MPM.SetMPM" ClsId="0x0" Version="0" TargetIndex="62" Type="DP" RefString="Source[global].Variable[DataSource.Wind.MPM.SetMPM]" />
-      <Object Name="DataSource.Wind.MPM.ActualMPM" ClsId="0x0" Version="0" TargetIndex="63" Type="DP" RefString="Source[global].Variable[DataSource.Wind.MPM.ActualMPM]" />
-      <Object Name="DataSource.Wind.MPM.Actual.Output_Val" ClsId="0x0" Version="0" TargetIndex="64" Type="DP" RefString="Source[global].Variable[DataSource.Wind.MPM.Actual.Output_Val]" />
-      <Object Name="DataSource.Wind.Dia.MinDia" ClsId="0x0" Version="0" TargetIndex="65" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Dia.MinDia]" />
-      <Object Name="DataSource.Wind.Dia.MaxDia" ClsId="0x0" Version="0" TargetIndex="66" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Dia.MaxDia]" />
-      <Object Name="DataSource.Wind.Drive.ActFreq" ClsId="0x0" Version="0" TargetIndex="67" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.ActFreq]" />
-      <Object Name="DataSource.Wind.Drive.ActualTrq" ClsId="0x0" Version="0" TargetIndex="68" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.ActualTrq]" />
-      <Object Name="DataSource.Wind.Drive.ActualAmp" ClsId="0x0" Version="0" TargetIndex="69" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.ActualAmp]" />
-      <Object Name="DataSource.Wind.Drive.ActRPM" ClsId="0x0" Version="0" TargetIndex="70" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.ActRPM]" />
-      <Object Name="DataSource.Wind.Drive.Freq_Scal.InMin" ClsId="0x0" Version="0" TargetIndex="71" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.Freq_Scal.InMin]" />
-      <Object Name="DataSource.Wind.Drive.Freq_Scal.InMax" ClsId="0x0" Version="0" TargetIndex="72" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.Freq_Scal.InMax]" />
-      <Object Name="DataSource.Wind.Drive.Freq_Scal.OutMin" ClsId="0x0" Version="0" TargetIndex="73" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.Freq_Scal.OutMin]" />
-      <Object Name="DataSource.Wind.Drive.Freq_Scal.OutMax" ClsId="0x0" Version="0" TargetIndex="74" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.Freq_Scal.OutMax]" />
-      <Object Name="DataSource.Wind.Drive.RPM_Scal.InMin" ClsId="0x0" Version="0" TargetIndex="75" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.RPM_Scal.InMin]" />
-      <Object Name="DataSource.Wind.Drive.RPM_Scal.InMax" ClsId="0x0" Version="0" TargetIndex="76" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.RPM_Scal.InMax]" />
-      <Object Name="DataSource.Wind.Drive.RPM_Scal.OutMin" ClsId="0x0" Version="0" TargetIndex="77" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.RPM_Scal.OutMin]" />
-      <Object Name="DataSource.Wind.Drive.RPM_Scal.OutMax" ClsId="0x0" Version="0" TargetIndex="78" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.RPM_Scal.OutMax]" />
-      <Object Name="DataSource.Wind.Drive.Trq_Scal.InMin" ClsId="0x0" Version="0" TargetIndex="79" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.Trq_Scal.InMin]" />
-      <Object Name="DataSource.Wind.Drive.Trq_Scal.InMax" ClsId="0x0" Version="0" TargetIndex="80" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.Trq_Scal.InMax]" />
-      <Object Name="DataSource.Wind.Drive.Trq_Scal.OutMin" ClsId="0x0" Version="0" TargetIndex="81" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.Trq_Scal.OutMin]" />
-      <Object Name="DataSource.Wind.Drive.Trq_Scal.OutMax" ClsId="0x0" Version="0" TargetIndex="82" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.Trq_Scal.OutMax]" />
-      <Object Name="DataSource.Wind.Drive.Current_Scal.InMin" ClsId="0x0" Version="0" TargetIndex="83" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.Current_Scal.InMin]" />
-      <Object Name="DataSource.Wind.Drive.Current_Scal.InMax" ClsId="0x0" Version="0" TargetIndex="84" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.Current_Scal.InMax]" />
-      <Object Name="DataSource.Wind.Drive.Current_Scal.OutMin" ClsId="0x0" Version="0" TargetIndex="85" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.Current_Scal.OutMin]" />
-      <Object Name="DataSource.Wind.Drive.Current_Scal.OutMax" ClsId="0x0" Version="0" TargetIndex="86" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.Current_Scal.OutMax]" />
-      <Object Name="DataSource.WinderClosedLoopTensionControl.Tasks.TensionCtrl.DiameterEstimator.RemainingRunTime" ClsId="0x0" Version="0" TargetIndex="87" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.Tasks.TensionCtrl.DiameterEstimator.RemainingRunTime]" />
-      <Object Name="DataSource.WinderClosedLoopTensionControl.Tasks.TensionCtrl.TensionController.Parameters.MaxLineVelocityCorrection" ClsId="0x0" Version="0" TargetIndex="88" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.Tasks.TensionCtrl.TensionController.Parameters.MaxLineVelocityCorrection]" />
-      <Object Name="DataSource.WinderClosedLoopTensionControl.Tasks.TensionCtrl.TensionController.Parameters.PIDParameters.IntegrationTime" ClsId="0x0" Version="0" TargetIndex="89" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.Tasks.TensionCtrl.TensionController.Parameters.PIDParameters.IntegrationTime]" />
-      <Object Name="DataSource.WinderClosedLoopTensionControl.Tasks.TensionCtrl.AxisController.Parameters.Interpolation.TestIntegrationTime" ClsId="0x0" Version="0" TargetIndex="90" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.Tasks.TensionCtrl.AxisController.Parameters.Interpolation.TestIntegrationTime]" />
-      <Object Name="DataSource.WinderClosedLoopTensionControl.Tasks.TensionCtrl.AxisController.Parameters.Interpolation.MinIntegrationTime" ClsId="0x0" Version="0" TargetIndex="91" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.Tasks.TensionCtrl.AxisController.Parameters.Interpolation.MinIntegrationTime]" />
-      <Object Name="DataSource.WinderClosedLoopTensionControl.Tasks.WinderAxis.BasicControl.Status.DriveStatus.AxisError" ClsId="0x0" Version="0" TargetIndex="92" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.Tasks.WinderAxis.BasicControl.Status.DriveStatus.AxisError]" />
-      <Object Name="DataSource.WinderClosedLoopTensionControl.Visu.VisuTask.MinMaterialTension" ClsId="0x0" Version="0" TargetIndex="93" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.Visu.VisuTask.MinMaterialTension]" />
-      <Object Name="DataSource.WinderClosedLoopTensionControl.Visu.VisuTask.MaxWinderVelocity" ClsId="0x0" Version="0" TargetIndex="94" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.Visu.VisuTask.MaxWinderVelocity]" />
-      <Object Name="DataSource.WinderClosedLoopTensionControl.Visu.VisuTask.MaxLineVelocity" ClsId="0x0" Version="0" TargetIndex="95" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.Visu.VisuTask.MaxLineVelocity]" />
-      <Object Name="DataSource.WinderClosedLoopTensionControl.Visu.VisuTask.MaxMaterialTension" ClsId="0x0" Version="0" TargetIndex="96" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.Visu.VisuTask.MaxMaterialTension]" />
-      <Object Name="DataSource.WinderClosedLoopTensionControl.Visu.VisuTask.MinLineVelocity" ClsId="0x0" Version="0" TargetIndex="97" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.Visu.VisuTask.MinLineVelocity]" />
-      <Object Name="DataSource.WinderClosedLoopTensionControl.Visu.VisuTask.MinWinderVelocity" ClsId="0x0" Version="0" TargetIndex="98" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.Visu.VisuTask.MinWinderVelocity]" />
-      <Object Name="DataSource.WinderClosedLoopTensionControl.Visu.VisuTask.MAX_MATERIAL_TENSION" ClsId="0x0" Version="0" TargetIndex="99" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.Visu.VisuTask.MAX_MATERIAL_TENSION]" />
-      <Object Name="DataSource.WinderClosedLoopTensionControl.gControl.ActMaterialTension" ClsId="0x0" Version="0" TargetIndex="100" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.gControl.ActMaterialTension]" />
-      <Object Name="DataSource.WinderClosedLoopTensionControl.gControl.SetMaterialTension" ClsId="0x0" Version="0" TargetIndex="101" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.gControl.SetMaterialTension]" />
-      <Object Name="DataSource.WinderClosedLoopTensionControl.gControl.Winder.SetVelocity" ClsId="0x0" Version="0" TargetIndex="102" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.gControl.Winder.SetVelocity]" />
-      <Object Name="DataSource.WinderClosedLoopTensionControl.gControl.Winder.ActMotorTorque" ClsId="0x0" Version="0" TargetIndex="103" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.gControl.Winder.ActMotorTorque]" />
-      <Object Name="DataSource.WinderClosedLoopTensionControl.gControl.Winder.ActVelocity" ClsId="0x0" Version="0" TargetIndex="104" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.gControl.Winder.ActVelocity]" />
-      <Object Name="DataSource.WinderClosedLoopTensionControl.gControl.Winder.ActIntegrationTime" ClsId="0x0" Version="0" TargetIndex="105" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.gControl.Winder.ActIntegrationTime]" />
-      <Object Name="DataSource.WinderClosedLoopTensionControl.gControl.Winder.SetMotorTorque" ClsId="0x0" Version="0" TargetIndex="106" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.gControl.Winder.SetMotorTorque]" />
-      <Object Name="DataSource.WinderClosedLoopTensionControl.gControl.Winder.VelocityCorrection" ClsId="0x0" Version="0" TargetIndex="107" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.gControl.Winder.VelocityCorrection]" />
-      <Object Name="DataSource.WinderClosedLoopTensionControl.gControl.Line.SetVelocity" ClsId="0x0" Version="0" TargetIndex="108" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.gControl.Line.SetVelocity]" />
-      <Object Name="DataSource.WinderClosedLoopTensionControl.gControl.Line.RefVelocity" ClsId="0x0" Version="0" TargetIndex="109" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.gControl.Line.RefVelocity]" />
-      <Object Name="DataSource.WinderClosedLoopTensionControl.gControl.Line.ActVelocity" ClsId="0x0" Version="0" TargetIndex="110" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.gControl.Line.ActVelocity]" />
-      <Object Name="DataSource.Idler.PulsesPerRev" ClsId="0x0" Version="0" TargetIndex="111" Type="DP" RefString="Source[global].Variable[DataSource.Idler.PulsesPerRev]" />
-      <Object Name="DataSource.Idler.MPM.InpDia" ClsId="0x0" Version="0" TargetIndex="112" Type="DP" RefString="Source[global].Variable[DataSource.Idler.MPM.InpDia]" />
-      <Object Name="DataSource.Idler.MPM.ActMPM" ClsId="0x0" Version="0" TargetIndex="113" Type="DP" RefString="Source[global].Variable[DataSource.Idler.MPM.ActMPM]" />
-      <Object Name="DataSource.Cur1Pos" ClsId="0x0" Version="0" TargetIndex="114" Type="DP" RefString="Source[global].Variable[DataSource.Cur1Pos]" />
-      <Object Name="DataSource.Cur2Pos" ClsId="0x0" Version="0" TargetIndex="115" Type="DP" RefString="Source[global].Variable[DataSource.Cur2Pos]" />
-      <Object Name="DataSource.CurrPage" ClsId="0x0" Version="0" TargetIndex="116" Type="DP" RefString="Source[global].Variable[DataSource.CurrPage]" />
-      <Object Name="DataSource.ParamChange" ClsId="0x0" Version="0" TargetIndex="117" Type="DP" RefString="Source[global].Variable[DataSource.ParamChange]" />
-      <Object Name="DataSource.NewPage" ClsId="0x0" Version="0" TargetIndex="118" Type="DP" RefString="Source[global].Variable[DataSource.NewPage]" />
-      <Object Name="DataSource.Statusdp_blink" ClsId="0x0" Version="0" TargetIndex="119" Type="DP" RefString="Source[global].Variable[DataSource.Statusdp_blink]" />
-      <Object Name="DataSource.Statusdp_alarm" ClsId="0x0" Version="0" TargetIndex="120" Type="DP" RefString="Source[global].Variable[DataSource.Statusdp_alarm]" />
-      <Object Name="DataSource.AI1" ClsId="0x0" Version="0" TargetIndex="121" Type="DP" RefString="Source[global].Variable[DataSource.AI1]" />
-      <Object Name="DataSource.AI1[0]" ClsId="0x0" Version="0" TargetIndex="122" Type="DP" RefString="Source[global].Variable[DataSource.AI1[0]]" />
-      <Object Name="DataSource.AI1[1]" ClsId="0x0" Version="0" TargetIndex="123" Type="DP" RefString="Source[global].Variable[DataSource.AI1[1]]" />
-      <Object Name="DataSource.AI1[2]" ClsId="0x0" Version="0" TargetIndex="124" Type="DP" RefString="Source[global].Variable[DataSource.AI1[2]]" />
-      <Object Name="DataSource.AI1[3]" ClsId="0x0" Version="0" TargetIndex="125" Type="DP" RefString="Source[global].Variable[DataSource.AI1[3]]" />
-      <Object Name="DataSource.Enc_Value" ClsId="0x0" Version="0" TargetIndex="126" Type="DP" RefString="Source[global].Variable[DataSource.Enc_Value]" />
-      <Object Name="DataSource.DO1" ClsId="0x0" Version="0" TargetIndex="127" Type="DP" RefString="Source[global].Variable[DataSource.DO1]" />
-      <Object Name="DataSource.DO1[0]" ClsId="0x0" Version="0" TargetIndex="128" Type="DP" RefString="Source[global].Variable[DataSource.DO1[0]]" />
-      <Object Name="DataSource.DO1[1]" ClsId="0x0" Version="0" TargetIndex="129" Type="DP" RefString="Source[global].Variable[DataSource.DO1[1]]" />
-      <Object Name="DataSource.DO1[2]" ClsId="0x0" Version="0" TargetIndex="130" Type="DP" RefString="Source[global].Variable[DataSource.DO1[2]]" />
-      <Object Name="DataSource.DO1[3]" ClsId="0x0" Version="0" TargetIndex="131" Type="DP" RefString="Source[global].Variable[DataSource.DO1[3]]" />
-      <Object Name="DataSource.DO1[4]" ClsId="0x0" Version="0" TargetIndex="132" Type="DP" RefString="Source[global].Variable[DataSource.DO1[4]]" />
-      <Object Name="DataSource.DO1[5]" ClsId="0x0" Version="0" TargetIndex="133" Type="DP" RefString="Source[global].Variable[DataSource.DO1[5]]" />
-      <Object Name="DataSource.DO1[6]" ClsId="0x0" Version="0" TargetIndex="134" Type="DP" RefString="Source[global].Variable[DataSource.DO1[6]]" />
-      <Object Name="DataSource.DO1[7]" ClsId="0x0" Version="0" TargetIndex="135" Type="DP" RefString="Source[global].Variable[DataSource.DO1[7]]" />
-      <Object Name="DataSource.DO1[8]" ClsId="0x0" Version="0" TargetIndex="136" Type="DP" RefString="Source[global].Variable[DataSource.DO1[8]]" />
-      <Object Name="DataSource.DO1[9]" ClsId="0x0" Version="0" TargetIndex="137" Type="DP" RefString="Source[global].Variable[DataSource.DO1[9]]" />
-      <Object Name="DataSource.DO1[10]" ClsId="0x0" Version="0" TargetIndex="138" Type="DP" RefString="Source[global].Variable[DataSource.DO1[10]]" />
-      <Object Name="DataSource.DO1[11]" ClsId="0x0" Version="0" TargetIndex="139" Type="DP" RefString="Source[global].Variable[DataSource.DO1[11]]" />
-      <Object Name="DataSource.DI2" ClsId="0x0" Version="0" TargetIndex="140" Type="DP" RefString="Source[global].Variable[DataSource.DI2]" />
-      <Object Name="DataSource.DI2[0]" ClsId="0x0" Version="0" TargetIndex="141" Type="DP" RefString="Source[global].Variable[DataSource.DI2[0]]" />
-      <Object Name="DataSource.DI2[1]" ClsId="0x0" Version="0" TargetIndex="142" Type="DP" RefString="Source[global].Variable[DataSource.DI2[1]]" />
-      <Object Name="DataSource.DI1" ClsId="0x0" Version="0" TargetIndex="143" Type="DP" RefString="Source[global].Variable[DataSource.DI1]" />
-      <Object Name="DataSource.DI1[2]" ClsId="0x0" Version="0" TargetIndex="144" Type="DP" RefString="Source[global].Variable[DataSource.DI1[2]]" />
-      <Object Name="DataSource.DI1[3]" ClsId="0x0" Version="0" TargetIndex="145" Type="DP" RefString="Source[global].Variable[DataSource.DI1[3]]" />
-      <Object Name="DataSource.DI1[4]" ClsId="0x0" Version="0" TargetIndex="146" Type="DP" RefString="Source[global].Variable[DataSource.DI1[4]]" />
-      <Object Name="DataSource.DI1[5]" ClsId="0x0" Version="0" TargetIndex="147" Type="DP" RefString="Source[global].Variable[DataSource.DI1[5]]" />
-      <Object Name="DataSource.DI1[1]" ClsId="0x0" Version="0" TargetIndex="148" Type="DP" RefString="Source[global].Variable[DataSource.DI1[1]]" />
-      <Object Name="DataSource.DI1[0]" ClsId="0x0" Version="0" TargetIndex="149" Type="DP" RefString="Source[global].Variable[DataSource.DI1[0]]" />
-      <Object Name="DataSource.DI1[8]" ClsId="0x0" Version="0" TargetIndex="150" Type="DP" RefString="Source[global].Variable[DataSource.DI1[8]]" />
-      <Object Name="DataSource.DI1[9]" ClsId="0x0" Version="0" TargetIndex="151" Type="DP" RefString="Source[global].Variable[DataSource.DI1[9]]" />
-      <Object Name="DataSource.DI1[10]" ClsId="0x0" Version="0" TargetIndex="152" Type="DP" RefString="Source[global].Variable[DataSource.DI1[10]]" />
-      <Object Name="DataSource.DI1[11]" ClsId="0x0" Version="0" TargetIndex="153" Type="DP" RefString="Source[global].Variable[DataSource.DI1[11]]" />
-      <Object Name="DataSource.DI1[7]" ClsId="0x0" Version="0" TargetIndex="154" Type="DP" RefString="Source[global].Variable[DataSource.DI1[7]]" />
-      <Object Name="DataSource.DI1[6]" ClsId="0x0" Version="0" TargetIndex="155" Type="DP" RefString="Source[global].Variable[DataSource.DI1[6]]" />
-      <Object Name="DataSource.AO1" ClsId="0x0" Version="0" TargetIndex="156" Type="DP" RefString="Source[global].Variable[DataSource.AO1]" />
-      <Object Name="DataSource.AO1[0]" ClsId="0x0" Version="0" TargetIndex="157" Type="DP" RefString="Source[global].Variable[DataSource.AO1[0]]" />
-      <Object Name="DataSource.Alarm_mc" ClsId="0x0" Version="0" TargetIndex="158" Type="DP" RefString="Source[global].Variable[DataSource.Alarm_mc]" />
-      <Object Name="DataSource.Backbtn" ClsId="0x0" Version="0" TargetIndex="159" Type="DP" RefString="Source[global].Variable[DataSource.Backbtn]" />
-      <Object Name="DataSource.NewPageReq" ClsId="0x0" Version="0" TargetIndex="160" Type="DP" RefString="Source[global].Variable[DataSource.NewPageReq]" />
-      <Object Name="Internal.Display.Brightness" ClsId="0x0" Version="0" TargetIndex="161" Type="DP" RefString="Source[global].Variable[Internal.Display.Brightness]" />
-      <Object Name="Internal.Display.Contrast" ClsId="0x0" Version="0" TargetIndex="162" Type="DP" RefString="Source[global].Variable[Internal.Display.Contrast]" />
-      <Object Name="Internal.Display.BackLight" ClsId="0x0" Version="0" TargetIndex="163" Type="DP" RefString="Source[global].Variable[Internal.Display.BackLight]" />
-      <Object Name="Internal.Connection.IPAddress" ClsId="0x0" Version="0" TargetIndex="164" Type="DP" RefString="Source[global].Variable[Internal.Connection.IPAddress]" />
-      <Object Name="Internal.Connection.NodeNumber" ClsId="0x0" Version="0" TargetIndex="165" Type="DP" RefString="Source[global].Variable[Internal.Connection.NodeNumber]" />
-      <Object Name="Internal.Temperature.CPU" ClsId="0x0" Version="0" TargetIndex="166" Type="DP" RefString="Source[global].Variable[Internal.Temperature.CPU]" />
-      <Object Name="Internal.Temperature.Room" ClsId="0x0" Version="0" TargetIndex="167" Type="DP" RefString="Source[global].Variable[Internal.Temperature.Room]" />
-      <Object Name="Internal.DateTime.Day" ClsId="0x0" Version="0" TargetIndex="168" Type="DP" RefString="Source[global].Variable[Internal.DateTime.Day]" />
-      <Object Name="Internal.DateTime.Hour" ClsId="0x0" Version="0" TargetIndex="169" Type="DP" RefString="Source[global].Variable[Internal.DateTime.Hour]" />
-      <Object Name="Internal.DateTime.Minute" ClsId="0x0" Version="0" TargetIndex="170" Type="DP" RefString="Source[global].Variable[Internal.DateTime.Minute]" />
-      <Object Name="Internal.DateTime.Month" ClsId="0x0" Version="0" TargetIndex="171" Type="DP" RefString="Source[global].Variable[Internal.DateTime.Month]" />
-      <Object Name="Internal.DateTime.Second" ClsId="0x0" Version="0" TargetIndex="172" Type="DP" RefString="Source[global].Variable[Internal.DateTime.Second]" />
-      <Object Name="Internal.DateTime.Year" ClsId="0x0" Version="0" TargetIndex="173" Type="DP" RefString="Source[global].Variable[Internal.DateTime.Year]" />
-      <Object Name="Internal.DateTime.DayOfWeek" ClsId="0x0" Version="0" TargetIndex="174" Type="DP" RefString="Source[global].Variable[Internal.DateTime.DayOfWeek]" />
-      <Object Name="Internal.Memory.LargestFreeBlock" ClsId="0x0" Version="0" TargetIndex="175" Type="DP" RefString="Source[global].Variable[Internal.Memory.LargestFreeBlock]" />
-      <Object Name="Internal.Memory.TotalFree" ClsId="0x0" Version="0" TargetIndex="176" Type="DP" RefString="Source[global].Variable[Internal.Memory.TotalFree]" />
-      <Object Name="Internal.Memory.TotalInstalled" ClsId="0x0" Version="0" TargetIndex="177" Type="DP" RefString="Source[global].Variable[Internal.Memory.TotalInstalled]" />
+      <Object Name="DataSource.UnWind.Tension.PID.Prop_Gain" ClsId="0x0" Version="0" TargetIndex="11" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Tension.PID.Prop_Gain]" />
+      <Object Name="DataSource.UnWind.Tension.PID.Intg_Gain" ClsId="0x0" Version="0" TargetIndex="12" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Tension.PID.Intg_Gain]" />
+      <Object Name="DataSource.UnWind.Tension.PID.Derv_Gain" ClsId="0x0" Version="0" TargetIndex="13" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Tension.PID.Derv_Gain]" />
+      <Object Name="DataSource.UnWind.Dia.MinDia" ClsId="0x0" Version="0" TargetIndex="14" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Dia.MinDia]" />
+      <Object Name="DataSource.UnWind.Dia.MaxDia" ClsId="0x0" Version="0" TargetIndex="15" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Dia.MaxDia]" />
+      <Object Name="DataSource.UnWind.Drive.ActualAmp" ClsId="0x0" Version="0" TargetIndex="16" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.ActualAmp]" />
+      <Object Name="DataSource.UnWind.Drive.ActFreq" ClsId="0x0" Version="0" TargetIndex="17" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.ActFreq]" />
+      <Object Name="DataSource.UnWind.Drive.ActualTrq" ClsId="0x0" Version="0" TargetIndex="18" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.ActualTrq]" />
+      <Object Name="DataSource.UnWind.Drive.ActRPM" ClsId="0x0" Version="0" TargetIndex="19" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.ActRPM]" />
+      <Object Name="DataSource.UnWind.Drive.Freq_Scal.InMin" ClsId="0x0" Version="0" TargetIndex="20" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.Freq_Scal.InMin]" />
+      <Object Name="DataSource.UnWind.Drive.Freq_Scal.InMax" ClsId="0x0" Version="0" TargetIndex="21" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.Freq_Scal.InMax]" />
+      <Object Name="DataSource.UnWind.Drive.Freq_Scal.OutMin" ClsId="0x0" Version="0" TargetIndex="22" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.Freq_Scal.OutMin]" />
+      <Object Name="DataSource.UnWind.Drive.Freq_Scal.OutMax" ClsId="0x0" Version="0" TargetIndex="23" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.Freq_Scal.OutMax]" />
+      <Object Name="DataSource.UnWind.Drive.RPM_Scal.InMin" ClsId="0x0" Version="0" TargetIndex="24" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.RPM_Scal.InMin]" />
+      <Object Name="DataSource.UnWind.Drive.RPM_Scal.InMax" ClsId="0x0" Version="0" TargetIndex="25" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.RPM_Scal.InMax]" />
+      <Object Name="DataSource.UnWind.Drive.RPM_Scal.OutMin" ClsId="0x0" Version="0" TargetIndex="26" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.RPM_Scal.OutMin]" />
+      <Object Name="DataSource.UnWind.Drive.RPM_Scal.OutMax" ClsId="0x0" Version="0" TargetIndex="27" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.RPM_Scal.OutMax]" />
+      <Object Name="DataSource.UnWind.Drive.Trq_Scal.InMin" ClsId="0x0" Version="0" TargetIndex="28" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.Trq_Scal.InMin]" />
+      <Object Name="DataSource.UnWind.Drive.Trq_Scal.InMax" ClsId="0x0" Version="0" TargetIndex="29" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.Trq_Scal.InMax]" />
+      <Object Name="DataSource.UnWind.Drive.Trq_Scal.OutMin" ClsId="0x0" Version="0" TargetIndex="30" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.Trq_Scal.OutMin]" />
+      <Object Name="DataSource.UnWind.Drive.Trq_Scal.OutMax" ClsId="0x0" Version="0" TargetIndex="31" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.Trq_Scal.OutMax]" />
+      <Object Name="DataSource.UnWind.Drive.Current_Scal.InMin" ClsId="0x0" Version="0" TargetIndex="32" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.Current_Scal.InMin]" />
+      <Object Name="DataSource.UnWind.Drive.Current_Scal.InMax" ClsId="0x0" Version="0" TargetIndex="33" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.Current_Scal.InMax]" />
+      <Object Name="DataSource.UnWind.Drive.Current_Scal.OutMin" ClsId="0x0" Version="0" TargetIndex="34" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.Current_Scal.OutMin]" />
+      <Object Name="DataSource.UnWind.Drive.Current_Scal.OutMax" ClsId="0x0" Version="0" TargetIndex="35" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.Drive.Current_Scal.OutMax]" />
+      <Object Name="DataSource.UnWind.MotorRating.RatedFreq" ClsId="0x0" Version="0" TargetIndex="36" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.MotorRating.RatedFreq]" />
+      <Object Name="DataSource.UnWind.MotorRating.RatedCurrent" ClsId="0x0" Version="0" TargetIndex="37" Type="DP" RefString="Source[global].Variable[DataSource.UnWind.MotorRating.RatedCurrent]" />
+      <Object Name="DataSource.HMI.InputPassword" ClsId="0x0" Version="0" TargetIndex="38" Type="DP" RefString="Source[global].Variable[DataSource.HMI.InputPassword]" />
+      <Object Name="DataSource.HMI.InputUsername" ClsId="0x0" Version="0" TargetIndex="39" Type="DP" RefString="Source[global].Variable[DataSource.HMI.InputUsername]" />
+      <Object Name="DataSource.HMI.ErrorMessage" ClsId="0x0" Version="0" TargetIndex="40" Type="DP" RefString="Source[global].Variable[DataSource.HMI.ErrorMessage]" />
+      <Object Name="DataSource.HMI.SetNewDateTime" ClsId="0x0" Version="0" TargetIndex="41" Type="DP" RefString="Source[global].Variable[DataSource.HMI.SetNewDateTime]" />
+      <Object Name="DataSource.HMI.NewDay" ClsId="0x0" Version="0" TargetIndex="42" Type="DP" RefString="Source[global].Variable[DataSource.HMI.NewDay]" />
+      <Object Name="DataSource.HMI.NewHour" ClsId="0x0" Version="0" TargetIndex="43" Type="DP" RefString="Source[global].Variable[DataSource.HMI.NewHour]" />
+      <Object Name="DataSource.HMI.NewMinute" ClsId="0x0" Version="0" TargetIndex="44" Type="DP" RefString="Source[global].Variable[DataSource.HMI.NewMinute]" />
+      <Object Name="DataSource.HMI.NewMonth" ClsId="0x0" Version="0" TargetIndex="45" Type="DP" RefString="Source[global].Variable[DataSource.HMI.NewMonth]" />
+      <Object Name="DataSource.HMI.NewYear" ClsId="0x0" Version="0" TargetIndex="46" Type="DP" RefString="Source[global].Variable[DataSource.HMI.NewYear]" />
+      <Object Name="DataSource.WinderDancerControl.Tasks.WinderAxis.BasicControl.Status.DriveStatus.AxisError" ClsId="0x0" Version="0" TargetIndex="47" Type="DP" RefString="Source[global].Variable[DataSource.WinderDancerControl.Tasks.WinderAxis.BasicControl.Status.DriveStatus.AxisError]" />
+      <Object Name="DataSource.WinderDancerControl.Tasks.DancerCtrl.DiameterEstimator.RemainingRunTime" ClsId="0x0" Version="0" TargetIndex="48" Type="DP" RefString="Source[global].Variable[DataSource.WinderDancerControl.Tasks.DancerCtrl.DiameterEstimator.RemainingRunTime]" />
+      <Object Name="DataSource.WinderDancerControl.Tasks.DancerCtrl.AxisController.Parameters.Interpolation.MinIntegrationTime" ClsId="0x0" Version="0" TargetIndex="49" Type="DP" RefString="Source[global].Variable[DataSource.WinderDancerControl.Tasks.DancerCtrl.AxisController.Parameters.Interpolation.MinIntegrationTime]" />
+      <Object Name="DataSource.WinderDancerControl.Tasks.DancerCtrl.AxisController.Parameters.Interpolation.TestIntegrationTime" ClsId="0x0" Version="0" TargetIndex="50" Type="DP" RefString="Source[global].Variable[DataSource.WinderDancerControl.Tasks.DancerCtrl.AxisController.Parameters.Interpolation.TestIntegrationTime]" />
+      <Object Name="DataSource.WinderDancerControl.Tasks.DancerCtrl.DancerController.Parameters.MaxLineVelocityCorrection" ClsId="0x0" Version="0" TargetIndex="51" Type="DP" RefString="Source[global].Variable[DataSource.WinderDancerControl.Tasks.DancerCtrl.DancerController.Parameters.MaxLineVelocityCorrection]" />
+      <Object Name="DataSource.WinderDancerControl.Tasks.DancerCtrl.DancerController.Parameters.PIDParameters.IntegrationTime" ClsId="0x0" Version="0" TargetIndex="52" Type="DP" RefString="Source[global].Variable[DataSource.WinderDancerControl.Tasks.DancerCtrl.DancerController.Parameters.PIDParameters.IntegrationTime]" />
+      <Object Name="DataSource.WinderDancerControl.Visu.VisuTask.MinWinderVelocity" ClsId="0x0" Version="0" TargetIndex="53" Type="DP" RefString="Source[global].Variable[DataSource.WinderDancerControl.Visu.VisuTask.MinWinderVelocity]" />
+      <Object Name="DataSource.WinderDancerControl.Visu.VisuTask.MaxLineVelocity" ClsId="0x0" Version="0" TargetIndex="54" Type="DP" RefString="Source[global].Variable[DataSource.WinderDancerControl.Visu.VisuTask.MaxLineVelocity]" />
+      <Object Name="DataSource.WinderDancerControl.Visu.VisuTask.MinLineVelocity" ClsId="0x0" Version="0" TargetIndex="55" Type="DP" RefString="Source[global].Variable[DataSource.WinderDancerControl.Visu.VisuTask.MinLineVelocity]" />
+      <Object Name="DataSource.WinderDancerControl.Visu.VisuTask.MaxWinderVelocity" ClsId="0x0" Version="0" TargetIndex="56" Type="DP" RefString="Source[global].Variable[DataSource.WinderDancerControl.Visu.VisuTask.MaxWinderVelocity]" />
+      <Object Name="DataSource.WinderDancerControl.gControl.Line.SetVelocity" ClsId="0x0" Version="0" TargetIndex="57" Type="DP" RefString="Source[global].Variable[DataSource.WinderDancerControl.gControl.Line.SetVelocity]" />
+      <Object Name="DataSource.WinderDancerControl.gControl.Line.ActVelocity" ClsId="0x0" Version="0" TargetIndex="58" Type="DP" RefString="Source[global].Variable[DataSource.WinderDancerControl.gControl.Line.ActVelocity]" />
+      <Object Name="DataSource.WinderDancerControl.gControl.Line.RefVelocity" ClsId="0x0" Version="0" TargetIndex="59" Type="DP" RefString="Source[global].Variable[DataSource.WinderDancerControl.gControl.Line.RefVelocity]" />
+      <Object Name="DataSource.WinderDancerControl.gControl.Winder.ActIntegrationTime" ClsId="0x0" Version="0" TargetIndex="60" Type="DP" RefString="Source[global].Variable[DataSource.WinderDancerControl.gControl.Winder.ActIntegrationTime]" />
+      <Object Name="DataSource.WinderDancerControl.gControl.Winder.SetVelocity" ClsId="0x0" Version="0" TargetIndex="61" Type="DP" RefString="Source[global].Variable[DataSource.WinderDancerControl.gControl.Winder.SetVelocity]" />
+      <Object Name="DataSource.WinderDancerControl.gControl.Winder.ActVelocity" ClsId="0x0" Version="0" TargetIndex="62" Type="DP" RefString="Source[global].Variable[DataSource.WinderDancerControl.gControl.Winder.ActVelocity]" />
+      <Object Name="DataSource.WinderDancerControl.gControl.Winder.VelocityCorrection" ClsId="0x0" Version="0" TargetIndex="63" Type="DP" RefString="Source[global].Variable[DataSource.WinderDancerControl.gControl.Winder.VelocityCorrection]" />
+      <Object Name="DataSource.WinderDancerControl.gControl.Winder.SetMotorTorque" ClsId="0x0" Version="0" TargetIndex="64" Type="DP" RefString="Source[global].Variable[DataSource.WinderDancerControl.gControl.Winder.SetMotorTorque]" />
+      <Object Name="DataSource.WinderDancerControl.gControl.Winder.ActMotorTorque" ClsId="0x0" Version="0" TargetIndex="65" Type="DP" RefString="Source[global].Variable[DataSource.WinderDancerControl.gControl.Winder.ActMotorTorque]" />
+      <Object Name="DataSource.Wind.StartingDia" ClsId="0x0" Version="0" TargetIndex="66" Type="DP" RefString="Source[global].Variable[DataSource.Wind.StartingDia]" />
+      <Object Name="DataSource.Wind.MPM.SetMPM" ClsId="0x0" Version="0" TargetIndex="67" Type="DP" RefString="Source[global].Variable[DataSource.Wind.MPM.SetMPM]" />
+      <Object Name="DataSource.Wind.MPM.ActualMPM" ClsId="0x0" Version="0" TargetIndex="68" Type="DP" RefString="Source[global].Variable[DataSource.Wind.MPM.ActualMPM]" />
+      <Object Name="DataSource.Wind.MPM.Actual.Output_Val" ClsId="0x0" Version="0" TargetIndex="69" Type="DP" RefString="Source[global].Variable[DataSource.Wind.MPM.Actual.Output_Val]" />
+      <Object Name="DataSource.Wind.Dia.MinDia" ClsId="0x0" Version="0" TargetIndex="70" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Dia.MinDia]" />
+      <Object Name="DataSource.Wind.Dia.MaxDia" ClsId="0x0" Version="0" TargetIndex="71" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Dia.MaxDia]" />
+      <Object Name="DataSource.Wind.Drive.ActFreq" ClsId="0x0" Version="0" TargetIndex="72" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.ActFreq]" />
+      <Object Name="DataSource.Wind.Drive.ActualTrq" ClsId="0x0" Version="0" TargetIndex="73" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.ActualTrq]" />
+      <Object Name="DataSource.Wind.Drive.ActualAmp" ClsId="0x0" Version="0" TargetIndex="74" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.ActualAmp]" />
+      <Object Name="DataSource.Wind.Drive.ActRPM" ClsId="0x0" Version="0" TargetIndex="75" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.ActRPM]" />
+      <Object Name="DataSource.Wind.Drive.Freq_Scal.InMin" ClsId="0x0" Version="0" TargetIndex="76" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.Freq_Scal.InMin]" />
+      <Object Name="DataSource.Wind.Drive.Freq_Scal.InMax" ClsId="0x0" Version="0" TargetIndex="77" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.Freq_Scal.InMax]" />
+      <Object Name="DataSource.Wind.Drive.Freq_Scal.OutMin" ClsId="0x0" Version="0" TargetIndex="78" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.Freq_Scal.OutMin]" />
+      <Object Name="DataSource.Wind.Drive.Freq_Scal.OutMax" ClsId="0x0" Version="0" TargetIndex="79" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.Freq_Scal.OutMax]" />
+      <Object Name="DataSource.Wind.Drive.RPM_Scal.InMin" ClsId="0x0" Version="0" TargetIndex="80" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.RPM_Scal.InMin]" />
+      <Object Name="DataSource.Wind.Drive.RPM_Scal.InMax" ClsId="0x0" Version="0" TargetIndex="81" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.RPM_Scal.InMax]" />
+      <Object Name="DataSource.Wind.Drive.RPM_Scal.OutMin" ClsId="0x0" Version="0" TargetIndex="82" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.RPM_Scal.OutMin]" />
+      <Object Name="DataSource.Wind.Drive.RPM_Scal.OutMax" ClsId="0x0" Version="0" TargetIndex="83" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.RPM_Scal.OutMax]" />
+      <Object Name="DataSource.Wind.Drive.Trq_Scal.InMin" ClsId="0x0" Version="0" TargetIndex="84" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.Trq_Scal.InMin]" />
+      <Object Name="DataSource.Wind.Drive.Trq_Scal.InMax" ClsId="0x0" Version="0" TargetIndex="85" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.Trq_Scal.InMax]" />
+      <Object Name="DataSource.Wind.Drive.Trq_Scal.OutMin" ClsId="0x0" Version="0" TargetIndex="86" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.Trq_Scal.OutMin]" />
+      <Object Name="DataSource.Wind.Drive.Trq_Scal.OutMax" ClsId="0x0" Version="0" TargetIndex="87" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.Trq_Scal.OutMax]" />
+      <Object Name="DataSource.Wind.Drive.Current_Scal.InMin" ClsId="0x0" Version="0" TargetIndex="88" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.Current_Scal.InMin]" />
+      <Object Name="DataSource.Wind.Drive.Current_Scal.InMax" ClsId="0x0" Version="0" TargetIndex="89" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.Current_Scal.InMax]" />
+      <Object Name="DataSource.Wind.Drive.Current_Scal.OutMin" ClsId="0x0" Version="0" TargetIndex="90" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.Current_Scal.OutMin]" />
+      <Object Name="DataSource.Wind.Drive.Current_Scal.OutMax" ClsId="0x0" Version="0" TargetIndex="91" Type="DP" RefString="Source[global].Variable[DataSource.Wind.Drive.Current_Scal.OutMax]" />
+      <Object Name="DataSource.WinderClosedLoopTensionControl.Tasks.TensionCtrl.DiameterEstimator.RemainingRunTime" ClsId="0x0" Version="0" TargetIndex="92" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.Tasks.TensionCtrl.DiameterEstimator.RemainingRunTime]" />
+      <Object Name="DataSource.WinderClosedLoopTensionControl.Tasks.TensionCtrl.TensionController.Parameters.MaxLineVelocityCorrection" ClsId="0x0" Version="0" TargetIndex="93" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.Tasks.TensionCtrl.TensionController.Parameters.MaxLineVelocityCorrection]" />
+      <Object Name="DataSource.WinderClosedLoopTensionControl.Tasks.TensionCtrl.TensionController.Parameters.PIDParameters.IntegrationTime" ClsId="0x0" Version="0" TargetIndex="94" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.Tasks.TensionCtrl.TensionController.Parameters.PIDParameters.IntegrationTime]" />
+      <Object Name="DataSource.WinderClosedLoopTensionControl.Tasks.TensionCtrl.AxisController.Parameters.Interpolation.TestIntegrationTime" ClsId="0x0" Version="0" TargetIndex="95" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.Tasks.TensionCtrl.AxisController.Parameters.Interpolation.TestIntegrationTime]" />
+      <Object Name="DataSource.WinderClosedLoopTensionControl.Tasks.TensionCtrl.AxisController.Parameters.Interpolation.MinIntegrationTime" ClsId="0x0" Version="0" TargetIndex="96" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.Tasks.TensionCtrl.AxisController.Parameters.Interpolation.MinIntegrationTime]" />
+      <Object Name="DataSource.WinderClosedLoopTensionControl.Tasks.WinderAxis.BasicControl.Status.DriveStatus.AxisError" ClsId="0x0" Version="0" TargetIndex="97" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.Tasks.WinderAxis.BasicControl.Status.DriveStatus.AxisError]" />
+      <Object Name="DataSource.WinderClosedLoopTensionControl.Visu.VisuTask.MinMaterialTension" ClsId="0x0" Version="0" TargetIndex="98" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.Visu.VisuTask.MinMaterialTension]" />
+      <Object Name="DataSource.WinderClosedLoopTensionControl.Visu.VisuTask.MaxWinderVelocity" ClsId="0x0" Version="0" TargetIndex="99" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.Visu.VisuTask.MaxWinderVelocity]" />
+      <Object Name="DataSource.WinderClosedLoopTensionControl.Visu.VisuTask.MaxLineVelocity" ClsId="0x0" Version="0" TargetIndex="100" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.Visu.VisuTask.MaxLineVelocity]" />
+      <Object Name="DataSource.WinderClosedLoopTensionControl.Visu.VisuTask.MaxMaterialTension" ClsId="0x0" Version="0" TargetIndex="101" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.Visu.VisuTask.MaxMaterialTension]" />
+      <Object Name="DataSource.WinderClosedLoopTensionControl.Visu.VisuTask.MinLineVelocity" ClsId="0x0" Version="0" TargetIndex="102" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.Visu.VisuTask.MinLineVelocity]" />
+      <Object Name="DataSource.WinderClosedLoopTensionControl.Visu.VisuTask.MinWinderVelocity" ClsId="0x0" Version="0" TargetIndex="103" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.Visu.VisuTask.MinWinderVelocity]" />
+      <Object Name="DataSource.WinderClosedLoopTensionControl.Visu.VisuTask.MAX_MATERIAL_TENSION" ClsId="0x0" Version="0" TargetIndex="104" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.Visu.VisuTask.MAX_MATERIAL_TENSION]" />
+      <Object Name="DataSource.WinderClosedLoopTensionControl.gControl.ActMaterialTension" ClsId="0x0" Version="0" TargetIndex="105" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.gControl.ActMaterialTension]" />
+      <Object Name="DataSource.WinderClosedLoopTensionControl.gControl.SetMaterialTension" ClsId="0x0" Version="0" TargetIndex="106" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.gControl.SetMaterialTension]" />
+      <Object Name="DataSource.WinderClosedLoopTensionControl.gControl.Winder.SetVelocity" ClsId="0x0" Version="0" TargetIndex="107" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.gControl.Winder.SetVelocity]" />
+      <Object Name="DataSource.WinderClosedLoopTensionControl.gControl.Winder.ActMotorTorque" ClsId="0x0" Version="0" TargetIndex="108" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.gControl.Winder.ActMotorTorque]" />
+      <Object Name="DataSource.WinderClosedLoopTensionControl.gControl.Winder.ActVelocity" ClsId="0x0" Version="0" TargetIndex="109" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.gControl.Winder.ActVelocity]" />
+      <Object Name="DataSource.WinderClosedLoopTensionControl.gControl.Winder.ActIntegrationTime" ClsId="0x0" Version="0" TargetIndex="110" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.gControl.Winder.ActIntegrationTime]" />
+      <Object Name="DataSource.WinderClosedLoopTensionControl.gControl.Winder.SetMotorTorque" ClsId="0x0" Version="0" TargetIndex="111" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.gControl.Winder.SetMotorTorque]" />
+      <Object Name="DataSource.WinderClosedLoopTensionControl.gControl.Winder.VelocityCorrection" ClsId="0x0" Version="0" TargetIndex="112" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.gControl.Winder.VelocityCorrection]" />
+      <Object Name="DataSource.WinderClosedLoopTensionControl.gControl.Line.SetVelocity" ClsId="0x0" Version="0" TargetIndex="113" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.gControl.Line.SetVelocity]" />
+      <Object Name="DataSource.WinderClosedLoopTensionControl.gControl.Line.RefVelocity" ClsId="0x0" Version="0" TargetIndex="114" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.gControl.Line.RefVelocity]" />
+      <Object Name="DataSource.WinderClosedLoopTensionControl.gControl.Line.ActVelocity" ClsId="0x0" Version="0" TargetIndex="115" Type="DP" RefString="Source[global].Variable[DataSource.WinderClosedLoopTensionControl.gControl.Line.ActVelocity]" />
+      <Object Name="DataSource.Idler.PulsesPerRev" ClsId="0x0" Version="0" TargetIndex="116" Type="DP" RefString="Source[global].Variable[DataSource.Idler.PulsesPerRev]" />
+      <Object Name="DataSource.Idler.MPM.InpDia" ClsId="0x0" Version="0" TargetIndex="117" Type="DP" RefString="Source[global].Variable[DataSource.Idler.MPM.InpDia]" />
+      <Object Name="DataSource.Idler.MPM.ActMPM" ClsId="0x0" Version="0" TargetIndex="118" Type="DP" RefString="Source[global].Variable[DataSource.Idler.MPM.ActMPM]" />
+      <Object Name="DataSource.MainDrive.MotorRating.RatedCurrent" ClsId="0x0" Version="0" TargetIndex="119" Type="DP" RefString="Source[global].Variable[DataSource.MainDrive.MotorRating.RatedCurrent]" />
+      <Object Name="DataSource.EPLCom.TunePID.Axis_PID" ClsId="0x0" Version="0" TargetIndex="120" Type="DP" RefString="Source[global].Variable[DataSource.EPLCom.TunePID.Axis_PID]" />
+      <Object Name="DataSource.EPLCom.TunePID.TempPIDEnable" ClsId="0x0" Version="0" TargetIndex="121" Type="DP" RefString="Source[global].Variable[DataSource.EPLCom.TunePID.TempPIDEnable]" />
+      <Object Name="DataSource.EPLCom.TunePID.TempLowerLim" ClsId="0x0" Version="0" TargetIndex="122" Type="DP" RefString="Source[global].Variable[DataSource.EPLCom.TunePID.TempLowerLim]" />
+      <Object Name="DataSource.EPLCom.TunePID.TempUpperLim" ClsId="0x0" Version="0" TargetIndex="123" Type="DP" RefString="Source[global].Variable[DataSource.EPLCom.TunePID.TempUpperLim]" />
+      <Object Name="DataSource.Cur1Pos" ClsId="0x0" Version="0" TargetIndex="124" Type="DP" RefString="Source[global].Variable[DataSource.Cur1Pos]" />
+      <Object Name="DataSource.Cur2Pos" ClsId="0x0" Version="0" TargetIndex="125" Type="DP" RefString="Source[global].Variable[DataSource.Cur2Pos]" />
+      <Object Name="DataSource.CurrPage" ClsId="0x0" Version="0" TargetIndex="126" Type="DP" RefString="Source[global].Variable[DataSource.CurrPage]" />
+      <Object Name="DataSource.ParamChange" ClsId="0x0" Version="0" TargetIndex="127" Type="DP" RefString="Source[global].Variable[DataSource.ParamChange]" />
+      <Object Name="DataSource.NewPage" ClsId="0x0" Version="0" TargetIndex="128" Type="DP" RefString="Source[global].Variable[DataSource.NewPage]" />
+      <Object Name="DataSource.Statusdp_blink" ClsId="0x0" Version="0" TargetIndex="129" Type="DP" RefString="Source[global].Variable[DataSource.Statusdp_blink]" />
+      <Object Name="DataSource.Statusdp_alarm" ClsId="0x0" Version="0" TargetIndex="130" Type="DP" RefString="Source[global].Variable[DataSource.Statusdp_alarm]" />
+      <Object Name="DataSource.AI1" ClsId="0x0" Version="0" TargetIndex="131" Type="DP" RefString="Source[global].Variable[DataSource.AI1]" />
+      <Object Name="DataSource.AI1[0]" ClsId="0x0" Version="0" TargetIndex="132" Type="DP" RefString="Source[global].Variable[DataSource.AI1[0]]" />
+      <Object Name="DataSource.AI1[1]" ClsId="0x0" Version="0" TargetIndex="133" Type="DP" RefString="Source[global].Variable[DataSource.AI1[1]]" />
+      <Object Name="DataSource.AI1[2]" ClsId="0x0" Version="0" TargetIndex="134" Type="DP" RefString="Source[global].Variable[DataSource.AI1[2]]" />
+      <Object Name="DataSource.AI1[3]" ClsId="0x0" Version="0" TargetIndex="135" Type="DP" RefString="Source[global].Variable[DataSource.AI1[3]]" />
+      <Object Name="DataSource.Enc_Value" ClsId="0x0" Version="0" TargetIndex="136" Type="DP" RefString="Source[global].Variable[DataSource.Enc_Value]" />
+      <Object Name="DataSource.DO1" ClsId="0x0" Version="0" TargetIndex="137" Type="DP" RefString="Source[global].Variable[DataSource.DO1]" />
+      <Object Name="DataSource.DO1[0]" ClsId="0x0" Version="0" TargetIndex="138" Type="DP" RefString="Source[global].Variable[DataSource.DO1[0]]" />
+      <Object Name="DataSource.DO1[1]" ClsId="0x0" Version="0" TargetIndex="139" Type="DP" RefString="Source[global].Variable[DataSource.DO1[1]]" />
+      <Object Name="DataSource.DO1[2]" ClsId="0x0" Version="0" TargetIndex="140" Type="DP" RefString="Source[global].Variable[DataSource.DO1[2]]" />
+      <Object Name="DataSource.DO1[3]" ClsId="0x0" Version="0" TargetIndex="141" Type="DP" RefString="Source[global].Variable[DataSource.DO1[3]]" />
+      <Object Name="DataSource.DO1[4]" ClsId="0x0" Version="0" TargetIndex="142" Type="DP" RefString="Source[global].Variable[DataSource.DO1[4]]" />
+      <Object Name="DataSource.DO1[5]" ClsId="0x0" Version="0" TargetIndex="143" Type="DP" RefString="Source[global].Variable[DataSource.DO1[5]]" />
+      <Object Name="DataSource.DO1[6]" ClsId="0x0" Version="0" TargetIndex="144" Type="DP" RefString="Source[global].Variable[DataSource.DO1[6]]" />
+      <Object Name="DataSource.DO1[7]" ClsId="0x0" Version="0" TargetIndex="145" Type="DP" RefString="Source[global].Variable[DataSource.DO1[7]]" />
+      <Object Name="DataSource.DO1[8]" ClsId="0x0" Version="0" TargetIndex="146" Type="DP" RefString="Source[global].Variable[DataSource.DO1[8]]" />
+      <Object Name="DataSource.DO1[9]" ClsId="0x0" Version="0" TargetIndex="147" Type="DP" RefString="Source[global].Variable[DataSource.DO1[9]]" />
+      <Object Name="DataSource.DO1[10]" ClsId="0x0" Version="0" TargetIndex="148" Type="DP" RefString="Source[global].Variable[DataSource.DO1[10]]" />
+      <Object Name="DataSource.DO1[11]" ClsId="0x0" Version="0" TargetIndex="149" Type="DP" RefString="Source[global].Variable[DataSource.DO1[11]]" />
+      <Object Name="DataSource.DI2" ClsId="0x0" Version="0" TargetIndex="150" Type="DP" RefString="Source[global].Variable[DataSource.DI2]" />
+      <Object Name="DataSource.DI2[0]" ClsId="0x0" Version="0" TargetIndex="151" Type="DP" RefString="Source[global].Variable[DataSource.DI2[0]]" />
+      <Object Name="DataSource.DI2[1]" ClsId="0x0" Version="0" TargetIndex="152" Type="DP" RefString="Source[global].Variable[DataSource.DI2[1]]" />
+      <Object Name="DataSource.DI1" ClsId="0x0" Version="0" TargetIndex="153" Type="DP" RefString="Source[global].Variable[DataSource.DI1]" />
+      <Object Name="DataSource.DI1[2]" ClsId="0x0" Version="0" TargetIndex="154" Type="DP" RefString="Source[global].Variable[DataSource.DI1[2]]" />
+      <Object Name="DataSource.DI1[3]" ClsId="0x0" Version="0" TargetIndex="155" Type="DP" RefString="Source[global].Variable[DataSource.DI1[3]]" />
+      <Object Name="DataSource.DI1[4]" ClsId="0x0" Version="0" TargetIndex="156" Type="DP" RefString="Source[global].Variable[DataSource.DI1[4]]" />
+      <Object Name="DataSource.DI1[5]" ClsId="0x0" Version="0" TargetIndex="157" Type="DP" RefString="Source[global].Variable[DataSource.DI1[5]]" />
+      <Object Name="DataSource.DI1[1]" ClsId="0x0" Version="0" TargetIndex="158" Type="DP" RefString="Source[global].Variable[DataSource.DI1[1]]" />
+      <Object Name="DataSource.DI1[0]" ClsId="0x0" Version="0" TargetIndex="159" Type="DP" RefString="Source[global].Variable[DataSource.DI1[0]]" />
+      <Object Name="DataSource.DI1[8]" ClsId="0x0" Version="0" TargetIndex="160" Type="DP" RefString="Source[global].Variable[DataSource.DI1[8]]" />
+      <Object Name="DataSource.DI1[9]" ClsId="0x0" Version="0" TargetIndex="161" Type="DP" RefString="Source[global].Variable[DataSource.DI1[9]]" />
+      <Object Name="DataSource.DI1[10]" ClsId="0x0" Version="0" TargetIndex="162" Type="DP" RefString="Source[global].Variable[DataSource.DI1[10]]" />
+      <Object Name="DataSource.DI1[11]" ClsId="0x0" Version="0" TargetIndex="163" Type="DP" RefString="Source[global].Variable[DataSource.DI1[11]]" />
+      <Object Name="DataSource.DI1[7]" ClsId="0x0" Version="0" TargetIndex="164" Type="DP" RefString="Source[global].Variable[DataSource.DI1[7]]" />
+      <Object Name="DataSource.DI1[6]" ClsId="0x0" Version="0" TargetIndex="165" Type="DP" RefString="Source[global].Variable[DataSource.DI1[6]]" />
+      <Object Name="DataSource.AO1" ClsId="0x0" Version="0" TargetIndex="166" Type="DP" RefString="Source[global].Variable[DataSource.AO1]" />
+      <Object Name="DataSource.AO1[0]" ClsId="0x0" Version="0" TargetIndex="167" Type="DP" RefString="Source[global].Variable[DataSource.AO1[0]]" />
+      <Object Name="DataSource.Alarm_mc" ClsId="0x0" Version="0" TargetIndex="168" Type="DP" RefString="Source[global].Variable[DataSource.Alarm_mc]" />
+      <Object Name="DataSource.Backbtn" ClsId="0x0" Version="0" TargetIndex="169" Type="DP" RefString="Source[global].Variable[DataSource.Backbtn]" />
+      <Object Name="DataSource.NewPageReq" ClsId="0x0" Version="0" TargetIndex="170" Type="DP" RefString="Source[global].Variable[DataSource.NewPageReq]" />
+      <Object Name="DataSource.RatedVoltage_temp" ClsId="0x0" Version="0" TargetIndex="171" Type="DP" RefString="Source[global].Variable[DataSource.RatedVoltage_temp]" />
+      <Object Name="DataSource.RatedCurrent_temp" ClsId="0x0" Version="0" TargetIndex="172" Type="DP" RefString="Source[global].Variable[DataSource.RatedCurrent_temp]" />
+      <Object Name="DataSource.RatedFreq_temp" ClsId="0x0" Version="0" TargetIndex="173" Type="DP" RefString="Source[global].Variable[DataSource.RatedFreq_temp]" />
+      <Object Name="DataSource.Save" ClsId="0x0" Version="0" TargetIndex="174" Type="DP" RefString="Source[global].Variable[DataSource.Save]" />
+      <Object Name="DataSource.Axis_Motor" ClsId="0x0" Version="0" TargetIndex="175" Type="DP" RefString="Source[global].Variable[DataSource.Axis_Motor]" />
+      <Object Name="DataSource.TempCurrent" ClsId="0x0" Version="0" TargetIndex="176" Type="DP" RefString="Source[global].Variable[DataSource.TempCurrent]" />
+      <Object Name="DataSource.TempFreq" ClsId="0x0" Version="0" TargetIndex="177" Type="DP" RefString="Source[global].Variable[DataSource.TempFreq]" />
+      <Object Name="DataSource.TempVoltage" ClsId="0x0" Version="0" TargetIndex="178" Type="DP" RefString="Source[global].Variable[DataSource.TempVoltage]" />
+      <Object Name="DataSource.TempSpeed" ClsId="0x0" Version="0" TargetIndex="179" Type="DP" RefString="Source[global].Variable[DataSource.TempSpeed]" />
+      <Object Name="DataSource.TempPF" ClsId="0x0" Version="0" TargetIndex="180" Type="DP" RefString="Source[global].Variable[DataSource.TempPF]" />
+      <Object Name="DataSource.Axis_MotorTune" ClsId="0x0" Version="0" TargetIndex="181" Type="DP" RefString="Source[global].Variable[DataSource.Axis_MotorTune]" />
+      <Object Name="DataSource.Tune_Enable" ClsId="0x0" Version="0" TargetIndex="182" Type="DP" RefString="Source[global].Variable[DataSource.Tune_Enable]" />
+      <Object Name="DataSource.TempPIDRef" ClsId="0x0" Version="0" TargetIndex="183" Type="DP" RefString="Source[global].Variable[DataSource.TempPIDRef]" />
+      <Object Name="DataSource.TempDervGain" ClsId="0x0" Version="0" TargetIndex="184" Type="DP" RefString="Source[global].Variable[DataSource.TempDervGain]" />
+      <Object Name="DataSource.TempIntgGain" ClsId="0x0" Version="0" TargetIndex="185" Type="DP" RefString="Source[global].Variable[DataSource.TempIntgGain]" />
+      <Object Name="DataSource.TempPropGain" ClsId="0x0" Version="0" TargetIndex="186" Type="DP" RefString="Source[global].Variable[DataSource.TempPropGain]" />
+      <Object Name="DataSource.SavePID" ClsId="0x0" Version="0" TargetIndex="187" Type="DP" RefString="Source[global].Variable[DataSource.SavePID]" />
+      <Object Name="DataSource.TempPIDFeedback" ClsId="0x0" Version="0" TargetIndex="188" Type="DP" RefString="Source[global].Variable[DataSource.TempPIDFeedback]" />
+      <Object Name="DataSource.TempPresetRef4" ClsId="0x0" Version="0" TargetIndex="189" Type="DP" RefString="Source[global].Variable[DataSource.TempPresetRef4]" />
+      <Object Name="Internal.Display.Brightness" ClsId="0x0" Version="0" TargetIndex="190" Type="DP" RefString="Source[global].Variable[Internal.Display.Brightness]" />
+      <Object Name="Internal.Display.Contrast" ClsId="0x0" Version="0" TargetIndex="191" Type="DP" RefString="Source[global].Variable[Internal.Display.Contrast]" />
+      <Object Name="Internal.Display.BackLight" ClsId="0x0" Version="0" TargetIndex="192" Type="DP" RefString="Source[global].Variable[Internal.Display.BackLight]" />
+      <Object Name="Internal.Connection.IPAddress" ClsId="0x0" Version="0" TargetIndex="193" Type="DP" RefString="Source[global].Variable[Internal.Connection.IPAddress]" />
+      <Object Name="Internal.Connection.NodeNumber" ClsId="0x0" Version="0" TargetIndex="194" Type="DP" RefString="Source[global].Variable[Internal.Connection.NodeNumber]" />
+      <Object Name="Internal.Temperature.CPU" ClsId="0x0" Version="0" TargetIndex="195" Type="DP" RefString="Source[global].Variable[Internal.Temperature.CPU]" />
+      <Object Name="Internal.Temperature.Room" ClsId="0x0" Version="0" TargetIndex="196" Type="DP" RefString="Source[global].Variable[Internal.Temperature.Room]" />
+      <Object Name="Internal.DateTime.Day" ClsId="0x0" Version="0" TargetIndex="197" Type="DP" RefString="Source[global].Variable[Internal.DateTime.Day]" />
+      <Object Name="Internal.DateTime.Hour" ClsId="0x0" Version="0" TargetIndex="198" Type="DP" RefString="Source[global].Variable[Internal.DateTime.Hour]" />
+      <Object Name="Internal.DateTime.Minute" ClsId="0x0" Version="0" TargetIndex="199" Type="DP" RefString="Source[global].Variable[Internal.DateTime.Minute]" />
+      <Object Name="Internal.DateTime.Month" ClsId="0x0" Version="0" TargetIndex="200" Type="DP" RefString="Source[global].Variable[Internal.DateTime.Month]" />
+      <Object Name="Internal.DateTime.Second" ClsId="0x0" Version="0" TargetIndex="201" Type="DP" RefString="Source[global].Variable[Internal.DateTime.Second]" />
+      <Object Name="Internal.DateTime.Year" ClsId="0x0" Version="0" TargetIndex="202" Type="DP" RefString="Source[global].Variable[Internal.DateTime.Year]" />
+      <Object Name="Internal.DateTime.DayOfWeek" ClsId="0x0" Version="0" TargetIndex="203" Type="DP" RefString="Source[global].Variable[Internal.DateTime.DayOfWeek]" />
+      <Object Name="Internal.Memory.LargestFreeBlock" ClsId="0x0" Version="0" TargetIndex="204" Type="DP" RefString="Source[global].Variable[Internal.Memory.LargestFreeBlock]" />
+      <Object Name="Internal.Memory.TotalFree" ClsId="0x0" Version="0" TargetIndex="205" Type="DP" RefString="Source[global].Variable[Internal.Memory.TotalFree]" />
+      <Object Name="Internal.Memory.TotalInstalled" ClsId="0x0" Version="0" TargetIndex="206" Type="DP" RefString="Source[global].Variable[Internal.Memory.TotalInstalled]" />
       <Object Name="DPV" ClsId="0x100" Version="1" Type="DPM" RefString="Source[global].DPV[]">
         <Byte Name="TaskPrior">200</Byte>
         <Byte Name="Reserved">0</Byte>
         <UInt16 Name="Reserved">0</UInt16>
-        <UInt32 Name="DPCount">178</UInt32>
+        <UInt32 Name="DPCount">207</UInt32>
         <Group Name="UnWind.StartingDia">
           <UInt32 Name="DPID">0</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
@@ -307,40 +336,40 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="UnWind.Dia.MinDia">
+        <Group Name="UnWind.Tension.PID.Prop_Gain">
           <UInt32 Name="DPID">11</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">11</UInt16>
-          <Reference Name="UG" Type="UG">none</Reference>
-          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[TwoDecVars]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[TwoDecVars].Unit[$default]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="UnWind.Dia.MaxDia">
+        <Group Name="UnWind.Tension.PID.Intg_Gain">
           <UInt32 Name="DPID">12</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">12</UInt16>
-          <Reference Name="UG" Type="UG">none</Reference>
-          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[TwoDecVars]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[TwoDecVars].Unit[$default]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="UnWind.Drive.ActualAmp">
+        <Group Name="UnWind.Tension.PID.Derv_Gain">
           <UInt32 Name="DPID">13</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">13</UInt16>
-          <Reference Name="UG" Type="UG">none</Reference>
-          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[TwoDecVars]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[TwoDecVars].Unit[$default]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="UnWind.Drive.ActFreq">
+        <Group Name="UnWind.Dia.MinDia">
           <UInt32 Name="DPID">14</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -351,7 +380,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="UnWind.Drive.ActualTrq">
+        <Group Name="UnWind.Dia.MaxDia">
           <UInt32 Name="DPID">15</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -362,7 +391,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="UnWind.Drive.ActRPM">
+        <Group Name="UnWind.Drive.ActualAmp">
           <UInt32 Name="DPID">16</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -373,7 +402,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="UnWind.Drive.Freq_Scal.InMin">
+        <Group Name="UnWind.Drive.ActFreq">
           <UInt32 Name="DPID">17</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -384,7 +413,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="UnWind.Drive.Freq_Scal.InMax">
+        <Group Name="UnWind.Drive.ActualTrq">
           <UInt32 Name="DPID">18</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -395,7 +424,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="UnWind.Drive.Freq_Scal.OutMin">
+        <Group Name="UnWind.Drive.ActRPM">
           <UInt32 Name="DPID">19</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -406,7 +435,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="UnWind.Drive.Freq_Scal.OutMax">
+        <Group Name="UnWind.Drive.Freq_Scal.InMin">
           <UInt32 Name="DPID">20</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -417,7 +446,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="UnWind.Drive.RPM_Scal.InMin">
+        <Group Name="UnWind.Drive.Freq_Scal.InMax">
           <UInt32 Name="DPID">21</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -428,7 +457,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="UnWind.Drive.RPM_Scal.InMax">
+        <Group Name="UnWind.Drive.Freq_Scal.OutMin">
           <UInt32 Name="DPID">22</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -439,7 +468,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="UnWind.Drive.RPM_Scal.OutMin">
+        <Group Name="UnWind.Drive.Freq_Scal.OutMax">
           <UInt32 Name="DPID">23</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -450,7 +479,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="UnWind.Drive.RPM_Scal.OutMax">
+        <Group Name="UnWind.Drive.RPM_Scal.InMin">
           <UInt32 Name="DPID">24</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -461,7 +490,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="UnWind.Drive.Trq_Scal.InMin">
+        <Group Name="UnWind.Drive.RPM_Scal.InMax">
           <UInt32 Name="DPID">25</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -472,7 +501,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="UnWind.Drive.Trq_Scal.InMax">
+        <Group Name="UnWind.Drive.RPM_Scal.OutMin">
           <UInt32 Name="DPID">26</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -483,7 +512,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="UnWind.Drive.Trq_Scal.OutMin">
+        <Group Name="UnWind.Drive.RPM_Scal.OutMax">
           <UInt32 Name="DPID">27</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -494,7 +523,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="UnWind.Drive.Trq_Scal.OutMax">
+        <Group Name="UnWind.Drive.Trq_Scal.InMin">
           <UInt32 Name="DPID">28</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -505,7 +534,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="UnWind.Drive.Current_Scal.InMin">
+        <Group Name="UnWind.Drive.Trq_Scal.InMax">
           <UInt32 Name="DPID">29</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -516,7 +545,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="UnWind.Drive.Current_Scal.InMax">
+        <Group Name="UnWind.Drive.Trq_Scal.OutMin">
           <UInt32 Name="DPID">30</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -527,7 +556,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="UnWind.Drive.Current_Scal.OutMin">
+        <Group Name="UnWind.Drive.Trq_Scal.OutMax">
           <UInt32 Name="DPID">31</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -538,7 +567,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="UnWind.Drive.Current_Scal.OutMax">
+        <Group Name="UnWind.Drive.Current_Scal.InMin">
           <UInt32 Name="DPID">32</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -549,7 +578,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="HMI.InputPassword">
+        <Group Name="UnWind.Drive.Current_Scal.InMax">
           <UInt32 Name="DPID">33</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -560,7 +589,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="HMI.InputUsername">
+        <Group Name="UnWind.Drive.Current_Scal.OutMin">
           <UInt32 Name="DPID">34</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -571,7 +600,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="HMI.ErrorMessage">
+        <Group Name="UnWind.Drive.Current_Scal.OutMax">
           <UInt32 Name="DPID">35</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -582,29 +611,29 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="HMI.SetNewDateTime">
+        <Group Name="UnWind.MotorRating.RatedFreq">
           <UInt32 Name="DPID">36</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">36</UInt16>
-          <Reference Name="UG" Type="UG">none</Reference>
-          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[TwoDecVars]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[TwoDecVars].Unit[TwoDec]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="HMI.NewDay">
+        <Group Name="UnWind.MotorRating.RatedCurrent">
           <UInt32 Name="DPID">37</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">37</UInt16>
-          <Reference Name="UG" Type="UG">none</Reference>
-          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[TwoDecVars]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[TwoDecVars].Unit[TwoDec]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="HMI.NewHour">
+        <Group Name="HMI.InputPassword">
           <UInt32 Name="DPID">38</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -615,7 +644,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="HMI.NewMinute">
+        <Group Name="HMI.InputUsername">
           <UInt32 Name="DPID">39</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -626,7 +655,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="HMI.NewMonth">
+        <Group Name="HMI.ErrorMessage">
           <UInt32 Name="DPID">40</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -637,7 +666,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="HMI.NewYear">
+        <Group Name="HMI.SetNewDateTime">
           <UInt32 Name="DPID">41</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -648,7 +677,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="WinderDancerControl.Tasks.WinderAxis.BasicControl.Status.DriveStatus.AxisError">
+        <Group Name="HMI.NewDay">
           <UInt32 Name="DPID">42</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -659,11 +688,66 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="WinderDancerControl.Tasks.DancerCtrl.DiameterEstimator.RemainingRunTime">
+        <Group Name="HMI.NewHour">
           <UInt32 Name="DPID">43</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">43</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="HMI.NewMinute">
+          <UInt32 Name="DPID">44</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">44</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="HMI.NewMonth">
+          <UInt32 Name="DPID">45</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">45</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="HMI.NewYear">
+          <UInt32 Name="DPID">46</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">46</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="WinderDancerControl.Tasks.WinderAxis.BasicControl.Status.DriveStatus.AxisError">
+          <UInt32 Name="DPID">47</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">47</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="WinderDancerControl.Tasks.DancerCtrl.DiameterEstimator.RemainingRunTime">
+          <UInt32 Name="DPID">48</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">48</UInt16>
           <Reference Name="UG" Type="UG">Source[global].UnitGroup[Time]</Reference>
           <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Time].Unit[s]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
@@ -671,10 +755,10 @@
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
         <Group Name="WinderDancerControl.Tasks.DancerCtrl.AxisController.Parameters.Interpolation.MinIntegrationTime">
-          <UInt32 Name="DPID">44</UInt32>
+          <UInt32 Name="DPID">49</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
-          <UInt16 Name="PVID">44</UInt16>
+          <UInt16 Name="PVID">49</UInt16>
           <Reference Name="UG" Type="UG">Source[global].UnitGroup[Time]</Reference>
           <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Time].Unit[s]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
@@ -682,10 +766,10 @@
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
         <Group Name="WinderDancerControl.Tasks.DancerCtrl.AxisController.Parameters.Interpolation.TestIntegrationTime">
-          <UInt32 Name="DPID">45</UInt32>
+          <UInt32 Name="DPID">50</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
-          <UInt16 Name="PVID">45</UInt16>
+          <UInt16 Name="PVID">50</UInt16>
           <Reference Name="UG" Type="UG">Source[global].UnitGroup[Time]</Reference>
           <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Time].Unit[s]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
@@ -693,10 +777,10 @@
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
         <Group Name="WinderDancerControl.Tasks.DancerCtrl.DancerController.Parameters.MaxLineVelocityCorrection">
-          <UInt32 Name="DPID">46</UInt32>
+          <UInt32 Name="DPID">51</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
-          <UInt16 Name="PVID">46</UInt16>
+          <UInt16 Name="PVID">51</UInt16>
           <Reference Name="UG" Type="UG">Source[global].UnitGroup[LineVelocity]</Reference>
           <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[LineVelocity].Unit[$OneToOne]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
@@ -704,10 +788,10 @@
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
         <Group Name="WinderDancerControl.Tasks.DancerCtrl.DancerController.Parameters.PIDParameters.IntegrationTime">
-          <UInt32 Name="DPID">47</UInt32>
+          <UInt32 Name="DPID">52</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
-          <UInt16 Name="PVID">47</UInt16>
+          <UInt16 Name="PVID">52</UInt16>
           <Reference Name="UG" Type="UG">Source[global].UnitGroup[Time]</Reference>
           <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Time].Unit[s]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
@@ -715,10 +799,10 @@
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
         <Group Name="WinderDancerControl.Visu.VisuTask.MinWinderVelocity">
-          <UInt32 Name="DPID">48</UInt32>
+          <UInt32 Name="DPID">53</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
-          <UInt16 Name="PVID">48</UInt16>
+          <UInt16 Name="PVID">53</UInt16>
           <Reference Name="UG" Type="UG">Source[global].UnitGroup[WinderVelocity]</Reference>
           <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[WinderVelocity].Unit[PLCUnit]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
@@ -726,61 +810,6 @@
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
         <Group Name="WinderDancerControl.Visu.VisuTask.MaxLineVelocity">
-          <UInt32 Name="DPID">49</UInt32>
-          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
-          <UInt16 Name="UpdtTime">200</UInt16>
-          <UInt16 Name="PVID">49</UInt16>
-          <Reference Name="UG" Type="UG">Source[global].UnitGroup[LineVelocity]</Reference>
-          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[LineVelocity].Unit[PLCUnit]</Reference>
-          <UInt32 Name="Limit">4294967295</UInt32>
-          <UInt16 Name="UserID">65535</UInt16>
-          <UInt16 Name="ConnectionCount">1</UInt16>
-        </Group>
-        <Group Name="WinderDancerControl.Visu.VisuTask.MinLineVelocity">
-          <UInt32 Name="DPID">50</UInt32>
-          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
-          <UInt16 Name="UpdtTime">200</UInt16>
-          <UInt16 Name="PVID">50</UInt16>
-          <Reference Name="UG" Type="UG">Source[global].UnitGroup[LineVelocity]</Reference>
-          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[LineVelocity].Unit[PLCUnit]</Reference>
-          <UInt32 Name="Limit">4294967295</UInt32>
-          <UInt16 Name="UserID">65535</UInt16>
-          <UInt16 Name="ConnectionCount">1</UInt16>
-        </Group>
-        <Group Name="WinderDancerControl.Visu.VisuTask.MaxWinderVelocity">
-          <UInt32 Name="DPID">51</UInt32>
-          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
-          <UInt16 Name="UpdtTime">200</UInt16>
-          <UInt16 Name="PVID">51</UInt16>
-          <Reference Name="UG" Type="UG">Source[global].UnitGroup[WinderVelocity]</Reference>
-          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[WinderVelocity].Unit[PLCUnit]</Reference>
-          <UInt32 Name="Limit">4294967295</UInt32>
-          <UInt16 Name="UserID">65535</UInt16>
-          <UInt16 Name="ConnectionCount">1</UInt16>
-        </Group>
-        <Group Name="WinderDancerControl.gControl.Line.SetVelocity">
-          <UInt32 Name="DPID">52</UInt32>
-          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
-          <UInt16 Name="UpdtTime">200</UInt16>
-          <UInt16 Name="PVID">52</UInt16>
-          <Reference Name="UG" Type="UG">Source[global].UnitGroup[LineVelocity]</Reference>
-          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[LineVelocity].Unit[PLCUnit]</Reference>
-          <UInt32 Name="Limit">4294967295</UInt32>
-          <UInt16 Name="UserID">65535</UInt16>
-          <UInt16 Name="ConnectionCount">1</UInt16>
-        </Group>
-        <Group Name="WinderDancerControl.gControl.Line.ActVelocity">
-          <UInt32 Name="DPID">53</UInt32>
-          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
-          <UInt16 Name="UpdtTime">200</UInt16>
-          <UInt16 Name="PVID">53</UInt16>
-          <Reference Name="UG" Type="UG">Source[global].UnitGroup[LineVelocity]</Reference>
-          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[LineVelocity].Unit[PLCUnit]</Reference>
-          <UInt32 Name="Limit">4294967295</UInt32>
-          <UInt16 Name="UserID">65535</UInt16>
-          <UInt16 Name="ConnectionCount">1</UInt16>
-        </Group>
-        <Group Name="WinderDancerControl.gControl.Line.RefVelocity">
           <UInt32 Name="DPID">54</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -791,18 +820,18 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="WinderDancerControl.gControl.Winder.ActIntegrationTime">
+        <Group Name="WinderDancerControl.Visu.VisuTask.MinLineVelocity">
           <UInt32 Name="DPID">55</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">55</UInt16>
-          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Time]</Reference>
-          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Time].Unit[s]</Reference>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[LineVelocity]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[LineVelocity].Unit[PLCUnit]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="WinderDancerControl.gControl.Winder.SetVelocity">
+        <Group Name="WinderDancerControl.Visu.VisuTask.MaxWinderVelocity">
           <UInt32 Name="DPID">56</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -813,11 +842,66 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="WinderDancerControl.gControl.Winder.ActVelocity">
+        <Group Name="WinderDancerControl.gControl.Line.SetVelocity">
           <UInt32 Name="DPID">57</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">57</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[LineVelocity]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[LineVelocity].Unit[PLCUnit]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="WinderDancerControl.gControl.Line.ActVelocity">
+          <UInt32 Name="DPID">58</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">58</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[LineVelocity]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[LineVelocity].Unit[PLCUnit]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="WinderDancerControl.gControl.Line.RefVelocity">
+          <UInt32 Name="DPID">59</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">59</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[LineVelocity]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[LineVelocity].Unit[PLCUnit]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="WinderDancerControl.gControl.Winder.ActIntegrationTime">
+          <UInt32 Name="DPID">60</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">60</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Time]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Time].Unit[s]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="WinderDancerControl.gControl.Winder.SetVelocity">
+          <UInt32 Name="DPID">61</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">61</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[WinderVelocity]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[WinderVelocity].Unit[PLCUnit]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="WinderDancerControl.gControl.Winder.ActVelocity">
+          <UInt32 Name="DPID">62</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">62</UInt16>
           <Reference Name="UG" Type="UG">Source[global].UnitGroup[WinderVelocity]</Reference>
           <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[WinderVelocity].Unit[PLCUnit]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
@@ -825,10 +909,10 @@
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
         <Group Name="WinderDancerControl.gControl.Winder.VelocityCorrection">
-          <UInt32 Name="DPID">58</UInt32>
+          <UInt32 Name="DPID">63</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
-          <UInt16 Name="PVID">58</UInt16>
+          <UInt16 Name="PVID">63</UInt16>
           <Reference Name="UG" Type="UG">Source[global].UnitGroup[WinderVelocity]</Reference>
           <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[WinderVelocity].Unit[PLCUnit]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
@@ -836,10 +920,10 @@
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
         <Group Name="WinderDancerControl.gControl.Winder.SetMotorTorque">
-          <UInt32 Name="DPID">59</UInt32>
+          <UInt32 Name="DPID">64</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
-          <UInt16 Name="PVID">59</UInt16>
+          <UInt16 Name="PVID">64</UInt16>
           <Reference Name="UG" Type="UG">Source[global].UnitGroup[Torque]</Reference>
           <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Torque].Unit[Nm]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
@@ -847,10 +931,10 @@
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
         <Group Name="WinderDancerControl.gControl.Winder.ActMotorTorque">
-          <UInt32 Name="DPID">60</UInt32>
+          <UInt32 Name="DPID">65</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
-          <UInt16 Name="PVID">60</UInt16>
+          <UInt16 Name="PVID">65</UInt16>
           <Reference Name="UG" Type="UG">Source[global].UnitGroup[Torque]</Reference>
           <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Torque].Unit[Nm]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
@@ -858,61 +942,6 @@
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
         <Group Name="Wind.StartingDia">
-          <UInt32 Name="DPID">61</UInt32>
-          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
-          <UInt16 Name="UpdtTime">200</UInt16>
-          <UInt16 Name="PVID">61</UInt16>
-          <Reference Name="UG" Type="UG">none</Reference>
-          <Reference Name="UGPLC" Type="UNIT">none</Reference>
-          <UInt32 Name="Limit">4294967295</UInt32>
-          <UInt16 Name="UserID">65535</UInt16>
-          <UInt16 Name="ConnectionCount">1</UInt16>
-        </Group>
-        <Group Name="Wind.MPM.SetMPM">
-          <UInt32 Name="DPID">62</UInt32>
-          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
-          <UInt16 Name="UpdtTime">200</UInt16>
-          <UInt16 Name="PVID">62</UInt16>
-          <Reference Name="UG" Type="UG">Source[global].UnitGroup[LineVelocity]</Reference>
-          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[LineVelocity].Unit[$default]</Reference>
-          <UInt32 Name="Limit">4294967295</UInt32>
-          <UInt16 Name="UserID">65535</UInt16>
-          <UInt16 Name="ConnectionCount">1</UInt16>
-        </Group>
-        <Group Name="Wind.MPM.ActualMPM">
-          <UInt32 Name="DPID">63</UInt32>
-          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
-          <UInt16 Name="UpdtTime">200</UInt16>
-          <UInt16 Name="PVID">63</UInt16>
-          <Reference Name="UG" Type="UG">Source[global].UnitGroup[LineVelocity]</Reference>
-          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[LineVelocity].Unit[$default]</Reference>
-          <UInt32 Name="Limit">4294967295</UInt32>
-          <UInt16 Name="UserID">65535</UInt16>
-          <UInt16 Name="ConnectionCount">1</UInt16>
-        </Group>
-        <Group Name="Wind.MPM.Actual.Output_Val">
-          <UInt32 Name="DPID">64</UInt32>
-          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
-          <UInt16 Name="UpdtTime">200</UInt16>
-          <UInt16 Name="PVID">64</UInt16>
-          <Reference Name="UG" Type="UG">Source[global].UnitGroup[LineVelocity]</Reference>
-          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[LineVelocity].Unit[$default]</Reference>
-          <UInt32 Name="Limit">4294967295</UInt32>
-          <UInt16 Name="UserID">65535</UInt16>
-          <UInt16 Name="ConnectionCount">1</UInt16>
-        </Group>
-        <Group Name="Wind.Dia.MinDia">
-          <UInt32 Name="DPID">65</UInt32>
-          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
-          <UInt16 Name="UpdtTime">200</UInt16>
-          <UInt16 Name="PVID">65</UInt16>
-          <Reference Name="UG" Type="UG">none</Reference>
-          <Reference Name="UGPLC" Type="UNIT">none</Reference>
-          <UInt32 Name="Limit">4294967295</UInt32>
-          <UInt16 Name="UserID">65535</UInt16>
-          <UInt16 Name="ConnectionCount">1</UInt16>
-        </Group>
-        <Group Name="Wind.Dia.MaxDia">
           <UInt32 Name="DPID">66</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -923,40 +952,40 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Wind.Drive.ActFreq">
+        <Group Name="Wind.MPM.SetMPM">
           <UInt32 Name="DPID">67</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">67</UInt16>
-          <Reference Name="UG" Type="UG">none</Reference>
-          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[LineVelocity]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[LineVelocity].Unit[$default]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Wind.Drive.ActualTrq">
+        <Group Name="Wind.MPM.ActualMPM">
           <UInt32 Name="DPID">68</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">68</UInt16>
-          <Reference Name="UG" Type="UG">none</Reference>
-          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[LineVelocity]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[LineVelocity].Unit[$default]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Wind.Drive.ActualAmp">
+        <Group Name="Wind.MPM.Actual.Output_Val">
           <UInt32 Name="DPID">69</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">69</UInt16>
-          <Reference Name="UG" Type="UG">none</Reference>
-          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[LineVelocity]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[LineVelocity].Unit[$default]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Wind.Drive.ActRPM">
+        <Group Name="Wind.Dia.MinDia">
           <UInt32 Name="DPID">70</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -967,7 +996,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Wind.Drive.Freq_Scal.InMin">
+        <Group Name="Wind.Dia.MaxDia">
           <UInt32 Name="DPID">71</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -978,7 +1007,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Wind.Drive.Freq_Scal.InMax">
+        <Group Name="Wind.Drive.ActFreq">
           <UInt32 Name="DPID">72</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -989,7 +1018,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Wind.Drive.Freq_Scal.OutMin">
+        <Group Name="Wind.Drive.ActualTrq">
           <UInt32 Name="DPID">73</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1000,7 +1029,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Wind.Drive.Freq_Scal.OutMax">
+        <Group Name="Wind.Drive.ActualAmp">
           <UInt32 Name="DPID">74</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1011,7 +1040,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Wind.Drive.RPM_Scal.InMin">
+        <Group Name="Wind.Drive.ActRPM">
           <UInt32 Name="DPID">75</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1022,7 +1051,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Wind.Drive.RPM_Scal.InMax">
+        <Group Name="Wind.Drive.Freq_Scal.InMin">
           <UInt32 Name="DPID">76</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1033,7 +1062,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Wind.Drive.RPM_Scal.OutMin">
+        <Group Name="Wind.Drive.Freq_Scal.InMax">
           <UInt32 Name="DPID">77</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1044,7 +1073,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Wind.Drive.RPM_Scal.OutMax">
+        <Group Name="Wind.Drive.Freq_Scal.OutMin">
           <UInt32 Name="DPID">78</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1055,7 +1084,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Wind.Drive.Trq_Scal.InMin">
+        <Group Name="Wind.Drive.Freq_Scal.OutMax">
           <UInt32 Name="DPID">79</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1066,7 +1095,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Wind.Drive.Trq_Scal.InMax">
+        <Group Name="Wind.Drive.RPM_Scal.InMin">
           <UInt32 Name="DPID">80</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1077,7 +1106,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Wind.Drive.Trq_Scal.OutMin">
+        <Group Name="Wind.Drive.RPM_Scal.InMax">
           <UInt32 Name="DPID">81</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1088,7 +1117,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Wind.Drive.Trq_Scal.OutMax">
+        <Group Name="Wind.Drive.RPM_Scal.OutMin">
           <UInt32 Name="DPID">82</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1099,7 +1128,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Wind.Drive.Current_Scal.InMin">
+        <Group Name="Wind.Drive.RPM_Scal.OutMax">
           <UInt32 Name="DPID">83</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1110,7 +1139,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Wind.Drive.Current_Scal.InMax">
+        <Group Name="Wind.Drive.Trq_Scal.InMin">
           <UInt32 Name="DPID">84</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1121,7 +1150,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Wind.Drive.Current_Scal.OutMin">
+        <Group Name="Wind.Drive.Trq_Scal.InMax">
           <UInt32 Name="DPID">85</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1132,7 +1161,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Wind.Drive.Current_Scal.OutMax">
+        <Group Name="Wind.Drive.Trq_Scal.OutMin">
           <UInt32 Name="DPID">86</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1143,11 +1172,66 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="WinderClosedLoopTensionControl.Tasks.TensionCtrl.DiameterEstimator.RemainingRunTime">
+        <Group Name="Wind.Drive.Trq_Scal.OutMax">
           <UInt32 Name="DPID">87</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">87</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Wind.Drive.Current_Scal.InMin">
+          <UInt32 Name="DPID">88</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">88</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Wind.Drive.Current_Scal.InMax">
+          <UInt32 Name="DPID">89</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">89</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Wind.Drive.Current_Scal.OutMin">
+          <UInt32 Name="DPID">90</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">90</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Wind.Drive.Current_Scal.OutMax">
+          <UInt32 Name="DPID">91</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">91</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="WinderClosedLoopTensionControl.Tasks.TensionCtrl.DiameterEstimator.RemainingRunTime">
+          <UInt32 Name="DPID">92</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">92</UInt16>
           <Reference Name="UG" Type="UG">Source[global].UnitGroup[Time]</Reference>
           <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Time].Unit[s]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
@@ -1155,10 +1239,10 @@
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
         <Group Name="WinderClosedLoopTensionControl.Tasks.TensionCtrl.TensionController.Parameters.MaxLineVelocityCorrection">
-          <UInt32 Name="DPID">88</UInt32>
+          <UInt32 Name="DPID">93</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
-          <UInt16 Name="PVID">88</UInt16>
+          <UInt16 Name="PVID">93</UInt16>
           <Reference Name="UG" Type="UG">Source[global].UnitGroup[LineVelocity]</Reference>
           <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[LineVelocity].Unit[$OneToOne]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
@@ -1166,10 +1250,10 @@
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
         <Group Name="WinderClosedLoopTensionControl.Tasks.TensionCtrl.TensionController.Parameters.PIDParameters.IntegrationTime">
-          <UInt32 Name="DPID">89</UInt32>
+          <UInt32 Name="DPID">94</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
-          <UInt16 Name="PVID">89</UInt16>
+          <UInt16 Name="PVID">94</UInt16>
           <Reference Name="UG" Type="UG">Source[global].UnitGroup[Time]</Reference>
           <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Time].Unit[s]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
@@ -1177,10 +1261,10 @@
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
         <Group Name="WinderClosedLoopTensionControl.Tasks.TensionCtrl.AxisController.Parameters.Interpolation.TestIntegrationTime">
-          <UInt32 Name="DPID">90</UInt32>
+          <UInt32 Name="DPID">95</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
-          <UInt16 Name="PVID">90</UInt16>
+          <UInt16 Name="PVID">95</UInt16>
           <Reference Name="UG" Type="UG">Source[global].UnitGroup[Time]</Reference>
           <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Time].Unit[s]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
@@ -1188,10 +1272,10 @@
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
         <Group Name="WinderClosedLoopTensionControl.Tasks.TensionCtrl.AxisController.Parameters.Interpolation.MinIntegrationTime">
-          <UInt32 Name="DPID">91</UInt32>
+          <UInt32 Name="DPID">96</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
-          <UInt16 Name="PVID">91</UInt16>
+          <UInt16 Name="PVID">96</UInt16>
           <Reference Name="UG" Type="UG">Source[global].UnitGroup[Time]</Reference>
           <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Time].Unit[s]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
@@ -1199,10 +1283,10 @@
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
         <Group Name="WinderClosedLoopTensionControl.Tasks.WinderAxis.BasicControl.Status.DriveStatus.AxisError">
-          <UInt32 Name="DPID">92</UInt32>
+          <UInt32 Name="DPID">97</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
-          <UInt16 Name="PVID">92</UInt16>
+          <UInt16 Name="PVID">97</UInt16>
           <Reference Name="UG" Type="UG">none</Reference>
           <Reference Name="UGPLC" Type="UNIT">none</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
@@ -1210,10 +1294,10 @@
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
         <Group Name="WinderClosedLoopTensionControl.Visu.VisuTask.MinMaterialTension">
-          <UInt32 Name="DPID">93</UInt32>
+          <UInt32 Name="DPID">98</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
-          <UInt16 Name="PVID">93</UInt16>
+          <UInt16 Name="PVID">98</UInt16>
           <Reference Name="UG" Type="UG">Source[global].UnitGroup[Force]</Reference>
           <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Force].Unit[Newton]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
@@ -1221,10 +1305,10 @@
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
         <Group Name="WinderClosedLoopTensionControl.Visu.VisuTask.MaxWinderVelocity">
-          <UInt32 Name="DPID">94</UInt32>
+          <UInt32 Name="DPID">99</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
-          <UInt16 Name="PVID">94</UInt16>
+          <UInt16 Name="PVID">99</UInt16>
           <Reference Name="UG" Type="UG">Source[global].UnitGroup[WinderVelocity]</Reference>
           <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[WinderVelocity].Unit[PLCUnit]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
@@ -1232,10 +1316,10 @@
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
         <Group Name="WinderClosedLoopTensionControl.Visu.VisuTask.MaxLineVelocity">
-          <UInt32 Name="DPID">95</UInt32>
+          <UInt32 Name="DPID">100</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
-          <UInt16 Name="PVID">95</UInt16>
+          <UInt16 Name="PVID">100</UInt16>
           <Reference Name="UG" Type="UG">Source[global].UnitGroup[LineVelocity]</Reference>
           <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[LineVelocity].Unit[PLCUnit]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
@@ -1243,61 +1327,6 @@
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
         <Group Name="WinderClosedLoopTensionControl.Visu.VisuTask.MaxMaterialTension">
-          <UInt32 Name="DPID">96</UInt32>
-          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
-          <UInt16 Name="UpdtTime">200</UInt16>
-          <UInt16 Name="PVID">96</UInt16>
-          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Force]</Reference>
-          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Force].Unit[Newton]</Reference>
-          <UInt32 Name="Limit">4294967295</UInt32>
-          <UInt16 Name="UserID">65535</UInt16>
-          <UInt16 Name="ConnectionCount">1</UInt16>
-        </Group>
-        <Group Name="WinderClosedLoopTensionControl.Visu.VisuTask.MinLineVelocity">
-          <UInt32 Name="DPID">97</UInt32>
-          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
-          <UInt16 Name="UpdtTime">200</UInt16>
-          <UInt16 Name="PVID">97</UInt16>
-          <Reference Name="UG" Type="UG">Source[global].UnitGroup[LineVelocity]</Reference>
-          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[LineVelocity].Unit[PLCUnit]</Reference>
-          <UInt32 Name="Limit">4294967295</UInt32>
-          <UInt16 Name="UserID">65535</UInt16>
-          <UInt16 Name="ConnectionCount">1</UInt16>
-        </Group>
-        <Group Name="WinderClosedLoopTensionControl.Visu.VisuTask.MinWinderVelocity">
-          <UInt32 Name="DPID">98</UInt32>
-          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
-          <UInt16 Name="UpdtTime">200</UInt16>
-          <UInt16 Name="PVID">98</UInt16>
-          <Reference Name="UG" Type="UG">Source[global].UnitGroup[WinderVelocity]</Reference>
-          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[WinderVelocity].Unit[PLCUnit]</Reference>
-          <UInt32 Name="Limit">4294967295</UInt32>
-          <UInt16 Name="UserID">65535</UInt16>
-          <UInt16 Name="ConnectionCount">1</UInt16>
-        </Group>
-        <Group Name="WinderClosedLoopTensionControl.Visu.VisuTask.MAX_MATERIAL_TENSION">
-          <UInt32 Name="DPID">99</UInt32>
-          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
-          <UInt16 Name="UpdtTime">200</UInt16>
-          <UInt16 Name="PVID">99</UInt16>
-          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Force]</Reference>
-          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Force].Unit[Newton]</Reference>
-          <UInt32 Name="Limit">4294967295</UInt32>
-          <UInt16 Name="UserID">65535</UInt16>
-          <UInt16 Name="ConnectionCount">1</UInt16>
-        </Group>
-        <Group Name="WinderClosedLoopTensionControl.gControl.ActMaterialTension">
-          <UInt32 Name="DPID">100</UInt32>
-          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
-          <UInt16 Name="UpdtTime">200</UInt16>
-          <UInt16 Name="PVID">100</UInt16>
-          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Force]</Reference>
-          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Force].Unit[Newton]</Reference>
-          <UInt32 Name="Limit">4294967295</UInt32>
-          <UInt16 Name="UserID">65535</UInt16>
-          <UInt16 Name="ConnectionCount">1</UInt16>
-        </Group>
-        <Group Name="WinderClosedLoopTensionControl.gControl.SetMaterialTension">
           <UInt32 Name="DPID">101</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1308,62 +1337,62 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="WinderClosedLoopTensionControl.gControl.Winder.SetVelocity">
+        <Group Name="WinderClosedLoopTensionControl.Visu.VisuTask.MinLineVelocity">
           <UInt32 Name="DPID">102</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">102</UInt16>
-          <Reference Name="UG" Type="UG">Source[global].UnitGroup[WinderVelocity]</Reference>
-          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[WinderVelocity].Unit[PLCUnit]</Reference>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[LineVelocity]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[LineVelocity].Unit[PLCUnit]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="WinderClosedLoopTensionControl.gControl.Winder.ActMotorTorque">
+        <Group Name="WinderClosedLoopTensionControl.Visu.VisuTask.MinWinderVelocity">
           <UInt32 Name="DPID">103</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">103</UInt16>
-          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Torque]</Reference>
-          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Torque].Unit[Nm]</Reference>
-          <UInt32 Name="Limit">4294967295</UInt32>
-          <UInt16 Name="UserID">65535</UInt16>
-          <UInt16 Name="ConnectionCount">1</UInt16>
-        </Group>
-        <Group Name="WinderClosedLoopTensionControl.gControl.Winder.ActVelocity">
-          <UInt32 Name="DPID">104</UInt32>
-          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
-          <UInt16 Name="UpdtTime">200</UInt16>
-          <UInt16 Name="PVID">104</UInt16>
           <Reference Name="UG" Type="UG">Source[global].UnitGroup[WinderVelocity]</Reference>
           <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[WinderVelocity].Unit[PLCUnit]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="WinderClosedLoopTensionControl.gControl.Winder.ActIntegrationTime">
+        <Group Name="WinderClosedLoopTensionControl.Visu.VisuTask.MAX_MATERIAL_TENSION">
+          <UInt32 Name="DPID">104</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">104</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Force]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Force].Unit[Newton]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="WinderClosedLoopTensionControl.gControl.ActMaterialTension">
           <UInt32 Name="DPID">105</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">105</UInt16>
-          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Time]</Reference>
-          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Time].Unit[s]</Reference>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Force]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Force].Unit[Newton]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="WinderClosedLoopTensionControl.gControl.Winder.SetMotorTorque">
+        <Group Name="WinderClosedLoopTensionControl.gControl.SetMaterialTension">
           <UInt32 Name="DPID">106</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">106</UInt16>
-          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Torque]</Reference>
-          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Torque].Unit[Nm]</Reference>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Force]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Force].Unit[Newton]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="WinderClosedLoopTensionControl.gControl.Winder.VelocityCorrection">
+        <Group Name="WinderClosedLoopTensionControl.gControl.Winder.SetVelocity">
           <UInt32 Name="DPID">107</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1374,11 +1403,66 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="WinderClosedLoopTensionControl.gControl.Line.SetVelocity">
+        <Group Name="WinderClosedLoopTensionControl.gControl.Winder.ActMotorTorque">
           <UInt32 Name="DPID">108</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">108</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Torque]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Torque].Unit[Nm]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="WinderClosedLoopTensionControl.gControl.Winder.ActVelocity">
+          <UInt32 Name="DPID">109</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">109</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[WinderVelocity]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[WinderVelocity].Unit[PLCUnit]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="WinderClosedLoopTensionControl.gControl.Winder.ActIntegrationTime">
+          <UInt32 Name="DPID">110</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">110</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Time]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Time].Unit[s]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="WinderClosedLoopTensionControl.gControl.Winder.SetMotorTorque">
+          <UInt32 Name="DPID">111</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">111</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Torque]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Torque].Unit[Nm]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="WinderClosedLoopTensionControl.gControl.Winder.VelocityCorrection">
+          <UInt32 Name="DPID">112</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">112</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[WinderVelocity]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[WinderVelocity].Unit[PLCUnit]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="WinderClosedLoopTensionControl.gControl.Line.SetVelocity">
+          <UInt32 Name="DPID">113</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">113</UInt16>
           <Reference Name="UG" Type="UG">Source[global].UnitGroup[LineVelocity]</Reference>
           <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[LineVelocity].Unit[PLCUnit]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
@@ -1386,10 +1470,10 @@
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
         <Group Name="WinderClosedLoopTensionControl.gControl.Line.RefVelocity">
-          <UInt32 Name="DPID">109</UInt32>
+          <UInt32 Name="DPID">114</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
-          <UInt16 Name="PVID">109</UInt16>
+          <UInt16 Name="PVID">114</UInt16>
           <Reference Name="UG" Type="UG">Source[global].UnitGroup[LineVelocity]</Reference>
           <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[LineVelocity].Unit[PLCUnit]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
@@ -1397,10 +1481,10 @@
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
         <Group Name="WinderClosedLoopTensionControl.gControl.Line.ActVelocity">
-          <UInt32 Name="DPID">110</UInt32>
+          <UInt32 Name="DPID">115</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
-          <UInt16 Name="PVID">110</UInt16>
+          <UInt16 Name="PVID">115</UInt16>
           <Reference Name="UG" Type="UG">Source[global].UnitGroup[LineVelocity]</Reference>
           <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[LineVelocity].Unit[PLCUnit]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
@@ -1408,61 +1492,6 @@
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
         <Group Name="Idler.PulsesPerRev">
-          <UInt32 Name="DPID">111</UInt32>
-          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
-          <UInt16 Name="UpdtTime">200</UInt16>
-          <UInt16 Name="PVID">111</UInt16>
-          <Reference Name="UG" Type="UG">none</Reference>
-          <Reference Name="UGPLC" Type="UNIT">none</Reference>
-          <UInt32 Name="Limit">4294967295</UInt32>
-          <UInt16 Name="UserID">65535</UInt16>
-          <UInt16 Name="ConnectionCount">1</UInt16>
-        </Group>
-        <Group Name="Idler.MPM.InpDia">
-          <UInt32 Name="DPID">112</UInt32>
-          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
-          <UInt16 Name="UpdtTime">200</UInt16>
-          <UInt16 Name="PVID">112</UInt16>
-          <Reference Name="UG" Type="UG">none</Reference>
-          <Reference Name="UGPLC" Type="UNIT">none</Reference>
-          <UInt32 Name="Limit">4294967295</UInt32>
-          <UInt16 Name="UserID">65535</UInt16>
-          <UInt16 Name="ConnectionCount">1</UInt16>
-        </Group>
-        <Group Name="Idler.MPM.ActMPM">
-          <UInt32 Name="DPID">113</UInt32>
-          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
-          <UInt16 Name="UpdtTime">200</UInt16>
-          <UInt16 Name="PVID">113</UInt16>
-          <Reference Name="UG" Type="UG">Source[global].UnitGroup[LineVelocity]</Reference>
-          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[LineVelocity].Unit[$default]</Reference>
-          <UInt32 Name="Limit">4294967295</UInt32>
-          <UInt16 Name="UserID">65535</UInt16>
-          <UInt16 Name="ConnectionCount">1</UInt16>
-        </Group>
-        <Group Name="Cur1Pos">
-          <UInt32 Name="DPID">114</UInt32>
-          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
-          <UInt16 Name="UpdtTime">200</UInt16>
-          <UInt16 Name="PVID">114</UInt16>
-          <Reference Name="UG" Type="UG">Source[global].UnitGroup[LineVelocity]</Reference>
-          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[LineVelocity].Unit[$default]</Reference>
-          <UInt32 Name="Limit">4294967295</UInt32>
-          <UInt16 Name="UserID">65535</UInt16>
-          <UInt16 Name="ConnectionCount">1</UInt16>
-        </Group>
-        <Group Name="Cur2Pos">
-          <UInt32 Name="DPID">115</UInt32>
-          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
-          <UInt16 Name="UpdtTime">200</UInt16>
-          <UInt16 Name="PVID">115</UInt16>
-          <Reference Name="UG" Type="UG">Source[global].UnitGroup[LineVelocity]</Reference>
-          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[LineVelocity].Unit[$default]</Reference>
-          <UInt32 Name="Limit">4294967295</UInt32>
-          <UInt16 Name="UserID">65535</UInt16>
-          <UInt16 Name="ConnectionCount">1</UInt16>
-        </Group>
-        <Group Name="CurrPage">
           <UInt32 Name="DPID">116</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1473,7 +1502,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="ParamChange">
+        <Group Name="Idler.MPM.InpDia">
           <UInt32 Name="DPID">117</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1484,29 +1513,29 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="NewPage">
+        <Group Name="Idler.MPM.ActMPM">
           <UInt32 Name="DPID">118</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">118</UInt16>
-          <Reference Name="UG" Type="UG">none</Reference>
-          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[LineVelocity]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[LineVelocity].Unit[$default]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Statusdp_blink">
+        <Group Name="MainDrive.MotorRating.RatedCurrent">
           <UInt32 Name="DPID">119</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">119</UInt16>
-          <Reference Name="UG" Type="UG">none</Reference>
-          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[TwoDecVars]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[TwoDecVars].Unit[$default]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Statusdp_alarm">
+        <Group Name="EPLCom.TunePID.Axis_PID">
           <UInt32 Name="DPID">120</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1517,7 +1546,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="AI1">
+        <Group Name="EPLCom.TunePID.TempPIDEnable">
           <UInt32 Name="DPID">121</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1528,51 +1557,51 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="AI1[0]">
+        <Group Name="EPLCom.TunePID.TempLowerLim">
           <UInt32 Name="DPID">122</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">122</UInt16>
-          <Reference Name="UG" Type="UG">Source[global].UnitGroup[ConvBV]</Reference>
-          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[ConvBV].Unit[$default]</Reference>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[TwoDecVars]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[TwoDecVars].Unit[$default]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="AI1[1]">
+        <Group Name="EPLCom.TunePID.TempUpperLim">
           <UInt32 Name="DPID">123</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">123</UInt16>
-          <Reference Name="UG" Type="UG">Source[global].UnitGroup[ConvBV]</Reference>
-          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[ConvBV].Unit[$default]</Reference>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[TwoDecVars]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[TwoDecVars].Unit[$default]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="AI1[2]">
+        <Group Name="Cur1Pos">
           <UInt32 Name="DPID">124</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">124</UInt16>
-          <Reference Name="UG" Type="UG">Source[global].UnitGroup[ConvBV]</Reference>
-          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[ConvBV].Unit[$default]</Reference>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[LineVelocity]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[LineVelocity].Unit[$default]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="AI1[3]">
+        <Group Name="Cur2Pos">
           <UInt32 Name="DPID">125</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">125</UInt16>
-          <Reference Name="UG" Type="UG">Source[global].UnitGroup[ConvBV]</Reference>
-          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[ConvBV].Unit[$default]</Reference>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[LineVelocity]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[LineVelocity].Unit[$default]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Enc_Value">
+        <Group Name="CurrPage">
           <UInt32 Name="DPID">126</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1583,7 +1612,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="DO1">
+        <Group Name="ParamChange">
           <UInt32 Name="DPID">127</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1594,7 +1623,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="DO1[0]">
+        <Group Name="NewPage">
           <UInt32 Name="DPID">128</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1605,7 +1634,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="DO1[1]">
+        <Group Name="Statusdp_blink">
           <UInt32 Name="DPID">129</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1616,7 +1645,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="DO1[2]">
+        <Group Name="Statusdp_alarm">
           <UInt32 Name="DPID">130</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1627,7 +1656,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="DO1[3]">
+        <Group Name="AI1">
           <UInt32 Name="DPID">131</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1638,51 +1667,51 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="DO1[4]">
+        <Group Name="AI1[0]">
           <UInt32 Name="DPID">132</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">132</UInt16>
-          <Reference Name="UG" Type="UG">none</Reference>
-          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[ConvBV]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[ConvBV].Unit[$default]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="DO1[5]">
+        <Group Name="AI1[1]">
           <UInt32 Name="DPID">133</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">133</UInt16>
-          <Reference Name="UG" Type="UG">none</Reference>
-          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[ConvBV]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[ConvBV].Unit[$default]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="DO1[6]">
+        <Group Name="AI1[2]">
           <UInt32 Name="DPID">134</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">134</UInt16>
-          <Reference Name="UG" Type="UG">none</Reference>
-          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[ConvBV]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[ConvBV].Unit[$default]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="DO1[7]">
+        <Group Name="AI1[3]">
           <UInt32 Name="DPID">135</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">135</UInt16>
-          <Reference Name="UG" Type="UG">none</Reference>
-          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[ConvBV]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[ConvBV].Unit[$default]</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="DO1[8]">
+        <Group Name="Enc_Value">
           <UInt32 Name="DPID">136</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1693,7 +1722,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="DO1[9]">
+        <Group Name="DO1">
           <UInt32 Name="DPID">137</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1704,7 +1733,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="DO1[10]">
+        <Group Name="DO1[0]">
           <UInt32 Name="DPID">138</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1715,7 +1744,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="DO1[11]">
+        <Group Name="DO1[1]">
           <UInt32 Name="DPID">139</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1726,7 +1755,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="DI2">
+        <Group Name="DO1[2]">
           <UInt32 Name="DPID">140</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1737,7 +1766,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="DI2[0]">
+        <Group Name="DO1[3]">
           <UInt32 Name="DPID">141</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1748,7 +1777,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="DI2[1]">
+        <Group Name="DO1[4]">
           <UInt32 Name="DPID">142</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1759,7 +1788,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="DI1">
+        <Group Name="DO1[5]">
           <UInt32 Name="DPID">143</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1770,7 +1799,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="DI1[2]">
+        <Group Name="DO1[6]">
           <UInt32 Name="DPID">144</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1781,7 +1810,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="DI1[3]">
+        <Group Name="DO1[7]">
           <UInt32 Name="DPID">145</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1792,7 +1821,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="DI1[4]">
+        <Group Name="DO1[8]">
           <UInt32 Name="DPID">146</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1803,7 +1832,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="DI1[5]">
+        <Group Name="DO1[9]">
           <UInt32 Name="DPID">147</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1814,7 +1843,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="DI1[1]">
+        <Group Name="DO1[10]">
           <UInt32 Name="DPID">148</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1825,7 +1854,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="DI1[0]">
+        <Group Name="DO1[11]">
           <UInt32 Name="DPID">149</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1836,7 +1865,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="DI1[8]">
+        <Group Name="DI2">
           <UInt32 Name="DPID">150</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1847,7 +1876,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="DI1[9]">
+        <Group Name="DI2[0]">
           <UInt32 Name="DPID">151</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1858,7 +1887,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="DI1[10]">
+        <Group Name="DI2[1]">
           <UInt32 Name="DPID">152</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1869,7 +1898,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="DI1[11]">
+        <Group Name="DI1">
           <UInt32 Name="DPID">153</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1880,7 +1909,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="DI1[7]">
+        <Group Name="DI1[2]">
           <UInt32 Name="DPID">154</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1891,7 +1920,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="DI1[6]">
+        <Group Name="DI1[3]">
           <UInt32 Name="DPID">155</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1902,29 +1931,29 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="AO1">
+        <Group Name="DI1[4]">
           <UInt32 Name="DPID">156</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">156</UInt16>
-          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Volt_Bits]</Reference>
-          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Volt_Bits].Unit[$default]</Reference>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="AO1[0]">
+        <Group Name="DI1[5]">
           <UInt32 Name="DPID">157</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">157</UInt16>
-          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Volt_Bits]</Reference>
-          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Volt_Bits].Unit[$default]</Reference>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Alarm_mc">
+        <Group Name="DI1[1]">
           <UInt32 Name="DPID">158</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1933,9 +1962,9 @@
           <Reference Name="UGPLC" Type="UNIT">none</Reference>
           <UInt32 Name="Limit">4294967295</UInt32>
           <UInt16 Name="UserID">65535</UInt16>
-          <UInt16 Name="ConnectionCount">0</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Backbtn">
+        <Group Name="DI1[0]">
           <UInt32 Name="DPID">159</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1946,7 +1975,7 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="NewPageReq">
+        <Group Name="DI1[8]">
           <UInt32 Name="DPID">160</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
@@ -1957,8 +1986,327 @@
           <UInt16 Name="UserID">65535</UInt16>
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
-        <Group Name="Display.Brightness">
+        <Group Name="DI1[9]">
           <UInt32 Name="DPID">161</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">161</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="DI1[10]">
+          <UInt32 Name="DPID">162</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">162</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="DI1[11]">
+          <UInt32 Name="DPID">163</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">163</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="DI1[7]">
+          <UInt32 Name="DPID">164</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">164</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="DI1[6]">
+          <UInt32 Name="DPID">165</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">165</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="AO1">
+          <UInt32 Name="DPID">166</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">166</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Volt_Bits]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Volt_Bits].Unit[$default]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="AO1[0]">
+          <UInt32 Name="DPID">167</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">167</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Volt_Bits]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Volt_Bits].Unit[$default]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Alarm_mc">
+          <UInt32 Name="DPID">168</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">168</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Backbtn">
+          <UInt32 Name="DPID">169</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">169</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="NewPageReq">
+          <UInt32 Name="DPID">170</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">170</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="RatedVoltage_temp">
+          <UInt32 Name="DPID">171</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">171</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[TwoDecVars]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[TwoDecVars].Unit[$default]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="RatedCurrent_temp">
+          <UInt32 Name="DPID">172</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">172</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[TwoDecVars]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[TwoDecVars].Unit[$default]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="RatedFreq_temp">
+          <UInt32 Name="DPID">173</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">173</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[TwoDecVars]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[TwoDecVars].Unit[$default]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Save">
+          <UInt32 Name="DPID">174</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">174</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Axis_Motor">
+          <UInt32 Name="DPID">175</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">175</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="TempCurrent">
+          <UInt32 Name="DPID">176</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">176</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[TwoDecVars]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[TwoDecVars].Unit[$default]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="TempFreq">
+          <UInt32 Name="DPID">177</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">177</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[TwoDecVars]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[TwoDecVars].Unit[$default]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="TempVoltage">
+          <UInt32 Name="DPID">178</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">178</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="TempSpeed">
+          <UInt32 Name="DPID">179</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">179</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[Force]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[Force].Unit[$default]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="TempPF">
+          <UInt32 Name="DPID">180</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">180</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[TwoDecVars]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[TwoDecVars].Unit[$default]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Axis_MotorTune">
+          <UInt32 Name="DPID">181</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">181</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Tune_Enable">
+          <UInt32 Name="DPID">182</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">182</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="TempPIDRef">
+          <UInt32 Name="DPID">183</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">183</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[ThreeDecVar]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[ThreeDecVar].Unit[$default]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="TempDervGain">
+          <UInt32 Name="DPID">184</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">184</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[ThreeDecVar]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[ThreeDecVar].Unit[$default]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="TempIntgGain">
+          <UInt32 Name="DPID">185</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">185</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[ThreeDecVar]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[ThreeDecVar].Unit[$default]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="TempPropGain">
+          <UInt32 Name="DPID">186</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">186</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[ThreeDecVar]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[ThreeDecVar].Unit[$default]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="SavePID">
+          <UInt32 Name="DPID">187</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">187</UInt16>
+          <Reference Name="UG" Type="UG">none</Reference>
+          <Reference Name="UGPLC" Type="UNIT">none</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="TempPIDFeedback">
+          <UInt32 Name="DPID">188</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">188</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[ThreeDecVar]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[ThreeDecVar].Unit[$default]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="TempPresetRef4">
+          <UInt32 Name="DPID">189</UInt32>
+          <Reference Name="DS" Type="DS">Source[global].DataSource[DataSource]</Reference>
+          <UInt16 Name="UpdtTime">200</UInt16>
+          <UInt16 Name="PVID">189</UInt16>
+          <Reference Name="UG" Type="UG">Source[global].UnitGroup[ThreeDecVar]</Reference>
+          <Reference Name="UGPLC" Type="UNIT">Source[global].UnitGroup[ThreeDecVar].Unit[$default]</Reference>
+          <UInt32 Name="Limit">4294967295</UInt32>
+          <UInt16 Name="UserID">65535</UInt16>
+          <UInt16 Name="ConnectionCount">1</UInt16>
+        </Group>
+        <Group Name="Display.Brightness">
+          <UInt32 Name="DPID">190</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[Internal]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">0</UInt16>
@@ -1969,7 +2317,7 @@
           <UInt16 Name="ConnectionCount">3</UInt16>
         </Group>
         <Group Name="Display.Contrast">
-          <UInt32 Name="DPID">162</UInt32>
+          <UInt32 Name="DPID">191</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[Internal]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">1</UInt16>
@@ -1980,7 +2328,7 @@
           <UInt16 Name="ConnectionCount">3</UInt16>
         </Group>
         <Group Name="Display.BackLight">
-          <UInt32 Name="DPID">163</UInt32>
+          <UInt32 Name="DPID">192</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[Internal]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">2</UInt16>
@@ -1991,7 +2339,7 @@
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
         <Group Name="Connection.IPAddress">
-          <UInt32 Name="DPID">164</UInt32>
+          <UInt32 Name="DPID">193</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[Internal]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">3</UInt16>
@@ -2002,7 +2350,7 @@
           <UInt16 Name="ConnectionCount">3</UInt16>
         </Group>
         <Group Name="Connection.NodeNumber">
-          <UInt32 Name="DPID">165</UInt32>
+          <UInt32 Name="DPID">194</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[Internal]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">4</UInt16>
@@ -2013,7 +2361,7 @@
           <UInt16 Name="ConnectionCount">3</UInt16>
         </Group>
         <Group Name="Temperature.CPU">
-          <UInt32 Name="DPID">166</UInt32>
+          <UInt32 Name="DPID">195</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[Internal]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">5</UInt16>
@@ -2024,7 +2372,7 @@
           <UInt16 Name="ConnectionCount">3</UInt16>
         </Group>
         <Group Name="Temperature.Room">
-          <UInt32 Name="DPID">167</UInt32>
+          <UInt32 Name="DPID">196</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[Internal]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">6</UInt16>
@@ -2035,7 +2383,7 @@
           <UInt16 Name="ConnectionCount">3</UInt16>
         </Group>
         <Group Name="DateTime.Day">
-          <UInt32 Name="DPID">168</UInt32>
+          <UInt32 Name="DPID">197</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[Internal]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">7</UInt16>
@@ -2046,7 +2394,7 @@
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
         <Group Name="DateTime.Hour">
-          <UInt32 Name="DPID">169</UInt32>
+          <UInt32 Name="DPID">198</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[Internal]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">8</UInt16>
@@ -2057,7 +2405,7 @@
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
         <Group Name="DateTime.Minute">
-          <UInt32 Name="DPID">170</UInt32>
+          <UInt32 Name="DPID">199</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[Internal]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">9</UInt16>
@@ -2068,7 +2416,7 @@
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
         <Group Name="DateTime.Month">
-          <UInt32 Name="DPID">171</UInt32>
+          <UInt32 Name="DPID">200</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[Internal]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">10</UInt16>
@@ -2079,7 +2427,7 @@
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
         <Group Name="DateTime.Second">
-          <UInt32 Name="DPID">172</UInt32>
+          <UInt32 Name="DPID">201</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[Internal]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">11</UInt16>
@@ -2090,7 +2438,7 @@
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
         <Group Name="DateTime.Year">
-          <UInt32 Name="DPID">173</UInt32>
+          <UInt32 Name="DPID">202</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[Internal]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">12</UInt16>
@@ -2101,7 +2449,7 @@
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
         <Group Name="DateTime.DayOfWeek">
-          <UInt32 Name="DPID">174</UInt32>
+          <UInt32 Name="DPID">203</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[Internal]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">13</UInt16>
@@ -2112,7 +2460,7 @@
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
         <Group Name="Memory.LargestFreeBlock">
-          <UInt32 Name="DPID">175</UInt32>
+          <UInt32 Name="DPID">204</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[Internal]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">14</UInt16>
@@ -2123,7 +2471,7 @@
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
         <Group Name="Memory.TotalFree">
-          <UInt32 Name="DPID">176</UInt32>
+          <UInt32 Name="DPID">205</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[Internal]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">15</UInt16>
@@ -2134,7 +2482,7 @@
           <UInt16 Name="ConnectionCount">1</UInt16>
         </Group>
         <Group Name="Memory.TotalInstalled">
-          <UInt32 Name="DPID">177</UInt32>
+          <UInt32 Name="DPID">206</UInt32>
           <Reference Name="DS" Type="DS">Source[global].DataSource[Internal]</Reference>
           <UInt16 Name="UpdtTime">200</UInt16>
           <UInt16 Name="PVID">16</UInt16>

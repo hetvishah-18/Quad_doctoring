@@ -15,12 +15,12 @@
     <TextLayer LanguageId="en">
       <Text ID="97108" Value=""/>
       <Text ID="97109" Value="Newton"/>
-      <Text ID="97110" Value="KN"/>
+      <Text ID="97110" Value=""/>
     </TextLayer>
     <TextLayer LanguageId="de">
       <Text ID="97108" Value=""/>
       <Text ID="97109" Value=""/>
-      <Text ID="97110" Value="KN"/>
+      <Text ID="97110" Value=" "/>
     </TextLayer>
     <IndexMap>
       <Index ID="97108" Value="0"/>

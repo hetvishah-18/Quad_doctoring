@@ -331,19 +331,13 @@
   <MovementOrder>
     <MovementEntry Control="Source[local].Layer[globalArea].Control[Numeric_3]">
       <Property Name="Down" Value="Source[embedded].Layer[Default].Control[AlarmCurrent]"/>
-      <Property Name="Left" Value="Source[local].Layer[globalArea].Control[Numeric_4]"/>
-      <Property Name="Right" Value="Source[local].Layer[globalArea].Control[Numeric_4]"/>
-      <Property Name="Up" Value="Source[embedded].Layer[Default].Control[AlarmCurrent]"/>
-    </MovementEntry>
-    <MovementEntry Control="Source[local].Layer[globalArea].Control[Numeric_4]">
-      <Property Name="Down" Value="Source[embedded].Layer[Default].Control[AlarmCurrent]"/>
-      <Property Name="Left" Value="Source[local].Layer[globalArea].Control[Numeric_3]"/>
-      <Property Name="Right" Value="Source[local].Layer[globalArea].Control[Numeric_3]"/>
+      <Property Name="Left" Value="Source[embedded].Layer[Default].Control[AlarmCurrent]"/>
+      <Property Name="Right" Value="Source[embedded].Layer[Default].Control[AlarmCurrent]"/>
       <Property Name="Up" Value="Source[embedded].Layer[Default].Control[AlarmCurrent]"/>
     </MovementEntry>
     <MovementEntry Control="Source[embedded].Layer[Default].Control[AlarmCurrent]">
       <Property Name="Down" Value="Source[local].Layer[globalArea].Control[Numeric_3]"/>
-      <Property Name="Left" Value="Source[local].Layer[globalArea].Control[Numeric_4]"/>
+      <Property Name="Left" Value="Source[local].Layer[globalArea].Control[Numeric_3]"/>
       <Property Name="Right" Value="Source[local].Layer[globalArea].Control[Numeric_3]"/>
       <Property Name="Up" Value="Source[local].Layer[globalArea].Control[Numeric_3]"/>
     </MovementEntry>
